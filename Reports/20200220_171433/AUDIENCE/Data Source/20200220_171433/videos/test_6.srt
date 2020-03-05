@@ -1,0 +1,16 @@
+1
+00:00:00,378 --> 00:00:00,378
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,389 --> 00:00:00,390
+5. click(findTestObject("HeaderMenus/audiencemenu"))
+
+3
+00:00:00,819 --> 00:00:00,819
+9. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+4
+00:00:01,891 --> 00:00:01,892
+13. setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Sameee" + ENTER)
+

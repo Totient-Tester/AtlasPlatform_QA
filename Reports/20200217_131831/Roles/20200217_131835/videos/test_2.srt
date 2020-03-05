@@ -1,0 +1,28 @@
+1
+00:00:00,492 --> 00:00:00,508
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,528 --> 00:00:00,528
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,559 --> 00:00:00,559
+9. sendKeys(findTestObject("ROLES/Roles_page/Search Box"), findTestData("null").getValue(3, 1) + ENTER)
+
+4
+00:00:00,703 --> 00:00:00,703
+1. println(testCaseContext.getTestCaseId())
+
+5
+00:00:00,719 --> 00:00:00,719
+5. println(testCaseContext.getTestCaseStatus())
+
+6
+00:00:00,735 --> 00:00:00,735
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+7
+00:00:00,750 --> 00:00:00,750
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

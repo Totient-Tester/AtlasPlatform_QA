@@ -1,0 +1,124 @@
+1
+00:00:00,763 --> 00:00:00,770
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,217 --> 00:00:02,220
+1. openBrowser("")
+
+3
+00:00:02,239 --> 00:00:02,251
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:03,094 --> 00:00:03,096
+1. openBrowser("")
+
+5
+00:00:14,282 --> 00:00:14,284
+5. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+6
+00:00:16,121 --> 00:00:16,124
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:16,644 --> 00:00:16,645
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:18,750 --> 00:00:18,753
+17. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+9
+00:00:18,812 --> 00:00:18,814
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:18,830 --> 00:00:18,832
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:18,868 --> 00:00:18,870
+29. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+12
+00:00:23,637 --> 00:00:23,641
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:24,381 --> 00:00:24,383
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:26,353 --> 00:00:26,355
+41. navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs ")
+
+15
+00:00:30,467 --> 00:00:30,469
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:30,740 --> 00:00:30,743
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:33,337 --> 00:00:33,339
+53. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0")
+
+18
+00:00:35,989 --> 00:00:35,991
+57. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+19
+00:00:36,296 --> 00:00:36,297
+61. click(findTestObject("LoginPage/httpsproceedlink"))
+
+20
+00:00:38,553 --> 00:00:38,555
+65. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/")
+
+21
+00:00:42,396 --> 00:00:42,408
+69. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+22
+00:00:42,703 --> 00:00:42,703
+73. click(findTestObject("LoginPage/httpsproceedlink"))
+
+23
+00:00:45,074 --> 00:00:45,075
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+24
+00:00:56,637 --> 00:00:56,639
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+25
+00:01:08,414 --> 00:01:08,415
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+26
+00:01:10,013 --> 00:01:10,015
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+27
+00:01:10,559 --> 00:01:10,560
+25. conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection()
+
+28
+00:01:22,367 --> 00:01:22,368
+1. println(testCaseContext.getTestCaseId())
+
+29
+00:01:22,408 --> 00:01:22,411
+5. println(testCaseContext.getTestCaseStatus())
+
+30
+00:01:22,442 --> 00:01:22,444
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+31
+00:01:22,455 --> 00:01:22,456
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

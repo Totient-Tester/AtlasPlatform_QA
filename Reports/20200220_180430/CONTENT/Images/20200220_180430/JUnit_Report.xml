@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Images" time="156.583" tests="5" failures="1" errors="0">
+   <testsuite name="Images" tests="5" failures="1" errors="0" time="156.583" timestamp="2020-02-20 18:04:45" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/CONTENT/Images">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430\\1582202225955.png, D:\\TestDataForSampleProject\\test1.jpg, C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430/videos\\test_4.avi"/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="dbServerInfo" value="MySQL 5.7.22-log"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="3b74d0d4af2c60f54a4993196afd6714"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" time="67.527" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" status="PASSED">
+         <system-out><![CDATA[2020-02-20 18:04:46 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin
+
+2020-02-20 18:04:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' successfully
+
+2020-02-20 18:04:48 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin
+
+2020-02-20 18:04:49 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-02-20 18:04:49 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-02-20 18:04:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 18:04:50 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance
+
+2020-02-20 18:04:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-20 18:04:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-20 18:04:51 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-02-20 18:04:51 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-02-20 18:04:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-20 18:05:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-20 18:05:03 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate"): Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 18:05:04 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 18:05:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:07 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC"): NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 18:05:07 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 18:05:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpAdvanceBtn")): NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 18:05:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 18:05:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpsproceedlink")): NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 18:05:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 18:05:07 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10"): Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 18:05:11 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 18:05:11 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:12 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:14 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs "): Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 18:05:18 - [MESSAGE][PASSED] - Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 18:05:18 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:18 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:20 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 18:05:24 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 18:05:24 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:24 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:26 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 18:05:30 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 18:05:30 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 18:05:30 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 18:05:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 18:05:32 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 18:05:36 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 18:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-02-20 18:05:38 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-02-20 18:05:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password): Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-02-20 18:05:39 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-02-20 18:05:39 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-02-20 18:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-02-20 18:05:39 - [TEST_STEP][PASSED] - conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(): com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+2020-02-20 18:05:50 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+2020-02-20 18:05:50 - [TEST_STEP][PASSED] - resultValues1 = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(conn, "SELECT * FROM atlas_config.user WHERE email ="" + user_Email + "";"): com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+2020-02-20 18:05:50 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+2020-02-20 18:05:50 - [TEST_STEP][PASSED] - println(com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id")): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 18:05:50 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - user_id = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id"): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 18:05:51 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - println("User ID Variable value is : " + user_id): null
+
+2020-02-20 18:05:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' successfully
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:05:51 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Content Management/Image Library/TC_002_Verify_Search_Image_With_Valid_Text" time="24.74" classname="Test Cases/Atlas Platform/Content Management/Image Library/TC_002_Verify_Search_Image_With_Valid_Text" status="PASSED">
+         <system-out><![CDATA[2020-02-20 18:05:53 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Content Management/Image Library/TC_002_Verify_Search_Image_With_Valid_Text: Test Cases/Atlas Platform/Content Management/Image Library/TC_002_Verify_Search_Image_With_Valid_Text
+
+2020-02-20 18:05:54 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:05:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:05:54 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/contentmeu")): Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images")): Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:05:58 - [TEST_STEP][PASSED] - click(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount")): Object: 'Object Repository/CONTENT/Image_Listing/all_Image_textwithcount' is clicked on
+
+2020-02-20 18:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CONTENT/Image_Listing/all_Image_textwithcount' is clicked on
+
+2020-02-20 18:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("CONTENT/Image_Listing/image_search_box"), "image" + ENTER): Text 'ENTER + image' is set on object 'Object Repository/CONTENT/Image_Listing/image_search_box'
+
+2020-02-20 18:05:59 - [MESSAGE][PASSED] - Text 'ENTER + image' is set on object 'Object Repository/CONTENT/Image_Listing/image_search_box'
+
+2020-02-20 18:05:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 18:06:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 18:06:04 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 60 Images'
+
+2020-02-20 18:06:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 60 Images'
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - if (resultfound_count > 10): null
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - while (resultfound_count != pageValueCount): null
+
+2020-02-20 18:06:05 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:06 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:08 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 18:06:08 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 18:06:08 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:09 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:10 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 18:06:10 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 18:06:10 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:10 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:11 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 18:06:11 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 18:06:11 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:12 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:13 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 18:06:13 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 18:06:13 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 18:06:13 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("CONTENT/Image_Listing/column1_Image_Name_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:06:15 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 18:06:15 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 18:06:15 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, pageValueCount): Actual object '60' and expected object '60' are equal
+
+2020-02-20 18:06:15 - [MESSAGE][PASSED] - Actual object '60' and expected object '60' are equal
+
+2020-02-20 18:06:15 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 18:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 18:06:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 18:06:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 18:06:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:06:16 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:06:16 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Content Management/Image Library/TC_003_Verify_Search_ImagePage_With_Invalid_Text" time="16.674" classname="Test Cases/Atlas Platform/Content Management/Image Library/TC_003_Verify_Search_ImagePage_With_Invalid_Text" status="PASSED">
+         <system-out><![CDATA[2020-02-20 18:06:18 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Content Management/Image Library/TC_003_Verify_Search_ImagePage_With_Invalid_Text: Test Cases/Atlas Platform/Content Management/Image Library/TC_003_Verify_Search_ImagePage_With_Invalid_Text
+
+2020-02-20 18:06:19 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:06:19 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:06:19 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/contentmeu")): Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images")): Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:06:20 - [TEST_STEP][PASSED] - clearText(findTestObject("CONTENT/Image_Listing/image_search_box")): Text of object 'Object Repository/CONTENT/Image_Listing/image_search_box' is cleared
+
+2020-02-20 18:06:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/image_search_box' is cleared
+
+2020-02-20 18:06:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 18:06:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 18:06:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CONTENT/Image_Listing/image_search_box"), "aaaaa" + ENTER): Keys 'ENTER + aaaaa' sent to object: 'Object Repository/CONTENT/Image_Listing/image_search_box'
+
+2020-02-20 18:06:26 - [MESSAGE][PASSED] - Keys 'ENTER + aaaaa' sent to object: 'Object Repository/CONTENT/Image_Listing/image_search_box'
+
+2020-02-20 18:06:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 18:06:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 18:06:31 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Images'
+
+2020-02-20 18:06:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Images'
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, 0): Actual object '0' and expected object '0' are equal
+
+2020-02-20 18:06:32 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 18:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:06:32 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page" time="42.791" classname="Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	... 23 more
+"/>
+         <system-out><![CDATA[2020-02-20 18:06:35 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page: Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	... 23 more
+
+
+2020-02-20 18:06:36 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:06:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 18:06:36 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/contentmeu")): Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-02-20 18:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images")): Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Content Sub-Navigation/div_Images' is clicked on
+
+2020-02-20 18:06:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 18:06:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 18:06:42 - [TEST_STEP][PASSED] - click(findTestObject("CONTENT/Image_Listing/upload_image_button")): Object: 'Object Repository/CONTENT/Image_Listing/upload_image_button' is clicked on
+
+2020-02-20 18:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CONTENT/Image_Listing/upload_image_button' is clicked on
+
+2020-02-20 18:06:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload"): Actual text and expected text of test object 'Object Repository/CONTENT/Upload_Images/h1_Upload Images_Header_Text' are matched.
+
+2020-02-20 18:06:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CONTENT/Upload_Images/h1_Upload Images_Header_Text' are matched.
+
+2020-02-20 18:06:45 - [TEST_STEP][PASSED] - img_name = web.CustomKeyword.getRandomName("Automation"): web.CustomKeyword.getRandomName is PASSED
+
+2020-02-20 18:06:45 - [MESSAGE][PASSED] - web.CustomKeyword.getRandomName is PASSED
+
+2020-02-20 18:06:45 - [TEST_STEP][PASSED] - print(img_name): null
+
+2020-02-20 18:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("CONTENT/Upload_Images/input_Image Name"), img_name): Text 'Automation581' is set on object 'Object Repository/CONTENT/Upload_Images/input_Image Name'
+
+2020-02-20 18:06:48 - [MESSAGE][PASSED] - Text 'Automation581' is set on object 'Object Repository/CONTENT/Upload_Images/input_Image Name'
+
+2020-02-20 18:06:48 - [TEST_STEP][PASSED] - click(findTestObject("CONTENT/Upload_Images/button_Add Description")): Object: 'Object Repository/CONTENT/Upload_Images/button_Add Description' is clicked on
+
+2020-02-20 18:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CONTENT/Upload_Images/button_Add Description' is clicked on
+
+2020-02-20 18:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("CONTENT/Upload_Images/textarea_Description_description"), web.CustomKeyword.getRandomString()): Text 'tdoSadnKFZjBhRVMUDPXEFkVoftEVPkdZWtMEVDfDUqzeTAAyfXcgaBoQgmPKJAwCVCpuUxKyMSnWQhHvuxSqDeGmThgLtWmhnsq' is set on object 'Object Repository/CONTENT/Upload_Images/textarea_Description_description'
+
+2020-02-20 18:06:49 - [MESSAGE][PASSED] - web.CustomKeyword.getRandomString is PASSED
+
+2020-02-20 18:07:02 - [MESSAGE][PASSED] - Text 'tdoSadnKFZjBhRVMUDPXEFkVoftEVPkdZWtMEVDfDUqzeTAAyfXcgaBoQgmPKJAwCVCpuUxKyMSnWQhHvuxSqDeGmThgLtWmhnsq' is set on object 'Object Repository/CONTENT/Upload_Images/textarea_Description_description'
+
+2020-02-20 18:07:02 - [TEST_STEP][NOT_RUN] - click(findTestObject("CONTENT/Upload_Images/label_Select Files")): NOT_RUN: click(findTestObject("CONTENT/Upload_Images/label_Select Files"))
+
+2020-02-20 18:07:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("CONTENT/Upload_Images/label_Select Files"))
+
+2020-02-20 18:07:02 - [TEST_STEP][PASSED] - dr = getWebDriver(): null
+
+2020-02-20 18:07:02 - [TEST_STEP][PASSED] - listofFileUpload = findWebElements(findTestObject("CONTENT/Upload_Images/label_Select Files"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:03 - [TEST_STEP][PASSED] - for ([i = 0, i < listofFileUpload.size(), (i++)]): null
+
+2020-02-20 18:07:03 - [TEST_STEP][PASSED] - id = get(i).getAttribute("id"): null
+
+2020-02-20 18:07:03 - [TEST_STEP][PASSED] - ele = dr.findElement(By.id(id)): null
+
+2020-02-20 18:07:03 - [TEST_STEP][PASSED] - ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg"): null
+
+2020-02-20 18:07:04 - [TEST_STEP][PASSED] - id = get(i).getAttribute("id"): null
+
+2020-02-20 18:07:04 - [TEST_STEP][PASSED] - ele = dr.findElement(By.id(id)): null
+
+2020-02-20 18:07:04 - [TEST_STEP][PASSED] - ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg"): null
+
+2020-02-20 18:07:04 - [TEST_STEP][PASSED] - id = get(i).getAttribute("id"): null
+
+2020-02-20 18:07:04 - [TEST_STEP][PASSED] - ele = dr.findElement(By.id(id)): null
+
+2020-02-20 18:07:05 - [TEST_STEP][PASSED] - ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg"): null
+
+2020-02-20 18:07:05 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("CONTENT/Upload_Images/label_Replace"), "Replace"): Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+
+2020-02-20 18:07:06 - [MESSAGE][FAILED] - Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430\\1582202225955.png]]
+
+2020-02-20 18:07:06 - [TEST_STEP][PASSED] - click(findTestObject("CONTENT/Upload_Images/language_DropDown")): Object: 'Object Repository/CONTENT/Upload_Images/language_DropDown' is clicked on
+
+2020-02-20 18:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CONTENT/Upload_Images/language_DropDown' is clicked on
+
+2020-02-20 18:07:07 - [TEST_STEP][PASSED] - dropdownlist = findWebElements(findTestObject("CONTENT/Upload_Images/Select_Language_Options"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:07 - [TEST_STEP][PASSED] - web.CustomKeyword.selectDropDownValue(dropdownlist, "English"): web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:07 - [MESSAGE][PASSED] - web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:07 - [TEST_STEP][PASSED] - radiobuttonsforMarketing = findWebElements(findTestObject("CONTENT/Upload_Images/maketing_categories"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:08 - [TEST_STEP][PASSED] - web.CustomKeyword.selectDropDownValue(radiobuttonsforMarketing, "Milestone"): web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:08 - [MESSAGE][PASSED] - web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:08 - [TEST_STEP][PASSED] - click(findTestObject("CONTENT/Upload_Images/button_Upload")): Object: 'Object Repository/CONTENT/Upload_Images/button_Upload' is clicked on
+
+2020-02-20 18:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CONTENT/Upload_Images/button_Upload' is clicked on
+
+2020-02-20 18:07:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"), 10): Object 'Object Repository/CONTENT/Image_Listing/all_Image_textwithcount' is present
+
+2020-02-20 18:07:12 - [MESSAGE][PASSED] - Object 'Object Repository/CONTENT/Image_Listing/all_Image_textwithcount' is present
+
+2020-02-20 18:07:12 - [TEST_STEP][PASSED] - lisOFImagename = findWebElements(findTestObject("CONTENT/Image_Listing/colum1_Image_Name_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - isUpload = web.CustomKeyword.selectDropDownValue(lisOFImagename, img_name): web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:13 - [MESSAGE][PASSED] - web.CustomKeyword.selectDropDownValue is PASSED
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - verifyEqual(isUpload, true): Actual object 'true' and expected object 'true' are equal
+
+2020-02-20 18:07:13 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:07:13 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): Taking screenshot successfully
+
+2020-02-20 18:07:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\TestDataForSampleProject\\test1.jpg]]
+
+2020-02-20 18:07:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page' .
+
+2020-02-20 18:07:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page' .
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_180430\\CONTENT\\Images\\20200220_180430/videos\\test_4.avi]]]]></system-out>
+         <system-err><![CDATA[2020-02-20 18:06:35 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page: Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" time="4.271" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" status="PASSED">
+         <system-out><![CDATA[2020-02-20 18:07:17 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser
+
+2020-02-20 18:07:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-20 18:07:19 - [MESSAGE][PASSED] - Browser is closed
+
+2020-02-20 18:07:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 18:07:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 18:07:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:07:20 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 18:07:20 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-20 18:04:45 - [TEST_SUITE][FAILED] - Images: Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2020-02-20 18:04:45 - [TEST_SUITE][FAILED] - Images: Test Cases/Atlas Platform/Content Management/Image Library/TC_004_Validate_Upload_Image_Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_004_Validate_Upload_Image_Page.run(TC_004_Validate_Upload_Image_Page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582202074931.run(TempTestSuite1582202074931.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Replace' of test object 'Object Repository/CONTENT/Upload_Images/label_Replace' are NOT matched.
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

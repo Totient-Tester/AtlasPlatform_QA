@@ -1,0 +1,20 @@
+1
+00:00:00,492 --> 00:00:00,493
+1. web.MySQLDataBase.conncetDBWithOutParams()
+
+2
+00:00:22,099 --> 00:00:22,100
+1. println(testCaseContext.getTestCaseId())
+
+3
+00:00:22,109 --> 00:00:22,110
+5. println(testCaseContext.getTestCaseStatus())
+
+4
+00:00:22,120 --> 00:00:22,121
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+5
+00:00:22,132 --> 00:00:22,133
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

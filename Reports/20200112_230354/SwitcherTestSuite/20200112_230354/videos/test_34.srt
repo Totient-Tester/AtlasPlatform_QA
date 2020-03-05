@@ -1,0 +1,16 @@
+1
+00:00:00,244 --> 00:00:00,244
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,251 --> 00:00:00,251
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,660 --> 00:00:00,661
+9. click(findTestObject("Swicther/search_in_swicther"))
+
+4
+00:00:01,245 --> 00:00:01,245
+13. verifyElementPresent(findTestObject("Swicther/Swicther_Search_Clear_Icon"), 0)
+

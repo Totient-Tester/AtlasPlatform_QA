@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Roles (Sanity)" time="137.197" tests="4" failures="0" errors="0">
+   <testsuite name="Roles (Sanity)" tests="4" failures="0" errors="0" time="137.197" timestamp="2020-02-20 17:45:56" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/ROLES/Roles (Sanity)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_174242\\ROLES\\Roles (Sanity)\\20200220_174247"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_174242\\ROLES\\Roles (Sanity)\\20200220_174247\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="fd894ff1751eb6c40ee56ecea2994a17"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Create a Role" time="92.743" classname="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Create a Role" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:45:57 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Create a Role: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Create a Role
+
+2020-02-20 17:45:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin' successfully
+
+2020-02-20 17:46:02 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin
+
+2020-02-20 17:46:02 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-02-20 17:46:02 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-02-20 17:46:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 17:46:03 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance
+
+2020-02-20 17:46:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-20 17:46:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-20 17:46:04 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-02-20 17:46:04 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-02-20 17:46:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-20 17:46:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-20 17:46:15 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate"): Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 17:46:17 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 17:46:17 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:18 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:21 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC"): NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 17:46:21 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 17:46:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpAdvanceBtn")): NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 17:46:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 17:46:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpsproceedlink")): NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 17:46:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 17:46:21 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10"): Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 17:46:25 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 17:46:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:28 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs "): Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 17:46:32 - [MESSAGE][PASSED] - Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 17:46:32 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:32 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:36 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 17:46:41 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 17:46:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:45 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 17:46:49 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 17:46:49 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:46:49 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:46:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 17:46:51 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 17:46:57 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 17:46:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/email address placeholder"), Email): Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-02-20 17:47:00 - [MESSAGE][PASSED] - Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-02-20 17:47:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/Password placeholder"), Password): Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-02-20 17:47:01 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-02-20 17:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Page_/Log In button")): Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-02-20 17:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-02-20 17:47:01 - [TEST_STEP][PASSED] - dashboard_act_title = getWindowTitle(): Current window's title is: ''
+
+2020-02-20 17:47:01 - [MESSAGE][PASSED] - Current window's title is: ''
+
+2020-02-20 17:47:01 - [TEST_STEP][PASSED] - verifyEqual(dashboard_act_title, dashboard_exp_title): Actual object '' and expected object '' are equal
+
+2020-02-20 17:47:01 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2020-02-20 17:47:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin' successfully
+
+2020-02-20 17:47:01 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Role_Navigation/a_ADMIN")): Object: 'Object Repository/ROLES/Role_Navigation/a_ADMIN' is clicked on
+
+2020-02-20 17:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Role_Navigation/a_ADMIN' is clicked on
+
+2020-02-20 17:47:04 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Create Role_button")): Object: 'Object Repository/ROLES/Roles_page/Create Role_button' is clicked on
+
+2020-02-20 17:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Create Role_button' is clicked on
+
+2020-02-20 17:47:15 - [TEST_STEP][PASSED] - ROLENAME1 = findTestData("Roles").getValue(3, 1): null
+
+2020-02-20 17:47:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ROLES/Create Role/New Role_page/input_Role Name_name"), ROLENAME1): Keys 'Role1 20-02-2020 17:47:16' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name'
+
+2020-02-20 17:47:19 - [MESSAGE][PASSED] - Keys 'Role1 20-02-2020 17:47:16' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name'
+
+2020-02-20 17:47:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ROLES/Create Role/New Role_page/textarea_Role Description_description"), findTestData("Roles").getValue(4, 1)): Keys 'Role Description' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/textarea_Role Description_description'
+
+2020-02-20 17:47:20 - [MESSAGE][PASSED] - Keys 'Role Description' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/textarea_Role Description_description'
+
+2020-02-20 17:47:20 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Create Role/New Role_page/div_Create")): Object: 'Object Repository/ROLES/Create Role/New Role_page/div_Create' is clicked on
+
+2020-02-20 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Create Role/New Role_page/div_Create' is clicked on
+
+2020-02-20 17:47:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ROLES/Create Role/ConfirmationPopup_created"), 230): Object 'Object Repository/ROLES/Create Role/ConfirmationPopup_created' is present
+
+2020-02-20 17:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/ROLES/Create Role/ConfirmationPopup_created' is present
+
+2020-02-20 17:47:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 17:47:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Roles_page/1st Role name in grid"), ROLENAME1): Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/1st Role name in grid' are matched.
+
+2020-02-20 17:47:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/1st Role name in grid' are matched.
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:27 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Search Role/Search the Created Role" time="8.591" classname="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Search Role/Search the Created Role" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:47:29 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Search Role/Search the Created Role: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Search Role/Search the Created Role
+
+2020-02-20 17:47:30 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:30 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("ROLES/Role_Navigation/a_ADMIN")): NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ROLES/Roles_page/Search_placeholder"), ROLENAME1 + ENTER): Keys 'ENTER + Role1 20-02-2020 17:47:16' sent to object: 'Object Repository/ROLES/Roles_page/Search_placeholder'
+
+2020-02-20 17:47:31 - [MESSAGE][PASSED] - Keys 'ENTER + Role1 20-02-2020 17:47:16' sent to object: 'Object Repository/ROLES/Roles_page/Search_placeholder'
+
+2020-02-20 17:47:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-02-20 17:47:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-02-20 17:47:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Roles_page/role name"), ROLENAME1): Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/role name' are matched.
+
+2020-02-20 17:47:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/role name' are matched.
+
+2020-02-20 17:47:35 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Search text field/clear button")): Object: 'Object Repository/ROLES/Roles_page/Search text field/clear button' is clicked on
+
+2020-02-20 17:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Search text field/clear button' is clicked on
+
+2020-02-20 17:47:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:47:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:47:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:36 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:36 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/Edit a Role" time="19.362" classname="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/Edit a Role" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:47:38 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/Edit a Role: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/Edit a Role
+
+2020-02-20 17:47:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("ROLES/Role_Navigation/a_ADMIN")): NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Roles_page/role name"), ROLENAME1): Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/role name' are matched.
+
+2020-02-20 17:47:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Roles_page/role name' are matched.
+
+2020-02-20 17:47:39 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Hamburger/button_hamburger")): Object: 'Object Repository/ROLES/Roles_page/Hamburger/button_hamburger' is clicked on
+
+2020-02-20 17:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Hamburger/button_hamburger' is clicked on
+
+2020-02-20 17:47:39 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Edit Role/edit_link")): Object: 'Object Repository/ROLES/Edit Role/edit_link' is clicked on
+
+2020-02-20 17:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Edit Role/edit_link' is clicked on
+
+2020-02-20 17:47:40 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Create Role/New Role_page/input_Role Name_name")): Object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name' is clicked on
+
+2020-02-20 17:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name' is clicked on
+
+2020-02-20 17:47:45 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Create Role/New Role_page/Clear_button")): Object: 'Object Repository/ROLES/Create Role/New Role_page/Clear_button' is clicked on
+
+2020-02-20 17:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Create Role/New Role_page/Clear_button' is clicked on
+
+2020-02-20 17:47:46 - [TEST_STEP][PASSED] - ROLENAME2 = findTestData("Roles").getValue(3, 2): null
+
+2020-02-20 17:47:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ROLES/Create Role/New Role_page/input_Role Name_name"), ROLENAME2): Keys 'Role2 20-02-2020 17:47:47' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name'
+
+2020-02-20 17:47:48 - [MESSAGE][PASSED] - Keys 'Role2 20-02-2020 17:47:47' sent to object: 'Object Repository/ROLES/Create Role/New Role_page/input_Role Name_name'
+
+2020-02-20 17:47:48 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Edit Role/save button")): Object: 'Object Repository/ROLES/Edit Role/save button' is clicked on
+
+2020-02-20 17:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Edit Role/save button' is clicked on
+
+2020-02-20 17:47:49 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Create Role/New Role_page/Yes_Save_button")): Object: 'Object Repository/ROLES/Create Role/New Role_page/Yes_Save_button' is clicked on
+
+2020-02-20 17:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Create Role/New Role_page/Yes_Save_button' is clicked on
+
+2020-02-20 17:47:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 17:47:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 17:47:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Edit Role/role name"), ROLENAME2): Actual text and expected text of test object 'Object Repository/ROLES/Edit Role/role name' are matched.
+
+2020-02-20 17:47:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Edit Role/role name' are matched.
+
+2020-02-20 17:47:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:47:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:47:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:55 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:47:55 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role" time="15.906" classname="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:47:57 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role
+
+2020-02-20 17:47:58 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:58 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:47:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("ROLES/Role_Navigation/a_ADMIN")): NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+2020-02-20 17:47:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:48:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:48:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Change Status/role name"), ROLENAME2): Actual text and expected text of test object 'Object Repository/ROLES/Change Status/role name' are matched.
+
+2020-02-20 17:48:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Change Status/role name' are matched.
+
+2020-02-20 17:48:01 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Hamburger/button_hamburger")): Object: 'Object Repository/ROLES/Roles_page/Hamburger/button_hamburger' is clicked on
+
+2020-02-20 17:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Hamburger/button_hamburger' is clicked on
+
+2020-02-20 17:48:01 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Change Status/change status link")): Object: 'Object Repository/ROLES/Change Status/change status link' is clicked on
+
+2020-02-20 17:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Change Status/change status link' is clicked on
+
+2020-02-20 17:48:02 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Change Status/Archived")): Object: 'Object Repository/ROLES/Change Status/Archived' is clicked on
+
+2020-02-20 17:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Change Status/Archived' is clicked on
+
+2020-02-20 17:48:03 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Change Status/Confirm_button")): Object: 'Object Repository/ROLES/Change Status/Confirm_button' is clicked on
+
+2020-02-20 17:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Change Status/Confirm_button' is clicked on
+
+2020-02-20 17:48:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:48:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:48:05 - [TEST_STEP][NOT_RUN] - println(getAttribute(findTestObject("ROLES/Roles_page/Search_placeholder"), "placeholder")): NOT_RUN: println(getAttribute(findTestObject("ROLES/Roles_page/Search_placeholder"), "placeholder"))
+
+2020-02-20 17:48:05 - [MESSAGE][NOT_RUN] - NOT_RUN: println(getAttribute(findTestObject("ROLES/Roles_page/Search_placeholder"), "placeholder"))
+
+2020-02-20 17:48:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("ROLES/Roles_page/Search_placeholder")): NOT_RUN: click(findTestObject("ROLES/Roles_page/Search_placeholder"))
+
+2020-02-20 17:48:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ROLES/Roles_page/Search_placeholder"))
+
+2020-02-20 17:48:05 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("ROLES/Roles_page/Search_placeholder"), ROLENAME2 + ENTER): NOT_RUN: sendKeys(findTestObject("ROLES/Roles_page/Search_placeholder"), ROLENAME2 + ENTER)
+
+2020-02-20 17:48:05 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("ROLES/Roles_page/Search_placeholder"), ROLENAME2 + ENTER)
+
+2020-02-20 17:48:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ROLES/Change Status/status_archived"), findTestData("Roles").getValue(5, 2)): Actual text and expected text of test object 'Object Repository/ROLES/Change Status/status_archived' are matched.
+
+2020-02-20 17:48:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ROLES/Change Status/status_archived' are matched.
+
+2020-02-20 17:48:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:48:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:48:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-20 17:48:11 - [MESSAGE][PASSED] - Browser is closed
+
+2020-02-20 17:48:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:48:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:48:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:48:11 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:48:11 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-20 17:45:56 - [TEST_SUITE][PASSED] - Roles (Sanity): Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

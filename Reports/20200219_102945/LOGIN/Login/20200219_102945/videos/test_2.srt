@@ -1,0 +1,24 @@
+1
+00:00:00,613 --> 00:00:00,614
+1. click(findTestObject("Logout/My Account"))
+
+2
+00:00:00,784 --> 00:00:00,788
+5. click(findTestObject("Logout/li_Log Out"))
+
+3
+00:00:01,351 --> 00:00:01,352
+1. println(testCaseContext.getTestCaseId())
+
+4
+00:00:01,402 --> 00:00:01,404
+5. println(testCaseContext.getTestCaseStatus())
+
+5
+00:00:01,464 --> 00:00:01,466
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+6
+00:00:01,483 --> 00:00:01,485
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

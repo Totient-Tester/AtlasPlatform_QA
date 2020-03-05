@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwitcherTestSuite" time="266.265" tests="36" failures="1" errors="0">
+   <testsuite name="SwitcherTestSuite" tests="36" failures="1" errors="0" time="266.265" timestamp="2020-01-24 20:44:10" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/SwitcherTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200124_204400\\SwitcherTestSuite\\20200124_204400"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200124_204400\\SwitcherTestSuite\\20200124_204400\\execution0.log"/>
+         <property name="attachments" value="D:\\TestDataForSampleProject\\test1.jpg, C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200124_204400\\SwitcherTestSuite\\20200124_204400/videos\\test_11.avi"/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="fb17601d4ad30151517ac93230fb8c1f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin" time="18.142" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:10 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin
+
+2020-01-24 20:44:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:44:11 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-24 20:44:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 20:44:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 20:44:13 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-01-24 20:44:13 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-01-24 20:44:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-24 20:44:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 20:44:21 - [TEST_STEP][PASSED] - navigateToUrl("http://atlas-dev.gsm.auto/"): Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:44:23 - [MESSAGE][PASSED] - Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "navaraj@totient.co.in"): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:44:24 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:44:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "Az6jpGdHJB8Grvaj8n8bFA=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:44:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:44:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:26 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation" time="3.639" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:28 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation: Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation
+
+2020-01-24 20:44:29 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:29 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Swicther/swicthermenutext"), 0): Object 'Object Repository/Swicther/swicthermenutext' is present
+
+2020-01-24 20:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-24 20:44:29 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/swicthermenutext' is present
+
+2020-01-24 20:44:29 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Swicther/swicthermenutext"), "margin-right"), "6px"): Actual object '6px' and expected object '6px' are equal
+
+2020-01-24 20:44:29 - [MESSAGE][PASSED] - Get CSS 'margin-right' value on 'Object Repository/Swicther/swicthermenutext' successfully: '6px'.
+
+2020-01-24 20:44:29 - [MESSAGE][PASSED] - Actual object '6px' and expected object '6px' are equal
+
+2020-01-24 20:44:29 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Swicther/swicthermenutext"), "font-size"), "12px"): Actual object '12px' and expected object '12px' are equal
+
+2020-01-24 20:44:30 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Swicther/swicthermenutext' successfully: '12px'.
+
+2020-01-24 20:44:30 - [MESSAGE][PASSED] - Actual object '12px' and expected object '12px' are equal
+
+2020-01-24 20:44:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:30 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:30 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes" time="5.857" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:32 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes: Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes
+
+2020-01-24 20:44:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/root_tab_swicther"), "Root"): Actual text and expected text of test object 'Object Repository/Swicther/root_tab_swicther' are matched.
+
+2020-01-24 20:44:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/root_tab_swicther' are matched.
+
+2020-01-24 20:44:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/accounts_tab_swicther"), "Accounts"): Actual text and expected text of test object 'Object Repository/Swicther/accounts_tab_swicther' are matched.
+
+2020-01-24 20:44:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/accounts_tab_swicther' are matched.
+
+2020-01-24 20:44:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/organization_tab_swicther"), "Organizations"): Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-24 20:44:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-24 20:44:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/favorites_tabs_swicther"), "Favorites"): Actual text and expected text of test object 'Object Repository/Swicther/favorites_tabs_swicther' are matched.
+
+2020-01-24 20:44:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/favorites_tabs_swicther' are matched.
+
+2020-01-24 20:44:34 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Swicther/search_in_swicther"), 0): Object 'Object Repository/Swicther/search_in_swicther' is present and visible in viewport
+
+2020-01-24 20:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-24 20:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/search_in_swicther' is present and visible in viewport
+
+2020-01-24 20:44:35 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Swicther/closeIcon"), 0): Object 'Object Repository/Swicther/closeIcon' is present and visible in viewport
+
+2020-01-24 20:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-24 20:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/closeIcon' is present and visible in viewport
+
+2020-01-24 20:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:36 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:36 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday" time="4.958" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:38 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday: Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday
+
+2020-01-24 20:44:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:44:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/FirstLastViewedTextForAccounts"), "Last Visited Today"): Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForAccounts' are matched.
+
+2020-01-24 20:44:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForAccounts' are matched.
+
+2020-01-24 20:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:41 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:41 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_004_VerifyLastVisitToday" time="4.86" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_004_VerifyLastVisitToday" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:43 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_004_VerifyLastVisitToday: Test Cases/Atlas Platform/OnBoard/Swicther/TC_004_VerifyLastVisitToday
+
+2020-01-24 20:44:43 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:43 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/root_tab_swicther")): Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:44:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/FirstLastViewedTextForRoot"), "Last Visited Today"): Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForRoot' are matched.
+
+2020-01-24 20:44:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForRoot' are matched.
+
+2020-01-24 20:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:46 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:46 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_005_VerifyRootTabValues" time="7.712" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_005_VerifyRootTabValues" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:48 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_005_VerifyRootTabValues: Test Cases/Atlas Platform/OnBoard/Swicther/TC_005_VerifyRootTabValues
+
+2020-01-24 20:44:48 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:48 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:44:49 - [TEST_STEP][PASSED] - listofOrgNames = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 10): null
+
+2020-01-24 20:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/root_tab_swicther")): Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:44:50 - [TEST_STEP][PASSED] - listofRootnames = findWebElements(findTestObject("Swicther/root_tab_all_values"), 10): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - rootNames = new java.util.ArrayList(): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofRootnames): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - rootNames.add(ele.getText()): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - for ([hjk = 0, hjk < listofOrgNames.size(), (hjk++)]): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Org Tab"): null
+
+2020-01-24 20:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - listofAccNames = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 10): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - for ([hjk = 0, hjk < listofAccNames.size(), (hjk++)]): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:52 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - Assert.assertTrue(!(rootNames.contains(split("Last")[0].trim())), "Root Account is not present in Acc Tab"): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:53 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_006_VerifyCloseIcon" time="3.454" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_006_VerifyCloseIcon" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:55 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_006_VerifyCloseIcon: Test Cases/Atlas Platform/OnBoard/Swicther/TC_006_VerifyCloseIcon
+
+2020-01-24 20:44:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:44:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:44:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:44:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:57 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:44:57 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_007_ValidateSwicther-SelectedAccount" time="5.784" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_007_ValidateSwicther-SelectedAccount" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:44:59 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_007_ValidateSwicther-SelectedAccount: Test Cases/Atlas Platform/OnBoard/Swicther/TC_007_ValidateSwicther-SelectedAccount
+
+2020-01-24 20:44:59 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:44:59 - [TEST_STEP][PASSED] - initiallyselectedtext = getText(findTestObject("Swicther/swicthermenutext")): Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:44:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:01 - [TEST_STEP][PASSED] - selectedtext = getText(findTestObject("Swicther/account_tab_first_values")): Text of object 'Object Repository/Swicther/account_tab_first_values' is: 'Toyota of Simi Sales
+Last Visited Today'
+
+2020-01-24 20:45:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/account_tab_first_values' is: 'Toyota of Simi Sales
+Last Visited Today'
+
+2020-01-24 20:45:01 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/account_tab_first_values")): Object: 'Object Repository/Swicther/account_tab_first_values' is clicked on
+
+2020-01-24 20:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/account_tab_first_values' is clicked on
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - verifyNotEqual(initiallyselectedtext, split("Last")[0].trim()): Actual object '802 Toyota' and expected object 'Toyota of Simi Sales' are not equal
+
+2020-01-24 20:45:02 - [MESSAGE][PASSED] - Actual object '802 Toyota' and expected object 'Toyota of Simi Sales' are not equal
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - currentlySelectedText = getText(findTestObject("Swicther/swicthermenutext")): Text of object 'Object Repository/Swicther/swicthermenutext' is: 'Toyota of Simi Sales'
+
+2020-01-24 20:45:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/swicthermenutext' is: 'Toyota of Simi Sales'
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - verifyEqual(currentlySelectedText.trim(), split("Last")[0].trim()): Actual object 'Toyota of Simi Sales' and expected object 'Toyota of Simi Sales' are equal
+
+2020-01-24 20:45:02 - [MESSAGE][PASSED] - Actual object 'Toyota of Simi Sales' and expected object 'Toyota of Simi Sales' are equal
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:02 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:03 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_008_ValidateSwicther-SelectedOrganization" time="5.466" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_008_ValidateSwicther-SelectedOrganization" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:05 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_008_ValidateSwicther-SelectedOrganization: Test Cases/Atlas Platform/OnBoard/Swicther/TC_008_ValidateSwicther-SelectedOrganization
+
+2020-01-24 20:45:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:05 - [TEST_STEP][PASSED] - initiallyselectedtext = getText(findTestObject("Swicther/swicthermenutext")): Text of object 'Object Repository/Swicther/swicthermenutext' is: 'Toyota of Simi Sales'
+
+2020-01-24 20:45:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/swicthermenutext' is: 'Toyota of Simi Sales'
+
+2020-01-24 20:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:06 - [TEST_STEP][PASSED] - selectedtext = getText(findTestObject("Swicther/fordtext_value")): Text of object 'Object Repository/Swicther/fordtext_value' is: '802 Toyota
+Last Visited Today'
+
+2020-01-24 20:45:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/fordtext_value' is: '802 Toyota
+Last Visited Today'
+
+2020-01-24 20:45:07 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/fordtext_value")): Object: 'Object Repository/Swicther/fordtext_value' is clicked on
+
+2020-01-24 20:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/fordtext_value' is clicked on
+
+2020-01-24 20:45:07 - [TEST_STEP][PASSED] - verifyNotEqual(initiallyselectedtext, split("Last")[0].trim()): Actual object 'Toyota of Simi Sales' and expected object '802 Toyota' are not equal
+
+2020-01-24 20:45:08 - [MESSAGE][PASSED] - Actual object 'Toyota of Simi Sales' and expected object '802 Toyota' are not equal
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - currentlySelectedText = getText(findTestObject("Swicther/swicthermenutext")): Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:45:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - verifyEqual(currentlySelectedText.trim(), split("Last")[0].trim()): Actual object '802 Toyota' and expected object '802 Toyota' are equal
+
+2020-01-24 20:45:08 - [MESSAGE][PASSED] - Actual object '802 Toyota' and expected object '802 Toyota' are equal
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:08 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_009_ValidateSwicther_SelectedRoot(TBD)" time="15.467" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_009_ValidateSwicther_SelectedRoot(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:10 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_009_ValidateSwicther_SelectedRoot(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_009_ValidateSwicther_SelectedRoot(TBD)
+
+2020-01-24 20:45:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:45:10 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-24 20:45:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 20:45:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-24 20:45:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 20:45:11 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-01-24 20:45:11 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-01-24 20:45:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 20:45:17 - [TEST_STEP][PASSED] - navigateToUrl("http://atlas-dev.gsm.auto/"): Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:45:19 - [MESSAGE][PASSED] - Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:45:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "navaraj@totient.co.in"): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:45:20 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:45:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "Az6jpGdHJB8Grvaj8n8bFA=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:45:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:45:21 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:45:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:45:21 - [TEST_STEP][PASSED] - initiallyselectedtext = getText(findTestObject("Swicther/swicthermenutext")): Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:45:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Swicther/swicthermenutext' is: '802 Toyota'
+
+2020-01-24 20:45:22 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:23 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting" time="6.513" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2020-01-24 20:45:26 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting: Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2020-01-24 20:45:26 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:26 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:27 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:27 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(getText().split("Last")[0]): null
+
+2020-01-24 20:45:28 - [TEST_STEP][PASSED] - isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring): web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:45:28 - [MESSAGE][PASSED] - web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:45:28 - [TEST_STEP][FAILED] - verifyEqual(isSorted, true): Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+
+2020-01-24 20:45:29 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:29 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): Taking screenshot successfully
+
+2020-01-24 20:45:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\TestDataForSampleProject\\test1.jpg]]
+
+2020-01-24 20:45:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting' .
+
+2020-01-24 20:45:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting' .
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200124_204400\\SwitcherTestSuite\\20200124_204400/videos\\test_11.avi]]]]></system-out>
+         <system-err><![CDATA[2020-01-24 20:45:26 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting: Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_011_Verify_AccountName_Logo" time="5.844" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_011_Verify_AccountName_Logo" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:32 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_011_Verify_AccountName_Logo: Test Cases/Atlas Platform/OnBoard/Swicther/TC_011_Verify_AccountName_Logo
+
+2020-01-24 20:45:33 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:33 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:34 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5): null
+
+2020-01-24 20:45:34 - [TEST_STEP][PASSED] - listoficons = findWebElements(findTestObject("Swicther/accounts_tab_all_icons"), 5): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:45:35 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - if (toLowerCase().equalsIgnoreCase(toString().toLowerCase())): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - Assert.assertEquals(get(h).getAttribute("d"), dattributeValue.toString()): null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:36 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:36 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_012_Validate_Accounts_Favorites" time="7.181" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_012_Validate_Accounts_Favorites" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:38 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_012_Validate_Accounts_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_012_Validate_Accounts_Favorites
+
+2020-01-24 20:45:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5): null
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - listoffavicons = findWebElements(findTestObject("Swicther/accounts_tab_fav_icon"), 5): null
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:40 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:45:41 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - isPresent = false: null
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - isPresent = true: null
+
+2020-01-24 20:45:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("Swicther/favorite_icon")): NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:45:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - verifyEqual(isPresent, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:45:42 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:43 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:43 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_013_Verify_AccountsTab_Values" time="7.709" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_013_Verify_AccountsTab_Values" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:45 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_013_Verify_AccountsTab_Values: Test Cases/Atlas Platform/OnBoard/Swicther/TC_013_Verify_AccountsTab_Values
+
+2020-01-24 20:45:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - listofAccNames = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 10): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName = new java.util.ArrayList(): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - for ([hjk = 0, hjk < listofAccNames.size(), (hjk++)]): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:47 - [TEST_STEP][PASSED] - textValuesForAccountsName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/root_tab_swicther")): Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:45:48 - [TEST_STEP][PASSED] - listofRootnames = findWebElements(findTestObject("Swicther/root_tab_all_values"), 10): null
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - rootNames = new java.util.ArrayList(): null
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofRootnames): null
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - rootNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - isPresent = textValuesForAccountsName.removeAll(rootNames): null
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - verifyEqual(isPresent, false): Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:45:49 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:49 - [TEST_STEP][PASSED] - listofOrgNames = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 10): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames = new java.util.ArrayList(): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofOrgNames): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - isPresent = textValuesForAccountsName.removeAll(orgNames): null
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - verifyEqual(isPresent, false): Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:45:50 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:51 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:51 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_014_Verify_newly_Created_Acc_Present(TBD)" time="4.144" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_014_Verify_newly_Created_Acc_Present(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:53 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_014_Verify_newly_Created_Acc_Present(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_014_Verify_newly_Created_Acc_Present(TBD)
+
+2020-01-24 20:45:53 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:53 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:45:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:55 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:45:55 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_015_Verify_Organiz_tab_sorting" time="4.652" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_015_Verify_Organiz_tab_sorting" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:45:57 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_015_Verify_Organiz_tab_sorting: Test Cases/Atlas Platform/OnBoard/Swicther/TC_015_Verify_Organiz_tab_sorting
+
+2020-01-24 20:45:57 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:45:58 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 5): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring): web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:45:59 - [MESSAGE][PASSED] - web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - verifyEqual(isSorted, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:45:59 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:45:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:00 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:00 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_016_Verify_Orgnaization_Name_logo" time="5.064" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_016_Verify_Orgnaization_Name_logo" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:02 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_016_Verify_Orgnaization_Name_logo: Test Cases/Atlas Platform/OnBoard/Swicther/TC_016_Verify_Orgnaization_Name_logo
+
+2020-01-24 20:46:02 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:02 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:02 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:02 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:03 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 5): null
+
+2020-01-24 20:46:03 - [TEST_STEP][PASSED] - listoficons = findWebElements(findTestObject("Swicther/organization_tab_all_icons"), 5): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:46:04 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - if (toLowerCase().equalsIgnoreCase(toString().toLowerCase())): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - Assert.assertEquals(get(h).getAttribute("d"), dattributeValue.toString()): null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:46:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:05 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:05 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_017_Validate_Organization_Favorites" time="9.644" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_017_Validate_Organization_Favorites" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:07 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_017_Validate_Organization_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_017_Validate_Organization_Favorites
+
+2020-01-24 20:46:07 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:08 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 5): null
+
+2020-01-24 20:46:08 - [TEST_STEP][PASSED] - listoffavicons = findWebElements(findTestObject("Swicther/organization_tab_fav_icon"), 5): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:46:09 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:46:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-24 20:46:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-24 20:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:13 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - isPresent = false: null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - isPresent = true: null
+
+2020-01-24 20:46:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("Swicther/favorite_icon")): NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:46:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - verifyEqual(isPresent, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:46:14 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:14 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_018_Verify_Organizations_Tab_Values" time="7.249" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_018_Verify_Organizations_Tab_Values" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:16 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_018_Verify_Organizations_Tab_Values: Test Cases/Atlas Platform/OnBoard/Swicther/TC_018_Verify_Organizations_Tab_Values
+
+2020-01-24 20:46:17 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:17 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - listofAccNames = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 10): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName = new java.util.ArrayList(): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - for ([hjk = 0, hjk < listofAccNames.size(), (hjk++)]): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - textValuesForOrgName.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/root_tab_swicther")): Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - listofRootnames = findWebElements(findTestObject("Swicther/root_tab_all_values"), 10): null
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - rootNames = new java.util.ArrayList(): null
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofRootnames): null
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - rootNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - isPresent = textValuesForOrgName.removeAll(rootNames): null
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - verifyEqual(isPresent, false): Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:46:19 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:46:20 - [TEST_STEP][PASSED] - listofOrgNames = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 10): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames = new java.util.ArrayList(): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofOrgNames): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - orgNames.add(split("Last")[0].trim()): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - isPresent = textValuesForOrgName.removeAll(orgNames): null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - verifyEqual(isPresent, false): Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:46:21 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:46:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:22 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:22 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_019_Verify_newly_Created_Orgaz_Present(TBD)" time="3.901" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_019_Verify_newly_Created_Orgaz_Present(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:24 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_019_Verify_newly_Created_Orgaz_Present(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_019_Verify_newly_Created_Orgaz_Present(TBD)
+
+2020-01-24 20:46:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/organization_tab_swicther")): Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/organization_tab_swicther' is clicked on
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:25 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_020_Validate_Root_tab_Favorites" time="6.596" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_020_Validate_Root_tab_Favorites" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:28 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_020_Validate_Root_tab_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_020_Validate_Root_tab_Favorites
+
+2020-01-24 20:46:28 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/root_tab_swicther")): Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/root_tab_swicther' is clicked on
+
+2020-01-24 20:46:29 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/root_tab_all_values"), 5): null
+
+2020-01-24 20:46:29 - [TEST_STEP][PASSED] - listoffavicons = findWebElements(findTestObject("Swicther/root_tab_fav_icon"), 5): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - println(listofoptioninstring): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - verify_accountName = "Root": null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - if (trim().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - isPresent = false: null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - if (trim().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - if (trim().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - if (trim().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:46:31 - [TEST_STEP][PASSED] - isPresent = true: null
+
+2020-01-24 20:46:32 - [TEST_STEP][NOT_RUN] - click(findTestObject("Swicther/favorite_icon")): NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:46:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - verifyEqual(isPresent, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:46:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:46:32 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites" time="30.468" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:46:34 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites
+
+2020-01-24 20:46:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites' successfully
+
+2020-01-24 20:46:35 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites
+
+2020-01-24 20:46:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:46:35 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-24 20:46:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 20:46:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-24 20:46:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 20:46:36 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-01-24 20:46:36 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-01-24 20:46:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 20:46:41 - [TEST_STEP][PASSED] - navigateToUrl("http://atlas-dev.gsm.auto/"): Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:46:43 - [MESSAGE][PASSED] - Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "navaraj@totient.co.in"): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:46:44 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:46:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "Az6jpGdHJB8Grvaj8n8bFA=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:46:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:46:45 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:46:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:46:48 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5): Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:46:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:46:55 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:46:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites' successfully
+
+2020-01-24 20:46:55 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:46:58 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:46:59 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listoffavicons = findWebElements(findTestObject("Swicther/accounts_tab_fav_icon"), 5): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:00 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:47:01 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - isPresent = false: null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - isPresent = true: null
+
+2020-01-24 20:47:02 - [TEST_STEP][NOT_RUN] - click(findTestObject("Swicther/favorite_icon")): NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:47:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - verifyEqual(isPresent, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:02 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:02 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_022_Verify_Favorite_tab_sorting" time="6.679" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_022_Verify_Favorite_tab_sorting" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:05 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_022_Verify_Favorite_tab_sorting: Test Cases/Atlas Platform/OnBoard/Swicther/TC_022_Verify_Favorite_tab_sorting
+
+2020-01-24 20:47:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:47:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:08 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:08 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(split("Last")[0].trim()): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring): web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:47:09 - [MESSAGE][PASSED] - web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - verifyEqual(isSorted, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:09 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:09 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_023_Remove_Selected_Account_From_Favorites" time="38.942" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_023_Remove_Selected_Account_From_Favorites" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:11 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_023_Remove_Selected_Account_From_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_023_Remove_Selected_Account_From_Favorites
+
+2020-01-24 20:47:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites' successfully
+
+2020-01-24 20:47:12 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites
+
+2020-01-24 20:47:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites' successfully
+
+2020-01-24 20:47:12 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites: Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites
+
+2020-01-24 20:47:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:47:12 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-24 20:47:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 20:47:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-24 20:47:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 20:47:13 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-01-24 20:47:13 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-01-24 20:47:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 20:47:18 - [TEST_STEP][PASSED] - navigateToUrl("http://atlas-dev.gsm.auto/"): Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:47:20 - [MESSAGE][PASSED] - Navigate to 'http://atlas-dev.gsm.auto/' successfully
+
+2020-01-24 20:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "navaraj@totient.co.in"): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:47:21 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-24 20:47:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "Az6jpGdHJB8Grvaj8n8bFA=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:47:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-24 20:47:22 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-24 20:47:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-24 20:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:24 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:25 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5): Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:47:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:47:32 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:47:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites' successfully
+
+2020-01-24 20:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-24 20:47:36 - [TEST_STEP][PASSED] - listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5): null
+
+2020-01-24 20:47:36 - [TEST_STEP][PASSED] - listoffavicons = findWebElements(findTestObject("Swicther/accounts_tab_fav_icon"), 5): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring = new java.util.ArrayList(): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : listofoptions): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - listofoptioninstring.addAll(ele.getText()): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring): web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:47:37 - [MESSAGE][PASSED] - web.CustomKeyword.getrandomStingValue is PASSED
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - for ([h = 0, h < listofoptions.size(), (h++)]): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/favorites_tabs_swicther")): Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/favorites_tabs_swicther' is clicked on
+
+2020-01-24 20:47:38 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - isPresent = false: null
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - for ([j = 0, j < listoffavvalues.size(), (j++)]): null
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(verify_accountName)): null
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - isPresent = true: null
+
+2020-01-24 20:47:39 - [TEST_STEP][NOT_RUN] - click(findTestObject("Swicther/favorite_icon")): NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:47:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Swicther/favorite_icon"))
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - verifyEqual(isPresent, true): Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:39 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-01-24 20:47:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_021_Validate_Accounts_Favorites' successfully
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): null
+
+2020-01-24 20:47:39 - [TEST_STEP][PASSED] - listofstaricon = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5): null
+
+2020-01-24 20:47:40 - [TEST_STEP][PASSED] - beforeRemoveStar_FavoriteListCount = listoffavvalues.size(): null
+
+2020-01-24 20:47:40 - [TEST_STEP][PASSED] - for ([h = 0, h < listoffavvalues.size(), (h++)]): null
+
+2020-01-24 20:47:40 - [TEST_STEP][PASSED] - get(h).click(): null
+
+2020-01-24 20:47:40 - [TEST_STEP][PASSED] - break: null
+
+2020-01-24 20:47:40 - [TEST_STEP][PASSED] - listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5): Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:47:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='switcherTabs-pane-4']/ul/li/div/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - afterRemovedStar_FavoriteListCount = listoffavvalues.size(): null
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - verifyNotEqual(beforeRemoveStar_FavoriteListCount, afterRemovedStar_FavoriteListCount): Actual object '1' and expected object '0' are not equal
+
+2020-01-24 20:47:48 - [MESSAGE][PASSED] - Actual object '1' and expected object '0' are not equal
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:48 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_024_Verify_Assign_Multiple_Account_Login(TBD)" time="2.716" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_024_Verify_Assign_Multiple_Account_Login(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:50 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_024_Verify_Assign_Multiple_Account_Login(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_024_Verify_Assign_Multiple_Account_Login(TBD)
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:51 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_025_Verify_After_Swicth_Login(TBD)" time="2.334" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_025_Verify_After_Swicth_Login(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:53 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_025_Verify_After_Swicth_Login(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_025_Verify_After_Swicth_Login(TBD)
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:53 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_026_Validate_Valid_Search_Record(TBD)" time="2.352" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_026_Validate_Valid_Search_Record(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:55 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_026_Validate_Valid_Search_Record(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_026_Validate_Valid_Search_Record(TBD)
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:56 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_027_Validate_Invalid_Search_Record(TBD)" time="2.32" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_027_Validate_Invalid_Search_Record(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:47:58 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_027_Validate_Invalid_Search_Record(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_027_Validate_Invalid_Search_Record(TBD)
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:47:58 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_028_Verify_Valid_Search_Record_Char_Seq(TBD)" time="2.431" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_028_Verify_Valid_Search_Record_Char_Seq(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:00 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_028_Verify_Valid_Search_Record_Char_Seq(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_028_Verify_Valid_Search_Record_Char_Seq(TBD)
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:00 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_029_Validate_Invalid_Search_Record(TBD)" time="2.461" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_029_Validate_Invalid_Search_Record(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:02 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_029_Validate_Invalid_Search_Record(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_029_Validate_Invalid_Search_Record(TBD)
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:03 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_030_Validate_Star_InSearchLising(TBD)" time="2.36" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_030_Validate_Star_InSearchLising(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:05 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_030_Validate_Star_InSearchLising(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_030_Validate_Star_InSearchLising(TBD)
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:05 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_031_Validate_Search_list_Sort_Order(TBD)" time="2.406" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_031_Validate_Search_list_Sort_Order(TBD)" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:07 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_031_Validate_Search_list_Sort_Order(TBD): Test Cases/Atlas Platform/OnBoard/Swicther/TC_031_Validate_Search_list_Sort_Order(TBD)
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - return null: null
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:08 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_032_Validate_Cancel_Button_On_Search" time="7.727" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_032_Validate_Cancel_Button_On_Search" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:10 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_032_Validate_Cancel_Button_On_Search: Test Cases/Atlas Platform/OnBoard/Swicther/TC_032_Validate_Cancel_Button_On_Search
+
+2020-01-24 20:48:10 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:10 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_in_swicther")): Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/search_cancel_btn"), "Cancel"): Actual text and expected text of test object 'Object Repository/Swicther/search_cancel_btn' are matched.
+
+2020-01-24 20:48:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/search_cancel_btn' are matched.
+
+2020-01-24 20:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_cancel_btn")): Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/organization_tab_swicther"), "Organizations"): Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-24 20:48:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:15 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_033_Verify_Clear_Icon_Present" time="5.432" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_033_Verify_Clear_Icon_Present" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:17 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_033_Verify_Clear_Icon_Present: Test Cases/Atlas Platform/OnBoard/Swicther/TC_033_Verify_Clear_Icon_Present
+
+2020-01-24 20:48:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_in_swicther")): Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Swicther/Swicther_Search_Clear_Icon"), 0): Object 'Object Repository/Swicther/Swicther_Search_Clear_Icon' is present
+
+2020-01-24 20:48:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-24 20:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/Swicther_Search_Clear_Icon' is present
+
+2020-01-24 20:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_cancel_btn")): Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:21 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:21 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_034_Validate_Clear_Opt_On_Search_Box" time="9.991" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_034_Validate_Clear_Opt_On_Search_Box" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:23 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_034_Validate_Clear_Opt_On_Search_Box: Test Cases/Atlas Platform/OnBoard/Swicther/TC_034_Validate_Clear_Opt_On_Search_Box
+
+2020-01-24 20:48:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-24 20:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-24 20:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_in_swicther")): Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_in_swicther' is clicked on
+
+2020-01-24 20:48:24 - [TEST_STEP][PASSED] - setText(findTestObject("Swicther/Swicher_Search_box"), web.CustomKeyword.randomEmailIDGenerator()): Text 'ytwpy@yopmail.com' is set on object 'Object Repository/Swicther/Swicher_Search_box'
+
+2020-01-24 20:48:25 - [MESSAGE][PASSED] - web.CustomKeyword.randomEmailIDGenerator is PASSED
+
+2020-01-24 20:48:25 - [MESSAGE][PASSED] - Text 'ytwpy@yopmail.com' is set on object 'Object Repository/Swicther/Swicher_Search_box'
+
+2020-01-24 20:48:25 - [TEST_STEP][PASSED] - beforClearSearchBox = getAttribute(findTestObject("Swicther/Swicher_Search_box"), "value"): Attribute 'value' of object 'Object Repository/Swicther/Swicher_Search_box' is: 'ytwpy@yopmail.com'
+
+2020-01-24 20:48:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Swicther/Swicher_Search_box' is: 'ytwpy@yopmail.com'
+
+2020-01-24 20:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/Swicther_Search_Clear_Icon")): Object: 'Object Repository/Swicther/Swicther_Search_Clear_Icon' is clicked on
+
+2020-01-24 20:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/Swicther_Search_Clear_Icon' is clicked on
+
+2020-01-24 20:48:29 - [TEST_STEP][PASSED] - afterClearSearchBox = getAttribute(findTestObject("Swicther/Swicher_Search_box"), "value"): Attribute 'value' of object 'Object Repository/Swicther/Swicher_Search_box' is: ''
+
+2020-01-24 20:48:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Swicther/Swicher_Search_box' is: ''
+
+2020-01-24 20:48:30 - [TEST_STEP][PASSED] - verifyNotEqual(afterClearSearchBox, beforClearSearchBox): Actual object '' and expected object 'ytwpy@yopmail.com' are not equal
+
+2020-01-24 20:48:30 - [MESSAGE][PASSED] - Actual object '' and expected object 'ytwpy@yopmail.com' are not equal
+
+2020-01-24 20:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/search_cancel_btn")): Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/search_cancel_btn' is clicked on
+
+2020-01-24 20:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-24 20:48:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:31 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:31 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_099_Close_Common_Browser" time="3.171" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_099_Close_Common_Browser" status="PASSED">
+         <system-out><![CDATA[2020-01-24 20:48:33 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_099_Close_Common_Browser: Test Cases/Atlas Platform/OnBoard/Swicther/TC_099_Close_Common_Browser
+
+2020-01-24 20:48:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-24 20:48:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-01-24 20:48:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-24 20:48:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-24 20:48:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:34 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-24 20:48:34 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-24 20:44:10 - [TEST_SUITE][FAILED] - SwitcherTestSuite: Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2020-01-24 20:44:10 - [TEST_SUITE][FAILED] - SwitcherTestSuite: Test Cases/Atlas Platform/OnBoard/Swicther/TC_010_VerifyAccounts_tab_Sorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC_010_VerifyAccounts_tab_Sorting.run(TC_010_VerifyAccounts_tab_Sorting:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579878840525.run(TempTestSuite1579878840525.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

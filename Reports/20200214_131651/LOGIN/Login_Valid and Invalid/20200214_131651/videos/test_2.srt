@@ -1,0 +1,20 @@
+1
+00:00:00,339 --> 00:00:00,341
+1. openBrowser("")
+
+2
+00:00:00,365 --> 00:00:00,366
+5. navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/")
+
+3
+00:00:04,059 --> 00:00:04,061
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+4
+00:00:05,097 --> 00:00:05,099
+13. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+5
+00:00:05,823 --> 00:00:05,824
+17. click(findTestObject("Login_Page/Page_/Log In button"))
+

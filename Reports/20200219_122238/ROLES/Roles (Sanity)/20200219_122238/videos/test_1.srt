@@ -1,0 +1,116 @@
+1
+00:00:00,743 --> 00:00:00,752
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:03,632 --> 00:00:03,635
+1. openBrowser("")
+
+3
+00:00:03,645 --> 00:00:03,648
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:04,124 --> 00:00:04,125
+1. openBrowser("")
+
+5
+00:00:12,916 --> 00:00:12,917
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:13,960 --> 00:00:13,962
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:14,346 --> 00:00:14,349
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:16,502 --> 00:00:16,503
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:20,602 --> 00:00:20,603
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:20,910 --> 00:00:20,915
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:22,622 --> 00:00:22,624
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:00:26,643 --> 00:00:26,647
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:26,922 --> 00:00:26,923
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:28,593 --> 00:00:28,596
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:00:32,514 --> 00:00:32,515
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:32,764 --> 00:00:32,768
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:34,478 --> 00:00:34,483
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+18
+00:00:38,403 --> 00:00:38,406
+13. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+19
+00:00:39,755 --> 00:00:39,756
+17. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+20
+00:00:40,512 --> 00:00:40,515
+21. click(findTestObject("Login_Page/Page_/Log In button"))
+
+21
+00:00:40,955 --> 00:00:40,956
+25. dashboard_act_title = getWindowTitle()
+
+22
+00:00:41,017 --> 00:00:41,018
+29. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+23
+00:00:41,067 --> 00:00:41,068
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+24
+00:00:43,202 --> 00:00:43,204
+9. click(findTestObject("ROLES/Roles_page/Create Role_button"))
+
+25
+00:00:44,627 --> 00:00:44,628
+13. ROLENAME1 = findTestData("Roles").getValue(3, 1)
+
+26
+00:00:45,484 --> 00:00:45,485
+1. println(testCaseContext.getTestCaseId())
+
+27
+00:00:45,545 --> 00:00:45,546
+5. println(testCaseContext.getTestCaseStatus())
+
+28
+00:00:45,560 --> 00:00:45,561
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+29
+00:00:45,575 --> 00:00:45,577
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

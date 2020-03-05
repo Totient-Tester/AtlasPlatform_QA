@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Test2
+Description: </description>
+   <name>ZEP-2</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>114a5685-35af-4514-9a12-7f525f91294d</testCaseGuid>
+</TestCaseEntity>

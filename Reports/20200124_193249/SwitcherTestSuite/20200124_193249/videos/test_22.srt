@@ -1,0 +1,52 @@
+1
+00:00:00,339 --> 00:00:00,339
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Swicther/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,648 --> 00:00:00,648
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,655 --> 00:00:00,655
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+4
+00:00:01,183 --> 00:00:01,184
+9. click(findTestObject("Swicther/favorites_tabs_swicther"))
+
+5
+00:00:01,670 --> 00:00:01,671
+13. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5)
+
+6
+00:00:02,171 --> 00:00:02,172
+17. for ([j = 0, j < listoffavvalues.size(), (j++)])
+
+7
+00:00:02,182 --> 00:00:02,182
+1. get(j).click()
+
+8
+00:00:02,384 --> 00:00:02,385
+1. get(j).click()
+
+9
+00:00:02,571 --> 00:00:02,571
+1. get(j).click()
+
+10
+00:00:02,681 --> 00:00:02,682
+1. println(testCaseContext.getTestCaseId())
+
+11
+00:00:02,690 --> 00:00:02,691
+5. println(testCaseContext.getTestCaseStatus())
+
+12
+00:00:02,697 --> 00:00:02,697
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+13
+00:00:02,703 --> 00:00:02,704
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

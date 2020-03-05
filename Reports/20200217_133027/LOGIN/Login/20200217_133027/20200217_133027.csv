@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 80.0.3987.100,,,2020-02-17 13:30:51,2020-02-17 13:31:39,48.860s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance,Chrome 80.0.3987.100,,,2020-02-17 13:30:51,2020-02-17 13:31:27,36.510s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.100,,,2020-02-17 13:30:52,2020-02-17 13:31:02,10.242s,PASSED
+"navigateToUrl(""https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs"")",Chrome 80.0.3987.100,,,2020-02-17 13:31:02,2020-02-17 13:31:03,1.461s,PASSED
+"click(findTestObject(""LoginPage/httpAdvanceBtn""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:03,2020-02-17 13:31:04,0.544s,PASSED
+"click(findTestObject(""LoginPage/httpsproceedlink""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:04,2020-02-17 13:31:07,3.070s,PASSED
+"navigateToUrl(""https://3.19.246.255:9090/services/configuration/api/authenticate"")",Chrome 80.0.3987.100,,,2020-02-17 13:31:07,2020-02-17 13:31:11,4.069s,PASSED
+"click(findTestObject(""LoginPage/httpAdvanceBtn""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:11,2020-02-17 13:31:11,0.305s,PASSED
+"click(findTestObject(""LoginPage/httpsproceedlink""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:11,2020-02-17 13:31:14,2.121s,PASSED
+"navigateToUrl(""https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC"")",Chrome 80.0.3987.100,,,2020-02-17 13:31:14,2020-02-17 13:31:18,3.927s,PASSED
+"click(findTestObject(""LoginPage/httpAdvanceBtn""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:18,2020-02-17 13:31:18,0.275s,PASSED
+"click(findTestObject(""LoginPage/httpsproceedlink""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:18,2020-02-17 13:31:20,1.785s,PASSED
+"navigateToUrl(""https://3.19.246.255:9091/services/content/api/images?page=0&size=10"")",Chrome 80.0.3987.100,,,2020-02-17 13:31:20,2020-02-17 13:31:23,3.664s,PASSED
+"click(findTestObject(""LoginPage/httpAdvanceBtn""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:23,2020-02-17 13:31:24,0.363s,PASSED
+"click(findTestObject(""LoginPage/httpsproceedlink""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:24,2020-02-17 13:31:25,1.661s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.100,,,2020-02-17 13:31:25,2020-02-17 13:31:25,0.099s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin,Chrome 80.0.3987.100,,,2020-02-17 13:31:27,2020-02-17 13:31:39,11.928s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.100,,,2020-02-17 13:31:29,2020-02-17 13:31:29,0.016s,NOT_RUN
+"navigateToUrl(""https://atlas-dev.gsm.auto/"")",Chrome 80.0.3987.100,,,2020-02-17 13:31:29,2020-02-17 13:31:35,5.996s,PASSED
+"setText(findTestObject(""Login_Page/Page_/email address placeholder""), Email)",Chrome 80.0.3987.100,,,2020-02-17 13:31:35,2020-02-17 13:31:36,1.046s,PASSED
+"setText(findTestObject(""Login_Page/Page_/Password placeholder""), Password)",Chrome 80.0.3987.100,,,2020-02-17 13:31:36,2020-02-17 13:31:37,0.690s,PASSED
+"click(findTestObject(""Login_Page/Page_/Log In button""))",Chrome 80.0.3987.100,,,2020-02-17 13:31:37,2020-02-17 13:31:37,0.445s,PASSED
+dashboard_act_title = getWindowTitle(),Chrome 80.0.3987.100,,,2020-02-17 13:31:37,2020-02-17 13:31:37,0.079s,PASSED
+"verifyEqual(dashboard_act_title, dashboard_exp_title)",Chrome 80.0.3987.100,,,2020-02-17 13:31:37,2020-02-17 13:31:37,0.052s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.100,,,2020-02-17 13:31:37,2020-02-17 13:31:37,0.046s,PASSED

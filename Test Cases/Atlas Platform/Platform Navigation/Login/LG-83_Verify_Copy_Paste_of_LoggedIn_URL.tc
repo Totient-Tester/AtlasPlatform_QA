@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-83_Verify_Copy_Paste_of_LoggedIn_URL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f390bb3-9e48-4b34-bb67-cb0c9b42c1c1</testCaseGuid>
+   <variable>
+      <defaultValue>'amanda@toyota.com'</defaultValue>
+      <description></description>
+      <id>95ce9c2b-465e-4fdb-82cb-9f36dabd3e7a</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'toyota1234@'</defaultValue>
+      <description></description>
+      <id>d5a2b576-a018-420e-9885-e807ec6bb8b5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

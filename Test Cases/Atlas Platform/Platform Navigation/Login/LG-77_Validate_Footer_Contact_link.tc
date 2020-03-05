@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-77_Validate_Footer_Contact_link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c209a0e-2476-4eb4-8182-04b1f948d11b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>dc35252e-74f9-4288-97d3-2ecadd523812</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>eb3494d1-bbc3-45d3-9aeb-3b7cf4b6517f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6080a19-7e88-47d5-a806-cf44c22b510c</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ce54693-f846-43bb-9713-2069b4901fa0</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

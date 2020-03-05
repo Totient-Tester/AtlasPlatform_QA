@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginWithRootAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d23483d-1552-47e2-96e3-d7e1393c1c14</testCaseGuid>
+   <variable>
+      <defaultValue>'navaraj@totient.co.in'</defaultValue>
+      <description></description>
+      <id>6f912e33-57e6-4e11-bfff-7256971b682b</id>
+      <masked>false</masked>
+      <name>user_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Totient@123'</defaultValue>
+      <description></description>
+      <id>fd51c967-d1e7-4a35-9247-1292180cf29f</id>
+      <masked>false</masked>
+      <name>user_Password</name>
+   </variable>
+</TestCaseEntity>

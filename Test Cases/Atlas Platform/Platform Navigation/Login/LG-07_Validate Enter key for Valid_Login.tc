@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-07_Validate Enter key for Valid_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0bd3cc4-d298-4133-9d5b-b4c1b8eb5933</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c38b62ed-a48d-4d72-946e-a8725db69408</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e6c10613-a8f9-469a-b928-12aa39818b44</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bedea1d6-a6a7-4d97-bba7-128d663bd607</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

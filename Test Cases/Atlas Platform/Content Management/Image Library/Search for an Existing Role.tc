@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+<<<<<<< HEAD:Test Cases/Atlas Platform/Content Management/Image Library/Search for an Existing Role.tc
+   <name>Search for an Existing Role</name>
+=======
+   <name>Logout</name>
+>>>>>>> b185aeae1fae384cb0e511113bc1c897933fe436:Test Cases/Atlas Platform/Platform Navigation/Logout/Logout.tc
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dcc59e7-f074-4984-b857-911b7add76fc</testCaseGuid>
+</TestCaseEntity>

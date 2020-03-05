@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_Verify_Swicther_AccountsTab_Values_FromDB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c1885fb-88a5-40ac-8972-742bbf1fb2b9</testCaseGuid>
+</TestCaseEntity>

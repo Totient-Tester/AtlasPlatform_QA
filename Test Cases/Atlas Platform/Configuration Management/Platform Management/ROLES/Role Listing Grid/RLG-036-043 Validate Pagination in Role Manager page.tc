@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RLG-036-043 Validate Pagination in Role Manager page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f335dd46-4c24-4c7c-9500-2cdeddc4fa0c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba0552d7-2161-4364-a9f2-95397669007d</id>
+      <masked>false</masked>
+      <name>value0</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>172f9f45-b0ad-467d-bb76-cea424298f90</id>
+      <masked>false</masked>
+      <name>value1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>97e5aa65-80b3-4d2d-8088-f7af17ae6c09</id>
+      <masked>false</masked>
+      <name>value2</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>baff0d0c-e834-4110-afc7-531fb28a10aa</id>
+      <masked>false</masked>
+      <name>value5</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>cea1535f-9954-49cb-b62e-6d0b1ad879d1</id>
+      <masked>false</masked>
+      <name>value6</name>
+   </variable>
+   <variable>
+      <defaultValue>'500000'</defaultValue>
+      <description></description>
+      <id>bb5a8850-9eba-4670-8bda-20a7d304896d</id>
+      <masked>false</masked>
+      <name>value500000</name>
+   </variable>
+   <variable>
+      <defaultValue>'Showing 31'</defaultValue>
+      <description></description>
+      <id>043e1edb-7f33-4f93-b69f-e6e882121474</id>
+      <masked>false</masked>
+      <name>page6</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,88 @@
+1
+00:00:00,357 --> 00:00:00,358
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,368 --> 00:00:00,369
+5. click(findTestObject("HeaderMenus/audiencemenu"))
+
+3
+00:00:00,785 --> 00:00:00,786
+9. refresh()
+
+4
+00:00:02,511 --> 00:00:02,512
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:00:03,881 --> 00:00:03,882
+17. beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+6
+00:00:04,355 --> 00:00:04,355
+21. beforetotal = Integer.parseInt(replace(")", "").trim())
+
+7
+00:00:04,397 --> 00:00:04,398
+25. setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Test" + ENTER)
+
+8
+00:00:04,976 --> 00:00:04,977
+29. delay(3)
+
+9
+00:00:07,995 --> 00:00:07,996
+33. text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination"))
+
+10
+00:00:08,403 --> 00:00:08,404
+37. resultfound_count = Integer.parseInt(split(" ")[1].trim())
+
+11
+00:00:08,417 --> 00:00:08,418
+41. elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0)
+
+12
+00:00:08,723 --> 00:00:08,724
+45. pageValueCount = elements.size()
+
+13
+00:00:08,731 --> 00:00:08,732
+49. if (resultfound_count > 10)
+
+14
+00:00:08,744 --> 00:00:08,744
+53. verifyEqual(resultfound_count, pageValueCount)
+
+15
+00:00:08,757 --> 00:00:08,758
+57. click(findTestObject("AUDIENCE/Data Source/search_closeicon"))
+
+16
+00:00:09,240 --> 00:00:09,241
+61. afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+17
+00:00:10,657 --> 00:00:10,658
+65. aftertotal = Integer.parseInt(replace(")", "").trim())
+
+18
+00:00:10,670 --> 00:00:10,671
+69. verifyEqual(aftertotal, beforetotal)
+
+19
+00:00:10,688 --> 00:00:10,688
+1. println(testCaseContext.getTestCaseId())
+
+20
+00:00:10,699 --> 00:00:10,699
+5. println(testCaseContext.getTestCaseStatus())
+
+21
+00:00:10,710 --> 00:00:10,711
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+22
+00:00:10,723 --> 00:00:10,724
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

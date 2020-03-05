@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-93_Validate_Email_address_text_field_for_Valid_eID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>971a0bae-cbc8-4168-9e52-1436128d5aad</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b3b2104a-c26f-42a1-9794-dda27fc68d0a</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>47b7ce68-91d4-485c-aba9-31c7cbb43c65</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8223df05-ee91-4934-bff1-33b5c601100c</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

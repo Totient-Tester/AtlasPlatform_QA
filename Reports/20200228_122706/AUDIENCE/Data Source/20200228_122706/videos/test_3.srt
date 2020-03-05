@@ -1,0 +1,116 @@
+1
+00:00:00,464 --> 00:00:00,474
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,516 --> 00:00:00,519
+5. click(findTestObject("HeaderMenus/audiencemenu"))
+
+3
+00:00:01,115 --> 00:00:01,116
+9. refresh()
+
+4
+00:00:04,247 --> 00:00:04,248
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:00:04,903 --> 00:00:04,904
+17. beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+6
+00:00:05,344 --> 00:00:05,345
+21. beforetotal = Integer.parseInt(replace(")", "").trim())
+
+7
+00:00:05,355 --> 00:00:05,356
+25. click(findTestObject("Object Repository/AUDIENCE/Data Source/filter"))
+
+8
+00:00:05,854 --> 00:00:05,855
+29. click(findTestObject("Object Repository/AUDIENCE/Data Source/active"))
+
+9
+00:00:06,450 --> 00:00:06,452
+33. click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn"))
+
+10
+00:00:07,106 --> 00:00:07,108
+37. delay(3)
+
+11
+00:00:10,192 --> 00:00:10,194
+41. verifyElementText(findTestObject("Object Repository/AUDIENCE/Data Source/active_text_filtered"), "Active")
+
+12
+00:00:10,588 --> 00:00:10,589
+45. totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count"))
+
+13
+00:00:10,995 --> 00:00:10,996
+49. total = Integer.parseInt(split(" ")[0].trim())
+
+14
+00:00:11,033 --> 00:00:11,034
+53. elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0)
+
+15
+00:00:11,384 --> 00:00:11,385
+57. pageValueCount = elements.size()
+
+16
+00:00:11,397 --> 00:00:11,398
+61. if (total > 10)
+
+17
+00:00:11,406 --> 00:00:11,406
+1. while (total != pageValueCount)
+
+18
+00:00:11,415 --> 00:00:11,415
+1. click(findTestObject("AUDIENCE/Data Source/next"))
+
+19
+00:00:11,902 --> 00:00:11,903
+5. elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0)
+
+20
+00:00:13,208 --> 00:00:13,209
+9. pageValueCount += elements.size()
+
+21
+00:00:13,378 --> 00:00:13,380
+65. verifyEqual(total, pageValueCount)
+
+22
+00:00:13,398 --> 00:00:13,399
+69. click(findTestObject("AUDIENCE/Data Source/active_close_icon"))
+
+23
+00:00:13,876 --> 00:00:13,877
+73. afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+24
+00:00:14,917 --> 00:00:14,918
+77. aftertotal = Integer.parseInt(replace(")", "").trim())
+
+25
+00:00:14,927 --> 00:00:14,928
+81. verifyEqual(aftertotal, beforetotal)
+
+26
+00:00:14,974 --> 00:00:14,974
+1. println(testCaseContext.getTestCaseId())
+
+27
+00:00:14,985 --> 00:00:14,986
+5. println(testCaseContext.getTestCaseStatus())
+
+28
+00:00:14,994 --> 00:00:14,995
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+29
+00:00:15,005 --> 00:00:15,006
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

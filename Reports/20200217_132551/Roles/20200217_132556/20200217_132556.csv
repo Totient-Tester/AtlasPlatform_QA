@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Roles,,,,2020-02-17 13:27:15,2020-02-17 13:27:31,15.359s,ERROR
+,,,,,,,
+Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Create a Role,,,,2020-02-17 13:27:16,2020-02-17 13:27:20,4.646s,FAILED
+"callTestCase(findTestCase(""Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-17 13:27:16,2020-02-17 13:27:16,0.063s,NOT_RUN
+"click(findTestObject(""ROLES/Role_Navigation/a_ADMIN""))",,,,2020-02-17 13:27:16,2020-02-17 13:27:17,1.050s,FAILED
+"click(findTestObject(""ROLES/Roles_page/Create Role_button""))",,,,2020-02-17 13:27:17,2020-02-17 13:27:18,0.276s,FAILED
+"sendKeys(findTestObject(""ROLES/Create Role/New Role_page/input_Role Name_name""), findTestData(""xlsx files/Roles"").getValue(3, 1))",,,,2020-02-17 13:27:18,2020-02-17 13:27:18,0.240s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-02-17 13:27:18,2020-02-17 13:27:18,0.140s,FAILED
+Video,,,,2020-02-17 13:27:20,2020-02-17 13:27:20,0.002s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing grid/Search for an Existing Role,,,,2020-02-17 13:27:20,2020-02-17 13:27:23,2.889s,ERROR
+"callTestCase(findTestCase(""Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-17 13:27:21,2020-02-17 13:27:21,0.054s,NOT_RUN
+"click(findTestObject(""ROLES/Role_Navigation/a_ADMIN""))",,,,2020-02-17 13:27:21,2020-02-17 13:27:21,0.010s,NOT_RUN
+"sendKeys(findTestObject(""ROLES/Roles_page/Search Box""), findTestData(""null"").getValue(3, 1) + ENTER)",,,,2020-02-17 13:27:21,2020-02-17 13:27:21,0.091s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-02-17 13:27:21,2020-02-17 13:27:21,0.100s,FAILED
+Video,,,,2020-02-17 13:27:23,2020-02-17 13:27:23,0.001s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/Edit a Role,,,,2020-02-17 13:27:23,2020-02-17 13:27:27,4.268s,FAILED
+"callTestCase(findTestCase(""Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-17 13:27:24,2020-02-17 13:27:24,0.016s,NOT_RUN
+"click(findTestObject(""ROLES/Role_Navigation/a_ADMIN""))",,,,2020-02-17 13:27:24,2020-02-17 13:27:24,0.032s,NOT_RUN
+"click(findTestObject(""ROLES/Roles_page/Hamburger/button_hamburger""))",,,,2020-02-17 13:27:24,2020-02-17 13:27:24,0.148s,FAILED
+delay(1),,,,2020-02-17 13:27:24,2020-02-17 13:27:25,1.066s,PASSED
+"click(findTestObject(""ROLES/Roles_page/Hamburger/a_Edit""))",,,,2020-02-17 13:27:25,2020-02-17 13:27:25,0.086s,FAILED
+"click(findTestObject(""ROLES/Create Role/New Role_page/input_Role Name_name""))",,,,2020-02-17 13:27:25,2020-02-17 13:27:25,0.092s,FAILED
+"click(findTestObject(""ROLES/Create Role/New Role_page/Clear_button""))",,,,2020-02-17 13:27:25,2020-02-17 13:27:25,0.139s,FAILED
+"sendKeys(findTestObject(""ROLES/Create Role/New Role_page/input_Role Name_name""), findTestData(""xlsx files/Roles"").getValue(3, 2))",,,,2020-02-17 13:27:25,2020-02-17 13:27:25,0.099s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-02-17 13:27:25,2020-02-17 13:27:25,0.051s,FAILED
+Video,,,,2020-02-17 13:27:27,2020-02-17 13:27:27,0.001s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status,,,,2020-02-17 13:27:27,2020-02-17 13:27:31,3.192s,FAILED
+"callTestCase(findTestCase(""Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.017s,NOT_RUN
+"click(findTestObject(""ROLES/Role_Navigation/a_ADMIN""))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.000s,NOT_RUN
+"click(findTestObject(""ROLES/Roles_page/Hamburger/button_hamburger""))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.078s,FAILED
+"click(findTestObject(""ROLES/Roles_page/Hamburger/a_Change Status""))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.141s,FAILED
+"click(findTestObject(""ROLES/Change Status/Archived""))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.153s,FAILED
+"click(findTestObject(""ROLES/Change Status/Confirm_button""))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.156s,FAILED
+"verifyElementText(findTestObject(""ROLES/Change Status/status_archived""), findTestData(""xlsx files/Roles"").getValue(5, 2))",,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.185s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-02-17 13:27:28,2020-02-17 13:27:28,0.103s,FAILED
+Video,,,,2020-02-17 13:27:31,2020-02-17 13:27:31,0.002s,PASSED

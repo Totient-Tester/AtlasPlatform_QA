@@ -1,0 +1,176 @@
+1
+00:00:00,526 --> 00:00:00,531
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,620 --> 00:00:00,624
+5. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+3
+00:00:00,647 --> 00:00:00,679
+9. click(findTestObject("ROLES/Role_Navigation/messaging"))
+
+4
+00:00:01,765 --> 00:00:01,767
+13. click(findTestObject("Marketing Automation/Create Marketing Automation/create marketing button"))
+
+5
+00:00:02,138 --> 00:00:02,140
+17. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/marketing Automation name"), "Marketing Automation 1")
+
+6
+00:00:02,461 --> 00:00:02,464
+21. clickOffset(findTestObject("Marketing Automation/Create Marketing Automation/start"), 125, -50)
+
+7
+00:00:02,768 --> 00:00:02,770
+25. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "start")
+
+8
+00:00:03,055 --> 00:00:03,059
+29. click(findTestObject("Marketing Automation/Create Marketing Automation/create task"))
+
+9
+00:00:03,377 --> 00:00:03,378
+33. click(findTestObject("Marketing Automation/Create Marketing Automation/settings"))
+
+10
+00:00:03,537 --> 00:00:03,540
+37. click(findTestObject("Marketing Automation/Create Marketing Automation/send mail(task)"))
+
+11
+00:00:03,683 --> 00:00:03,684
+41. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "Welcome1")
+
+12
+00:00:03,815 --> 00:00:03,817
+45. click(findTestObject("Marketing Automation/Create Marketing Automation/extensions tab"))
+
+13
+00:00:03,969 --> 00:00:03,971
+49. click(findTestObject("Marketing Automation/Create Marketing Automation/plus button(extensions)"))
+
+14
+00:00:04,131 --> 00:00:04,132
+53. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/name(extensions)"), "templateid")
+
+15
+00:00:04,279 --> 00:00:04,281
+57. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/value(extensions)"), "1")
+
+16
+00:00:04,440 --> 00:00:04,442
+61. click(findTestObject("Marketing Automation/Create Marketing Automation/intermediate"))
+
+17
+00:00:04,575 --> 00:00:04,576
+65. click(findTestObject("Marketing Automation/Create Marketing Automation/settings"))
+
+18
+00:00:04,709 --> 00:00:04,710
+69. click(findTestObject("Marketing Automation/Create Marketing Automation/wait(date)"))
+
+19
+00:00:05,084 --> 00:00:05,086
+73. click(findTestObject("Marketing Automation/Create Marketing Automation/general tab"))
+
+20
+00:00:05,647 --> 00:00:05,649
+77. click(findTestObject("Marketing Automation/Create Marketing Automation/timer"))
+
+21
+00:00:05,788 --> 00:00:05,790
+81. click(findTestObject("Marketing Automation/Create Marketing Automation/timer Date"))
+
+22
+00:00:05,906 --> 00:00:05,908
+85. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/timer duration"), "30")
+
+23
+00:00:06,031 --> 00:00:06,034
+89. click(findTestObject("Marketing Automation/Create Marketing Automation/gateway"))
+
+24
+00:00:06,171 --> 00:00:06,172
+93. click(findTestObject("Marketing Automation/Create Marketing Automation/create task"))
+
+25
+00:00:06,329 --> 00:00:06,330
+97. click(findTestObject("Marketing Automation/Create Marketing Automation/settings"))
+
+26
+00:00:06,449 --> 00:00:06,450
+101. click(findTestObject("Marketing Automation/Create Marketing Automation/send mail(task)"))
+
+27
+00:00:06,582 --> 00:00:06,584
+105. click(findTestObject("Marketing Automation/Create Marketing Automation/general tab"))
+
+28
+00:00:06,688 --> 00:00:06,689
+109. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "Welcome2")
+
+29
+00:00:06,827 --> 00:00:06,829
+113. click(findTestObject("Marketing Automation/Create Marketing Automation/extensions tab"))
+
+30
+00:00:06,940 --> 00:00:06,949
+117. click(findTestObject("Marketing Automation/Create Marketing Automation/plus button(extensions)"))
+
+31
+00:00:07,083 --> 00:00:07,090
+121. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/name(extensions)"), "templateid")
+
+32
+00:00:07,220 --> 00:00:07,228
+125. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/value(extensions)"), "2")
+
+33
+00:00:07,358 --> 00:00:07,360
+129. click(findTestObject("Marketing Automation/Create Marketing Automation/end"))
+
+34
+00:00:07,477 --> 00:00:07,478
+133. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "end")
+
+35
+00:00:07,571 --> 00:00:07,572
+137. clickOffset(findTestObject("Marketing Automation/Create Marketing Automation/start"), 470, -50)
+
+36
+00:00:07,662 --> 00:00:07,663
+141. click(findTestObject("Marketing Automation/Create Marketing Automation/end"))
+
+37
+00:00:07,758 --> 00:00:07,761
+145. sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "end")
+
+38
+00:00:07,854 --> 00:00:07,855
+149. click(findTestObject("Marketing Automation/Create Marketing Automation/Create button"))
+
+39
+00:00:07,929 --> 00:00:07,930
+153. click(findTestObject("Marketing Automation/Create Marketing Automation/start button"))
+
+40
+00:00:07,939 --> 00:00:07,940
+157. click(findTestObject("Marketing Automation/Create Marketing Automation/stop button"))
+
+41
+00:00:07,962 --> 00:00:07,963
+1. println(testCaseContext.getTestCaseId())
+
+42
+00:00:07,983 --> 00:00:07,984
+5. println(testCaseContext.getTestCaseStatus())
+
+43
+00:00:07,993 --> 00:00:07,994
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+44
+00:00:08,006 --> 00:00:08,006
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

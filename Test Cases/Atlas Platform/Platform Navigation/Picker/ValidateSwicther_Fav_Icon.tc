@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ValidateSwicther_Fav_Icon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7518ae0f-7de9-4c66-b27a-5525e53d674a</testCaseGuid>
+   <variable>
+      <defaultValue>'path(&quot;M 6.01 5 L 10 8.955 L 8.946 10 L 5 6.09 L 1.054 10 L 0 8.955 L 3.991 5 L 0 1.045 L 1.054 0 L 5 3.91 L 8.946 0 L 10 1.045 Z&quot;)'</defaultValue>
+      <description></description>
+      <id>de5837df-2293-4ecf-8df7-ab9e916acd9f</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

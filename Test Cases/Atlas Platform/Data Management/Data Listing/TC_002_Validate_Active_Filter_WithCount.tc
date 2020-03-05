@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Validate_Active_Filter_WithCount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0944a5a-ee5d-4390-879e-9e61db54c865</testCaseGuid>
+</TestCaseEntity>

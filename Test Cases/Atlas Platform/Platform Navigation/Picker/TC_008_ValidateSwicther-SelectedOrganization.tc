@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_008_ValidateSwicther-SelectedOrganization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1edab0f-fac2-4e0f-a2c5-7cebf0838135</testCaseGuid>
+</TestCaseEntity>

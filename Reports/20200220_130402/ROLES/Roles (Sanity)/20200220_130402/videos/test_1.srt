@@ -1,0 +1,24 @@
+1
+00:00:00,484 --> 00:00:00,497
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:04,062 --> 00:00:04,064
+1. openBrowser("")
+
+3
+00:00:04,077 --> 00:00:04,080
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:04,644 --> 00:00:04,646
+1. openBrowser("")
+
+5
+00:00:13,746 --> 00:00:13,748
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:18,271 --> 00:00:18,273
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+

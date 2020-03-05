@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_Validate_Search_Box_Invalid_Text_With_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afd55f72-a7c6-4835-b35b-3ced61dbc810</testCaseGuid>
+</TestCaseEntity>

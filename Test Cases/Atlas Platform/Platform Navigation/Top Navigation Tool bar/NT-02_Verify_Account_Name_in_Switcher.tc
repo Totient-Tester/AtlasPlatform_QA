@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT-02_Verify_Account_Name_in_Switcher</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c61346d-dc3e-425d-bdda-7caee6241d99</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT-09_Verify_Content_Module_SubNavigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>066e85b6-fd0d-472f-ac8f-e3fd70b412dd</testCaseGuid>
+   <variable>
+      <defaultValue>'http://dqfn4clx0bazt.cloudfront.net/init/380bfcf899971f7d559215551dc6c715.svg'</defaultValue>
+      <description></description>
+      <id>6f8f2e24-a1ad-4c74-ba0c-8eb7d9af72e1</id>
+      <masked>false</masked>
+      <name>AMP_url</name>
+   </variable>
+</TestCaseEntity>

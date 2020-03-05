@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,,,,2020-02-17 13:24:33,2020-02-17 13:24:37,4.538s,FAILED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Logout/Logout,,,,2020-02-17 13:24:33,2020-02-17 13:24:37,4.174s,FAILED
+"click(findTestObject(""Logout/My Account""))",,,,2020-02-17 13:24:34,2020-02-17 13:24:35,0.789s,FAILED
+"click(findTestObject(""Logout/li_Log Out""))",,,,2020-02-17 13:24:35,2020-02-17 13:24:35,0.198s,FAILED
+actURL = getUrl(),,,,2020-02-17 13:24:35,2020-02-17 13:24:35,0.105s,FAILED
+"verifyMatch(actURL, ""https://atlas-dev.gsm.auto/"", false)",,,,2020-02-17 13:24:35,2020-02-17 13:24:35,0.078s,FAILED
+Start listener action : sampleAfterTestCase,,,,2020-02-17 13:24:35,2020-02-17 13:24:35,0.133s,FAILED
+Video,,,,2020-02-17 13:24:37,2020-02-17 13:24:37,0.002s,PASSED

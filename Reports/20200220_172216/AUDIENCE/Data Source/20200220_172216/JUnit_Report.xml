@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Source" time="274.066" tests="8" failures="0" errors="0">
+   <testsuite name="Data Source" tests="8" failures="0" errors="0" time="274.066" timestamp="2020-02-20 17:22:36" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/AUDIENCE/Data Source">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_172216\\AUDIENCE\\Data Source\\20200220_172216"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200220_172216\\AUDIENCE\\Data Source\\20200220_172216\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="dbServerInfo" value="MySQL 5.7.22-log"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="16764dba76d1ae375a681ad05e16f110"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" time="178.083" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:22:37 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin
+
+2020-02-20 17:22:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' successfully
+
+2020-02-20 17:22:40 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin
+
+2020-02-20 17:22:41 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-02-20 17:22:41 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-02-20 17:22:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 17:22:41 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance
+
+2020-02-20 17:22:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-20 17:22:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-20 17:22:42 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-02-20 17:22:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-02-20 17:22:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-20 17:22:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-20 17:22:55 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate"): Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 17:22:57 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-20 17:22:58 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:22:58 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:00 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC"): NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 17:23:01 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+2020-02-20 17:23:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpAdvanceBtn")): NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 17:23:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+2020-02-20 17:23:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("LoginPage/httpsproceedlink")): NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 17:23:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("LoginPage/httpsproceedlink"))
+
+2020-02-20 17:23:01 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10"): Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 17:23:05 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-20 17:23:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:07 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs "): Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 17:23:11 - [MESSAGE][PASSED] - Navigate to 'https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs' successfully
+
+2020-02-20 17:23:11 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:12 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:14 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 17:23:17 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0' successfully
+
+2020-02-20 17:23:17 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:17 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:21 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 17:23:26 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/' successfully
+
+2020-02-20 17:23:26 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-20 17:23:26 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-20 17:23:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-20 17:23:30 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 17:23:44 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-20 17:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-02-20 17:25:23 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-02-20 17:25:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password): Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-02-20 17:25:24 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-02-20 17:25:24 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-02-20 17:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-02-20 17:25:24 - [TEST_STEP][PASSED] - conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(): com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+2020-02-20 17:25:31 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+2020-02-20 17:25:31 - [TEST_STEP][PASSED] - resultValues1 = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(conn, "SELECT * FROM atlas_config.user WHERE email ="" + user_Email + "";"): com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+2020-02-20 17:25:32 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+2020-02-20 17:25:32 - [TEST_STEP][PASSED] - println(com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id")): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 17:25:32 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 17:25:32 - [TEST_STEP][PASSED] - user_id = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id"): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 17:25:32 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - println("User ID Variable value is : " + user_id): null
+
+2020-02-20 17:25:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' successfully
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:25:33 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count" time="10.314" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:25:35 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count
+
+2020-02-20 17:25:36 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:25:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:25:36 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Object: 'Object Repository/AUDIENCE/Data Source/total_count' is clicked on
+
+2020-02-20 17:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/total_count' is clicked on
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(17)'
+
+2020-02-20 17:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(17)'
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - println(totalText): null
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - total = Integer.parseInt(replace(")", "").trim()): null
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - while (total != pageValueCount): null
+
+2020-02-20 17:25:41 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:25:42 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '17' and expected object '17' are equal
+
+2020-02-20 17:25:43 - [MESSAGE][PASSED] - Actual object '17' and expected object '17' are equal
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:25:43 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:25:44 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount" time="20.011" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:25:46 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount: Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount
+
+2020-02-20 17:25:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:25:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:25:46 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/filter")): Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-02-20 17:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-02-20 17:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/active")): Object: 'Object Repository/AUDIENCE/Data Source/active' is clicked on
+
+2020-02-20 17:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/active' is clicked on
+
+2020-02-20 17:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn")): Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-02-20 17:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-02-20 17:25:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 17:25:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 17:25:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AUDIENCE/Data Source/active_text_filtered"), "Active"): Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/active_text_filtered' are matched.
+
+2020-02-20 17:25:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/active_text_filtered' are matched.
+
+2020-02-20 17:25:56 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count")): Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '13 Results Matching'
+
+2020-02-20 17:25:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '13 Results Matching'
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - total = Integer.parseInt(split(" ")[0].trim()): null
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - while (total != pageValueCount): null
+
+2020-02-20 17:25:57 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:25:58 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:25:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:01 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 17:26:01 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '13' and expected object '13' are equal
+
+2020-02-20 17:26:01 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-02-20 17:26:01 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/active_close_icon")): Object: 'Object Repository/AUDIENCE/Data Source/active_close_icon' is clicked on
+
+2020-02-20 17:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/active_close_icon' is clicked on
+
+2020-02-20 17:26:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AUDIENCE/Data Source/active_text_filtered"), 0): Web element with id: 'Object Repository/AUDIENCE/Data Source/active_text_filtered' located by 'By.xpath: //*/text()[normalize-space(.)='active']/parent::*' is not present after '230' second(s)
+
+2020-02-20 17:26:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AUDIENCE/Data Source/active_text_filtered' located by 'By.xpath: //*/text()[normalize-space(.)='active']/parent::*' is not present after '230' second(s)
+
+2020-02-20 17:26:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:26:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:26:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:04 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:04 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount" time="17.401" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:26:06 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount: Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount
+
+2020-02-20 17:26:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:06 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/filter")): Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-02-20 17:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-02-20 17:26:11 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/archived")): Object: 'Object Repository/AUDIENCE/Data Source/archived' is clicked on
+
+2020-02-20 17:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/archived' is clicked on
+
+2020-02-20 17:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn")): Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-02-20 17:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-02-20 17:26:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 17:26:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 17:26:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AUDIENCE/Data Source/archive_text_filtered"), "Archive"): Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' are matched.
+
+2020-02-20 17:26:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' are matched.
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count")): Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '4 Results Matching'
+
+2020-02-20 17:26:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '4 Results Matching'
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - total = Integer.parseInt(split(" ")[0].trim()): null
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '4' and expected object '4' are equal
+
+2020-02-20 17:26:16 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2020-02-20 17:26:16 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/archive_close_icon")): Object: 'Object Repository/AUDIENCE/Data Source/archive_close_icon' is clicked on
+
+2020-02-20 17:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/archive_close_icon' is clicked on
+
+2020-02-20 17:26:17 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AUDIENCE/Data Source/archive_text_filtered"), 0): Web element with id: 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' located by 'By.xpath: //*/text()[normalize-space(.)='archive']/parent::*' is not present after '230' second(s)
+
+2020-02-20 17:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' located by 'By.xpath: //*/text()[normalize-space(.)='archive']/parent::*' is not present after '230' second(s)
+
+2020-02-20 17:26:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:26:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:26:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:21 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:21 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count" time="12.652" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:26:23 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count
+
+2020-02-20 17:26:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:24 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Test" + ENTER): Text 'ENTER + Test' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-02-20 17:26:27 - [MESSAGE][PASSED] - Text 'ENTER + Test' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-02-20 17:26:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 17:26:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 17:26:30 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 14 Datasource(s)'
+
+2020-02-20 17:26:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 14 Datasource(s)'
+
+2020-02-20 17:26:31 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-02-20 17:26:31 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:31 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 17:26:31 - [TEST_STEP][PASSED] - if (resultfound_count > 10): null
+
+2020-02-20 17:26:32 - [TEST_STEP][PASSED] - while (resultfound_count != pageValueCount): null
+
+2020-02-20 17:26:32 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Roles_page/Pagination/front_navigation")): Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 17:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Roles_page/Pagination/front_navigation' is clicked on
+
+2020-02-20 17:26:32 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:33 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 17:26:33 - [TEST_STEP][PASSED] - println(pageValueCount): null
+
+2020-02-20 17:26:33 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, pageValueCount): Actual object '14' and expected object '14' are equal
+
+2020-02-20 17:26:33 - [MESSAGE][PASSED] - Actual object '14' and expected object '14' are equal
+
+2020-02-20 17:26:33 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 17:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 17:26:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:26:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:26:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:34 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:34 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count" time="10.564" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:26:36 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count
+
+2020-02-20 17:26:36 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:36 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Sameee" + ENTER): Text 'ENTER + Sameee' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-02-20 17:26:39 - [MESSAGE][PASSED] - Text 'ENTER + Sameee' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-02-20 17:26:39 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Datasource(s)'
+
+2020-02-20 17:26:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Datasource(s)'
+
+2020-02-20 17:26:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 17:26:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 17:26:43 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-02-20 17:26:43 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, 0): Actual object '0' and expected object '0' are equal
+
+2020-02-20 17:26:44 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 17:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:26:44 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_006_Verify_View_Customers_Count_And_Values" time="20.384" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_006_Verify_View_Customers_Count_And_Values" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:26:46 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_006_Verify_View_Customers_Count_And_Values: Test Cases/Atlas Platform/Data Management/Data Listing/TC_006_Verify_View_Customers_Count_And_Values
+
+2020-02-20 17:26:47 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:47 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-02-20 17:26:47 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-02-20 17:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-02-20 17:26:49 - [TEST_STEP][PASSED] - countText = getText(findTestObject("AUDIENCE/Data Source/source_first_count")): Text of object 'Object Repository/AUDIENCE/Data Source/source_first_count' is: '11'
+
+2020-02-20 17:26:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/source_first_count' is: '11'
+
+2020-02-20 17:26:50 - [TEST_STEP][PASSED] - count = Integer.parseInt(countText): null
+
+2020-02-20 17:26:50 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/source_first_humbuger")): Object: 'Object Repository/AUDIENCE/Data Source/source_first_humbuger' is clicked on
+
+2020-02-20 17:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/source_first_humbuger' is clicked on
+
+2020-02-20 17:26:50 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/viewconsumers")): Object: 'Object Repository/AUDIENCE/Data Source/viewconsumers' is clicked on
+
+2020-02-20 17:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/viewconsumers' is clicked on
+
+2020-02-20 17:26:51 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("AUDIENCE/View Consumers/total_value")): Text of object 'Object Repository/AUDIENCE/View Consumers/total_value' is: '(11)'
+
+2020-02-20 17:26:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/View Consumers/total_value' is: '(11)'
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - total = Integer.parseInt(replace(")", "").trim()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - verifyEqual(count, total, CONTINUE_ON_FAILURE): Actual object '11' and expected object '11' are equal
+
+2020-02-20 17:26:55 - [MESSAGE][PASSED] - Actual object '11' and expected object '11' are equal
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/View Consumers/all_consumer_first_name"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list = new java.util.ArrayList(): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-02-20 17:26:55 - [TEST_STEP][PASSED] - while (total != pageValueCount): null
+
+2020-02-20 17:26:56 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-02-20 17:26:56 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/View Consumers/all_consumer_first_name"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-02-20 17:26:59 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-02-20 17:27:00 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-02-20 17:27:00 - [TEST_STEP][PASSED] - first_name_list.add(ele.getText()): null
+
+2020-02-20 17:27:00 - [TEST_STEP][PASSED] - rowNo = findTestData("View Consumers Test Data").getRowNumbers(): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel = new java.util.ArrayList(): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - for ([i = 0, i < rowNo, (i++)]): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:03 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - text = findTestData("View Consumers Test Data").getValue("Consumer First Name", i + 1): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - firstname_from_excel.add(text): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '11' and expected object '11' are equal
+
+2020-02-20 17:27:04 - [MESSAGE][PASSED] - Actual object '11' and expected object '11' are equal
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(first_name_list): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - Collections.sort(first_name_list): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - Collections.sort(firstname_from_excel): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - verifyEqual(first_name_list, firstname_from_excel): Actual object '[Anabelle, Chandra, Cristina, Doug, Fletcher, Jake, Jake, Jake the Snake, Randy, Renee, Ted]' and expected object '[Anabelle, Chandra, Cristina, Doug, Fletcher, Jake, Jake, Jake the Snake, Randy, Renee, Ted]' are equal
+
+2020-02-20 17:27:04 - [MESSAGE][PASSED] - Actual object '[Anabelle, Chandra, Cristina, Doug, Fletcher, Jake, Jake, Jake the Snake, Randy, Renee, Ted]' and expected object '[Anabelle, Chandra, Cristina, Doug, Fletcher, Jake, Jake, Jake the Snake, Randy, Renee, Ted]' are equal
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:27:04 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" time="3.912" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:27:07 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser
+
+2020-02-20 17:27:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-20 17:27:08 - [MESSAGE][PASSED] - Browser is closed
+
+2020-02-20 17:27:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-20 17:27:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-20 17:27:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:27:08 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-20 17:27:08 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-20 17:22:36 - [TEST_SUITE][PASSED] - Data Source: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

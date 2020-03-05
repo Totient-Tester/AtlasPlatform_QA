@@ -1,0 +1,44 @@
+1
+00:00:00,002 --> 00:00:00,002
+1. openBrowser("")
+
+2
+00:00:00,005 --> 00:00:00,005
+5. navigateToUrl(URL)
+
+3
+00:00:00,014 --> 00:00:00,014
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+4
+00:00:00,060 --> 00:00:00,060
+13. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+5
+00:00:00,144 --> 00:00:00,145
+17. click(findTestObject("Login_Page/Page_/Log In button"))
+
+6
+00:00:00,203 --> 00:00:00,203
+21. dashboard_act_title = getWindowTitle()
+
+7
+00:00:00,246 --> 00:00:00,246
+25. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+8
+00:00:00,258 --> 00:00:00,258
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:00,264 --> 00:00:00,265
+5. println(testCaseContext.getTestCaseStatus())
+
+10
+00:00:00,272 --> 00:00:00,272
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+11
+00:00:00,278 --> 00:00:00,279
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

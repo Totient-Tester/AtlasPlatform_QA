@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-05_Validate_Login_Feature_Valid_Email-InValid_Pw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec7a9944-c061-449b-821e-a296cbdcaed7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 65)</defaultValue>
+      <description></description>
+      <id>74788c3b-8c36-42f1-9ae7-243766869c89</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 65)</defaultValue>
+      <description></description>
+      <id>cffb1e96-991d-4b4f-b305-8580fd179bdd</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>466c41e7-b4ec-4134-a4e9-33fd2b82b1f4</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

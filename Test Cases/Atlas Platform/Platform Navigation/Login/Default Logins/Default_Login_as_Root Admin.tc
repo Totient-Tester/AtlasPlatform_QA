@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Default_Login_as_Root Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c300c35e-506c-4002-8728-b24ee880176f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>038687bc-afff-442e-9ec7-90aeef4bee2a</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>10a8eaf4-931c-4561-940f-451418fc29e4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2b3b9c3-978c-4d7b-a080-fce100b00a2d</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

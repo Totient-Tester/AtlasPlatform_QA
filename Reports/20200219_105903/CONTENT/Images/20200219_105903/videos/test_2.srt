@@ -1,0 +1,8 @@
+1
+00:00:00,553 --> 00:00:00,554
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,564 --> 00:00:00,565
+5. click(findTestObject("HeaderMenus/contentmeu"))
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT-03_Verify_AMP_Logo_in_Organization_Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b59c92ad-03cf-49dd-95f6-6b64a2eaed20</testCaseGuid>
+   <variable>
+      <defaultValue>'http://dqfn4clx0bazt.cloudfront.net/init/380bfcf899971f7d559215551dc6c715.svg'</defaultValue>
+      <description></description>
+      <id>804861e5-3d48-4693-80b8-61535d0cd2a2</id>
+      <masked>false</masked>
+      <name>AMP_url</name>
+   </variable>
+</TestCaseEntity>

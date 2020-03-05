@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwitcherTestSuite" time="42.429" tests="4" failures="1" errors="0">
+   <testsuite name="SwitcherTestSuite" tests="4" failures="1" errors="0" time="42.429" timestamp="2020-01-08 15:47:02" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/SwitcherTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647\\1578478655276.png, D:\\TestDataForSampleProject\\test1.jpg, C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647/videos\\test_3.avi"/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="de7cc249d81e9978c64be04161b54ec1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin" time="24.869" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin" status="PASSED">
+         <system-out><![CDATA[2020-01-08 15:47:02 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/OnBoard/Swicther/TC_000_Common_Browser_WithLogin
+
+2020-01-08 15:47:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-08 15:47:04 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-08 15:47:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-08 15:47:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-08 15:47:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-08 15:47:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-08 15:47:14 - [TEST_STEP][PASSED] - navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/"): Navigate to 'http://dqfn4clx0bazt.cloudfront.net/' successfully
+
+2020-01-08 15:47:22 - [MESSAGE][PASSED] - Navigate to 'http://dqfn4clx0bazt.cloudfront.net/' successfully
+
+2020-01-08 15:47:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "jayakumar@totient.co.in"): Text 'jayakumar@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-08 15:47:24 - [MESSAGE][PASSED] - Text 'jayakumar@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-08 15:47:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "dY75oODjl60xa8W7XdEt7g=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-08 15:47:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-08 15:47:24 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-08 15:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-08 15:47:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-08 15:47:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-08 15:47:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-08 15:47:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:25 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:25 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation" time="3.833" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation" status="PASSED">
+         <system-out><![CDATA[2020-01-08 15:47:27 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation: Test Cases/Atlas Platform/OnBoard/Swicther/TC_001_SwictherTextValidation
+
+2020-01-08 15:47:28 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Swicther/swicthermenutext"), 0): Object 'Object Repository/Swicther/swicthermenutext' is present
+
+2020-01-08 15:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-08 15:47:28 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/swicthermenutext' is present
+
+2020-01-08 15:47:28 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Swicther/swicthermenutext"), "margin-right"), "6px"): Actual object '6px' and expected object '6px' are equal
+
+2020-01-08 15:47:29 - [MESSAGE][PASSED] - Get CSS 'margin-right' value on 'Object Repository/Swicther/swicthermenutext' successfully: '6px'.
+
+2020-01-08 15:47:29 - [MESSAGE][PASSED] - Actual object '6px' and expected object '6px' are equal
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Swicther/swicthermenutext"), "font-size"), "12px"): Actual object '12px' and expected object '12px' are equal
+
+2020-01-08 15:47:29 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Swicther/swicthermenutext' successfully: '12px'.
+
+2020-01-08 15:47:29 - [MESSAGE][PASSED] - Actual object '12px' and expected object '12px' are equal
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:29 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes" time="8.475" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	... 23 more
+"/>
+         <system-out><![CDATA[2020-01-08 15:47:31 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes: Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	... 23 more
+
+
+2020-01-08 15:47:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-08 15:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-08 15:47:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/root_tab_swicther"), "Root"): Actual text and expected text of test object 'Object Repository/Swicther/root_tab_swicther' are matched.
+
+2020-01-08 15:47:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/root_tab_swicther' are matched.
+
+2020-01-08 15:47:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/accounts_tab_swicther"), "Accounts"): Actual text and expected text of test object 'Object Repository/Swicther/accounts_tab_swicther' are matched.
+
+2020-01-08 15:47:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/accounts_tab_swicther' are matched.
+
+2020-01-08 15:47:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/organization_tab_swicther"), "Organizations"): Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-08 15:47:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/organization_tab_swicther' are matched.
+
+2020-01-08 15:47:34 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Swicther/favorites_tabs_swicther"), "Favorites"): Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+
+2020-01-08 15:47:35 - [MESSAGE][FAILED] - Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647\\1578478655276.png]]
+
+2020-01-08 15:47:35 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Swicther/search_in_swicther"), 0): Object 'Object Repository/Swicther/search_in_swicther' is present and visible in viewport
+
+2020-01-08 15:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-08 15:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/search_in_swicther' is present and visible in viewport
+
+2020-01-08 15:47:36 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Swicther/closeIcon"), 0): Object 'Object Repository/Swicther/closeIcon' is present and visible in viewport
+
+2020-01-08 15:47:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-08 15:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Swicther/closeIcon' is present and visible in viewport
+
+2020-01-08 15:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-08 15:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-08 15:47:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2020-01-08 15:47:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-08 15:47:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:37 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:37 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): Taking screenshot successfully
+
+2020-01-08 15:47:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\TestDataForSampleProject\\test1.jpg]]
+
+2020-01-08 15:47:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes' .
+
+2020-01-08 15:47:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes' .
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200108_154647\\SwitcherTestSuite\\20200108_154647/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[2020-01-08 15:47:31 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes: Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday" time="4.723" classname="Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday" status="PASSED">
+         <system-out><![CDATA[2020-01-08 15:47:40 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday: Test Cases/Atlas Platform/OnBoard/Swicther/TC_003_VerifyLastVisitYesterday
+
+2020-01-08 15:47:40 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2020-01-08 15:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/swicthermenutext")): Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-08 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/swicthermenutext' is clicked on
+
+2020-01-08 15:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/accounts_tab_swicther")): Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-08 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/accounts_tab_swicther' is clicked on
+
+2020-01-08 15:47:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Swicther/FirstLastViewedTextForAccounts"), "Last Visited Today"): Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForAccounts' are matched.
+
+2020-01-08 15:47:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Swicther/FirstLastViewedTextForAccounts' are matched.
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Swicther/closeIcon")): Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-08 15:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Swicther/closeIcon' is clicked on
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-08 15:47:42 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-08 15:47:02 - [TEST_SUITE][FAILED] - SwitcherTestSuite: Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2020-01-08 15:47:02 - [TEST_SUITE][FAILED] - SwitcherTestSuite: Test Cases/Atlas Platform/OnBoard/Swicther/TC_002_ChecksSwictherMenuAttributes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC_002_ChecksSwictherMenuAttributes.run(TC_002_ChecksSwictherMenuAttributes:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578478612492.run(TempTestSuite1578478612492.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'favorites' and expected text 'Favorites' of test object 'Object Repository/Swicther/favorites_tabs_swicther' are NOT matched.
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,64 @@
+1
+00:00:00,390 --> 00:00:00,398
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,599 --> 00:00:01,601
+1. openBrowser("")
+
+3
+00:00:01,638 --> 00:00:01,643
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:02,244 --> 00:00:02,249
+1. openBrowser("")
+
+5
+00:00:20,765 --> 00:00:20,766
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:22,425 --> 00:00:22,427
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:01:02,316 --> 00:01:02,317
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:01:02,431 --> 00:01:02,433
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:01:02,475 --> 00:01:02,476
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:01:02,600 --> 00:01:02,602
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:01:02,726 --> 00:01:02,727
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:01:02,776 --> 00:01:02,777
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:01:02,878 --> 00:01:02,882
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:01:02,973 --> 00:01:02,974
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:01:03,005 --> 00:01:03,006
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:01:03,091 --> 00:01:03,092
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+

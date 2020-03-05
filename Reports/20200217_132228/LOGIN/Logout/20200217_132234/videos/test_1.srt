@@ -1,0 +1,32 @@
+1
+00:00:00,444 --> 00:00:00,453
+1. click(findTestObject("Logout/My Account"))
+
+2
+00:00:01,235 --> 00:00:01,241
+5. click(findTestObject("Logout/li_Log Out"))
+
+3
+00:00:01,436 --> 00:00:01,439
+9. actURL = getUrl()
+
+4
+00:00:01,540 --> 00:00:01,544
+13. verifyMatch(actURL, "https://atlas-dev.gsm.auto/", false)
+
+5
+00:00:01,713 --> 00:00:01,714
+1. println(testCaseContext.getTestCaseId())
+
+6
+00:00:01,747 --> 00:00:01,752
+5. println(testCaseContext.getTestCaseStatus())
+
+7
+00:00:01,767 --> 00:00:01,768
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+8
+00:00:01,778 --> 00:00:01,780
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

@@ -1,0 +1,40 @@
+1
+00:00:00,422 --> 00:00:00,423
+1. openBrowser("")
+
+2
+00:00:00,434 --> 00:00:00,435
+5. navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/")
+
+3
+00:00:00,458 --> 00:00:00,460
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+4
+00:00:00,548 --> 00:00:00,550
+13. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+5
+00:00:00,664 --> 00:00:00,665
+17. click(findTestObject("Login_Page/Page_/Log In button"))
+
+6
+00:00:00,759 --> 00:00:00,760
+21. verifyElementPresent(findTestObject("Login_Page/Page_/div_Invalid Email Format"), 30)
+
+7
+00:00:00,897 --> 00:00:00,897
+1. println(testCaseContext.getTestCaseId())
+
+8
+00:00:00,906 --> 00:00:00,907
+5. println(testCaseContext.getTestCaseStatus())
+
+9
+00:00:00,916 --> 00:00:00,916
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+10
+00:00:00,925 --> 00:00:00,926
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

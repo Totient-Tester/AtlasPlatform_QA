@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Roles_Search_Suggestionns</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fce6bc51-63d4-485f-a7ff-4bbfb8924314</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7e444448-7abd-465a-93c8-4022bdeb6029</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>73f962bc-3494-4084-88bf-a22239315f10</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b67f0aa1-cb87-499d-a38b-9f83b7439cf5</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Super'</defaultValue>
+      <description></description>
+      <id>f7fed8d5-50fe-4699-bd6d-02a9bdd6c42d</id>
+      <masked>false</masked>
+      <name>search_string</name>
+   </variable>
+</TestCaseEntity>

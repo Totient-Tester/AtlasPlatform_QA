@@ -1,0 +1,84 @@
+1
+00:00:00,608 --> 00:00:00,619
+1. openBrowser("")
+
+2
+00:00:00,645 --> 00:00:00,648
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+3
+00:00:01,497 --> 00:00:01,505
+1. openBrowser("")
+
+4
+00:00:10,612 --> 00:00:10,614
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+5
+00:00:11,894 --> 00:00:11,896
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+6
+00:00:26,044 --> 00:00:26,046
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+7
+00:00:26,158 --> 00:00:26,161
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+8
+00:00:26,202 --> 00:00:26,203
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+9
+00:00:26,343 --> 00:00:26,344
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+10
+00:00:26,446 --> 00:00:26,447
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+11
+00:00:26,479 --> 00:00:26,481
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+12
+00:00:26,603 --> 00:00:26,605
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+13
+00:00:26,715 --> 00:00:26,716
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+14
+00:00:26,746 --> 00:00:26,747
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+15
+00:00:26,839 --> 00:00:26,840
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+16
+00:00:26,955 --> 00:00:26,958
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+17
+00:00:26,988 --> 00:00:26,990
+13. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+18
+00:00:27,158 --> 00:00:27,160
+17. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+19
+00:00:27,276 --> 00:00:27,277
+21. click(findTestObject("Login_Page/Page_/Log In button"))
+
+20
+00:00:27,371 --> 00:00:27,372
+25. dashboard_act_title = getWindowTitle()
+
+21
+00:00:27,406 --> 00:00:27,407
+29. verifyEqual(dashboard_act_title, dashboard_exp_title)
+

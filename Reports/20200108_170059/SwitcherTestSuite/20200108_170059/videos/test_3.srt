@@ -1,0 +1,52 @@
+1
+00:00:00,272 --> 00:00:00,273
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,280 --> 00:00:00,282
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,954 --> 00:00:00,955
+9. verifyElementText(findTestObject("Swicther/root_tab_swicther"), "Root")
+
+4
+00:00:01,544 --> 00:00:01,545
+13. verifyElementText(findTestObject("Swicther/accounts_tab_swicther"), "Accounts")
+
+5
+00:00:01,912 --> 00:00:01,913
+17. verifyElementText(findTestObject("Swicther/organization_tab_swicther"), "Organizations")
+
+6
+00:00:02,305 --> 00:00:02,306
+21. verifyElementText(findTestObject("Swicther/favorites_tabs_swicther"), "Favorites")
+
+7
+00:00:03,371 --> 00:00:03,373
+25. verifyElementInViewport(findTestObject("Swicther/search_in_swicther"), 0)
+
+8
+00:00:03,853 --> 00:00:03,854
+29. verifyElementInViewport(findTestObject("Swicther/closeIcon"), 0)
+
+9
+00:00:04,279 --> 00:00:04,280
+33. click(findTestObject("Swicther/closeIcon"))
+
+10
+00:00:04,694 --> 00:00:04,695
+1. println(testCaseContext.getTestCaseId())
+
+11
+00:00:04,711 --> 00:00:04,712
+5. println(testCaseContext.getTestCaseStatus())
+
+12
+00:00:04,725 --> 00:00:04,725
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+13
+00:00:04,735 --> 00:00:04,735
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

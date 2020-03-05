@@ -1,0 +1,32 @@
+1
+00:00:00,522 --> 00:00:00,525
+1. runFeatureFile("Include/features/ZEP-5.feature")
+
+2
+00:00:00,543 --> 00:00:00,545
+5. openBrowser("")
+
+3
+00:00:07,535 --> 00:00:07,536
+9. navigateToUrl("https://google.com")
+
+4
+00:00:09,981 --> 00:00:09,982
+13. verifyEqual("Jaky", "Yatheesh")
+
+5
+00:00:10,130 --> 00:00:10,131
+1. println(testCaseContext.getTestCaseId())
+
+6
+00:00:10,190 --> 00:00:10,191
+5. println(testCaseContext.getTestCaseStatus())
+
+7
+00:00:10,223 --> 00:00:10,226
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+8
+00:00:10,246 --> 00:00:10,247
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

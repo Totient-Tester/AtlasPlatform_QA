@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InValid Pasword_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffa00149-bc5d-4243-a91d-3ff84a298b69</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 40)</defaultValue>
+      <description></description>
+      <id>87a1705d-bfaa-4414-a832-e4d39b0964e7</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 40)</defaultValue>
+      <description></description>
+      <id>6f7b3bb8-9f36-49d3-b444-29f2b74f9fcd</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

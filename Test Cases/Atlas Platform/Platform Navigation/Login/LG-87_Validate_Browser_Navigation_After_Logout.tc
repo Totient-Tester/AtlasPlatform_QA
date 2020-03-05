@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-87_Validate_Browser_Navigation_After_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a90e83b9-00ad-4330-a639-989bb4207b57</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>492114af-afca-4fb5-a17d-d0a15e5c9a50</id>
+      <masked>false</masked>
+      <name>DASHBOARD</name>
+   </variable>
+</TestCaseEntity>

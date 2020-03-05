@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-17_Validate_Browser_Navigation_for_Login_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1289bb82-4dea-4b45-90ea-c9d07500fa16</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cb31ba9-861b-4f41-928a-451f9b47c6f2</id>
+      <masked>false</masked>
+      <name>DASHBOARD</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,52 @@
+1
+00:00:00,456 --> 00:00:00,469
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:01,500 --> 00:00:01,502
+1. openBrowser("")
+
+3
+00:00:10,770 --> 00:00:10,771
+5. navigateToUrl("https://atlas-dev.gsm.auto/dashboard")
+
+4
+00:00:17,879 --> 00:00:17,881
+9. setText(findTestObject("ROLES/Role_Navigation/input_Email Address_form-control"), "uday@totient.co.in")
+
+5
+00:00:19,038 --> 00:00:19,042
+13. setText(findTestObject("ROLES/Role_Navigation/input_Password_form-control"), "Totient@123")
+
+6
+00:00:19,853 --> 00:00:19,854
+17. click(findTestObject("ROLES/Role_Navigation/button_Log In"))
+
+7
+00:00:20,418 --> 00:00:20,419
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+8
+00:06:20,008 --> 00:06:20,011
+9. click(findTestObject("ROLES/Roles_page/Create Role_button"))
+
+9
+00:07:13,217 --> 00:07:13,219
+13. sendKeys(findTestObject("ROLES/Create Role/New Role_page/input_Role Name_name"), findTestData("xlsx files/Roles").getValue(3, 1))
+
+10
+00:07:13,364 --> 00:07:13,364
+1. println(testCaseContext.getTestCaseId())
+
+11
+00:07:13,399 --> 00:07:13,402
+5. println(testCaseContext.getTestCaseStatus())
+
+12
+00:07:13,428 --> 00:07:13,429
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+13
+00:07:13,462 --> 00:07:13,466
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

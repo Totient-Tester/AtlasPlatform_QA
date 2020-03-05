@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Default_Login_to_Organinzation_Account_With_Whitelabel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6240ee49-feb8-4120-ae03-a291cf1c85bb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>871b8d69-2924-4fbf-bf5f-a2c4aec2b561</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>1b16ddc7-ddb9-453c-9b0d-c9d5dcd4c3db</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39993adf-982b-4cae-a2f9-10d5665c561c</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

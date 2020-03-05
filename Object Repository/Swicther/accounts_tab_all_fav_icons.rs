@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accounts_tab_all_fav_icons</name>
+   <tag></tag>
+   <elementGuidId>2276a16e-1ea4-4eca-89d0-4af814120847</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='switcherTabs-pane-3']/ul/li/div/div[2]/div/div/*[name()='svg']/*[name()='path']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

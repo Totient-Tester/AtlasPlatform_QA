@@ -1,0 +1,116 @@
+1
+00:00:00,327 --> 00:00:00,328
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,336 --> 00:00:00,336
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,839 --> 00:00:00,839
+9. click(findTestObject("Swicther/accounts_tab_swicther"))
+
+4
+00:00:01,537 --> 00:00:01,539
+13. listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5)
+
+5
+00:00:02,287 --> 00:00:02,287
+17. listofoptioninstring = new java.util.ArrayList()
+
+6
+00:00:02,298 --> 00:00:02,299
+21. for (org.openqa.selenium.WebElement ele : listofoptions)
+
+7
+00:00:02,309 --> 00:00:02,309
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+8
+00:00:02,348 --> 00:00:02,349
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+9
+00:00:02,394 --> 00:00:02,395
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+10
+00:00:02,438 --> 00:00:02,438
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+11
+00:00:02,473 --> 00:00:02,474
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+12
+00:00:02,517 --> 00:00:02,518
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+13
+00:00:02,557 --> 00:00:02,558
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+14
+00:00:02,587 --> 00:00:02,587
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+15
+00:00:02,623 --> 00:00:02,624
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+16
+00:00:02,656 --> 00:00:02,657
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+17
+00:00:02,692 --> 00:00:02,693
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+18
+00:00:02,719 --> 00:00:02,719
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+19
+00:00:02,753 --> 00:00:02,754
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+20
+00:00:02,783 --> 00:00:02,784
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+21
+00:00:02,816 --> 00:00:02,817
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+22
+00:00:02,847 --> 00:00:02,848
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+23
+00:00:02,886 --> 00:00:02,887
+25. isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring)
+
+24
+00:00:02,945 --> 00:00:02,946
+31. If custom keyword is written true test case pass.Otherwise fail.
+
+25
+00:00:02,991 --> 00:00:02,993
+35. click(findTestObject("Swicther/closeIcon"))
+
+26
+00:00:03,500 --> 00:00:03,501
+1. println(testCaseContext.getTestCaseId())
+
+27
+00:00:03,509 --> 00:00:03,510
+5. println(testCaseContext.getTestCaseStatus())
+
+28
+00:00:03,521 --> 00:00:03,522
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+29
+00:00:03,533 --> 00:00:03,534
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

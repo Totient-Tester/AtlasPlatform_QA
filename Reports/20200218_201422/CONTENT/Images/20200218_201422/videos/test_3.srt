@@ -1,0 +1,24 @@
+1
+00:00:00,357 --> 00:00:00,358
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,373 --> 00:00:00,375
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+3
+00:00:00,478 --> 00:00:00,479
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+4
+00:00:00,569 --> 00:00:00,570
+13. click(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"))
+
+5
+00:00:00,635 --> 00:00:00,636
+17. setText(findTestObject("CONTENT/Image_Listing/image_search_box"), "image" + ENTER)
+
+6
+00:00:00,776 --> 00:00:00,777
+21. delay(5)
+

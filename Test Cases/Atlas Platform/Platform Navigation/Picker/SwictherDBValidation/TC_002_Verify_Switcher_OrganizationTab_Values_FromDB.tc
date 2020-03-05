@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Verify_Switcher_OrganizationTab_Values_FromDB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b16f04c4-0c0e-417f-8ac7-4558bdb361f0</testCaseGuid>
+</TestCaseEntity>

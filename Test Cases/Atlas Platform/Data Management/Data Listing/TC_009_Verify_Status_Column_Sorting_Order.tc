@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_009_Verify_Status_Column_Sorting_Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e64cb97f-5f85-4191-8cb4-95432d40da30</testCaseGuid>
+</TestCaseEntity>

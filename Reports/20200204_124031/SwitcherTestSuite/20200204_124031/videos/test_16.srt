@@ -1,0 +1,104 @@
+1
+00:00:00,393 --> 00:00:00,394
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,405 --> 00:00:00,406
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,854 --> 00:00:00,855
+9. click(findTestObject("Swicther/organization_tab_swicther"))
+
+4
+00:00:01,410 --> 00:00:01,411
+13. listofoptions = findWebElements(findTestObject("Swicther/organization_tab_all_values"), 5)
+
+5
+00:00:01,703 --> 00:00:01,704
+17. listofoptioninstring = new java.util.ArrayList()
+
+6
+00:00:01,710 --> 00:00:01,711
+21. for (org.openqa.selenium.WebElement ele : listofoptions)
+
+7
+00:00:01,720 --> 00:00:01,721
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+8
+00:00:01,753 --> 00:00:01,754
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+9
+00:00:01,791 --> 00:00:01,791
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+10
+00:00:01,822 --> 00:00:01,822
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+11
+00:00:01,846 --> 00:00:01,846
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+12
+00:00:01,873 --> 00:00:01,874
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+13
+00:00:01,902 --> 00:00:01,902
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+14
+00:00:01,929 --> 00:00:01,929
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+15
+00:00:01,959 --> 00:00:01,959
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+16
+00:00:01,982 --> 00:00:01,983
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+17
+00:00:02,009 --> 00:00:02,010
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+18
+00:00:02,035 --> 00:00:02,036
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+19
+00:00:02,059 --> 00:00:02,060
+1. listofoptioninstring.addAll(split("Last")[0].trim())
+
+20
+00:00:02,090 --> 00:00:02,091
+25. isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring)
+
+21
+00:00:02,099 --> 00:00:02,099
+31. If custom keyword is written true test case pass.Otherwise fail.
+
+22
+00:00:02,108 --> 00:00:02,109
+35. click(findTestObject("Swicther/closeIcon"))
+
+23
+00:00:02,509 --> 00:00:02,509
+1. println(testCaseContext.getTestCaseId())
+
+24
+00:00:02,522 --> 00:00:02,523
+5. println(testCaseContext.getTestCaseStatus())
+
+25
+00:00:02,533 --> 00:00:02,533
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+26
+00:00:02,543 --> 00:00:02,543
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

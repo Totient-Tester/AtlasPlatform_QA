@@ -1,0 +1,312 @@
+1
+00:00:00,730 --> 00:00:00,740
+1. excelfile = getExcelDataWithDefaultSheet(System.getProperty("user.dir") + "\Data Files\xlsx files\AMP.xlsx", "RoleListingPageAttributes", true)
+
+2
+00:00:02,358 --> 00:00:02,361
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+3
+00:00:03,044 --> 00:00:03,046
+1. openBrowser("")
+
+4
+00:00:12,657 --> 00:00:12,658
+5. navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/")
+
+5
+00:00:17,290 --> 00:00:17,292
+9. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "jayakumar@totient.co.in")
+
+6
+00:00:18,937 --> 00:00:18,939
+13. setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "dY75oODjl60xa8W7XdEt7g==")
+
+7
+00:00:19,847 --> 00:00:19,849
+17. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+8
+00:00:20,485 --> 00:00:20,489
+9. verifyElementPresent(findTestObject("HeaderMenus/adminmenu"), 0)
+
+9
+00:00:21,183 --> 00:00:21,184
+13. verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 1))
+
+10
+00:00:22,111 --> 00:00:22,138
+17. verifyMatch(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "font-size"), excelfile.getValue("element_size", 1), true)
+
+11
+00:00:22,650 --> 00:00:22,652
+21. verifyMatch(getText(findTestObject("HeaderMenus/adminmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 1), true)
+
+12
+00:00:23,430 --> 00:00:23,432
+25. verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenuicon"), "d"), excelfile.getValue("icon_value", 1), STOP_ON_FAILURE)
+
+13
+00:00:24,031 --> 00:00:24,034
+29. click(findTestObject("HeaderMenus/audiencemenu"))
+
+14
+00:00:24,556 --> 00:00:24,557
+33. verifyEqual(getCSSValue(findTestObject("HeaderMenus/audiencemenu"), "color"), excelfile.getValue("element_color_in_RGBA", 2))
+
+15
+00:00:24,945 --> 00:00:24,947
+37. verifyMatch(getCSSValue(findTestObject("HeaderMenus/audiencemenu"), "font-size"), excelfile.getValue("element_size", 2), true)
+
+16
+00:00:25,321 --> 00:00:25,324
+41. verifyMatch(getText(findTestObject("HeaderMenus/audiencemenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 2), true)
+
+17
+00:00:25,737 --> 00:00:25,738
+45. verifyEqual(getCSSValue(findTestObject("HeaderMenus/audiencemenuicon"), "d"), excelfile.getValue("icon_value", 2), CONTINUE_ON_FAILURE)
+
+18
+00:00:26,111 --> 00:00:26,112
+49. click(findTestObject("HeaderMenus/contentmeu"))
+
+19
+00:00:26,631 --> 00:00:26,633
+53. verifyEqual(getCSSValue(findTestObject("HeaderMenus/contentmeu"), "color"), excelfile.getValue("element_color_in_RGBA", 3))
+
+20
+00:00:27,376 --> 00:00:27,377
+57. verifyMatch(getCSSValue(findTestObject("HeaderMenus/contentmeu"), "font-size"), excelfile.getValue("element_size", 3), true)
+
+21
+00:00:27,946 --> 00:00:27,947
+61. verifyMatch(getText(findTestObject("HeaderMenus/contentmeu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 3), true)
+
+22
+00:00:28,450 --> 00:00:28,451
+65. verifyEqual(getCSSValue(findTestObject("HeaderMenus/contentmenuicon"), "d"), excelfile.getValue("icon_value", 3), CONTINUE_ON_FAILURE)
+
+23
+00:00:28,863 --> 00:00:28,864
+69. click(findTestObject("HeaderMenus/messagingmenu"))
+
+24
+00:00:29,348 --> 00:00:29,349
+73. verifyEqual(getCSSValue(findTestObject("HeaderMenus/messagingmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 4))
+
+25
+00:00:30,676 --> 00:00:30,677
+77. verifyMatch(getCSSValue(findTestObject("HeaderMenus/messagingmenu"), "font-size"), excelfile.getValue("element_size", 4), true)
+
+26
+00:00:31,061 --> 00:00:31,062
+81. verifyMatch(getText(findTestObject("HeaderMenus/messagingmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 4), true)
+
+27
+00:00:31,419 --> 00:00:31,420
+85. verifyEqual(getCSSValue(findTestObject("HeaderMenus/messagingmenuicon"), "d"), excelfile.getValue("icon_value", 4), CONTINUE_ON_FAILURE)
+
+28
+00:00:31,774 --> 00:00:31,776
+89. click(findTestObject("HeaderMenus/reportingmenu"))
+
+29
+00:00:32,260 --> 00:00:32,261
+93. verifyEqual(getCSSValue(findTestObject("HeaderMenus/reportingmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 5))
+
+30
+00:00:32,807 --> 00:00:32,808
+97. verifyMatch(getCSSValue(findTestObject("HeaderMenus/reportingmenu"), "font-size"), excelfile.getValue("element_size", 5), true)
+
+31
+00:00:33,175 --> 00:00:33,176
+101. verifyMatch(getText(findTestObject("HeaderMenus/reportingmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 5), true)
+
+32
+00:00:33,727 --> 00:00:33,728
+105. verifyEqual(getCSSValue(findTestObject("HeaderMenus/reportingmenuicon"), "d"), excelfile.getValue("icon_value", 5), STOP_ON_FAILURE)
+
+33
+00:00:34,117 --> 00:00:34,118
+109. click(findTestObject("HeaderMenus/adminmenu"))
+
+34
+00:00:34,570 --> 00:00:34,571
+113. verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 6))
+
+35
+00:00:35,710 --> 00:00:35,710
+117. verifyMatch(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "font-size"), excelfile.getValue("element_size", 6), true)
+
+36
+00:00:36,063 --> 00:00:36,064
+121. verifyMatch(getText(findTestObject("HeaderMenus/adminmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 6), true)
+
+37
+00:00:36,426 --> 00:00:36,428
+125. verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenuicon"), "d"), excelfile.getValue("icon_value", 6), STOP_ON_FAILURE)
+
+38
+00:00:36,792 --> 00:00:36,793
+129. click(findTestObject("Object Repository/LoginPage/organizationssubmenu"))
+
+39
+00:00:37,289 --> 00:00:37,290
+133. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/organizationssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 7))
+
+40
+00:00:37,699 --> 00:00:37,701
+137. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/organizationssubmenu"), "font-size"), excelfile.getValue("element_size", 7), true)
+
+41
+00:00:38,045 --> 00:00:38,046
+141. verifyMatch(getText(findTestObject("Object Repository/LoginPage/organizationssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 7), true)
+
+42
+00:00:38,403 --> 00:00:38,404
+145. click(findTestObject("Object Repository/LoginPage/accountssubmenu"))
+
+43
+00:00:39,064 --> 00:00:39,065
+149. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/accountssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 8))
+
+44
+00:00:39,603 --> 00:00:39,604
+153. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/accountssubmenu"), "font-size"), excelfile.getValue("element_size", 8), true)
+
+45
+00:00:39,976 --> 00:00:39,977
+157. verifyMatch(getText(findTestObject("Object Repository/LoginPage/accountssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 8), true)
+
+46
+00:00:40,326 --> 00:00:40,327
+161. click(findTestObject("Object Repository/LoginPage/usersubmenu"))
+
+47
+00:00:40,880 --> 00:00:40,881
+165. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/usersubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 9))
+
+48
+00:00:41,398 --> 00:00:41,399
+169. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/usersubmenu"), "font-size"), excelfile.getValue("element_size", 9), true)
+
+49
+00:00:41,769 --> 00:00:41,769
+173. verifyMatch(getText(findTestObject("Object Repository/LoginPage/usersubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 9), true)
+
+50
+00:00:42,117 --> 00:00:42,117
+177. click(findTestObject("Object Repository/LoginPage/featuressubmenu"))
+
+51
+00:00:42,595 --> 00:00:42,596
+181. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/featuressubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 10))
+
+52
+00:00:43,081 --> 00:00:43,081
+185. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/featuressubmenu"), "font-size"), excelfile.getValue("element_size", 10), true)
+
+53
+00:00:43,457 --> 00:00:43,458
+189. verifyMatch(getText(findTestObject("Object Repository/LoginPage/featuressubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 10), true)
+
+54
+00:00:43,843 --> 00:00:43,844
+193. click(findTestObject("Object Repository/LoginPage/licensingsubmenu"))
+
+55
+00:00:44,384 --> 00:00:44,385
+197. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/licensingsubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 11))
+
+56
+00:00:44,842 --> 00:00:44,844
+201. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/licensingsubmenu"), "font-size"), excelfile.getValue("element_size", 11), true)
+
+57
+00:00:45,274 --> 00:00:45,275
+205. verifyMatch(getText(findTestObject("Object Repository/LoginPage/licensingsubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 11), true)
+
+58
+00:00:45,606 --> 00:00:45,607
+209. click(findTestObject("Object Repository/LoginPage/programssubmenu"))
+
+59
+00:00:46,104 --> 00:00:46,104
+213. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/programssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 12))
+
+60
+00:00:46,568 --> 00:00:46,568
+217. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/programssubmenu"), "font-size"), excelfile.getValue("element_size", 12), true)
+
+61
+00:00:46,902 --> 00:00:46,903
+221. verifyMatch(getText(findTestObject("Object Repository/LoginPage/programssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 12), true)
+
+62
+00:00:47,235 --> 00:00:47,236
+225. click(findTestObject("Object Repository/LoginPage/affiliationssubmenu"))
+
+63
+00:00:47,692 --> 00:00:47,693
+229. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 13))
+
+64
+00:00:48,408 --> 00:00:48,410
+233. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), "font-size"), excelfile.getValue("element_size", 13), true)
+
+65
+00:00:48,783 --> 00:00:48,784
+237. verifyMatch(getText(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 13), true)
+
+66
+00:00:49,128 --> 00:00:49,130
+241. click(findTestObject("Object Repository/LoginPage/eventssubmenu"))
+
+67
+00:00:49,644 --> 00:00:49,645
+245. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/eventssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 14))
+
+68
+00:00:50,064 --> 00:00:50,064
+249. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/eventssubmenu"), "font-size"), excelfile.getValue("element_size", 14), true)
+
+69
+00:00:50,490 --> 00:00:50,491
+253. verifyMatch(getText(findTestObject("Object Repository/LoginPage/eventssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 14), true)
+
+70
+00:00:50,925 --> 00:00:50,926
+257. click(findTestObject("Object Repository/LoginPage/compliancesubmenu"))
+
+71
+00:00:51,446 --> 00:00:51,447
+261. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/compliancesubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 15))
+
+72
+00:00:51,901 --> 00:00:51,903
+265. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/compliancesubmenu"), "font-size"), excelfile.getValue("element_size", 15), true)
+
+73
+00:00:52,237 --> 00:00:52,238
+269. verifyMatch(getText(findTestObject("Object Repository/LoginPage/compliancesubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 15), true)
+
+74
+00:00:52,558 --> 00:00:52,559
+273. click(findTestObject("Object Repository/LoginPage/rolessubmenu"))
+
+75
+00:00:53,203 --> 00:00:53,204
+277. verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/rolessubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 16))
+
+76
+00:00:54,057 --> 00:00:54,058
+281. verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/rolessubmenu"), "font-size"), excelfile.getValue("element_size", 16), true)
+
+77
+00:00:54,387 --> 00:00:54,388
+285. verifyMatch(getText(findTestObject("Object Repository/LoginPage/rolessubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 16), true)
+
+78
+00:00:54,737 --> 00:00:54,738
+289. click(findTestObject("Object Repository/LoginPage/expandicon"))
+

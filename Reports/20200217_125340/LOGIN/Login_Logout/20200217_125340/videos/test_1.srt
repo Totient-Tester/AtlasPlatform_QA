@@ -1,0 +1,44 @@
+1
+00:00:00,722 --> 00:00:00,731
+1. openBrowser("")
+
+2
+00:00:10,198 --> 00:00:10,201
+5. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+3
+00:00:15,960 --> 00:00:15,962
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+4
+00:00:17,378 --> 00:00:17,380
+13. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+5
+00:00:18,166 --> 00:00:18,167
+17. click(findTestObject("Login_Page/Page_/Log In button"))
+
+6
+00:00:34,007 --> 00:00:34,010
+21. dashboard_act_title = getWindowTitle()
+
+7
+00:00:34,133 --> 00:00:34,134
+25. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+8
+00:00:34,314 --> 00:00:34,315
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:34,471 --> 00:00:34,473
+5. println(testCaseContext.getTestCaseStatus())
+
+10
+00:00:34,502 --> 00:00:34,562
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+11
+00:00:34,661 --> 00:00:34,662
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

@@ -1,0 +1,12 @@
+1
+00:00:00,464 --> 00:00:00,464
+1. openBrowser("")
+
+2
+00:00:06,920 --> 00:00:06,921
+5. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+3
+00:00:18,654 --> 00:00:18,655
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+

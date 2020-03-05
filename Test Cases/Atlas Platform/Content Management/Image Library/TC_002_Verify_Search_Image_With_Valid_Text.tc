@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Verify_Search_Image_With_Valid_Text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fc7d9d3-a5ac-4e66-b7c1-5f101f9a10fb</testCaseGuid>
+</TestCaseEntity>

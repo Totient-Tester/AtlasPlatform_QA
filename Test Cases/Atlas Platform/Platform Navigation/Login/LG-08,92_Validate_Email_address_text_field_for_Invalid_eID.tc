@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-08,92_Validate_Email_address_text_field_for_Invalid_eID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93f80829-73e5-4e79-b6a8-26ba2e8fb245</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 22)</defaultValue>
+      <description></description>
+      <id>0e64ab1a-2e7e-4fb8-a0c1-445e91930d90</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 22)</defaultValue>
+      <description></description>
+      <id>da2d6be7-b1e3-480a-b78b-ff4ddf997f96</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,176 @@
+1
+00:00:00,421 --> 00:00:00,428
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:03,306 --> 00:00:03,308
+1. openBrowser("")
+
+3
+00:00:03,346 --> 00:00:03,355
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:04,237 --> 00:00:04,241
+1. openBrowser("")
+
+5
+00:00:12,571 --> 00:00:12,572
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:16,215 --> 00:00:16,217
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:04:20,761 --> 00:04:20,769
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:08:24,740 --> 00:08:24,741
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:08:25,601 --> 00:08:25,603
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:08:26,036 --> 00:08:26,037
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:08:27,661 --> 00:08:27,662
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:08:31,563 --> 00:08:31,564
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:08:31,810 --> 00:08:31,811
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:08:33,589 --> 00:08:33,591
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:08:37,421 --> 00:08:37,422
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:08:37,688 --> 00:08:37,690
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:08:39,355 --> 00:08:39,356
+53. navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs ")
+
+18
+00:08:43,123 --> 00:08:43,126
+57. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+19
+00:08:43,392 --> 00:08:43,393
+61. click(findTestObject("LoginPage/httpsproceedlink"))
+
+20
+00:08:45,083 --> 00:08:45,085
+65. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0")
+
+21
+00:08:48,827 --> 00:08:48,830
+69. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+22
+00:08:49,129 --> 00:08:49,133
+73. click(findTestObject("LoginPage/httpsproceedlink"))
+
+23
+00:08:50,935 --> 00:08:50,938
+77. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/")
+
+24
+00:08:50,984 --> 00:08:50,987
+81. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+25
+00:08:51,000 --> 00:08:51,001
+85. click(findTestObject("LoginPage/httpsproceedlink"))
+
+26
+00:08:51,065 --> 00:08:51,067
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+27
+00:08:54,888 --> 00:08:54,889
+13. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+28
+00:08:55,962 --> 00:08:55,964
+17. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+29
+00:08:56,663 --> 00:08:56,665
+21. click(findTestObject("Login_Page/Page_/Log In button"))
+
+30
+00:08:57,091 --> 00:08:57,092
+25. dashboard_act_title = getWindowTitle()
+
+31
+00:08:57,143 --> 00:08:57,145
+29. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+32
+00:08:57,218 --> 00:08:57,219
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+33
+00:08:59,309 --> 00:08:59,313
+9. click(findTestObject("ROLES/Roles_page/Create Role_button"))
+
+34
+00:09:01,094 --> 00:09:01,096
+13. ROLENAME1 = findTestData("Roles").getValue(3, 1)
+
+35
+00:09:01,860 --> 00:09:01,873
+17. sendKeys(findTestObject("ROLES/Create Role/New Role_page/input_Role Name_name"), ROLENAME1)
+
+36
+00:09:03,040 --> 00:09:03,041
+21. sendKeys(findTestObject("ROLES/Create Role/New Role_page/textarea_Role Description_description"), findTestData("Roles").getValue(4, 1))
+
+37
+00:09:04,365 --> 00:09:04,366
+25. click(findTestObject("ROLES/Create Role/New Role_page/div_Create"))
+
+38
+00:09:04,977 --> 00:09:04,978
+29. verifyElementPresent(findTestObject("ROLES/Create Role/ConfirmationPopup_created"), 230)
+
+39
+00:09:06,557 --> 00:09:06,558
+33. delay(3)
+
+40
+00:09:09,598 --> 00:09:09,600
+37. verifyElementText(findTestObject("ROLES/Roles_page/1st Role name in grid"), ROLENAME1)
+
+41
+00:09:10,117 --> 00:09:10,118
+1. println(testCaseContext.getTestCaseId())
+
+42
+00:09:10,184 --> 00:09:10,190
+5. println(testCaseContext.getTestCaseStatus())
+
+43
+00:09:10,221 --> 00:09:10,221
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+44
+00:09:10,280 --> 00:09:10,282
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

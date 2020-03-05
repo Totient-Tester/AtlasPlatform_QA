@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-09_Verify_Email_Address_Field_is_Case_Sensitive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90912373-1c00-4eee-9c26-6109f392e966</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>f78a93a2-5a5a-4cb8-8b54-90189b73c9ff</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>cf197158-baa6-4793-ab53-c221cf8b8ee5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11535991-0c9e-4c9e-83e8-e08a6ae9eab8</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

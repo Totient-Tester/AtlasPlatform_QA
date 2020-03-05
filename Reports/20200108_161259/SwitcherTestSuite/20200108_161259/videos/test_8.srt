@@ -1,0 +1,40 @@
+1
+00:00:00,512 --> 00:00:00,513
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,527 --> 00:00:00,528
+5. initiallyselectedtext = getText(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,905 --> 00:00:00,906
+9. click(findTestObject("Swicther/swicthermenutext"))
+
+4
+00:00:01,474 --> 00:00:01,475
+13. click(findTestObject("Swicther/accounts_tab_swicther"))
+
+5
+00:00:02,058 --> 00:00:02,059
+17. selectedtext = getText(findTestObject("Swicther/account_tab_first_values"))
+
+6
+00:00:02,456 --> 00:00:02,457
+21. click(findTestObject("Swicther/account_tab_first_values"))
+
+7
+00:00:02,924 --> 00:00:02,925
+25. verifyNotEqual(initiallyselectedtext, split("Last")[0].trim())
+
+8
+00:00:02,943 --> 00:00:02,944
+29. currentlySelectedText = getText(findTestObject("Swicther/swicthermenutext"))
+
+9
+00:00:03,432 --> 00:00:03,433
+33. verifyEqual(currentlySelectedText.trim(), split("Last")[0].trim())
+
+10
+00:00:03,445 --> 00:00:03,446
+37. click(findTestObject("Swicther/closeIcon"))
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JIRA" time="7.102" tests="1" failures="0" errors="0">
+   <testsuite name="JIRA" tests="1" failures="0" errors="0" time="7.102" timestamp="2020-02-05 12:24:42" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/JIRA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200205_122427\\JIRA\\20200205_122427"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200205_122427\\JIRA\\20200205_122427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/JIRAUpdation" time="6.244" classname="Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/JIRAUpdation" status="PASSED">
+         <system-out><![CDATA[2020-02-05 12:24:42 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/JIRAUpdation: Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/JIRAUpdation
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - verifyEqual("Jaky", "Jaky"): Actual object 'Jaky' and expected object 'Jaky' are equal
+
+2020-02-05 12:24:46 - [MESSAGE][PASSED] - Actual object 'Jaky' and expected object 'Jaky' are equal
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-05 12:24:46 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-05 12:24:42 - [TEST_SUITE][PASSED] - JIRA: Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/JIRAUpdation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

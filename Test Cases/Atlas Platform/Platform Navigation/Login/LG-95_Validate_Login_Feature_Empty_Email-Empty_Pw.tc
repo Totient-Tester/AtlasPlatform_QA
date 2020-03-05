@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG-95_Validate_Login_Feature_Empty_Email-Empty_Pw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a09b348a-6bf1-456f-9396-a0cbde1c4995</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 64)</defaultValue>
+      <description></description>
+      <id>7b1c8a73-0b4a-440f-9de3-c07ca3a8ed71</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 64)</defaultValue>
+      <description></description>
+      <id>facdea44-86e0-4f7a-a035-c0a0121d7e4e</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac473a56-418d-49ff-b8b1-60d5cf0acea4</id>
+      <masked>false</masked>
+      <name>dashboard_exp_title</name>
+   </variable>
+</TestCaseEntity>

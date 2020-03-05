@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify_RoleLising_Page_CSSValue" time="74.752" tests="1" failures="1" errors="0">
+   <testsuite name="Verify_RoleLising_Page_CSSValue" tests="1" failures="1" errors="0" time="74.752" timestamp="2020-01-13 17:10:53" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/ROLES/Verify_RoleLising_Page_CSSValue">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200113_171039\\ROLES\\Verify_RoleLising_Page_CSSValue\\20200113_171039"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200113_171039\\ROLES\\Verify_RoleLising_Page_CSSValue\\20200113_171039\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200113_171039\\ROLES\\Verify_RoleLising_Page_CSSValue\\20200113_171039/videos\\test_1.avi"/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="b465f61d0894e2a9277d81ad845cf143"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues" time="74.203" classname="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'path(&quot;M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z&quot;)' and expected object 'path(&quot;M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z&quot;)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path(&quot;M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z&quot;)' and expected object 'path(&quot;M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z&quot;)' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'path(&quot;M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z&quot;)' and expected object 'path(&quot;M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z&quot;)' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2020-01-13 17:10:53 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2020-01-13 17:10:55 - [TEST_STEP][PASSED] - excelfile = getExcelDataWithDefaultSheet(System.getProperty("user.dir") + "\Data Files\xlsx files\AMP.xlsx", "RoleListingPageAttributes", true): null
+
+2020-01-13 17:10:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-13 17:10:57 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin
+
+2020-01-13 17:10:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-13 17:10:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-13 17:10:58 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-01-13 17:10:58 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-01-13 17:10:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-13 17:11:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-13 17:11:07 - [TEST_STEP][PASSED] - navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/"): Navigate to 'http://dqfn4clx0bazt.cloudfront.net/' successfully
+
+2020-01-13 17:11:10 - [MESSAGE][PASSED] - Navigate to 'http://dqfn4clx0bazt.cloudfront.net/' successfully
+
+2020-01-13 17:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), "jayakumar@totient.co.in"): Text 'jayakumar@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-13 17:11:11 - [MESSAGE][PASSED] - Text 'jayakumar@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-01-13 17:11:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), "dY75oODjl60xa8W7XdEt7g=="): Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-13 17:11:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-01-13 17:11:12 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-13 17:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-01-13 17:11:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/Login/LoginWithRootAdmin' successfully
+
+2020-01-13 17:11:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HeaderMenus/adminmenu"), 0): Object 'Object Repository/HeaderMenus/adminmenu' is present
+
+2020-01-13 17:11:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-01-13 17:11:14 - [MESSAGE][PASSED] - Object 'Object Repository/HeaderMenus/adminmenu' is present
+
+2020-01-13 17:11:14 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 1)): Actual object 'rgba(141, 151, 154, 1)' and expected object 'rgba(141, 151, 154, 1)' are equal
+
+2020-01-13 17:11:15 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/adminmenu' successfully: 'rgba(141, 151, 154, 1)'.
+
+2020-01-13 17:11:15 - [MESSAGE][PASSED] - Actual object 'rgba(141, 151, 154, 1)' and expected object 'rgba(141, 151, 154, 1)' are equal
+
+2020-01-13 17:11:15 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "font-size"), excelfile.getValue("element_size", 1), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:15 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/adminmenu' successfully: '10px'.
+
+2020-01-13 17:11:15 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:15 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/adminmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 1), true): Actual text 'ADMIN' and expected text 'ADMIN' are matched  using regular expression
+
+2020-01-13 17:11:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/adminmenu' is: 'ADMIN'
+
+2020-01-13 17:11:16 - [MESSAGE][PASSED] - Actual text 'ADMIN' and expected text 'ADMIN' are matched  using regular expression
+
+2020-01-13 17:11:16 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenuicon"), "d"), excelfile.getValue("icon_value", 1), STOP_ON_FAILURE): Actual object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' and expected object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' are equal
+
+2020-01-13 17:11:16 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/adminmenuicon' successfully: 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")'.
+
+2020-01-13 17:11:16 - [MESSAGE][PASSED] - Actual object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' and expected object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' are equal
+
+2020-01-13 17:11:16 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-01-13 17:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-01-13 17:11:17 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/audiencemenu"), "color"), excelfile.getValue("element_color_in_RGBA", 2)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:17 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/audiencemenu' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:17 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:17 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/audiencemenu"), "font-size"), excelfile.getValue("element_size", 2), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:18 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/audiencemenu' successfully: '10px'.
+
+2020-01-13 17:11:18 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:18 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/audiencemenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 2), true): Actual text 'AUDIENCE' and expected text 'AUDIENCE' are matched  using regular expression
+
+2020-01-13 17:11:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/audiencemenu' is: 'AUDIENCE'
+
+2020-01-13 17:11:18 - [MESSAGE][PASSED] - Actual text 'AUDIENCE' and expected text 'AUDIENCE' are matched  using regular expression
+
+2020-01-13 17:11:18 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/audiencemenuicon"), "d"), excelfile.getValue("icon_value", 2), CONTINUE_ON_FAILURE): Actual object 'path("M 11.13 8.524 C 11.47 8.254 11.495 7.896 11.27 7.419 A 19.186 19.186 0 0 1 10.46 5.445 A 3.194 3.194 0 0 1 10.414 3.553 C 10.663 2.631 11.37 2.013 12.348 1.883 C 13.057 1.789 13.733 1.859 14.335 2.28 C 15.233 2.908 15.4 3.811 15.295 4.79 C 15.199 5.698 14.858 6.54 14.419 7.344 C 14.044 8.032 14.185 8.469 14.931 8.753 C 15.418 8.938 15.935 9.047 16.438 9.191 C 16.645 9.251 16.859 9.294 17.055 9.377 C 17.435 9.539 17.716 9.797 17.763 10.225 C 17.813 10.675 17.954 11.53 18 12 H 12.72 C 12.7 11.577 12.681 11.265 12.662 11.064 C 12.623 10.651 12.598 10.264 12.569 9.999 C 12.484 9.22 12.052 8.843 11.229 8.562 A 1.79 1.79 0 0 1 11.13 8.524 Z M 0 12 C 0.09 10.737 0.097 10.387 0.298 9.767 C 0.423 9.381 0.743 9.131 1.135 9.012 C 1.693 8.843 2.265 8.719 2.825 8.557 A 6.36 6.36 0 0 0 3.805 8.207 C 4.508 7.87 4.625 7.382 4.297 6.685 A 23.013 23.013 0 0 1 3.324 4.316 A 3.831 3.831 0 0 1 3.269 2.047 C 3.567 0.942 4.416 0.2 5.59 0.044 C 6.44 -0.068 7.251 0.015 7.972 0.52 C 9.049 1.274 9.25 2.357 9.125 3.53 C 9.008 4.62 8.6 5.631 8.074 6.595 C 7.623 7.42 7.793 7.944 8.688 8.285 C 9.271 8.506 9.891 8.637 10.495 8.81 C 10.743 8.881 11 8.933 11.235 9.033 C 11.691 9.227 12.028 9.537 12.084 10.051 C 12.144 10.589 12.171 11.436 12.226 12 H 0 Z")' and expected object 'path("M 11.13 8.524 C 11.47 8.254 11.495 7.896 11.27 7.419 A 19.186 19.186 0 0 1 10.46 5.445 A 3.194 3.194 0 0 1 10.414 3.553 C 10.663 2.631 11.37 2.013 12.348 1.883 C 13.057 1.789 13.733 1.859 14.335 2.28 C 15.233 2.908 15.4 3.811 15.295 4.79 C 15.199 5.698 14.858 6.54 14.419 7.344 C 14.044 8.032 14.185 8.469 14.931 8.753 C 15.418 8.938 15.935 9.047 16.438 9.191 C 16.645 9.251 16.859 9.294 17.055 9.377 C 17.435 9.539 17.716 9.797 17.763 10.225 C 17.813 10.675 17.954 11.53 18 12 H 12.72 C 12.7 11.577 12.681 11.265 12.662 11.064 C 12.623 10.651 12.598 10.264 12.569 9.999 C 12.484 9.22 12.052 8.843 11.229 8.562 A 1.79 1.79 0 0 1 11.13 8.524 Z M 0 12 C 0.09 10.737 0.097 10.387 0.298 9.767 C 0.423 9.381 0.743 9.131 1.135 9.012 C 1.693 8.843 2.265 8.719 2.825 8.557 A 6.36 6.36 0 0 0 3.805 8.207 C 4.508 7.87 4.625 7.382 4.297 6.685 A 23.013 23.013 0 0 1 3.324 4.316 A 3.831 3.831 0 0 1 3.269 2.047 C 3.567 0.942 4.416 0.2 5.59 0.044 C 6.44 -0.068 7.251 0.015 7.972 0.52 C 9.049 1.274 9.25 2.357 9.125 3.53 C 9.008 4.62 8.6 5.631 8.074 6.595 C 7.623 7.42 7.793 7.944 8.688 8.285 C 9.271 8.506 9.891 8.637 10.495 8.81 C 10.743 8.881 11 8.933 11.235 9.033 C 11.691 9.227 12.028 9.537 12.084 10.051 C 12.144 10.589 12.171 11.436 12.226 12 H 0 Z")' are equal
+
+2020-01-13 17:11:19 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/audiencemenuicon' successfully: 'path("M 11.13 8.524 C 11.47 8.254 11.495 7.896 11.27 7.419 A 19.186 19.186 0 0 1 10.46 5.445 A 3.194 3.194 0 0 1 10.414 3.553 C 10.663 2.631 11.37 2.013 12.348 1.883 C 13.057 1.789 13.733 1.859 14.335 2.28 C 15.233 2.908 15.4 3.811 15.295 4.79 C 15.199 5.698 14.858 6.54 14.419 7.344 C 14.044 8.032 14.185 8.469 14.931 8.753 C 15.418 8.938 15.935 9.047 16.438 9.191 C 16.645 9.251 16.859 9.294 17.055 9.377 C 17.435 9.539 17.716 9.797 17.763 10.225 C 17.813 10.675 17.954 11.53 18 12 H 12.72 C 12.7 11.577 12.681 11.265 12.662 11.064 C 12.623 10.651 12.598 10.264 12.569 9.999 C 12.484 9.22 12.052 8.843 11.229 8.562 A 1.79 1.79 0 0 1 11.13 8.524 Z M 0 12 C 0.09 10.737 0.097 10.387 0.298 9.767 C 0.423 9.381 0.743 9.131 1.135 9.012 C 1.693 8.843 2.265 8.719 2.825 8.557 A 6.36 6.36 0 0 0 3.805 8.207 C 4.508 7.87 4.625 7.382 4.297 6.685 A 23.013 23.013 0 0 1 3.324 4.316 A 3.831 3.831 0 0 1 3.269 2.047 C 3.567 0.942 4.416 0.2 5.59 0.044 C 6.44 -0.068 7.251 0.015 7.972 0.52 C 9.049 1.274 9.25 2.357 9.125 3.53 C 9.008 4.62 8.6 5.631 8.074 6.595 C 7.623 7.42 7.793 7.944 8.688 8.285 C 9.271 8.506 9.891 8.637 10.495 8.81 C 10.743 8.881 11 8.933 11.235 9.033 C 11.691 9.227 12.028 9.537 12.084 10.051 C 12.144 10.589 12.171 11.436 12.226 12 H 0 Z")'.
+
+2020-01-13 17:11:19 - [MESSAGE][PASSED] - Actual object 'path("M 11.13 8.524 C 11.47 8.254 11.495 7.896 11.27 7.419 A 19.186 19.186 0 0 1 10.46 5.445 A 3.194 3.194 0 0 1 10.414 3.553 C 10.663 2.631 11.37 2.013 12.348 1.883 C 13.057 1.789 13.733 1.859 14.335 2.28 C 15.233 2.908 15.4 3.811 15.295 4.79 C 15.199 5.698 14.858 6.54 14.419 7.344 C 14.044 8.032 14.185 8.469 14.931 8.753 C 15.418 8.938 15.935 9.047 16.438 9.191 C 16.645 9.251 16.859 9.294 17.055 9.377 C 17.435 9.539 17.716 9.797 17.763 10.225 C 17.813 10.675 17.954 11.53 18 12 H 12.72 C 12.7 11.577 12.681 11.265 12.662 11.064 C 12.623 10.651 12.598 10.264 12.569 9.999 C 12.484 9.22 12.052 8.843 11.229 8.562 A 1.79 1.79 0 0 1 11.13 8.524 Z M 0 12 C 0.09 10.737 0.097 10.387 0.298 9.767 C 0.423 9.381 0.743 9.131 1.135 9.012 C 1.693 8.843 2.265 8.719 2.825 8.557 A 6.36 6.36 0 0 0 3.805 8.207 C 4.508 7.87 4.625 7.382 4.297 6.685 A 23.013 23.013 0 0 1 3.324 4.316 A 3.831 3.831 0 0 1 3.269 2.047 C 3.567 0.942 4.416 0.2 5.59 0.044 C 6.44 -0.068 7.251 0.015 7.972 0.52 C 9.049 1.274 9.25 2.357 9.125 3.53 C 9.008 4.62 8.6 5.631 8.074 6.595 C 7.623 7.42 7.793 7.944 8.688 8.285 C 9.271 8.506 9.891 8.637 10.495 8.81 C 10.743 8.881 11 8.933 11.235 9.033 C 11.691 9.227 12.028 9.537 12.084 10.051 C 12.144 10.589 12.171 11.436 12.226 12 H 0 Z")' and expected object 'path("M 11.13 8.524 C 11.47 8.254 11.495 7.896 11.27 7.419 A 19.186 19.186 0 0 1 10.46 5.445 A 3.194 3.194 0 0 1 10.414 3.553 C 10.663 2.631 11.37 2.013 12.348 1.883 C 13.057 1.789 13.733 1.859 14.335 2.28 C 15.233 2.908 15.4 3.811 15.295 4.79 C 15.199 5.698 14.858 6.54 14.419 7.344 C 14.044 8.032 14.185 8.469 14.931 8.753 C 15.418 8.938 15.935 9.047 16.438 9.191 C 16.645 9.251 16.859 9.294 17.055 9.377 C 17.435 9.539 17.716 9.797 17.763 10.225 C 17.813 10.675 17.954 11.53 18 12 H 12.72 C 12.7 11.577 12.681 11.265 12.662 11.064 C 12.623 10.651 12.598 10.264 12.569 9.999 C 12.484 9.22 12.052 8.843 11.229 8.562 A 1.79 1.79 0 0 1 11.13 8.524 Z M 0 12 C 0.09 10.737 0.097 10.387 0.298 9.767 C 0.423 9.381 0.743 9.131 1.135 9.012 C 1.693 8.843 2.265 8.719 2.825 8.557 A 6.36 6.36 0 0 0 3.805 8.207 C 4.508 7.87 4.625 7.382 4.297 6.685 A 23.013 23.013 0 0 1 3.324 4.316 A 3.831 3.831 0 0 1 3.269 2.047 C 3.567 0.942 4.416 0.2 5.59 0.044 C 6.44 -0.068 7.251 0.015 7.972 0.52 C 9.049 1.274 9.25 2.357 9.125 3.53 C 9.008 4.62 8.6 5.631 8.074 6.595 C 7.623 7.42 7.793 7.944 8.688 8.285 C 9.271 8.506 9.891 8.637 10.495 8.81 C 10.743 8.881 11 8.933 11.235 9.033 C 11.691 9.227 12.028 9.537 12.084 10.051 C 12.144 10.589 12.171 11.436 12.226 12 H 0 Z")' are equal
+
+2020-01-13 17:11:19 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/contentmeu")): Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-01-13 17:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/contentmeu' is clicked on
+
+2020-01-13 17:11:19 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/contentmeu"), "color"), excelfile.getValue("element_color_in_RGBA", 3)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:20 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/contentmeu' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:20 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:20 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/contentmeu"), "font-size"), excelfile.getValue("element_size", 3), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/contentmeu' successfully: '10px'.
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:21 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/contentmeu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 3), true): Actual text 'CONTENT' and expected text 'CONTENT' are matched  using regular expression
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/contentmeu' is: 'CONTENT'
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Actual text 'CONTENT' and expected text 'CONTENT' are matched  using regular expression
+
+2020-01-13 17:11:21 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/contentmenuicon"), "d"), excelfile.getValue("icon_value", 3), CONTINUE_ON_FAILURE): Actual object 'path("M 0 8.833 V 0.5 A 0.5 0.5 0 0 1 0.5 0 H 8.833 A 0.5 0.5 0 0 1 9.333 0.5 V 8.833 A 0.5 0.5 0 0 1 8.833 9.333 H 0.5 A 0.5 0.5 0 0 1 0 8.833 Z M 3.468 11.617 V 10.426 H 9.853 A 0.55 0.55 0 0 0 10.425 9.853 V 3.468 H 11.617 V 11.618 H 3.468 Z M 14 14 H 5.851 V 12.809 H 12.236 A 0.55 0.55 0 0 0 12.808 12.236 V 5.851 H 14 V 14 Z")' and expected object 'path("M 0 8.833 V 0.5 A 0.5 0.5 0 0 1 0.5 0 H 8.833 A 0.5 0.5 0 0 1 9.333 0.5 V 8.833 A 0.5 0.5 0 0 1 8.833 9.333 H 0.5 A 0.5 0.5 0 0 1 0 8.833 Z M 3.468 11.617 V 10.426 H 9.853 A 0.55 0.55 0 0 0 10.425 9.853 V 3.468 H 11.617 V 11.618 H 3.468 Z M 14 14 H 5.851 V 12.809 H 12.236 A 0.55 0.55 0 0 0 12.808 12.236 V 5.851 H 14 V 14 Z")' are equal
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/contentmenuicon' successfully: 'path("M 0 8.833 V 0.5 A 0.5 0.5 0 0 1 0.5 0 H 8.833 A 0.5 0.5 0 0 1 9.333 0.5 V 8.833 A 0.5 0.5 0 0 1 8.833 9.333 H 0.5 A 0.5 0.5 0 0 1 0 8.833 Z M 3.468 11.617 V 10.426 H 9.853 A 0.55 0.55 0 0 0 10.425 9.853 V 3.468 H 11.617 V 11.618 H 3.468 Z M 14 14 H 5.851 V 12.809 H 12.236 A 0.55 0.55 0 0 0 12.808 12.236 V 5.851 H 14 V 14 Z")'.
+
+2020-01-13 17:11:21 - [MESSAGE][PASSED] - Actual object 'path("M 0 8.833 V 0.5 A 0.5 0.5 0 0 1 0.5 0 H 8.833 A 0.5 0.5 0 0 1 9.333 0.5 V 8.833 A 0.5 0.5 0 0 1 8.833 9.333 H 0.5 A 0.5 0.5 0 0 1 0 8.833 Z M 3.468 11.617 V 10.426 H 9.853 A 0.55 0.55 0 0 0 10.425 9.853 V 3.468 H 11.617 V 11.618 H 3.468 Z M 14 14 H 5.851 V 12.809 H 12.236 A 0.55 0.55 0 0 0 12.808 12.236 V 5.851 H 14 V 14 Z")' and expected object 'path("M 0 8.833 V 0.5 A 0.5 0.5 0 0 1 0.5 0 H 8.833 A 0.5 0.5 0 0 1 9.333 0.5 V 8.833 A 0.5 0.5 0 0 1 8.833 9.333 H 0.5 A 0.5 0.5 0 0 1 0 8.833 Z M 3.468 11.617 V 10.426 H 9.853 A 0.55 0.55 0 0 0 10.425 9.853 V 3.468 H 11.617 V 11.618 H 3.468 Z M 14 14 H 5.851 V 12.809 H 12.236 A 0.55 0.55 0 0 0 12.808 12.236 V 5.851 H 14 V 14 Z")' are equal
+
+2020-01-13 17:11:21 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/messagingmenu")): Object: 'Object Repository/HeaderMenus/messagingmenu' is clicked on
+
+2020-01-13 17:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/messagingmenu' is clicked on
+
+2020-01-13 17:11:22 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/messagingmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 4)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:23 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/messagingmenu' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:23 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:23 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/messagingmenu"), "font-size"), excelfile.getValue("element_size", 4), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:24 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/messagingmenu' successfully: '10px'.
+
+2020-01-13 17:11:24 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:24 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/messagingmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 4), true): Actual text 'MESSAGING' and expected text 'MESSAGING' are matched  using regular expression
+
+2020-01-13 17:11:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/messagingmenu' is: 'MESSAGING'
+
+2020-01-13 17:11:24 - [MESSAGE][PASSED] - Actual text 'MESSAGING' and expected text 'MESSAGING' are matched  using regular expression
+
+2020-01-13 17:11:24 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/messagingmenuicon"), "d"), excelfile.getValue("icon_value", 4), CONTINUE_ON_FAILURE): Actual object 'path("M 0.215 10.83 C -0.374 9.51 0.288 7.969 1.686 7.404 L 4.42 6.301 L 6.788 11.608 L 6.518 11.718 L 7.508 13.935 L 4.87 15 L 3.873 12.767 C 2.499 13.216 1.004 12.597 0.443 11.339 L 0.215 10.829 Z M 11.132 0.012 C 11.302 0.052 11.442 0.155 11.509 0.306 L 15.95 10.259 C 15.977 10.319 16.004 10.379 16 10.453 C 16.005 10.719 15.765 10.942 15.485 10.947 L 7.135 11.476 L 4.772 6.15 L 10.664 0.148 A 0.507 0.507 0 0 1 11.132 0.013 Z")' and expected object 'path("M 0.215 10.83 C -0.374 9.51 0.288 7.969 1.686 7.404 L 4.42 6.301 L 6.788 11.608 L 6.518 11.718 L 7.508 13.935 L 4.87 15 L 3.873 12.767 C 2.499 13.216 1.004 12.597 0.443 11.339 L 0.215 10.829 Z M 11.132 0.012 C 11.302 0.052 11.442 0.155 11.509 0.306 L 15.95 10.259 C 15.977 10.319 16.004 10.379 16 10.453 C 16.005 10.719 15.765 10.942 15.485 10.947 L 7.135 11.476 L 4.772 6.15 L 10.664 0.148 A 0.507 0.507 0 0 1 11.132 0.013 Z")' are equal
+
+2020-01-13 17:11:25 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/messagingmenuicon' successfully: 'path("M 0.215 10.83 C -0.374 9.51 0.288 7.969 1.686 7.404 L 4.42 6.301 L 6.788 11.608 L 6.518 11.718 L 7.508 13.935 L 4.87 15 L 3.873 12.767 C 2.499 13.216 1.004 12.597 0.443 11.339 L 0.215 10.829 Z M 11.132 0.012 C 11.302 0.052 11.442 0.155 11.509 0.306 L 15.95 10.259 C 15.977 10.319 16.004 10.379 16 10.453 C 16.005 10.719 15.765 10.942 15.485 10.947 L 7.135 11.476 L 4.772 6.15 L 10.664 0.148 A 0.507 0.507 0 0 1 11.132 0.013 Z")'.
+
+2020-01-13 17:11:25 - [MESSAGE][PASSED] - Actual object 'path("M 0.215 10.83 C -0.374 9.51 0.288 7.969 1.686 7.404 L 4.42 6.301 L 6.788 11.608 L 6.518 11.718 L 7.508 13.935 L 4.87 15 L 3.873 12.767 C 2.499 13.216 1.004 12.597 0.443 11.339 L 0.215 10.829 Z M 11.132 0.012 C 11.302 0.052 11.442 0.155 11.509 0.306 L 15.95 10.259 C 15.977 10.319 16.004 10.379 16 10.453 C 16.005 10.719 15.765 10.942 15.485 10.947 L 7.135 11.476 L 4.772 6.15 L 10.664 0.148 A 0.507 0.507 0 0 1 11.132 0.013 Z")' and expected object 'path("M 0.215 10.83 C -0.374 9.51 0.288 7.969 1.686 7.404 L 4.42 6.301 L 6.788 11.608 L 6.518 11.718 L 7.508 13.935 L 4.87 15 L 3.873 12.767 C 2.499 13.216 1.004 12.597 0.443 11.339 L 0.215 10.829 Z M 11.132 0.012 C 11.302 0.052 11.442 0.155 11.509 0.306 L 15.95 10.259 C 15.977 10.319 16.004 10.379 16 10.453 C 16.005 10.719 15.765 10.942 15.485 10.947 L 7.135 11.476 L 4.772 6.15 L 10.664 0.148 A 0.507 0.507 0 0 1 11.132 0.013 Z")' are equal
+
+2020-01-13 17:11:25 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/reportingmenu")): Object: 'Object Repository/HeaderMenus/reportingmenu' is clicked on
+
+2020-01-13 17:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/reportingmenu' is clicked on
+
+2020-01-13 17:11:25 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/reportingmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 5)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/reportingmenu' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:26 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/reportingmenu"), "font-size"), excelfile.getValue("element_size", 5), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/reportingmenu' successfully: '10px'.
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:26 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/reportingmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 5), true): Actual text 'REPORTING' and expected text 'REPORTING' are matched  using regular expression
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/reportingmenu' is: 'REPORTING'
+
+2020-01-13 17:11:26 - [MESSAGE][PASSED] - Actual text 'REPORTING' and expected text 'REPORTING' are matched  using regular expression
+
+2020-01-13 17:11:26 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/reportingmenuicon"), "d"), excelfile.getValue("icon_value", 5), STOP_ON_FAILURE): Actual object 'path("M 13.838 0.427 C 13.744 0.229 13.526 0.095 13.272 0.034 C 13.242 0.024 13.228 0.025 13.214 0.023 A 1.194 1.194 0 0 0 12.753 0.023 C 12.705 0.028 12.701 0.032 12.695 0.034 C 12.441 0.095 12.223 0.229 12.13 0.427 L 10.596 9.02 L 8.878 4.047 C 8.784 3.848 8.566 3.714 8.311 3.654 C 8.282 3.644 8.271 3.646 8.258 3.644 A 1.175 1.175 0 0 0 7.791 3.644 C 7.746 3.648 7.742 3.652 7.736 3.654 C 7.482 3.714 7.264 3.848 7.17 4.047 L 5.482 8.502 L 3.726 7.067 C 3.712 7.055 3.691 7.051 3.676 7.04 C 3.624 6.998 3.589 6.992 3.561 6.977 A 1.039 1.039 0 0 0 3.387 6.902 C 3.337 6.887 3.288 6.882 3.236 6.875 C 3.178 6.866 3.122 6.857 3.063 6.857 C 3.003 6.857 2.949 6.867 2.891 6.875 C 2.839 6.883 2.789 6.888 2.74 6.902 A 0.966 0.966 0 0 0 2.566 6.977 C 2.536 6.992 2.503 6.998 2.476 7.017 C 2.434 7.051 2.416 7.055 2.401 7.067 L 0.278 9.382 C -0.048 9.649 -0.101 10.242 0.192 10.555 C 0.486 10.868 0.918 10.821 1.242 10.555 L 3.157 8.545 L 5.236 10.243 C 5.561 10.51 6.121 10.533 6.486 10.293 C 6.524 10.27 6.542 10.238 6.572 10.211 A 0.624 0.624 0 0 0 6.716 10.033 C 6.726 10.017 6.744 10.006 6.752 9.989 L 7.985 6.736 L 10.004 12.574 C 10.097 12.773 10.315 12.905 10.569 12.967 C 10.601 12.977 10.615 12.975 10.629 12.977 A 1.142 1.142 0 0 0 11.087 12.977 C 11.137 12.972 11.14 12.969 11.147 12.967 C 11.4 12.905 11.617 12.772 11.712 12.574 L 13.389 3.176 L 14.429 5.216 C 14.588 5.553 15.234 5.671 15.582 5.473 A 0.862 0.862 0 0 0 15.929 4.396 L 13.838 0.427 Z")' and expected object 'path("M 13.838 0.427 C 13.744 0.229 13.526 0.095 13.272 0.034 C 13.242 0.024 13.228 0.025 13.214 0.023 A 1.194 1.194 0 0 0 12.753 0.023 C 12.705 0.028 12.701 0.032 12.695 0.034 C 12.441 0.095 12.223 0.229 12.13 0.427 L 10.596 9.02 L 8.878 4.047 C 8.784 3.848 8.566 3.714 8.311 3.654 C 8.282 3.644 8.271 3.646 8.258 3.644 A 1.175 1.175 0 0 0 7.791 3.644 C 7.746 3.648 7.742 3.652 7.736 3.654 C 7.482 3.714 7.264 3.848 7.17 4.047 L 5.482 8.502 L 3.726 7.067 C 3.712 7.055 3.691 7.051 3.676 7.04 C 3.624 6.998 3.589 6.992 3.561 6.977 A 1.039 1.039 0 0 0 3.387 6.902 C 3.337 6.887 3.288 6.882 3.236 6.875 C 3.178 6.866 3.122 6.857 3.063 6.857 C 3.003 6.857 2.949 6.867 2.891 6.875 C 2.839 6.883 2.789 6.888 2.74 6.902 A 0.966 0.966 0 0 0 2.566 6.977 C 2.536 6.992 2.503 6.998 2.476 7.017 C 2.434 7.051 2.416 7.055 2.401 7.067 L 0.278 9.382 C -0.048 9.649 -0.101 10.242 0.192 10.555 C 0.486 10.868 0.918 10.821 1.242 10.555 L 3.157 8.545 L 5.236 10.243 C 5.561 10.51 6.121 10.533 6.486 10.293 C 6.524 10.27 6.542 10.238 6.572 10.211 A 0.624 0.624 0 0 0 6.716 10.033 C 6.726 10.017 6.744 10.006 6.752 9.989 L 7.985 6.736 L 10.004 12.574 C 10.097 12.773 10.315 12.905 10.569 12.967 C 10.601 12.977 10.615 12.975 10.629 12.977 A 1.142 1.142 0 0 0 11.087 12.977 C 11.137 12.972 11.14 12.969 11.147 12.967 C 11.4 12.905 11.617 12.772 11.712 12.574 L 13.389 3.176 L 14.429 5.216 C 14.588 5.553 15.234 5.671 15.582 5.473 A 0.862 0.862 0 0 0 15.929 4.396 L 13.838 0.427 Z")' are equal
+
+2020-01-13 17:11:27 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/reportingmenuicon' successfully: 'path("M 13.838 0.427 C 13.744 0.229 13.526 0.095 13.272 0.034 C 13.242 0.024 13.228 0.025 13.214 0.023 A 1.194 1.194 0 0 0 12.753 0.023 C 12.705 0.028 12.701 0.032 12.695 0.034 C 12.441 0.095 12.223 0.229 12.13 0.427 L 10.596 9.02 L 8.878 4.047 C 8.784 3.848 8.566 3.714 8.311 3.654 C 8.282 3.644 8.271 3.646 8.258 3.644 A 1.175 1.175 0 0 0 7.791 3.644 C 7.746 3.648 7.742 3.652 7.736 3.654 C 7.482 3.714 7.264 3.848 7.17 4.047 L 5.482 8.502 L 3.726 7.067 C 3.712 7.055 3.691 7.051 3.676 7.04 C 3.624 6.998 3.589 6.992 3.561 6.977 A 1.039 1.039 0 0 0 3.387 6.902 C 3.337 6.887 3.288 6.882 3.236 6.875 C 3.178 6.866 3.122 6.857 3.063 6.857 C 3.003 6.857 2.949 6.867 2.891 6.875 C 2.839 6.883 2.789 6.888 2.74 6.902 A 0.966 0.966 0 0 0 2.566 6.977 C 2.536 6.992 2.503 6.998 2.476 7.017 C 2.434 7.051 2.416 7.055 2.401 7.067 L 0.278 9.382 C -0.048 9.649 -0.101 10.242 0.192 10.555 C 0.486 10.868 0.918 10.821 1.242 10.555 L 3.157 8.545 L 5.236 10.243 C 5.561 10.51 6.121 10.533 6.486 10.293 C 6.524 10.27 6.542 10.238 6.572 10.211 A 0.624 0.624 0 0 0 6.716 10.033 C 6.726 10.017 6.744 10.006 6.752 9.989 L 7.985 6.736 L 10.004 12.574 C 10.097 12.773 10.315 12.905 10.569 12.967 C 10.601 12.977 10.615 12.975 10.629 12.977 A 1.142 1.142 0 0 0 11.087 12.977 C 11.137 12.972 11.14 12.969 11.147 12.967 C 11.4 12.905 11.617 12.772 11.712 12.574 L 13.389 3.176 L 14.429 5.216 C 14.588 5.553 15.234 5.671 15.582 5.473 A 0.862 0.862 0 0 0 15.929 4.396 L 13.838 0.427 Z")'.
+
+2020-01-13 17:11:27 - [MESSAGE][PASSED] - Actual object 'path("M 13.838 0.427 C 13.744 0.229 13.526 0.095 13.272 0.034 C 13.242 0.024 13.228 0.025 13.214 0.023 A 1.194 1.194 0 0 0 12.753 0.023 C 12.705 0.028 12.701 0.032 12.695 0.034 C 12.441 0.095 12.223 0.229 12.13 0.427 L 10.596 9.02 L 8.878 4.047 C 8.784 3.848 8.566 3.714 8.311 3.654 C 8.282 3.644 8.271 3.646 8.258 3.644 A 1.175 1.175 0 0 0 7.791 3.644 C 7.746 3.648 7.742 3.652 7.736 3.654 C 7.482 3.714 7.264 3.848 7.17 4.047 L 5.482 8.502 L 3.726 7.067 C 3.712 7.055 3.691 7.051 3.676 7.04 C 3.624 6.998 3.589 6.992 3.561 6.977 A 1.039 1.039 0 0 0 3.387 6.902 C 3.337 6.887 3.288 6.882 3.236 6.875 C 3.178 6.866 3.122 6.857 3.063 6.857 C 3.003 6.857 2.949 6.867 2.891 6.875 C 2.839 6.883 2.789 6.888 2.74 6.902 A 0.966 0.966 0 0 0 2.566 6.977 C 2.536 6.992 2.503 6.998 2.476 7.017 C 2.434 7.051 2.416 7.055 2.401 7.067 L 0.278 9.382 C -0.048 9.649 -0.101 10.242 0.192 10.555 C 0.486 10.868 0.918 10.821 1.242 10.555 L 3.157 8.545 L 5.236 10.243 C 5.561 10.51 6.121 10.533 6.486 10.293 C 6.524 10.27 6.542 10.238 6.572 10.211 A 0.624 0.624 0 0 0 6.716 10.033 C 6.726 10.017 6.744 10.006 6.752 9.989 L 7.985 6.736 L 10.004 12.574 C 10.097 12.773 10.315 12.905 10.569 12.967 C 10.601 12.977 10.615 12.975 10.629 12.977 A 1.142 1.142 0 0 0 11.087 12.977 C 11.137 12.972 11.14 12.969 11.147 12.967 C 11.4 12.905 11.617 12.772 11.712 12.574 L 13.389 3.176 L 14.429 5.216 C 14.588 5.553 15.234 5.671 15.582 5.473 A 0.862 0.862 0 0 0 15.929 4.396 L 13.838 0.427 Z")' and expected object 'path("M 13.838 0.427 C 13.744 0.229 13.526 0.095 13.272 0.034 C 13.242 0.024 13.228 0.025 13.214 0.023 A 1.194 1.194 0 0 0 12.753 0.023 C 12.705 0.028 12.701 0.032 12.695 0.034 C 12.441 0.095 12.223 0.229 12.13 0.427 L 10.596 9.02 L 8.878 4.047 C 8.784 3.848 8.566 3.714 8.311 3.654 C 8.282 3.644 8.271 3.646 8.258 3.644 A 1.175 1.175 0 0 0 7.791 3.644 C 7.746 3.648 7.742 3.652 7.736 3.654 C 7.482 3.714 7.264 3.848 7.17 4.047 L 5.482 8.502 L 3.726 7.067 C 3.712 7.055 3.691 7.051 3.676 7.04 C 3.624 6.998 3.589 6.992 3.561 6.977 A 1.039 1.039 0 0 0 3.387 6.902 C 3.337 6.887 3.288 6.882 3.236 6.875 C 3.178 6.866 3.122 6.857 3.063 6.857 C 3.003 6.857 2.949 6.867 2.891 6.875 C 2.839 6.883 2.789 6.888 2.74 6.902 A 0.966 0.966 0 0 0 2.566 6.977 C 2.536 6.992 2.503 6.998 2.476 7.017 C 2.434 7.051 2.416 7.055 2.401 7.067 L 0.278 9.382 C -0.048 9.649 -0.101 10.242 0.192 10.555 C 0.486 10.868 0.918 10.821 1.242 10.555 L 3.157 8.545 L 5.236 10.243 C 5.561 10.51 6.121 10.533 6.486 10.293 C 6.524 10.27 6.542 10.238 6.572 10.211 A 0.624 0.624 0 0 0 6.716 10.033 C 6.726 10.017 6.744 10.006 6.752 9.989 L 7.985 6.736 L 10.004 12.574 C 10.097 12.773 10.315 12.905 10.569 12.967 C 10.601 12.977 10.615 12.975 10.629 12.977 A 1.142 1.142 0 0 0 11.087 12.977 C 11.137 12.972 11.14 12.969 11.147 12.967 C 11.4 12.905 11.617 12.772 11.712 12.574 L 13.389 3.176 L 14.429 5.216 C 14.588 5.553 15.234 5.671 15.582 5.473 A 0.862 0.862 0 0 0 15.929 4.396 L 13.838 0.427 Z")' are equal
+
+2020-01-13 17:11:27 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/adminmenu")): Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-01-13 17:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-01-13 17:11:27 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 6)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:28 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/adminmenu' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:28 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:28 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/adminmenu"), "font-size"), excelfile.getValue("element_size", 6), true): Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/adminmenu' successfully: '10px'.
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Actual text '10px' and expected text '10px' are matched  using regular expression
+
+2020-01-13 17:11:29 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("HeaderMenus/adminmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 6), true): Actual text 'ADMIN' and expected text 'ADMIN' are matched  using regular expression
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/HeaderMenus/adminmenu' is: 'ADMIN'
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Actual text 'ADMIN' and expected text 'ADMIN' are matched  using regular expression
+
+2020-01-13 17:11:29 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/adminmenuicon"), "d"), excelfile.getValue("icon_value", 6), STOP_ON_FAILURE): Actual object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' and expected object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' are equal
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/adminmenuicon' successfully: 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")'.
+
+2020-01-13 17:11:29 - [MESSAGE][PASSED] - Actual object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' and expected object 'path("M 7 0 C 10.862 0 14 3.138 14 7 S 10.862 14 7 14 S 0 10.862 0 7 S 3.138 0 7 0 Z M 8.918 9.67 L 8.556 7.518 L 10.111 5.988 L 7.959 5.678 L 7 3.732 L 6.04 5.676 L 3.889 5.987 L 5.444 7.517 L 5.082 9.669 L 7 8.659 L 8.918 9.67 Z")' are equal
+
+2020-01-13 17:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/organizationssubmenu")): Object: 'Object Repository/LoginPage/organizationssubmenu' is clicked on
+
+2020-01-13 17:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/organizationssubmenu' is clicked on
+
+2020-01-13 17:11:30 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/organizationssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 7)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/organizationssubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:31 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/organizationssubmenu"), "font-size"), excelfile.getValue("element_size", 7), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/organizationssubmenu' successfully: '14px'.
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:31 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/organizationssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 7), true): Actual text 'Organizations' and expected text 'Organizations' are matched  using regular expression
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/organizationssubmenu' is: 'Organizations'
+
+2020-01-13 17:11:31 - [MESSAGE][PASSED] - Actual text 'Organizations' and expected text 'Organizations' are matched  using regular expression
+
+2020-01-13 17:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/accountssubmenu")): Object: 'Object Repository/LoginPage/accountssubmenu' is clicked on
+
+2020-01-13 17:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/accountssubmenu' is clicked on
+
+2020-01-13 17:11:32 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/accountssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 8)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:32 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/accountssubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:32 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:32 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/accountssubmenu"), "font-size"), excelfile.getValue("element_size", 8), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:33 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/accountssubmenu' successfully: '14px'.
+
+2020-01-13 17:11:33 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:33 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/accountssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 8), true): Actual text 'Accounts' and expected text 'Accounts' are matched  using regular expression
+
+2020-01-13 17:11:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/accountssubmenu' is: 'Accounts'
+
+2020-01-13 17:11:33 - [MESSAGE][PASSED] - Actual text 'Accounts' and expected text 'Accounts' are matched  using regular expression
+
+2020-01-13 17:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/usersubmenu")): Object: 'Object Repository/LoginPage/usersubmenu' is clicked on
+
+2020-01-13 17:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/usersubmenu' is clicked on
+
+2020-01-13 17:11:34 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/usersubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 9)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:34 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/usersubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:34 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:34 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/usersubmenu"), "font-size"), excelfile.getValue("element_size", 9), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:35 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/usersubmenu' successfully: '14px'.
+
+2020-01-13 17:11:35 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:35 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/usersubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 9), true): Actual text 'Users' and expected text 'Users' are matched  using regular expression
+
+2020-01-13 17:11:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/usersubmenu' is: 'Users'
+
+2020-01-13 17:11:35 - [MESSAGE][PASSED] - Actual text 'Users' and expected text 'Users' are matched  using regular expression
+
+2020-01-13 17:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/featuressubmenu")): Object: 'Object Repository/LoginPage/featuressubmenu' is clicked on
+
+2020-01-13 17:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/featuressubmenu' is clicked on
+
+2020-01-13 17:11:36 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/featuressubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 10)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:36 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/featuressubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:36 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:36 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/featuressubmenu"), "font-size"), excelfile.getValue("element_size", 10), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:36 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/featuressubmenu' successfully: '14px'.
+
+2020-01-13 17:11:36 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:36 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/featuressubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 10), true): Actual text 'Features' and expected text 'Features' are matched  using regular expression
+
+2020-01-13 17:11:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/featuressubmenu' is: 'Features'
+
+2020-01-13 17:11:37 - [MESSAGE][PASSED] - Actual text 'Features' and expected text 'Features' are matched  using regular expression
+
+2020-01-13 17:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/licensingsubmenu")): Object: 'Object Repository/LoginPage/licensingsubmenu' is clicked on
+
+2020-01-13 17:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/licensingsubmenu' is clicked on
+
+2020-01-13 17:11:37 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/licensingsubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 11)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/licensingsubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:38 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/licensingsubmenu"), "font-size"), excelfile.getValue("element_size", 11), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/licensingsubmenu' successfully: '14px'.
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:38 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/licensingsubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 11), true): Actual text 'Licensing' and expected text 'Licensing' are matched  using regular expression
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/licensingsubmenu' is: 'Licensing'
+
+2020-01-13 17:11:38 - [MESSAGE][PASSED] - Actual text 'Licensing' and expected text 'Licensing' are matched  using regular expression
+
+2020-01-13 17:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/programssubmenu")): Object: 'Object Repository/LoginPage/programssubmenu' is clicked on
+
+2020-01-13 17:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/programssubmenu' is clicked on
+
+2020-01-13 17:11:39 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/programssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 12)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:39 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/programssubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:39 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:39 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/programssubmenu"), "font-size"), excelfile.getValue("element_size", 12), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:40 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/programssubmenu' successfully: '14px'.
+
+2020-01-13 17:11:40 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:40 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/programssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 12), true): Actual text 'Programs' and expected text 'Programs' are matched  using regular expression
+
+2020-01-13 17:11:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/programssubmenu' is: 'Programs'
+
+2020-01-13 17:11:40 - [MESSAGE][PASSED] - Actual text 'Programs' and expected text 'Programs' are matched  using regular expression
+
+2020-01-13 17:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/affiliationssubmenu")): Object: 'Object Repository/LoginPage/affiliationssubmenu' is clicked on
+
+2020-01-13 17:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/affiliationssubmenu' is clicked on
+
+2020-01-13 17:11:40 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 13)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:41 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/affiliationssubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:41 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:41 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), "font-size"), excelfile.getValue("element_size", 13), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:41 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/affiliationssubmenu' successfully: '14px'.
+
+2020-01-13 17:11:41 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:41 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/affiliationssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 13), true): Actual text 'Affiliations' and expected text 'Affiliations' are matched  using regular expression
+
+2020-01-13 17:11:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/affiliationssubmenu' is: 'Affiliations'
+
+2020-01-13 17:11:42 - [MESSAGE][PASSED] - Actual text 'Affiliations' and expected text 'Affiliations' are matched  using regular expression
+
+2020-01-13 17:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/eventssubmenu")): Object: 'Object Repository/LoginPage/eventssubmenu' is clicked on
+
+2020-01-13 17:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/eventssubmenu' is clicked on
+
+2020-01-13 17:11:42 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/eventssubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 14)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/eventssubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:43 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/eventssubmenu"), "font-size"), excelfile.getValue("element_size", 14), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/eventssubmenu' successfully: '14px'.
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:43 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/eventssubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 14), true): Actual text 'Events' and expected text 'Events' are matched  using regular expression
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/eventssubmenu' is: 'Events'
+
+2020-01-13 17:11:43 - [MESSAGE][PASSED] - Actual text 'Events' and expected text 'Events' are matched  using regular expression
+
+2020-01-13 17:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/compliancesubmenu")): Object: 'Object Repository/LoginPage/compliancesubmenu' is clicked on
+
+2020-01-13 17:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/compliancesubmenu' is clicked on
+
+2020-01-13 17:11:44 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/compliancesubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 15)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:44 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/compliancesubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:44 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:44 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/compliancesubmenu"), "font-size"), excelfile.getValue("element_size", 15), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:45 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/compliancesubmenu' successfully: '14px'.
+
+2020-01-13 17:11:45 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:45 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/compliancesubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 15), true): Actual text 'Compliance' and expected text 'Compliance' are matched  using regular expression
+
+2020-01-13 17:11:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/compliancesubmenu' is: 'Compliance'
+
+2020-01-13 17:11:45 - [MESSAGE][PASSED] - Actual text 'Compliance' and expected text 'Compliance' are matched  using regular expression
+
+2020-01-13 17:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/rolessubmenu")): Object: 'Object Repository/LoginPage/rolessubmenu' is clicked on
+
+2020-01-13 17:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/rolessubmenu' is clicked on
+
+2020-01-13 17:11:46 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/rolessubmenu"), "color"), excelfile.getValue("element_color_in_RGBA", 16)): Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:46 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/rolessubmenu' successfully: 'rgba(255, 255, 255, 1)'.
+
+2020-01-13 17:11:46 - [MESSAGE][PASSED] - Actual object 'rgba(255, 255, 255, 1)' and expected object 'rgba(255, 255, 255, 1)' are equal
+
+2020-01-13 17:11:46 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/rolessubmenu"), "font-size"), excelfile.getValue("element_size", 16), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:47 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/rolessubmenu' successfully: '14px'.
+
+2020-01-13 17:11:47 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:11:47 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/rolessubmenu"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 16), true): Actual text 'Roles' and expected text 'Roles' are matched  using regular expression
+
+2020-01-13 17:11:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/rolessubmenu' is: 'Roles'
+
+2020-01-13 17:11:47 - [MESSAGE][PASSED] - Actual text 'Roles' and expected text 'Roles' are matched  using regular expression
+
+2020-01-13 17:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/expandicon")): Object: 'Object Repository/LoginPage/expandicon' is clicked on
+
+2020-01-13 17:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/expandicon' is clicked on
+
+2020-01-13 17:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/rolemanagertext")): Object: 'Object Repository/LoginPage/rolemanagertext' is clicked on
+
+2020-01-13 17:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/rolemanagertext' is clicked on
+
+2020-01-13 17:11:48 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/rolemanagertext"), "color"), excelfile.getValue("element_color_in_RGBA", 17)): Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/rolemanagertext' successfully: 'rgba(27, 32, 92, 1)'.
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Actual object 'rgba(27, 32, 92, 1)' and expected object 'rgba(27, 32, 92, 1)' are equal
+
+2020-01-13 17:11:49 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/rolemanagertext"), "font-size"), excelfile.getValue("element_size", 17), true): Actual text '24px' and expected text '24px' are matched  using regular expression
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/rolemanagertext' successfully: '24px'.
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Actual text '24px' and expected text '24px' are matched  using regular expression
+
+2020-01-13 17:11:49 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/LoginPage/rolemanagertext"), CONTINUE_ON_FAILURE), excelfile.getValue("element_text", 17), true): Actual text 'Role Manager' and expected text 'Role Manager' are matched  using regular expression
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/rolemanagertext' is: 'Role Manager'
+
+2020-01-13 17:11:49 - [MESSAGE][PASSED] - Actual text 'Role Manager' and expected text 'Role Manager' are matched  using regular expression
+
+2020-01-13 17:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/SuperAdminTabs")): Object: 'Object Repository/LoginPage/SuperAdminTabs' is clicked on
+
+2020-01-13 17:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/SuperAdminTabs' is clicked on
+
+2020-01-13 17:11:50 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/SuperAdminTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 18)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:50 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/SuperAdminTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:50 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:50 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/SuperAdminTabs"), "font-size"), excelfile.getValue("element_size", 18), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:50 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/SuperAdminTabs' successfully: '12px'.
+
+2020-01-13 17:11:50 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:50 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 18), true): Actual text 'Super Admin' and expected text 'Super Admin' are matched  using regular expression
+
+2020-01-13 17:11:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/SuperAdminTabs' is: '8
+Super Admin'
+
+2020-01-13 17:11:51 - [MESSAGE][PASSED] - Actual text 'Super Admin' and expected text 'Super Admin' are matched  using regular expression
+
+2020-01-13 17:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/bundleadminTabs")): Object: 'Object Repository/LoginPage/bundleadminTabs' is clicked on
+
+2020-01-13 17:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/bundleadminTabs' is clicked on
+
+2020-01-13 17:11:51 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/bundleadminTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 19)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/bundleadminTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:52 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/bundleadminTabs"), "font-size"), excelfile.getValue("element_size", 19), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/bundleadminTabs' successfully: '12px'.
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:52 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 19), true): Actual text 'Bundle Admin' and expected text 'Bundle Admin' are matched  using regular expression
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/bundleadminTabs' is: '10
+Bundle Admin'
+
+2020-01-13 17:11:52 - [MESSAGE][PASSED] - Actual text 'Bundle Admin' and expected text 'Bundle Admin' are matched  using regular expression
+
+2020-01-13 17:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/servicesadminTabs")): Object: 'Object Repository/LoginPage/servicesadminTabs' is clicked on
+
+2020-01-13 17:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/servicesadminTabs' is clicked on
+
+2020-01-13 17:11:53 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/servicesadminTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 20)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:53 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/servicesadminTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:53 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:53 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/servicesadminTabs"), "font-size"), excelfile.getValue("element_size", 20), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:54 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/servicesadminTabs' successfully: '12px'.
+
+2020-01-13 17:11:54 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:54 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 20), true): Actual text 'Services Admin' and expected text 'Services Admin' are matched  using regular expression
+
+2020-01-13 17:11:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/servicesadminTabs' is: '15
+Services Admin'
+
+2020-01-13 17:11:54 - [MESSAGE][PASSED] - Actual text 'Services Admin' and expected text 'Services Admin' are matched  using regular expression
+
+2020-01-13 17:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/organizationadminTabs")): Object: 'Object Repository/LoginPage/organizationadminTabs' is clicked on
+
+2020-01-13 17:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/organizationadminTabs' is clicked on
+
+2020-01-13 17:11:54 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/organizationadminTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 21)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/organizationadminTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:55 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/organizationadminTabs"), "font-size"), excelfile.getValue("element_size", 21), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/organizationadminTabs' successfully: '12px'.
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:55 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 21), true): Actual text 'Organization Admin' and expected text 'Organization Admin' are matched  using regular expression
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/organizationadminTabs' is: '8
+Organization Admin'
+
+2020-01-13 17:11:55 - [MESSAGE][PASSED] - Actual text 'Organization Admin' and expected text 'Organization Admin' are matched  using regular expression
+
+2020-01-13 17:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/accountadminTabs")): Object: 'Object Repository/LoginPage/accountadminTabs' is clicked on
+
+2020-01-13 17:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/accountadminTabs' is clicked on
+
+2020-01-13 17:11:56 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/accountadminTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 22)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:56 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/accountadminTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:56 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:56 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/accountadminTabs"), "font-size"), excelfile.getValue("element_size", 22), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:56 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/accountadminTabs' successfully: '12px'.
+
+2020-01-13 17:11:56 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:56 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 22), true): Actual text 'Account Admin' and expected text 'Account Admin' are matched  using regular expression
+
+2020-01-13 17:11:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/accountadminTabs' is: '5
+Account Admin'
+
+2020-01-13 17:11:57 - [MESSAGE][PASSED] - Actual text 'Account Admin' and expected text 'Account Admin' are matched  using regular expression
+
+2020-01-13 17:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/GSMSalesTabs")): Object: 'Object Repository/LoginPage/GSMSalesTabs' is clicked on
+
+2020-01-13 17:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/GSMSalesTabs' is clicked on
+
+2020-01-13 17:11:57 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/GSMSalesTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 23)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/GSMSalesTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:58 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/GSMSalesTabs"), "font-size"), excelfile.getValue("element_size", 23), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/GSMSalesTabs' successfully: '12px'.
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:11:58 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 23), true): Actual text 'GSM Sales' and expected text 'GSM Sales' are matched  using regular expression
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/GSMSalesTabs' is: '7
+GSM Sales'
+
+2020-01-13 17:11:58 - [MESSAGE][PASSED] - Actual text 'GSM Sales' and expected text 'GSM Sales' are matched  using regular expression
+
+2020-01-13 17:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/customersuccessTabs")): Object: 'Object Repository/LoginPage/customersuccessTabs' is clicked on
+
+2020-01-13 17:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/customersuccessTabs' is clicked on
+
+2020-01-13 17:11:59 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("Object Repository/LoginPage/customersuccessTabs"), "color"), excelfile.getValue("element_color_in_RGBA", 24)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:59 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/LoginPage/customersuccessTabs' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:11:59 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:11:59 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("Object Repository/LoginPage/customersuccessTabs"), "font-size"), excelfile.getValue("element_size", 24), true): Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/LoginPage/customersuccessTabs' successfully: '12px'.
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Actual text '12px' and expected text '12px' are matched  using regular expression
+
+2020-01-13 17:12:00 - [TEST_STEP][PASSED] - verifyMatch(\d]+", "").trim(), excelfile.getValue("element_text", 24), true): Actual text 'Customer Success' and expected text 'Customer Success' are matched  using regular expression
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/customersuccessTabs' is: '7
+Customer Success'
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Actual text 'Customer Success' and expected text 'Customer Success' are matched  using regular expression
+
+2020-01-13 17:12:00 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/helpIcon"), "font-size"), excelfile.getValue("element_size", 25), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/helpIcon' successfully: '14px'.
+
+2020-01-13 17:12:00 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:00 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/helpIcon"), "color"), excelfile.getValue("element_color_in_RGBA", 25)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/helpIcon' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:01 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/helpIcon"), "d").toLowerCase(), getValue("icon_value", 25).toLowerCase()): Actual object 'path("m 10 0 a 10 10 0 1 1 10 20.002 a 10 10 0 0 1 10 0 z m 9.098 14.777 h 11.028 v 12.925 h 9.098 v 14.777 z m 12.303 5.922 a 4.015 4.015 0 0 0 9.906 5.237 a 3.36 3.36 0 0 0 8.039 5.736 c 7.229 6.255 6.804 7.116 6.762 8.319 h 8.63 c 8.632 7.953 8.74 7.597 8.941 7.292 a 1.15 1.15 0 0 1 10 6.793 c 10.498 6.793 10.84 6.928 11.027 7.198 c 11.216 7.461 11.314 7.778 11.307 8.1 c 11.309 8.38 11.222 8.653 11.057 8.879 c 10.954 9.023 10.827 9.149 10.684 9.253 l 10.218 9.626 a 2.658 2.658 0 0 0 9.346 10.591 c 9.199 11.076 9.126 11.579 9.128 12.085 h 10.872 a 2.8 2.8 0 0 1 10.965 11.339 c 11.041 11.056 11.204 10.805 11.432 10.622 l 11.899 10.279 c 12.247 10.033 12.562 9.739 12.833 9.409 c 13.113 8.997 13.255 8.505 13.237 8.009 a 2.364 2.364 0 0 0 12.303 5.922 z")' and expected object 'path("m 10 0 a 10 10 0 1 1 10 20.002 a 10 10 0 0 1 10 0 z m 9.098 14.777 h 11.028 v 12.925 h 9.098 v 14.777 z m 12.303 5.922 a 4.015 4.015 0 0 0 9.906 5.237 a 3.36 3.36 0 0 0 8.039 5.736 c 7.229 6.255 6.804 7.116 6.762 8.319 h 8.63 c 8.632 7.953 8.74 7.597 8.941 7.292 a 1.15 1.15 0 0 1 10 6.793 c 10.498 6.793 10.84 6.928 11.027 7.198 c 11.216 7.461 11.314 7.778 11.307 8.1 c 11.309 8.38 11.222 8.653 11.057 8.879 c 10.954 9.023 10.827 9.149 10.684 9.253 l 10.218 9.626 a 2.658 2.658 0 0 0 9.346 10.591 c 9.199 11.076 9.126 11.579 9.128 12.085 h 10.872 a 2.8 2.8 0 0 1 10.965 11.339 c 11.041 11.056 11.204 10.805 11.432 10.622 l 11.899 10.279 c 12.247 10.033 12.562 9.739 12.833 9.409 c 13.113 8.997 13.255 8.505 13.237 8.009 a 2.364 2.364 0 0 0 12.303 5.922 z")' are equal
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/helpIcon' successfully: 'path("M 10 0 A 10 10 0 1 1 10 20.002 A 10 10 0 0 1 10 0 Z M 9.098 14.777 H 11.028 V 12.925 H 9.098 V 14.777 Z M 12.303 5.922 A 4.015 4.015 0 0 0 9.906 5.237 A 3.36 3.36 0 0 0 8.039 5.736 C 7.229 6.255 6.804 7.116 6.762 8.319 H 8.63 C 8.632 7.953 8.74 7.597 8.941 7.292 A 1.15 1.15 0 0 1 10 6.793 C 10.498 6.793 10.84 6.928 11.027 7.198 C 11.216 7.461 11.314 7.778 11.307 8.1 C 11.309 8.38 11.222 8.653 11.057 8.879 C 10.954 9.023 10.827 9.149 10.684 9.253 L 10.218 9.626 A 2.658 2.658 0 0 0 9.346 10.591 C 9.199 11.076 9.126 11.579 9.128 12.085 H 10.872 A 2.8 2.8 0 0 1 10.965 11.339 C 11.041 11.056 11.204 10.805 11.432 10.622 L 11.899 10.279 C 12.247 10.033 12.562 9.739 12.833 9.409 C 13.113 8.997 13.255 8.505 13.237 8.009 A 2.364 2.364 0 0 0 12.303 5.922 Z")'.
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Actual object 'path("m 10 0 a 10 10 0 1 1 10 20.002 a 10 10 0 0 1 10 0 z m 9.098 14.777 h 11.028 v 12.925 h 9.098 v 14.777 z m 12.303 5.922 a 4.015 4.015 0 0 0 9.906 5.237 a 3.36 3.36 0 0 0 8.039 5.736 c 7.229 6.255 6.804 7.116 6.762 8.319 h 8.63 c 8.632 7.953 8.74 7.597 8.941 7.292 a 1.15 1.15 0 0 1 10 6.793 c 10.498 6.793 10.84 6.928 11.027 7.198 c 11.216 7.461 11.314 7.778 11.307 8.1 c 11.309 8.38 11.222 8.653 11.057 8.879 c 10.954 9.023 10.827 9.149 10.684 9.253 l 10.218 9.626 a 2.658 2.658 0 0 0 9.346 10.591 c 9.199 11.076 9.126 11.579 9.128 12.085 h 10.872 a 2.8 2.8 0 0 1 10.965 11.339 c 11.041 11.056 11.204 10.805 11.432 10.622 l 11.899 10.279 c 12.247 10.033 12.562 9.739 12.833 9.409 c 13.113 8.997 13.255 8.505 13.237 8.009 a 2.364 2.364 0 0 0 12.303 5.922 z")' and expected object 'path("m 10 0 a 10 10 0 1 1 10 20.002 a 10 10 0 0 1 10 0 z m 9.098 14.777 h 11.028 v 12.925 h 9.098 v 14.777 z m 12.303 5.922 a 4.015 4.015 0 0 0 9.906 5.237 a 3.36 3.36 0 0 0 8.039 5.736 c 7.229 6.255 6.804 7.116 6.762 8.319 h 8.63 c 8.632 7.953 8.74 7.597 8.941 7.292 a 1.15 1.15 0 0 1 10 6.793 c 10.498 6.793 10.84 6.928 11.027 7.198 c 11.216 7.461 11.314 7.778 11.307 8.1 c 11.309 8.38 11.222 8.653 11.057 8.879 c 10.954 9.023 10.827 9.149 10.684 9.253 l 10.218 9.626 a 2.658 2.658 0 0 0 9.346 10.591 c 9.199 11.076 9.126 11.579 9.128 12.085 h 10.872 a 2.8 2.8 0 0 1 10.965 11.339 c 11.041 11.056 11.204 10.805 11.432 10.622 l 11.899 10.279 c 12.247 10.033 12.562 9.739 12.833 9.409 c 13.113 8.997 13.255 8.505 13.237 8.009 a 2.364 2.364 0 0 0 12.303 5.922 z")' are equal
+
+2020-01-13 17:12:01 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/tenderIcon"), "font-size"), excelfile.getValue("element_size", 26), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/tenderIcon' successfully: '14px'.
+
+2020-01-13 17:12:01 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:01 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/tenderIcon"), "color"), excelfile.getValue("element_color_in_RGBA", 26)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/tenderIcon' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:02 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/tenderIcon"), "d"), excelfile.getValue("icon_value", 26)): Actual object 'path("M 4 20 L 5 11 H 0 L 2 0 H 13 L 9 7 H 14 Z")' and expected object 'path("M 4 20 L 5 11 H 0 L 2 0 H 13 L 9 7 H 14 Z")' are equal
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/tenderIcon' successfully: 'path("M 4 20 L 5 11 H 0 L 2 0 H 13 L 9 7 H 14 Z")'.
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Actual object 'path("M 4 20 L 5 11 H 0 L 2 0 H 13 L 9 7 H 14 Z")' and expected object 'path("M 4 20 L 5 11 H 0 L 2 0 H 13 L 9 7 H 14 Z")' are equal
+
+2020-01-13 17:12:02 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/notificationIcon"), "font-size"), excelfile.getValue("element_size", 27), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/notificationIcon' successfully: '14px'.
+
+2020-01-13 17:12:02 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:02 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/notificationIcon"), "color"), excelfile.getValue("element_color_in_RGBA", 27)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/notificationIcon' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:03 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/notificationIcon"), "d"), excelfile.getValue("icon_value", 27)): Actual object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are equal
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/notificationIcon' successfully: 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")'.
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Actual object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are equal
+
+2020-01-13 17:12:03 - [TEST_STEP][PASSED] - verifyMatch(getCSSValue(findTestObject("HeaderMenus/profileIcon"), "font-size"), excelfile.getValue("element_size", 28), true): Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/HeaderMenus/profileIcon' successfully: '14px'.
+
+2020-01-13 17:12:03 - [MESSAGE][PASSED] - Actual text '14px' and expected text '14px' are matched  using regular expression
+
+2020-01-13 17:12:03 - [TEST_STEP][PASSED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/profileIcon"), "color"), excelfile.getValue("element_color_in_RGBA", 28)): Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:04 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/HeaderMenus/profileIcon' successfully: 'rgba(21, 78, 197, 1)'.
+
+2020-01-13 17:12:04 - [MESSAGE][PASSED] - Actual object 'rgba(21, 78, 197, 1)' and expected object 'rgba(21, 78, 197, 1)' are equal
+
+2020-01-13 17:12:04 - [TEST_STEP][FAILED] - verifyEqual(getCSSValue(findTestObject("HeaderMenus/profileIcon"), "d"), excelfile.getValue("icon_value", 28)): Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+
+2020-01-13 17:12:04 - [MESSAGE][PASSED] - Get CSS 'd' value on 'Object Repository/HeaderMenus/profileIcon' successfully: 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")'.
+
+2020-01-13 17:12:04 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+
+2020-01-13 17:12:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-13 17:12:05 - [MESSAGE][PASSED] - Browser is closed
+
+2020-01-13 17:12:05 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at TestListeners1.sampleAfterTestCase(TestListeners1.groovy:40)
+	at TestListeners1.invokeMethod(TestListeners1.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8FKLJ50', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:31)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2020-01-13 17:12:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-01-13 17:12:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-01-13 17:12:05 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-01-13 17:12:05 - [TEST_STEP][FAILED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at TestListeners1.sampleAfterTestCase(TestListeners1.groovy:40)
+	at TestListeners1.invokeMethod(TestListeners1.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8FKLJ50', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:31)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2020-01-13 17:12:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-01-13 17:12:05 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at TestListeners1.sampleAfterTestCase(TestListeners1.groovy:40)
+	at TestListeners1.invokeMethod(TestListeners1.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8FKLJ50', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:31)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2020-01-13 17:12:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues' .
+
+2020-01-13 17:12:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues' .
+[[ATTACHMENT|C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200113_171039\\ROLES\\Verify_RoleLising_Page_CSSValue\\20200113_171039/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[2020-01-13 17:10:53 - [TEST_CASE][FAILED] - Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-13 17:10:53 - [TEST_SUITE][FAILED] - Verify_RoleLising_Page_CSSValue: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2020-01-13 17:10:53 - [TEST_SUITE][FAILED] - Verify_RoleLising_Page_CSSValue: Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/VerifyRolesListingPageCssValues FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at VerifyRolesListingPageCssValues.run(VerifyRolesListingPageCssValues:342)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578915644300.run(TempTestSuite1578915644300.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'path("M 0.037 16 C -0.045 15.094 0 14.213 0.265 13.366 C 0.43 12.836 0.851 12.494 1.367 12.333 C 2.102 12.101 2.855 11.931 3.593 11.71 C 4.03 11.578 4.473 11.435 4.883 11.231 C 5.81 10.769 5.963 10.101 5.531 9.148 A 32.198 32.198 0 0 1 4.251 5.906 C 3.919 4.898 3.906 3.846 4.178 2.801 C 4.571 1.29 5.688 0.273 7.234 0.061 C 8.353 -0.094 9.422 0.021 10.373 0.712 C 11.79 1.743 12.055 3.226 11.89 4.831 C 11.736 6.322 11.199 7.706 10.506 9.024 C 9.912 10.154 10.136 10.871 11.315 11.337 C 12.083 11.64 12.9 11.819 13.695 12.056 C 14.021 12.153 14.36 12.224 14.669 12.361 C 15.269 12.627 15.714 13.051 15.787 13.754 C 15.866 14.491 15.927 15.229 16 16 H 0.037 Z")' and expected object 'path("M 7.313 2.388 V 1.636 C 7.312 0.733 8.07 0 9 0 C 9.932 0 10.687 0.73 10.687 1.636 V 2.388 C 13.6 3.115 15.75 5.678 15.75 8.728 V 13.091 C 15.75 13.494 16.085 13.818 16.499 13.818 C 17.325 13.818 18 14.468 18 15.273 V 16.365 A 0.371 0.371 0 0 1 17.624 16.727 H 0.376 A 0.368 0.368 0 0 1 0 16.365 V 15.273 C 0 14.472 0.672 13.818 1.501 13.818 A 0.74 0.74 0 0 0 2.25 13.091 V 8.727 C 2.25 5.677 4.402 3.114 7.313 2.387 Z M 6.375 17.455 H 11.625 C 11.625 18.86 10.45 20 9 20 S 6.375 18.86 6.375 17.455 Z")' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

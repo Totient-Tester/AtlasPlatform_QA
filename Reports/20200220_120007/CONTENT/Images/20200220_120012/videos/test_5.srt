@@ -1,0 +1,288 @@
+1
+00:00:00,401 --> 00:00:00,402
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,476 --> 00:00:00,477
+1. openBrowser("")
+
+3
+00:00:00,483 --> 00:00:00,484
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:00,564 --> 00:00:00,564
+1. openBrowser("")
+
+5
+00:00:07,119 --> 00:00:07,119
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:08,331 --> 00:00:08,332
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:08,589 --> 00:00:08,589
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:10,910 --> 00:00:10,911
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:14,653 --> 00:00:14,654
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:14,840 --> 00:00:14,840
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:16,414 --> 00:00:16,415
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:00:20,158 --> 00:00:20,158
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:20,353 --> 00:00:20,354
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:21,927 --> 00:00:21,928
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:00:25,704 --> 00:00:25,707
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:25,971 --> 00:00:25,972
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:28,108 --> 00:00:28,109
+53. navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs ")
+
+18
+00:00:32,300 --> 00:00:32,301
+57. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+19
+00:00:32,591 --> 00:00:32,591
+61. click(findTestObject("LoginPage/httpsproceedlink"))
+
+20
+00:00:34,478 --> 00:00:34,479
+65. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0")
+
+21
+00:00:38,417 --> 00:00:38,418
+69. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+22
+00:00:38,620 --> 00:00:38,620
+73. click(findTestObject("LoginPage/httpsproceedlink"))
+
+23
+00:00:40,641 --> 00:00:40,642
+77. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/")
+
+24
+00:00:40,659 --> 00:00:40,661
+81. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+25
+00:00:40,678 --> 00:00:40,678
+85. click(findTestObject("LoginPage/httpsproceedlink"))
+
+26
+00:00:40,691 --> 00:00:40,692
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+27
+00:00:46,280 --> 00:00:46,281
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+28
+00:00:47,279 --> 00:00:47,280
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+29
+00:00:48,002 --> 00:00:48,003
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+30
+00:00:48,537 --> 00:00:48,538
+25. conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection()
+
+31
+00:00:52,250 --> 00:00:52,252
+29. resultValues1 = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(conn, "SELECT * FROM atlas_config.user WHERE email ="" + user_Email + "";")
+
+32
+00:00:52,853 --> 00:00:52,853
+33. println(com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id"))
+
+33
+00:00:52,866 --> 00:00:52,867
+37. user_id = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id")
+
+34
+00:00:52,879 --> 00:00:52,879
+41. println("User ID Variable value is : " + user_id)
+
+35
+00:00:52,895 --> 00:00:52,895
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+36
+00:00:53,275 --> 00:00:53,276
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+37
+00:00:56,282 --> 00:00:56,283
+13. delay(5)
+
+38
+00:01:01,297 --> 00:01:01,298
+17. click(findTestObject("CONTENT/Image_Listing/upload_image_button"))
+
+39
+00:01:01,778 --> 00:01:01,779
+21. verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload")
+
+40
+00:01:03,643 --> 00:01:03,644
+25. img_name = web.CustomKeyword.getRandomName("Automation")
+
+41
+00:01:03,685 --> 00:01:03,686
+29. print(img_name)
+
+42
+00:01:03,698 --> 00:01:03,699
+33. setText(findTestObject("CONTENT/Upload_Images/input_Image Name"), img_name)
+
+43
+00:01:05,523 --> 00:01:05,524
+37. click(findTestObject("CONTENT/Upload_Images/button_Add Description"))
+
+44
+00:01:06,068 --> 00:01:06,069
+41. setText(findTestObject("CONTENT/Upload_Images/textarea_Description_description"), web.CustomKeyword.getRandomString())
+
+45
+00:01:13,627 --> 00:01:13,628
+45. click(findTestObject("CONTENT/Upload_Images/label_Select Files"))
+
+46
+00:01:13,644 --> 00:01:13,645
+49. dr = getWebDriver()
+
+47
+00:01:13,656 --> 00:01:13,656
+53. listofFileUpload = findWebElements(findTestObject("CONTENT/Upload_Images/label_Select Files"), 0)
+
+48
+00:01:14,071 --> 00:01:14,072
+57. for ([i = 0, i < listofFileUpload.size(), (i++)])
+
+49
+00:01:14,091 --> 00:01:14,091
+1. id = get(i).getAttribute("id")
+
+50
+00:01:14,127 --> 00:01:14,128
+5. ele = dr.findElement(By.id(id))
+
+51
+00:01:14,395 --> 00:01:14,396
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+52
+00:01:14,493 --> 00:01:14,494
+1. id = get(i).getAttribute("id")
+
+53
+00:01:14,523 --> 00:01:14,524
+5. ele = dr.findElement(By.id(id))
+
+54
+00:01:14,979 --> 00:01:14,979
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+55
+00:01:15,070 --> 00:01:15,071
+1. id = get(i).getAttribute("id")
+
+56
+00:01:15,098 --> 00:01:15,098
+5. ele = dr.findElement(By.id(id))
+
+57
+00:01:15,572 --> 00:01:15,573
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+58
+00:01:15,664 --> 00:01:15,665
+61. verifyElementText(findTestObject("CONTENT/Upload_Images/label_Replace"), "Replace")
+
+59
+00:01:16,573 --> 00:01:16,575
+65. click(findTestObject("CONTENT/Upload_Images/language_DropDown"))
+
+60
+00:01:16,982 --> 00:01:16,983
+69. dropdownlist = findWebElements(findTestObject("CONTENT/Upload_Images/Select_Language_Options"), 0)
+
+61
+00:01:17,430 --> 00:01:17,430
+73. web.CustomKeyword.selectDropDownValue(dropdownlist, "English")
+
+62
+00:01:17,592 --> 00:01:17,593
+77. radiobuttonsforMarketing = findWebElements(findTestObject("CONTENT/Upload_Images/maketing_categories"), 0)
+
+63
+00:01:18,105 --> 00:01:18,106
+81. web.CustomKeyword.selectDropDownValue(radiobuttonsforMarketing, "Milestone")
+
+64
+00:01:18,368 --> 00:01:18,369
+85. click(findTestObject("CONTENT/Upload_Images/button_Upload"))
+
+65
+00:01:18,863 --> 00:01:18,864
+89. waitForElementPresent(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"), 10)
+
+66
+00:01:22,509 --> 00:01:22,509
+93. lisOFImagename = findWebElements(findTestObject("CONTENT/Image_Listing/colum1_Image_Name_values"), 0)
+
+67
+00:01:22,833 --> 00:01:22,834
+97. isUpload = web.CustomKeyword.selectDropDownValue(lisOFImagename, img_name)
+
+68
+00:01:23,004 --> 00:01:23,006
+101. verifyEqual(isUpload, true)
+
+69
+00:01:23,024 --> 00:01:23,024
+1. println(testCaseContext.getTestCaseId())
+
+70
+00:01:23,037 --> 00:01:23,038
+5. println(testCaseContext.getTestCaseStatus())
+
+71
+00:01:23,046 --> 00:01:23,046
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+72
+00:01:23,058 --> 00:01:23,059
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

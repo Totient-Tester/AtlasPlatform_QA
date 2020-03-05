@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Email id error message validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08ff7dda-d6c5-4166-8c05-d12db4111472</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(1, 19)</defaultValue>
+      <description></description>
+      <id>581fa9e6-3383-4385-8e96-80bc4ccf150e</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AMP_Y').getValue(2, 19)</defaultValue>
+      <description></description>
+      <id>5ebb3538-712d-49ea-9aa6-0b3c04cc49d2</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

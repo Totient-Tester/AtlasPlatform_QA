@@ -1,0 +1,88 @@
+1
+00:00:00,314 --> 00:00:00,315
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,325 --> 00:00:00,325
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,859 --> 00:00:00,861
+9. click(findTestObject("Swicther/accounts_tab_swicther"))
+
+4
+00:00:01,494 --> 00:00:01,495
+13. listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5)
+
+5
+00:00:02,012 --> 00:00:02,013
+17. listofoptioninstring = new java.util.ArrayList()
+
+6
+00:00:02,023 --> 00:00:02,026
+21. for (org.openqa.selenium.WebElement ele : listofoptions)
+
+7
+00:00:02,040 --> 00:00:02,041
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+8
+00:00:02,079 --> 00:00:02,080
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+9
+00:00:02,131 --> 00:00:02,132
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+10
+00:00:02,178 --> 00:00:02,179
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+11
+00:00:02,211 --> 00:00:02,212
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+12
+00:00:02,236 --> 00:00:02,237
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+13
+00:00:02,264 --> 00:00:02,265
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+14
+00:00:02,290 --> 00:00:02,291
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+15
+00:00:02,315 --> 00:00:02,316
+1. listofoptioninstring.addAll(getText().split("Last")[0])
+
+16
+00:00:02,359 --> 00:00:02,360
+25. isSorted = web.CustomKeyword.checkListAscendingOrder(listofoptioninstring)
+
+17
+00:00:02,429 --> 00:00:02,430
+31. If custom keyword is written true test case pass.Otherwise fail.
+
+18
+00:00:02,466 --> 00:00:02,468
+35. click(findTestObject("Swicther/closeIcon"))
+
+19
+00:00:02,897 --> 00:00:02,897
+1. println(testCaseContext.getTestCaseId())
+
+20
+00:00:02,910 --> 00:00:02,911
+5. println(testCaseContext.getTestCaseStatus())
+
+21
+00:00:02,918 --> 00:00:02,919
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+22
+00:00:02,926 --> 00:00:02,927
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

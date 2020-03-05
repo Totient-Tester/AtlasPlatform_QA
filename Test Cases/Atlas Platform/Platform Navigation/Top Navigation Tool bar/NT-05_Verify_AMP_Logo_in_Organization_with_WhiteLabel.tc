@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT-05_Verify_AMP_Logo_in_Organization_with_WhiteLabel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c59dd97-221e-46db-8ef7-e00ce8f5c5f4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6333cbb1-7849-433c-96c0-b46307da4bb3</id>
+      <masked>false</masked>
+      <name>AMP_url</name>
+   </variable>
+</TestCaseEntity>

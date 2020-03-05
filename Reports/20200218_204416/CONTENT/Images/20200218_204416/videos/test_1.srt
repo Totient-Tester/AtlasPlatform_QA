@@ -1,0 +1,84 @@
+1
+00:00:00,444 --> 00:00:00,451
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,234 --> 00:00:02,239
+1. openBrowser("")
+
+3
+00:00:02,276 --> 00:00:02,279
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:02,800 --> 00:00:02,802
+1. openBrowser("")
+
+5
+00:00:07,028 --> 00:00:07,031
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:07,353 --> 00:00:07,357
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:07,784 --> 00:00:07,797
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:08,073 --> 00:00:08,078
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:08,138 --> 00:00:08,153
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:08,481 --> 00:00:08,483
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:08,707 --> 00:00:08,708
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:00:08,797 --> 00:00:08,798
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:09,102 --> 00:00:09,103
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:09,399 --> 00:00:09,400
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:00:09,486 --> 00:00:09,487
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:09,724 --> 00:00:09,733
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:09,925 --> 00:00:09,926
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+18
+00:00:09,957 --> 00:00:09,959
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+19
+00:00:10,087 --> 00:00:10,088
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+20
+00:00:10,219 --> 00:00:10,221
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+21
+00:00:10,350 --> 00:00:10,352
+25. conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection()
+

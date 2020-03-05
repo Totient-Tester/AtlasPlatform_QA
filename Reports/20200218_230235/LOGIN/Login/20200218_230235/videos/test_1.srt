@@ -1,0 +1,12 @@
+1
+00:00:00,500 --> 00:00:00,516
+1. openBrowser("")
+
+2
+00:00:11,171 --> 00:00:11,172
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+3
+00:00:12,764 --> 00:00:12,767
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+

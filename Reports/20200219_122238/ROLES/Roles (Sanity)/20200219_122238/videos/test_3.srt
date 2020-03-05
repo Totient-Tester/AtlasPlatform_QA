@@ -1,0 +1,12 @@
+1
+00:00:00,279 --> 00:00:00,280
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,295 --> 00:00:00,296
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,309 --> 00:00:00,314
+9. click(findTestObject("ROLES/Roles_page/Hamburger/button_hamburger"))
+

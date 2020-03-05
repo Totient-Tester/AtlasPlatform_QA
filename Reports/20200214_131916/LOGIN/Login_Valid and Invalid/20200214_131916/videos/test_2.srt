@@ -1,0 +1,32 @@
+1
+00:00:00,319 --> 00:00:00,320
+1. openBrowser("")
+
+2
+00:00:00,337 --> 00:00:00,338
+5. navigateToUrl("http://dqfn4clx0bazt.cloudfront.net/")
+
+3
+00:00:03,909 --> 00:00:03,911
+9. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+4
+00:00:04,892 --> 00:00:04,893
+13. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+5
+00:00:05,631 --> 00:00:05,632
+17. click(findTestObject("Login_Page/Page_/Log In button"))
+
+6
+00:03:56,634 --> 00:03:56,635
+21. dashboard_act_title = getWindowTitle()
+
+7
+00:03:56,683 --> 00:03:56,684
+25. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+8
+00:03:56,745 --> 00:03:56,747
+29. verifyElementPresent(findTestObject("Login_Page/Dashboard/a_AUDIENCE"), 0)
+

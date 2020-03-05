@@ -1,0 +1,96 @@
+1
+00:00:00,464 --> 00:00:00,476
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:02,935 --> 00:00:02,941
+1. openBrowser("")
+
+3
+00:00:02,968 --> 00:00:02,979
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:03,790 --> 00:00:03,794
+1. openBrowser("")
+
+5
+00:00:12,930 --> 00:00:12,932
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:13,911 --> 00:00:13,913
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:14,324 --> 00:00:14,325
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:16,349 --> 00:00:16,350
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:20,144 --> 00:00:20,147
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:20,622 --> 00:00:20,625
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:22,520 --> 00:00:22,522
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:00:26,870 --> 00:00:26,872
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:27,212 --> 00:00:27,213
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:29,125 --> 00:00:29,127
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:00:33,376 --> 00:00:33,377
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:33,706 --> 00:00:33,708
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:35,937 --> 00:00:35,940
+53. navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs ")
+
+18
+00:00:40,595 --> 00:00:40,600
+57. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+19
+00:00:40,822 --> 00:00:40,824
+61. click(findTestObject("LoginPage/httpsproceedlink"))
+
+20
+00:00:43,660 --> 00:00:43,661
+65. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9090/services/data/api/consumers/data-sources/vPARfmrJDA?filter=accountId,1&size=10&page=0")
+
+21
+00:00:47,924 --> 00:00:47,926
+69. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+22
+00:00:48,407 --> 00:00:48,408
+73. click(findTestObject("LoginPage/httpsproceedlink"))
+
+23
+00:00:50,377 --> 00:00:50,379
+77. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/management/")
+
+24
+00:00:51,799 --> 00:00:51,801
+81. click(findTestObject("LoginPage/httpAdvanceBtn"))
+

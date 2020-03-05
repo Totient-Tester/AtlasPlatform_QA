@@ -1,0 +1,48 @@
+1
+00:00:00,610 --> 00:00:00,611
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,620 --> 00:00:00,623
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+3
+00:00:00,712 --> 00:00:00,713
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+4
+00:00:00,822 --> 00:00:00,824
+13. click(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"))
+
+5
+00:00:00,946 --> 00:00:00,965
+17. setText(findTestObject("CONTENT/Image_Listing/image_search_box"), "image" + ENTER)
+
+6
+00:00:01,089 --> 00:00:01,090
+21. delay(5)
+
+7
+00:00:06,113 --> 00:00:06,114
+25. text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination"))
+
+8
+00:00:06,194 --> 00:00:06,195
+29. resultfound_count = Integer.parseInt(split(" ")[1].trim())
+
+9
+00:00:06,221 --> 00:00:06,222
+1. println(testCaseContext.getTestCaseId())
+
+10
+00:00:06,235 --> 00:00:06,243
+5. println(testCaseContext.getTestCaseStatus())
+
+11
+00:00:06,254 --> 00:00:06,255
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+12
+00:00:06,264 --> 00:00:06,264
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

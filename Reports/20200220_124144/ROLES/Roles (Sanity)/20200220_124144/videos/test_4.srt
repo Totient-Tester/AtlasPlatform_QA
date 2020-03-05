@@ -1,0 +1,36 @@
+1
+00:00:00,675 --> 00:00:00,676
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,689 --> 00:00:00,690
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,706 --> 00:00:00,707
+9. delay(3)
+
+4
+00:00:03,719 --> 00:00:03,721
+13. verifyElementText(findTestObject("ROLES/Change Status/role name"), ROLENAME2)
+
+5
+00:00:04,149 --> 00:00:04,150
+17. click(findTestObject("ROLES/Roles_page/Hamburger/button_hamburger"))
+
+6
+00:00:04,615 --> 00:00:04,616
+21. click(findTestObject("ROLES/Change Status/change status link"))
+
+7
+00:00:05,176 --> 00:00:05,177
+25. click(findTestObject("ROLES/Change Status/Archived"))
+
+8
+00:00:06,091 --> 00:00:06,092
+29. click(findTestObject("ROLES/Change Status/Confirm_button"))
+
+9
+00:00:06,661 --> 00:00:06,662
+33. verifyElementText(findTestObject("ROLES/Change Status/status_archived"), findTestData("Roles").getValue(5, 2))
+

@@ -1,0 +1,44 @@
+1
+00:00:00,256 --> 00:00:00,258
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,265 --> 00:00:00,267
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,275 --> 00:00:00,277
+9. click(findTestObject("ROLES/Roles_page/Hamburger/button_hamburger"))
+
+4
+00:00:00,371 --> 00:00:00,383
+13. click(findTestObject("ROLES/Roles_page/Hamburger/a_Change Status"))
+
+5
+00:00:00,558 --> 00:00:00,561
+17. click(findTestObject("ROLES/Change Status/Archived"))
+
+6
+00:00:00,718 --> 00:00:00,722
+21. click(findTestObject("ROLES/Change Status/Confirm_button"))
+
+7
+00:00:00,855 --> 00:00:00,860
+25. verifyElementText(findTestObject("ROLES/Change Status/status_archived"), findTestData("xlsx files/Roles").getValue(5, 2))
+
+8
+00:00:00,998 --> 00:00:00,999
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:01,031 --> 00:00:01,032
+5. println(testCaseContext.getTestCaseStatus())
+
+10
+00:00:01,046 --> 00:00:01,047
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+11
+00:00:01,061 --> 00:00:01,062
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

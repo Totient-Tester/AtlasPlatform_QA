@@ -1,0 +1,44 @@
+1
+00:00:00,388 --> 00:00:00,393
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,737 --> 00:00:01,747
+1. openBrowser("")
+
+3
+00:00:07,759 --> 00:00:07,767
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:07,801 --> 00:00:07,811
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+5
+00:00:08,207 --> 00:00:08,209
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+6
+00:00:08,720 --> 00:00:08,747
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+7
+00:00:09,104 --> 00:00:09,107
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+8
+00:00:09,506 --> 00:00:09,509
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:09,585 --> 00:00:09,586
+5. println(testCaseContext.getTestCaseStatus())
+
+10
+00:00:09,600 --> 00:00:09,604
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+11
+00:00:09,659 --> 00:00:09,661
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

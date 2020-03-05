@@ -1,0 +1,20 @@
+1
+00:00:00,673 --> 00:00:00,681
+1. openBrowser("")
+
+2
+00:00:00,710 --> 00:00:00,714
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+3
+00:00:01,476 --> 00:00:01,479
+1. openBrowser("")
+
+4
+00:00:23,296 --> 00:00:23,298
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+5
+00:00:30,368 --> 00:00:30,369
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+

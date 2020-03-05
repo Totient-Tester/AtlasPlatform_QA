@@ -1,0 +1,28 @@
+1
+00:00:00,506 --> 00:00:00,515
+1. callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:01,681 --> 00:00:01,685
+1. openBrowser("")
+
+3
+00:00:10,711 --> 00:00:10,714
+5. navigateToUrl("https://atlas-dev.gsm.auto/dashboard")
+
+4
+00:00:17,586 --> 00:00:17,589
+9. setText(findTestObject("ROLES/Role_Navigation/input_Email Address_form-control"), "uday@totient.co.in")
+
+5
+00:00:18,738 --> 00:00:18,739
+13. setText(findTestObject("ROLES/Role_Navigation/input_Password_form-control"), "Totient@123")
+
+6
+00:00:19,523 --> 00:00:19,525
+17. click(findTestObject("ROLES/Role_Navigation/button_Log In"))
+
+7
+00:00:20,083 --> 00:00:20,085
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+

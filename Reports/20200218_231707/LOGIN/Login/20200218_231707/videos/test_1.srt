@@ -1,0 +1,48 @@
+1
+00:00:00,672 --> 00:00:00,691
+1. openBrowser("")
+
+2
+00:00:10,358 --> 00:00:10,367
+5. callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+3
+00:00:10,431 --> 00:00:10,432
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+4
+00:00:11,554 --> 00:00:11,557
+13. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+5
+00:00:47,640 --> 00:00:47,641
+17. setText(findTestObject("Login_Page/Page_/Password placeholder"), Password)
+
+6
+00:00:47,750 --> 00:00:47,752
+21. click(findTestObject("Login_Page/Page_/Log In button"))
+
+7
+00:00:47,921 --> 00:00:47,922
+25. dashboard_act_title = getWindowTitle()
+
+8
+00:00:48,003 --> 00:00:48,004
+29. verifyEqual(dashboard_act_title, dashboard_exp_title)
+
+9
+00:00:48,072 --> 00:00:48,073
+1. println(testCaseContext.getTestCaseId())
+
+10
+00:00:48,098 --> 00:00:48,099
+5. println(testCaseContext.getTestCaseStatus())
+
+11
+00:00:48,109 --> 00:00:48,110
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+12
+00:00:48,119 --> 00:00:48,120
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>backgroundImage</name>
+   <tag></tag>
+   <elementGuidId>d138d6a7-18e5-46d9-8938-03e41e6749be</elementGuidId>
+   <imagePath>D:\bck.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class='style__image___3PH__']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@class='style__image___3PH__']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@class='style__image___3PH__']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,132 @@
+1
+00:00:00,663 --> 00:00:00,664
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:01,314 --> 00:00:01,315
+1. openBrowser("")
+
+3
+00:00:01,323 --> 00:00:01,333
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:01,709 --> 00:00:01,709
+1. openBrowser("")
+
+5
+00:00:12,501 --> 00:00:12,502
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:13,416 --> 00:00:13,418
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:13,928 --> 00:00:13,929
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:16,078 --> 00:00:16,079
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:19,921 --> 00:00:19,922
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:20,205 --> 00:00:20,206
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:22,196 --> 00:00:22,197
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+
+12
+00:00:26,307 --> 00:00:26,309
+33. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+13
+00:00:26,705 --> 00:00:26,709
+37. click(findTestObject("LoginPage/httpsproceedlink"))
+
+14
+00:00:28,499 --> 00:00:28,500
+41. navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10")
+
+15
+00:00:32,431 --> 00:00:32,433
+45. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+16
+00:00:33,444 --> 00:00:33,445
+49. click(findTestObject("LoginPage/httpsproceedlink"))
+
+17
+00:00:35,600 --> 00:00:35,601
+53. navigateToUrl("https://ec2-52-15-68-88.us-east-2.compute.amazonaws.com:9090/services/message/api/programs")
+
+18
+00:00:39,781 --> 00:00:39,782
+57. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+19
+00:00:40,528 --> 00:00:40,529
+61. click(findTestObject("LoginPage/httpsproceedlink"))
+
+20
+00:00:42,605 --> 00:00:42,606
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+21
+00:00:49,246 --> 00:00:49,247
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+22
+00:00:51,141 --> 00:00:51,142
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+23
+00:00:52,503 --> 00:00:52,504
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+24
+00:00:53,194 --> 00:00:53,195
+25. conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection()
+
+25
+00:01:00,243 --> 00:01:00,244
+29. resultValues1 = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(conn, "SELECT * FROM atlas_config.user WHERE email ="" + user_Email + "";")
+
+26
+00:01:02,350 --> 00:01:02,351
+33. println(com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id"))
+
+27
+00:01:02,648 --> 00:01:02,685
+37. user_id = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(resultValues1, 1, "user_id")
+
+28
+00:01:03,356 --> 00:01:03,357
+41. println("User ID Variable value is : " + user_id)
+
+29
+00:01:03,453 --> 00:01:03,455
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+30
+00:01:03,937 --> 00:01:03,938
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+31
+00:01:07,926 --> 00:01:07,928
+13. delay(5)
+
+32
+00:01:12,952 --> 00:01:12,953
+17. click(findTestObject("CONTENT/Image_Listing/upload_image_button"))
+
+33
+00:01:13,542 --> 00:01:13,544
+21. verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload Images")
+

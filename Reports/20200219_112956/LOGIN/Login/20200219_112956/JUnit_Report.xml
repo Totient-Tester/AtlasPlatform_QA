@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="140.656" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="140.656" timestamp="2020-02-19 11:30:21" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/LOGIN/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200219_112956\\LOGIN\\Login\\20200219_112956"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\GSMProject\\Reports\\20200219_112956\\LOGIN\\Login\\20200219_112956\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="a0c6342fe24e2299744e94862ad5db1e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin" time="128.883" classname="Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin" status="PASSED">
+         <system-out><![CDATA[2020-02-19 11:30:21 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin
+
+2020-02-19 11:30:23 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-02-19 11:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-02-19 11:30:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-19 11:30:24 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance: Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance
+
+2020-02-19 11:30:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-19 11:30:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-19 11:30:25 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-02-19 11:30:25 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-02-19 11:30:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-19 11:30:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-19 11:30:36 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs' successfully
+
+2020-02-19 11:30:41 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs' successfully
+
+2020-02-19 11:30:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:30:42 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:30:59 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate"): Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-19 11:31:03 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9090/services/configuration/api/authenticate' successfully
+
+2020-02-19 11:31:03 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:16 - [TEST_STEP][PASSED] - navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC"): Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC' successfully
+
+2020-02-19 11:31:23 - [MESSAGE][PASSED] - Navigate to 'https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC' successfully
+
+2020-02-19 11:31:23 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:24 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:33 - [TEST_STEP][PASSED] - navigateToUrl("https://3.19.246.255:9091/services/content/api/images?page=0&size=10"): Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-19 11:31:40 - [MESSAGE][PASSED] - Navigate to 'https://3.19.246.255:9091/services/content/api/images?page=0&size=10' successfully
+
+2020-02-19 11:31:40 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpAdvanceBtn")): Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpAdvanceBtn' is clicked on
+
+2020-02-19 11:31:40 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/httpsproceedlink")): Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/httpsproceedlink' is clicked on
+
+2020-02-19 11:31:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/OnBoard/SwictherDBValidation/TC_100_ForSecurityURLSAcceptance' successfully
+
+2020-02-19 11:31:52 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-19 11:32:25 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-02-19 11:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/email address placeholder"), Email): Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-02-19 11:32:26 - [MESSAGE][PASSED] - Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-02-19 11:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/Password placeholder"), Password): Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-02-19 11:32:27 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-02-19 11:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Page_/Log In button")): Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-02-19 11:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - dashboard_act_title = getWindowTitle(): Current window's title is: ''
+
+2020-02-19 11:32:28 - [MESSAGE][PASSED] - Current window's title is: ''
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - verifyEqual(dashboard_act_title, dashboard_exp_title): Actual object '' and expected object '' are equal
+
+2020-02-19 11:32:28 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-19 11:32:28 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Logout/Logout" time="11.334" classname="Test Cases/Atlas Platform/Platform Navigation/Logout/Logout" status="PASSED">
+         <system-out><![CDATA[2020-02-19 11:32:30 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Logout/Logout: Test Cases/Atlas Platform/Platform Navigation/Logout/Logout
+
+2020-02-19 11:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Logout/My Account")): Object: 'Object Repository/Logout/My Account' is clicked on
+
+2020-02-19 11:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/My Account' is clicked on
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Logout/li_Log Out")): Object: 'Object Repository/Logout/li_Log Out' is clicked on
+
+2020-02-19 11:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/li_Log Out' is clicked on
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-02-19 11:32:39 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-19 11:30:21 - [TEST_SUITE][PASSED] - Login: Test Cases/Atlas Platform/Platform Navigation/Logout/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

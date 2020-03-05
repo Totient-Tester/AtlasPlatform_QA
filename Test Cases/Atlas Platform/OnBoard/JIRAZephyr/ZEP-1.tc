@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Login page test cases with valid credentials
+Description: </description>
+   <name>ZEP-1</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>1282188a-a81d-4ad7-90b3-b6bc5800d552</testCaseGuid>
+</TestCaseEntity>

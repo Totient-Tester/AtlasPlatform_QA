@@ -1,0 +1,44 @@
+1
+00:00:00,508 --> 00:00:00,519
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,902 --> 00:00:01,906
+1. openBrowser("")
+
+3
+00:00:01,950 --> 00:00:01,961
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:00:02,603 --> 00:00:02,605
+1. openBrowser("")
+
+5
+00:00:11,698 --> 00:00:11,701
+5. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:9092/services/message/api/programs")
+
+6
+00:00:12,494 --> 00:00:12,496
+9. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+7
+00:00:12,896 --> 00:00:12,897
+13. click(findTestObject("LoginPage/httpsproceedlink"))
+
+8
+00:00:15,256 --> 00:00:15,257
+17. navigateToUrl("https://3.19.246.255:9090/services/configuration/api/authenticate")
+
+9
+00:00:19,098 --> 00:00:19,101
+21. click(findTestObject("LoginPage/httpAdvanceBtn"))
+
+10
+00:00:19,444 --> 00:00:19,446
+25. click(findTestObject("LoginPage/httpsproceedlink"))
+
+11
+00:00:21,326 --> 00:00:21,328
+29. navigateToUrl("https://ec2-3-133-54-242.us-east-2.compute.amazonaws.com:8080/services/data/api/data-sources?search=Repair&filters=ACTIVE&page=0&size=20&sort=accountId,DESC")
+

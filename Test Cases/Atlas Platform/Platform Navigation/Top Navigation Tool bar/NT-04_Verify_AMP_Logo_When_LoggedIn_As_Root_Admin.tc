@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT-04_Verify_AMP_Logo_When_LoggedIn_As_Root_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c567e41-1bbe-4acd-b30a-9bacc32e341e</testCaseGuid>
+   <variable>
+      <defaultValue>'http://dqfn4clx0bazt.cloudfront.net/init/380bfcf899971f7d559215551dc6c715.svg'</defaultValue>
+      <description></description>
+      <id>fc735f6c-0e7a-4e13-b342-68e443e24437</id>
+      <masked>false</masked>
+      <name>AMP_url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+1
+00:00:00,252 --> 00:00:00,253
+1. callTestCase(findTestCase("Atlas Platform/OnBoard/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,263 --> 00:00:00,263
+5. initiallyselectedtext = getText(findTestObject("Swicther/swicthermenutext"))
+
+3
+00:00:00,604 --> 00:00:00,605
+9. click(findTestObject("Swicther/swicthermenutext"))
+

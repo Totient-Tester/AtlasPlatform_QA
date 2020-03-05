@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>AMP</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>fd80980a-6f1d-439b-a583-3ef8a39f78c3</dataFileGUID>
+<<<<<<< HEAD
+   <dataSourceUrl>C:\Users\Dell\Katalon Studio\GSM Demo\Data Files\AMP.xlsx</dataSourceUrl>
+=======
+   <dataSourceUrl>C:\Users\Dell\git\GSMProject\Data Files\xlsx files\AMP.xlsx</dataSourceUrl>
+>>>>>>> f52e67f5aa6e1df5d871f8eba4e074a3f9b3468a
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

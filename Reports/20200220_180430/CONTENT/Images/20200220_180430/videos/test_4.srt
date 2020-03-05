@@ -1,0 +1,156 @@
+1
+00:00:00,937 --> 00:00:00,938
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,948 --> 00:00:00,949
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+3
+00:00:01,406 --> 00:00:01,407
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+4
+00:00:02,580 --> 00:00:02,581
+13. delay(5)
+
+5
+00:00:07,597 --> 00:00:07,599
+17. click(findTestObject("CONTENT/Image_Listing/upload_image_button"))
+
+6
+00:00:08,273 --> 00:00:08,275
+21. verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload")
+
+7
+00:00:10,411 --> 00:00:10,412
+25. img_name = web.CustomKeyword.getRandomName("Automation")
+
+8
+00:00:10,601 --> 00:00:10,602
+29. print(img_name)
+
+9
+00:00:10,649 --> 00:00:10,650
+33. setText(findTestObject("CONTENT/Upload_Images/input_Image Name"), img_name)
+
+10
+00:00:13,587 --> 00:00:13,599
+37. click(findTestObject("CONTENT/Upload_Images/button_Add Description"))
+
+11
+00:00:14,595 --> 00:00:14,596
+41. setText(findTestObject("CONTENT/Upload_Images/textarea_Description_description"), web.CustomKeyword.getRandomString())
+
+12
+00:00:27,533 --> 00:00:27,534
+45. click(findTestObject("CONTENT/Upload_Images/label_Select Files"))
+
+13
+00:00:27,558 --> 00:00:27,558
+49. dr = getWebDriver()
+
+14
+00:00:27,572 --> 00:00:27,573
+53. listofFileUpload = findWebElements(findTestObject("CONTENT/Upload_Images/label_Select Files"), 0)
+
+15
+00:00:28,000 --> 00:00:28,002
+57. for ([i = 0, i < listofFileUpload.size(), (i++)])
+
+16
+00:00:28,086 --> 00:00:28,086
+1. id = get(i).getAttribute("id")
+
+17
+00:00:28,378 --> 00:00:28,378
+5. ele = dr.findElement(By.id(id))
+
+18
+00:00:28,863 --> 00:00:28,864
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+19
+00:00:28,958 --> 00:00:28,959
+1. id = get(i).getAttribute("id")
+
+20
+00:00:29,081 --> 00:00:29,082
+5. ele = dr.findElement(By.id(id))
+
+21
+00:00:29,549 --> 00:00:29,550
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+22
+00:00:29,586 --> 00:00:29,587
+1. id = get(i).getAttribute("id")
+
+23
+00:00:29,703 --> 00:00:29,704
+5. ele = dr.findElement(By.id(id))
+
+24
+00:00:30,179 --> 00:00:30,180
+9. ele.sendKeys(System.getProperty("user.dir") + "\Test Files\img" + i + 1 + ".jpg")
+
+25
+00:00:30,224 --> 00:00:30,225
+61. verifyElementText(findTestObject("CONTENT/Upload_Images/label_Replace"), "Replace")
+
+26
+00:00:31,456 --> 00:00:31,457
+65. click(findTestObject("CONTENT/Upload_Images/language_DropDown"))
+
+27
+00:00:31,951 --> 00:00:31,953
+69. dropdownlist = findWebElements(findTestObject("CONTENT/Upload_Images/Select_Language_Options"), 0)
+
+28
+00:00:32,465 --> 00:00:32,465
+73. web.CustomKeyword.selectDropDownValue(dropdownlist, "English")
+
+29
+00:00:32,848 --> 00:00:32,849
+77. radiobuttonsforMarketing = findWebElements(findTestObject("CONTENT/Upload_Images/maketing_categories"), 0)
+
+30
+00:00:33,318 --> 00:00:33,319
+81. web.CustomKeyword.selectDropDownValue(radiobuttonsforMarketing, "Milestone")
+
+31
+00:00:33,621 --> 00:00:33,622
+85. click(findTestObject("CONTENT/Upload_Images/button_Upload"))
+
+32
+00:00:34,228 --> 00:00:34,229
+89. waitForElementPresent(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"), 10)
+
+33
+00:00:37,551 --> 00:00:37,552
+93. lisOFImagename = findWebElements(findTestObject("CONTENT/Image_Listing/colum1_Image_Name_values"), 0)
+
+34
+00:00:37,940 --> 00:00:37,941
+97. isUpload = web.CustomKeyword.selectDropDownValue(lisOFImagename, img_name)
+
+35
+00:00:38,323 --> 00:00:38,324
+101. verifyEqual(isUpload, true)
+
+36
+00:00:38,356 --> 00:00:38,356
+1. println(testCaseContext.getTestCaseId())
+
+37
+00:00:38,371 --> 00:00:38,372
+5. println(testCaseContext.getTestCaseStatus())
+
+38
+00:00:38,386 --> 00:00:38,387
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+39
+00:00:38,400 --> 00:00:38,400
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+
