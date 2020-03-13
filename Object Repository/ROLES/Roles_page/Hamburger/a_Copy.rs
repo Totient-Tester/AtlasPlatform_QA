@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='069bbcc0f9b6488486216f896d9a8af5']/div[2]/ul/li[3]/a</value>
+         <value>//a[text()='Copy']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

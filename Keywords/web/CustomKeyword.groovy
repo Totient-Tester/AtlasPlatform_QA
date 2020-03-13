@@ -36,11 +36,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 /*import ru.yandex.qatools.ashot.AShot
-import ru.yandex.qatools.ashot.Screenshot
-import ru.yandex.qatools.ashot.comparison.ImageDiff
-import ru.yandex.qatools.ashot.comparison.ImageDiffer
-import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
-*/
+ import ru.yandex.qatools.ashot.Screenshot
+ import ru.yandex.qatools.ashot.comparison.ImageDiff
+ import ru.yandex.qatools.ashot.comparison.ImageDiffer
+ import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
+ */
 public class CustomKeyword {
 
 
@@ -91,17 +91,15 @@ public class CustomKeyword {
 
 
 	/*@Keyword
-	public static void takeScreenShot(){
-
-		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat simpleformat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		Screenshot screen =new AShot().takeScreenshot(driver);
-		ImageIO.write(screen.getImage(), "PNG", new File(System.getProperty("user.dir")+"\\Test Output\\"+simpleformat.format(calendar.getTime())));
-
-		ImageDiffer imagediffer = new ImageDiffer();
-		 ImageDiff imagediff = imagediffer.makeDiff(screen, screen)
-	}
-*/
+	 public static void takeScreenShot(){
+	 Calendar calendar = Calendar.getInstance();
+	 SimpleDateFormat simpleformat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+	 Screenshot screen =new AShot().takeScreenshot(driver);
+	 ImageIO.write(screen.getImage(), "PNG", new File(System.getProperty("user.dir")+"\\Test Output\\"+simpleformat.format(calendar.getTime())));
+	 ImageDiffer imagediffer = new ImageDiffer();
+	 ImageDiff imagediff = imagediffer.makeDiff(screen, screen)
+	 }
+	 */
 
 
 
@@ -145,43 +143,50 @@ public class CustomKeyword {
 
 		bw.close();
 	}
-/*
+	/*
+	 @Keyword
+	 public static void CompareBothImages(TestObject testObjectoftheimage, String pathoftheimage){
+	 try{
+	 BufferedImage actualImag = ImageIO.read(new File(pathoftheimage))
+	 Screenshot screen = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, WebUiCommonHelper.findWebElement(testObjectoftheimage, 0));
+	 BufferedImage bfrimage = screen.getImage();
+	 ImageDiffer imgdiffer = new ImageDiffer();
+	 ImageDiff imgdiff = imgdiffer.makeDiff(bfrimage, actualImag);
+	 Assert.assertTrue(imgdiff.hasDiff(), "Both Images are matched");
+	 }
+	 catch(Exception e){
+	 println "Exception : "+e.getMessage()
+	 }
+	 }
+	 */
 	@Keyword
-	public static void CompareBothImages(TestObject testObjectoftheimage, String pathoftheimage){
-
-
-		try{
-
-			BufferedImage actualImag = ImageIO.read(new File(pathoftheimage))
-			Screenshot screen = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, WebUiCommonHelper.findWebElement(testObjectoftheimage, 0));
-			BufferedImage bfrimage = screen.getImage();
-			ImageDiffer imgdiffer = new ImageDiffer();
-			ImageDiff imgdiff = imgdiffer.makeDiff(bfrimage, actualImag);
-			Assert.assertTrue(imgdiff.hasDiff(), "Both Images are matched");
-		}
-		catch(Exception e){
-
-			println "Exception : "+e.getMessage()
-		}
-	}
-*/
-	@Keyword
-	public boolean checkListAscendingOrder(List<String> listOfString){
+	public boolean checkListAscendingOrder(List<Object> listOfString){
 
 		println listOfString
-		List<String> tempString = new ArrayList<String>(listOfString);
+		List<Object> tempString = new ArrayList<Object>(listOfString);
 		println tempString
 		Collections.sort(tempString);
 		println tempString
 		return tempString.equals(listOfString);
 	}
 
-	@Keyword
-	public boolean checkListDescendingOrder(List<String> listOfString, List<String> listOfStringWithDesc){
 
-		List<String> tempString = new ArrayList<String>(listOfStringWithDesc);
+	@Keyword
+	public boolean checkListDescendingOrder(List<Object> listOfString, List<Object> listOfStringWithDesc){
+
+		List<Object> tempString = new ArrayList<Object>(listOfStringWithDesc);
 
 		Collections.sort(listOfString, Collections.reverseOrder());
+
+		return tempString.equals(listOfString);
+	}
+	
+	@Keyword
+	public boolean checkListDescending(List<String> listOfString){
+
+		List<String> tempString = new ArrayList<String>(listOfString);
+
+		Collections.sort(tempString, Collections.reverseOrder());
 
 		return tempString.equals(listOfString);
 	}

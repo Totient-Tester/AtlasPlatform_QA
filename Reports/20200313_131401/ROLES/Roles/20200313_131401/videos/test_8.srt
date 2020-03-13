@@ -1,0 +1,304 @@
+1
+00:00:00,466 --> 00:00:00,467
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,469 --> 00:00:00,469
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,471 --> 00:00:00,472
+9. driver = getWebDriver()
+
+4
+00:00:00,473 --> 00:00:00,474
+13. noOfPages_text = getText(findTestObject("ROLES/Roles_page/Pagination/label_of 10"))
+
+5
+00:00:00,795 --> 00:00:00,796
+17. noOfPages = Integer.parseInt(noOfPages_text.substring(3))
+
+6
+00:00:00,797 --> 00:00:00,797
+21. println(noOfPages)
+
+7
+00:00:00,798 --> 00:00:00,799
+25. for ([j = 1, j < 3, (j++)])
+
+8
+00:00:00,800 --> 00:00:00,800
+1. click(findTestObject("ROLES/Roles_page/sorting/Modified_header"))
+
+9
+00:00:01,201 --> 00:00:01,201
+5. modifiedDate = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+
+10
+00:00:01,202 --> 00:00:01,204
+9. AllModifiedDate = new java.util.ArrayList()
+
+11
+00:00:01,206 --> 00:00:01,206
+13. for ([i = 1, i <= noOfPages, (i++)])
+
+12
+00:00:01,207 --> 00:00:01,208
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+13
+00:00:01,980 --> 00:00:01,981
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+14
+00:00:01,990 --> 00:00:01,990
+1. AllModifiedDate.add(a.getText())
+
+15
+00:00:02,015 --> 00:00:02,016
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+16
+00:00:04,780 --> 00:00:04,780
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+17
+00:00:05,064 --> 00:00:05,064
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+18
+00:00:05,065 --> 00:00:05,066
+1. AllModifiedDate.add(a.getText())
+
+19
+00:00:05,076 --> 00:00:05,076
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+20
+00:00:07,759 --> 00:00:07,760
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+21
+00:00:08,052 --> 00:00:08,053
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+22
+00:00:08,055 --> 00:00:08,056
+1. AllModifiedDate.add(a.getText())
+
+23
+00:00:08,071 --> 00:00:08,072
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+24
+00:00:10,826 --> 00:00:10,827
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+25
+00:00:11,139 --> 00:00:11,140
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+26
+00:00:11,141 --> 00:00:11,142
+1. AllModifiedDate.add(a.getText())
+
+27
+00:00:11,157 --> 00:00:11,158
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+28
+00:00:13,936 --> 00:00:13,936
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+29
+00:00:14,242 --> 00:00:14,243
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+30
+00:00:14,244 --> 00:00:14,244
+1. AllModifiedDate.add(a.getText())
+
+31
+00:00:14,257 --> 00:00:14,258
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+32
+00:00:16,958 --> 00:00:16,958
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+33
+00:00:17,270 --> 00:00:17,271
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+34
+00:00:17,272 --> 00:00:17,272
+1. AllModifiedDate.add(a.getText())
+
+35
+00:00:17,287 --> 00:00:17,287
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+36
+00:00:19,995 --> 00:00:19,996
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+37
+00:00:20,312 --> 00:00:20,312
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+38
+00:00:20,313 --> 00:00:20,313
+1. AllModifiedDate.add(a.getText())
+
+39
+00:00:20,325 --> 00:00:20,325
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+40
+00:00:23,012 --> 00:00:23,012
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+41
+00:00:23,316 --> 00:00:23,316
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+42
+00:00:23,321 --> 00:00:23,321
+1. AllModifiedDate.add(a.getText())
+
+43
+00:00:23,353 --> 00:00:23,354
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+44
+00:00:26,211 --> 00:00:26,211
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+45
+00:00:26,516 --> 00:00:26,517
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+46
+00:00:26,519 --> 00:00:26,519
+1. AllModifiedDate.add(a.getText())
+
+47
+00:00:26,534 --> 00:00:26,535
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+48
+00:00:29,302 --> 00:00:29,303
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+49
+00:00:29,631 --> 00:00:29,631
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+50
+00:00:29,632 --> 00:00:29,632
+1. AllModifiedDate.add(a.getText())
+
+51
+00:00:29,644 --> 00:00:29,644
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+52
+00:00:32,330 --> 00:00:32,331
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+53
+00:00:32,639 --> 00:00:32,639
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+54
+00:00:32,640 --> 00:00:32,641
+1. AllModifiedDate.add(a.getText())
+
+55
+00:00:32,651 --> 00:00:32,653
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+56
+00:00:35,401 --> 00:00:35,402
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+57
+00:00:35,719 --> 00:00:35,721
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+58
+00:00:35,722 --> 00:00:35,723
+1. AllModifiedDate.add(a.getText())
+
+59
+00:00:35,751 --> 00:00:35,752
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+60
+00:00:38,418 --> 00:00:38,418
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+61
+00:00:38,781 --> 00:00:38,781
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+62
+00:00:38,783 --> 00:00:38,784
+1. AllModifiedDate.add(a.getText())
+
+63
+00:00:38,806 --> 00:00:38,807
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+64
+00:00:41,521 --> 00:00:41,522
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+65
+00:00:41,850 --> 00:00:41,850
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+66
+00:00:41,852 --> 00:00:41,853
+1. AllModifiedDate.add(a.getText())
+
+67
+00:00:41,870 --> 00:00:41,871
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+68
+00:00:44,642 --> 00:00:44,643
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+69
+00:00:44,932 --> 00:00:44,933
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+70
+00:00:44,934 --> 00:00:44,934
+1. AllModifiedDate.add(a.getText())
+
+71
+00:00:44,946 --> 00:00:44,947
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+72
+00:00:47,675 --> 00:00:47,676
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+
+73
+00:00:47,998 --> 00:00:47,999
+5. for (org.openqa.selenium.WebElement a : modifiedDate)
+
+74
+00:00:48,000 --> 00:00:48,000
+1. AllModifiedDate.add(a.getText())
+
+75
+00:00:48,010 --> 00:00:48,011
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+76
+00:00:50,681 --> 00:00:50,681
+1. modifiedDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/modified"), 2)
+

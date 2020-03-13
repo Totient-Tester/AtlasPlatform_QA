@@ -1,0 +1,24 @@
+1
+00:00:00,312 --> 00:00:00,313
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Picker/TC_021_Validate_Accounts_Favorites"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,379 --> 00:00:00,379
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Picker/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,445 --> 00:00:00,445
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,447 --> 00:00:00,447
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+5
+00:00:00,940 --> 00:00:00,941
+9. click(findTestObject("Swicther/favorites_tabs_swicther"))
+
+6
+00:00:01,551 --> 00:00:01,552
+13. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5)
+

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='audience']/div/div/div/div/div[2]/div/div/div/div[3]/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear All Filters'])[1]/preceding::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

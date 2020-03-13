@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <value>//span[text()='Apply']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

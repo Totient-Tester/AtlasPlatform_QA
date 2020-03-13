@@ -24,4 +24,9 @@
       <initValue>''</initValue>
       <name>ROLENAME2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>RoleNotCreated</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

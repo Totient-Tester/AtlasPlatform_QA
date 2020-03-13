@@ -30,6 +30,8 @@ String totalText = WebUI.getText(findTestObject('AUDIENCE/Data Source/total_coun
 
 WebUI.click(findTestObject('AUDIENCE/Data Source/modified_Column_Name'))
 
+WebUI.click(findTestObject('AUDIENCE/Data Source/modified_Column_Name'))
+
 int total = Integer.parseInt(totalText.replace('(', '').replace(')', '').trim())
 
 int pageValueCount = 0
@@ -67,8 +69,6 @@ WebUI.verifyEqual(isAscending, true)
 WebUI.click(findTestObject('HeaderMenus/adminmenu'))
 
 WebUI.click(findTestObject('HeaderMenus/audiencemenu'))
-
-WebUI.click(findTestObject('AUDIENCE/Data Source/modified_Column_Name'))
 
 WebUI.delay(3)
 

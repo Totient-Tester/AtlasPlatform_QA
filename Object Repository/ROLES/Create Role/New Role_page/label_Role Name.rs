@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-roleProperties']/div/div/label</value>
+         <value>//label[text()='Role Name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

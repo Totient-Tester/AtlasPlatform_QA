@@ -1,0 +1,36 @@
+1
+00:00:00,734 --> 00:00:00,735
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,737 --> 00:00:00,739
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+3
+00:00:01,159 --> 00:00:01,161
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+4
+00:00:02,288 --> 00:00:02,289
+13. delay(5)
+
+5
+00:00:07,293 --> 00:00:07,295
+17. click(findTestObject("CONTENT/Image_Listing/upload_image_button"))
+
+6
+00:00:07,869 --> 00:00:07,870
+21. verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload")
+
+7
+00:00:09,671 --> 00:00:09,672
+25. img_name = web.CustomKeyword.getTimeStampWithText("Automation - ")
+
+8
+00:00:09,957 --> 00:00:09,958
+29. print(img_name)
+
+9
+00:00:10,034 --> 00:00:10,037
+33. setText(findTestObject("CONTENT/Upload_Images/input_Image Name"), img_name)
+

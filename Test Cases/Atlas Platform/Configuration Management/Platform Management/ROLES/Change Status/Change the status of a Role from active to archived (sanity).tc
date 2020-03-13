@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change the status of a Role from active to archived (sanity)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80463bf9-5635-46e3-9221-cdf058a41ea3</testCaseGuid>
+</TestCaseEntity>

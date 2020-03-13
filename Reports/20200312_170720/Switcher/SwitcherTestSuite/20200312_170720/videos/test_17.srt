@@ -1,0 +1,208 @@
+1
+00:00:00,419 --> 00:00:00,420
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Picker/TC_021_Validate_Accounts_Favorites"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,496 --> 00:00:00,500
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Picker/TC_100_RemoveAllFavorites"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,568 --> 00:00:00,568
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,570 --> 00:00:00,570
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+5
+00:00:01,054 --> 00:00:01,055
+9. click(findTestObject("Swicther/favorites_tabs_swicther"))
+
+6
+00:00:01,623 --> 00:00:01,624
+13. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5)
+
+7
+00:00:02,236 --> 00:00:02,237
+17. if (listoffavvalues.size() != 0)
+
+8
+00:00:02,238 --> 00:00:02,239
+1. for ([j = 0, j < listoffavvalues.size(), (j++)])
+
+9
+00:00:02,240 --> 00:00:02,241
+1. get(j).click()
+
+10
+00:00:02,536 --> 00:00:02,540
+21. click(findTestObject("Swicther/closeIcon"))
+
+11
+00:00:03,004 --> 00:00:03,005
+5. click(findTestObject("Swicther/swicthermenutext"))
+
+12
+00:00:03,709 --> 00:00:03,710
+9. click(findTestObject("Swicther/accounts_tab_swicther"))
+
+13
+00:00:04,314 --> 00:00:04,317
+13. listofoptions = findWebElements(findTestObject("Swicther/accounts_tab_all_values"), 5)
+
+14
+00:00:05,042 --> 00:00:05,042
+17. listoffavicons = findWebElements(findTestObject("Swicther/accounts_tab_fav_icon"), 5)
+
+15
+00:00:05,423 --> 00:00:05,423
+21. listofoptioninstring = new java.util.ArrayList()
+
+16
+00:00:05,425 --> 00:00:05,426
+25. for (org.openqa.selenium.WebElement ele : listofoptions)
+
+17
+00:00:05,427 --> 00:00:05,427
+1. listofoptioninstring.addAll(ele.getText())
+
+18
+00:00:05,458 --> 00:00:05,459
+1. listofoptioninstring.addAll(ele.getText())
+
+19
+00:00:05,489 --> 00:00:05,490
+1. listofoptioninstring.addAll(ele.getText())
+
+20
+00:00:05,518 --> 00:00:05,519
+1. listofoptioninstring.addAll(ele.getText())
+
+21
+00:00:05,548 --> 00:00:05,548
+1. listofoptioninstring.addAll(ele.getText())
+
+22
+00:00:05,568 --> 00:00:05,568
+1. listofoptioninstring.addAll(ele.getText())
+
+23
+00:00:05,596 --> 00:00:05,598
+1. listofoptioninstring.addAll(ele.getText())
+
+24
+00:00:05,623 --> 00:00:05,623
+1. listofoptioninstring.addAll(ele.getText())
+
+25
+00:00:05,649 --> 00:00:05,650
+29. verify_accountName = web.CustomKeyword.getrandomStingValue(listofoptioninstring)
+
+26
+00:00:05,651 --> 00:00:05,652
+33. for ([h = 0, h < listofoptions.size(), (h++)])
+
+27
+00:00:05,653 --> 00:00:05,654
+1. if (getText().equalsIgnoreCase(verify_accountName))
+
+28
+00:00:05,672 --> 00:00:05,672
+1. if (getText().equalsIgnoreCase(verify_accountName))
+
+29
+00:00:05,685 --> 00:00:05,686
+1. if (getText().equalsIgnoreCase(verify_accountName))
+
+30
+00:00:05,698 --> 00:00:05,698
+1. get(h).click()
+
+31
+00:00:06,029 --> 00:00:06,031
+5. break
+
+32
+00:00:06,040 --> 00:00:06,044
+37. click(findTestObject("Swicther/favorites_tabs_swicther"))
+
+33
+00:00:06,801 --> 00:00:06,803
+41. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5)
+
+34
+00:00:07,370 --> 00:00:07,371
+45. isPresent = false
+
+35
+00:00:07,372 --> 00:00:07,373
+49. for ([j = 0, j < listoffavvalues.size(), (j++)])
+
+36
+00:00:07,374 --> 00:00:07,374
+1. if (getText().equalsIgnoreCase(verify_accountName))
+
+37
+00:00:07,420 --> 00:00:07,421
+1. isPresent = true
+
+38
+00:00:07,422 --> 00:00:07,424
+53. click(findTestObject("Swicther/favorite_icon"))
+
+39
+00:00:07,426 --> 00:00:07,427
+57. verifyEqual(isPresent, true)
+
+40
+00:00:07,435 --> 00:00:07,436
+5. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5)
+
+41
+00:00:07,759 --> 00:00:07,760
+9. listofstaricon = findWebElements(findTestObject("Swicther/favorites_tab_all_fav_icon"), 5)
+
+42
+00:00:08,076 --> 00:00:08,077
+13. beforeRemoveStar_FavoriteListCount = listoffavvalues.size()
+
+43
+00:00:08,079 --> 00:00:08,080
+17. for ([h = 0, h < listoffavvalues.size(), (h++)])
+
+44
+00:00:08,082 --> 00:00:08,082
+1. get(h).click()
+
+45
+00:00:08,311 --> 00:00:08,312
+5. break
+
+46
+00:00:08,321 --> 00:00:08,323
+21. listoffavvalues = findWebElements(findTestObject("Swicther/favorites_tab_all_values"), 5)
+
+47
+00:00:15,938 --> 00:00:15,939
+25. afterRemovedStar_FavoriteListCount = listoffavvalues.size()
+
+48
+00:00:15,964 --> 00:00:15,965
+29. verifyNotEqual(beforeRemoveStar_FavoriteListCount, afterRemovedStar_FavoriteListCount)
+
+49
+00:00:15,970 --> 00:00:15,971
+1. println(testCaseContext.getTestCaseId())
+
+50
+00:00:15,972 --> 00:00:15,972
+5. println(testCaseContext.getTestCaseStatus())
+
+51
+00:00:15,976 --> 00:00:15,977
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+52
+00:00:15,981 --> 00:00:15,982
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

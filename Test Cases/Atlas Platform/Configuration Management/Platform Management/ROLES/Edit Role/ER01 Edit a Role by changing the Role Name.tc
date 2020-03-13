@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ER01 Edit a Role by changing the Role Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2188d26-705f-496e-be55-cd881e54a457</testCaseGuid>
+</TestCaseEntity>

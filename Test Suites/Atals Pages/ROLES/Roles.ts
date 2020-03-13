@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Roles</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>230</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>96f53946-95d6-4daf-83ba-349d0eaffa37</testSuiteGuid>
+   <testCaseLink>
+      <guid>1203df4d-b532-4051-8545-c223a91b3ff4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-001 Validate Role Manager page Attributes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0bdb9fe-7c06-4fd4-b23e-b0e76f9ac0ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-002 Validate Role Manager expand and collapse button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a40e2e9e-f632-4792-965a-e14103b5d1b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-003 Verify Filter functions in Role Manager page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c104b7a-2878-4fef-8bd6-8a7983fa1453</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-004 Validate Pagination in Role Manager page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba0552d7-2161-4364-a9f2-95397669007d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>172f9f45-b0ad-467d-bb76-cea424298f90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97e5aa65-80b3-4d2d-8088-f7af17ae6c09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>baff0d0c-e834-4110-afc7-531fb28a10aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cea1535f-9954-49cb-b62e-6d0b1ad879d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb5a8850-9eba-4670-8bda-20a7d304896d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>043e1edb-7f33-4f93-b69f-e6e882121474</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8eceb7cf-aa02-43f2-88b7-6706acbf1a9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-005 Verify Hamburger icon of a Role in Role Manager page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9c4208b-dba0-49a6-b495-28b6e710c143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eef3026f-55f7-458a-bb34-66aeabc401b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c7b0341-b447-466f-8d08-bbba9c089dd9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>208f8a1d-1fbd-469e-b026-0c8fe8b2e340</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5dc5c1a2-4e1c-4854-afa0-8d359474fc37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7363a597-c4f3-4bd1-87a9-142c3969af5f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>514e963e-a4a3-466c-a93d-dd1ff92506c4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3aaeed20-f046-45d1-93bd-c5e41faa4d04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-006 Validate Create New Role button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f5e7de6-559e-404d-ac7b-92594a7ad0ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-007 Verify sorting by CreatedDate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d456bfa-976d-4c8d-b789-0b865b490e02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-008 Verify sorting by ModifiedDate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fad2a8e2-0a83-4929-8670-b6a7ebccd2c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-009 Verify sorting by No of Users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23c05a3e-fd37-4388-9371-1f3e3ae9c22d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-010 Verify sorting by RoleName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>316598f2-2737-4d8f-8f52-81ff918eb013</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-011 Verify sorting by Status</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d432d4d1-4a26-4500-848a-b508eb82e245</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/Search Role/RLG-012 Validate Search text field in Role Manager page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f5affbda-292e-450a-b59e-126da7cdc774</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f419cd4-3702-41d0-891b-78cb5d36ec84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c02d8bb2-cd98-4e41-8825-41f6049e38bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>efb66d61-6dd7-45fb-876d-1a82589eb6b8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76dd17aa-825e-4afd-aec1-281610590cc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR01 Verify Role Properties tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7847ef5-f514-4021-b04a-bf8bd29d9301</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR01 Validate Elements of Role Properties tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad8be7e3-ad35-4353-b6a0-01fc6406d1f9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>baa278b2-a55e-45c4-b5d3-1636111248ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR02 Verify Platform tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69571e38-65a9-41be-b92c-cbf737a09617</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR02 Validate Elements of Platform tab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7b77b2d-662b-4255-9d04-2bd4af69326c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR03 Verify Content Features tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b930d54-b496-434c-bf04-adfac82fbc77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR03 Validate Elements of Content Features Tab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96062cd3-2d04-4cd0-9a4e-6efc57181788</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR04 Verify Audience Features tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28ad5d25-a518-4817-b791-0b7649df450f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR04 Validate Elements in Audience Features Tab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11cd055e-b7ad-4a14-b5aa-1de0c5399930</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR05 Verify Message Features tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dceb750c-38d4-464f-bc2f-55f6f0da5c63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR05 Validate Elements of Message Features Tab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71d29b81-d6b4-48eb-ba30-54ed439896f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/Validate presence of all the Elements in Creating Role/CR06 Verify Report Features tab in New Role page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8beaba47-ba51-444a-8b4c-af5055184cab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Create Role/CR06 Validate Elements of Report Features Tab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c505517-2b56-489d-bcc7-4b945b18e3f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/ER01 Edit a Role by changing the Role Name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>075507d0-50c3-4f50-8bb4-7bf35edeede6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Edit Role/ER02 Edit a Role by changing the Role Description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6a0464d-6fe7-4b97-a120-ac4f70bf2c46</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/SR 01 Change the status of the role</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RLG-007 Verify sorting by CreatedDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e72bf0a-9661-4022-8ed0-c2d920080a5f</testCaseGuid>
+</TestCaseEntity>

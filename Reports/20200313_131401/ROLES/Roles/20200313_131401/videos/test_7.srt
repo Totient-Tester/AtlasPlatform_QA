@@ -1,0 +1,968 @@
+1
+00:00:00,502 --> 00:00:00,502
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,506 --> 00:00:00,506
+5. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+3
+00:00:00,509 --> 00:00:00,509
+9. driver = getWebDriver()
+
+4
+00:00:00,540 --> 00:00:00,541
+13. noOfPages_text = getText(findTestObject("ROLES/Roles_page/Pagination/label_of 10"))
+
+5
+00:00:00,888 --> 00:00:00,888
+17. noOfPages = Integer.parseInt(noOfPages_text.substring(3))
+
+6
+00:00:00,890 --> 00:00:00,891
+21. println(noOfPages)
+
+7
+00:00:00,892 --> 00:00:00,893
+25. for ([j = 1, j < 3, (j++)])
+
+8
+00:00:00,895 --> 00:00:00,895
+1. click(findTestObject("ROLES/Roles_page/sorting/Created_header"))
+
+9
+00:00:01,387 --> 00:00:01,388
+5. createdDate = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+
+10
+00:00:01,392 --> 00:00:01,393
+9. AllCreatedDate = new java.util.ArrayList()
+
+11
+00:00:01,395 --> 00:00:01,395
+13. for ([i = 1, i <= noOfPages, (i++)])
+
+12
+00:00:01,397 --> 00:00:01,397
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+13
+00:00:02,213 --> 00:00:02,214
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+14
+00:00:02,215 --> 00:00:02,216
+1. AllCreatedDate.add(a.getText())
+
+15
+00:00:02,250 --> 00:00:02,251
+1. AllCreatedDate.add(a.getText())
+
+16
+00:00:02,284 --> 00:00:02,285
+1. AllCreatedDate.add(a.getText())
+
+17
+00:00:02,312 --> 00:00:02,312
+1. AllCreatedDate.add(a.getText())
+
+18
+00:00:02,342 --> 00:00:02,342
+1. AllCreatedDate.add(a.getText())
+
+19
+00:00:02,372 --> 00:00:02,372
+1. AllCreatedDate.add(a.getText())
+
+20
+00:00:02,408 --> 00:00:02,409
+1. AllCreatedDate.add(a.getText())
+
+21
+00:00:02,464 --> 00:00:02,465
+1. AllCreatedDate.add(a.getText())
+
+22
+00:00:02,501 --> 00:00:02,502
+1. AllCreatedDate.add(a.getText())
+
+23
+00:00:02,531 --> 00:00:02,532
+1. AllCreatedDate.add(a.getText())
+
+24
+00:00:02,558 --> 00:00:02,559
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+25
+00:00:03,090 --> 00:00:03,090
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+26
+00:00:03,969 --> 00:00:03,970
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+27
+00:00:03,971 --> 00:00:03,971
+1. AllCreatedDate.add(a.getText())
+
+28
+00:00:03,998 --> 00:00:03,998
+1. AllCreatedDate.add(a.getText())
+
+29
+00:00:04,015 --> 00:00:04,015
+1. AllCreatedDate.add(a.getText())
+
+30
+00:00:04,034 --> 00:00:04,034
+1. AllCreatedDate.add(a.getText())
+
+31
+00:00:04,058 --> 00:00:04,059
+1. AllCreatedDate.add(a.getText())
+
+32
+00:00:04,076 --> 00:00:04,076
+1. AllCreatedDate.add(a.getText())
+
+33
+00:00:04,094 --> 00:00:04,095
+1. AllCreatedDate.add(a.getText())
+
+34
+00:00:04,118 --> 00:00:04,119
+1. AllCreatedDate.add(a.getText())
+
+35
+00:00:04,138 --> 00:00:04,138
+1. AllCreatedDate.add(a.getText())
+
+36
+00:00:04,161 --> 00:00:04,161
+1. AllCreatedDate.add(a.getText())
+
+37
+00:00:04,185 --> 00:00:04,186
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+38
+00:00:04,619 --> 00:00:04,620
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+39
+00:00:05,479 --> 00:00:05,479
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+40
+00:00:05,481 --> 00:00:05,481
+1. AllCreatedDate.add(a.getText())
+
+41
+00:00:05,511 --> 00:00:05,511
+1. AllCreatedDate.add(a.getText())
+
+42
+00:00:05,532 --> 00:00:05,533
+1. AllCreatedDate.add(a.getText())
+
+43
+00:00:05,559 --> 00:00:05,560
+1. AllCreatedDate.add(a.getText())
+
+44
+00:00:05,583 --> 00:00:05,584
+1. AllCreatedDate.add(a.getText())
+
+45
+00:00:05,604 --> 00:00:05,604
+1. AllCreatedDate.add(a.getText())
+
+46
+00:00:05,625 --> 00:00:05,626
+1. AllCreatedDate.add(a.getText())
+
+47
+00:00:05,657 --> 00:00:05,658
+1. AllCreatedDate.add(a.getText())
+
+48
+00:00:05,679 --> 00:00:05,679
+1. AllCreatedDate.add(a.getText())
+
+49
+00:00:05,705 --> 00:00:05,705
+1. AllCreatedDate.add(a.getText())
+
+50
+00:00:05,727 --> 00:00:05,728
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+51
+00:00:06,139 --> 00:00:06,140
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+52
+00:00:06,983 --> 00:00:06,984
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+53
+00:00:06,985 --> 00:00:06,985
+1. AllCreatedDate.add(a.getText())
+
+54
+00:00:07,005 --> 00:00:07,006
+1. AllCreatedDate.add(a.getText())
+
+55
+00:00:07,030 --> 00:00:07,030
+1. AllCreatedDate.add(a.getText())
+
+56
+00:00:07,048 --> 00:00:07,048
+1. AllCreatedDate.add(a.getText())
+
+57
+00:00:07,065 --> 00:00:07,066
+1. AllCreatedDate.add(a.getText())
+
+58
+00:00:07,094 --> 00:00:07,095
+1. AllCreatedDate.add(a.getText())
+
+59
+00:00:07,117 --> 00:00:07,117
+1. AllCreatedDate.add(a.getText())
+
+60
+00:00:07,142 --> 00:00:07,143
+1. AllCreatedDate.add(a.getText())
+
+61
+00:00:07,175 --> 00:00:07,176
+1. AllCreatedDate.add(a.getText())
+
+62
+00:00:07,193 --> 00:00:07,194
+1. AllCreatedDate.add(a.getText())
+
+63
+00:00:07,217 --> 00:00:07,218
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+64
+00:00:07,601 --> 00:00:07,603
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+65
+00:00:08,598 --> 00:00:08,599
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+66
+00:00:08,600 --> 00:00:08,600
+1. AllCreatedDate.add(a.getText())
+
+67
+00:00:08,624 --> 00:00:08,624
+1. AllCreatedDate.add(a.getText())
+
+68
+00:00:08,644 --> 00:00:08,644
+1. AllCreatedDate.add(a.getText())
+
+69
+00:00:08,673 --> 00:00:08,674
+1. AllCreatedDate.add(a.getText())
+
+70
+00:00:08,700 --> 00:00:08,700
+1. AllCreatedDate.add(a.getText())
+
+71
+00:00:08,730 --> 00:00:08,731
+1. AllCreatedDate.add(a.getText())
+
+72
+00:00:08,759 --> 00:00:08,759
+1. AllCreatedDate.add(a.getText())
+
+73
+00:00:08,781 --> 00:00:08,782
+1. AllCreatedDate.add(a.getText())
+
+74
+00:00:08,810 --> 00:00:08,811
+1. AllCreatedDate.add(a.getText())
+
+75
+00:00:08,834 --> 00:00:08,835
+1. AllCreatedDate.add(a.getText())
+
+76
+00:00:08,855 --> 00:00:08,855
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+77
+00:00:09,256 --> 00:00:09,257
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+78
+00:00:10,048 --> 00:00:10,049
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+79
+00:00:10,050 --> 00:00:10,050
+1. AllCreatedDate.add(a.getText())
+
+80
+00:00:10,075 --> 00:00:10,075
+1. AllCreatedDate.add(a.getText())
+
+81
+00:00:10,098 --> 00:00:10,098
+1. AllCreatedDate.add(a.getText())
+
+82
+00:00:10,116 --> 00:00:10,116
+1. AllCreatedDate.add(a.getText())
+
+83
+00:00:10,139 --> 00:00:10,140
+1. AllCreatedDate.add(a.getText())
+
+84
+00:00:10,160 --> 00:00:10,160
+1. AllCreatedDate.add(a.getText())
+
+85
+00:00:10,183 --> 00:00:10,184
+1. AllCreatedDate.add(a.getText())
+
+86
+00:00:10,209 --> 00:00:10,210
+1. AllCreatedDate.add(a.getText())
+
+87
+00:00:10,227 --> 00:00:10,228
+1. AllCreatedDate.add(a.getText())
+
+88
+00:00:10,248 --> 00:00:10,248
+1. AllCreatedDate.add(a.getText())
+
+89
+00:00:10,271 --> 00:00:10,272
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+90
+00:00:10,716 --> 00:00:10,716
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+91
+00:00:11,544 --> 00:00:11,544
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+92
+00:00:11,546 --> 00:00:11,546
+1. AllCreatedDate.add(a.getText())
+
+93
+00:00:11,572 --> 00:00:11,572
+1. AllCreatedDate.add(a.getText())
+
+94
+00:00:11,598 --> 00:00:11,598
+1. AllCreatedDate.add(a.getText())
+
+95
+00:00:11,620 --> 00:00:11,620
+1. AllCreatedDate.add(a.getText())
+
+96
+00:00:11,639 --> 00:00:11,640
+1. AllCreatedDate.add(a.getText())
+
+97
+00:00:11,674 --> 00:00:11,675
+1. AllCreatedDate.add(a.getText())
+
+98
+00:00:11,702 --> 00:00:11,702
+1. AllCreatedDate.add(a.getText())
+
+99
+00:00:11,739 --> 00:00:11,739
+1. AllCreatedDate.add(a.getText())
+
+100
+00:00:11,769 --> 00:00:11,770
+1. AllCreatedDate.add(a.getText())
+
+101
+00:00:11,829 --> 00:00:11,830
+1. AllCreatedDate.add(a.getText())
+
+102
+00:00:11,853 --> 00:00:11,854
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+103
+00:00:12,306 --> 00:00:12,307
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+104
+00:00:13,189 --> 00:00:13,189
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+105
+00:00:13,191 --> 00:00:13,191
+1. AllCreatedDate.add(a.getText())
+
+106
+00:00:13,219 --> 00:00:13,219
+1. AllCreatedDate.add(a.getText())
+
+107
+00:00:13,245 --> 00:00:13,245
+1. AllCreatedDate.add(a.getText())
+
+108
+00:00:13,266 --> 00:00:13,266
+1. AllCreatedDate.add(a.getText())
+
+109
+00:00:13,286 --> 00:00:13,286
+1. AllCreatedDate.add(a.getText())
+
+110
+00:00:13,310 --> 00:00:13,310
+1. AllCreatedDate.add(a.getText())
+
+111
+00:00:13,331 --> 00:00:13,331
+1. AllCreatedDate.add(a.getText())
+
+112
+00:00:13,350 --> 00:00:13,350
+1. AllCreatedDate.add(a.getText())
+
+113
+00:00:13,377 --> 00:00:13,377
+1. AllCreatedDate.add(a.getText())
+
+114
+00:00:13,397 --> 00:00:13,397
+1. AllCreatedDate.add(a.getText())
+
+115
+00:00:13,416 --> 00:00:13,417
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+116
+00:00:14,000 --> 00:00:14,001
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+117
+00:00:14,864 --> 00:00:14,864
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+118
+00:00:14,865 --> 00:00:14,866
+1. AllCreatedDate.add(a.getText())
+
+119
+00:00:14,888 --> 00:00:14,888
+1. AllCreatedDate.add(a.getText())
+
+120
+00:00:14,906 --> 00:00:14,906
+1. AllCreatedDate.add(a.getText())
+
+121
+00:00:14,925 --> 00:00:14,926
+1. AllCreatedDate.add(a.getText())
+
+122
+00:00:14,948 --> 00:00:14,949
+1. AllCreatedDate.add(a.getText())
+
+123
+00:00:14,975 --> 00:00:14,976
+1. AllCreatedDate.add(a.getText())
+
+124
+00:00:14,996 --> 00:00:14,997
+1. AllCreatedDate.add(a.getText())
+
+125
+00:00:15,020 --> 00:00:15,020
+1. AllCreatedDate.add(a.getText())
+
+126
+00:00:15,042 --> 00:00:15,042
+1. AllCreatedDate.add(a.getText())
+
+127
+00:00:15,061 --> 00:00:15,062
+1. AllCreatedDate.add(a.getText())
+
+128
+00:00:15,085 --> 00:00:15,086
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+129
+00:00:15,495 --> 00:00:15,496
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+130
+00:00:16,318 --> 00:00:16,319
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+131
+00:00:16,321 --> 00:00:16,321
+1. AllCreatedDate.add(a.getText())
+
+132
+00:00:16,350 --> 00:00:16,351
+1. AllCreatedDate.add(a.getText())
+
+133
+00:00:16,405 --> 00:00:16,405
+1. AllCreatedDate.add(a.getText())
+
+134
+00:00:16,465 --> 00:00:16,465
+1. AllCreatedDate.add(a.getText())
+
+135
+00:00:16,505 --> 00:00:16,506
+1. AllCreatedDate.add(a.getText())
+
+136
+00:00:16,527 --> 00:00:16,528
+1. AllCreatedDate.add(a.getText())
+
+137
+00:00:16,553 --> 00:00:16,553
+1. AllCreatedDate.add(a.getText())
+
+138
+00:00:16,574 --> 00:00:16,575
+1. AllCreatedDate.add(a.getText())
+
+139
+00:00:16,593 --> 00:00:16,594
+1. AllCreatedDate.add(a.getText())
+
+140
+00:00:16,622 --> 00:00:16,623
+1. AllCreatedDate.add(a.getText())
+
+141
+00:00:16,646 --> 00:00:16,647
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+142
+00:00:17,047 --> 00:00:17,048
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+143
+00:00:17,869 --> 00:00:17,870
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+144
+00:00:17,871 --> 00:00:17,872
+1. AllCreatedDate.add(a.getText())
+
+145
+00:00:17,902 --> 00:00:17,903
+1. AllCreatedDate.add(a.getText())
+
+146
+00:00:17,930 --> 00:00:17,930
+1. AllCreatedDate.add(a.getText())
+
+147
+00:00:17,959 --> 00:00:17,959
+1. AllCreatedDate.add(a.getText())
+
+148
+00:00:17,987 --> 00:00:17,987
+1. AllCreatedDate.add(a.getText())
+
+149
+00:00:18,013 --> 00:00:18,013
+1. AllCreatedDate.add(a.getText())
+
+150
+00:00:18,031 --> 00:00:18,032
+1. AllCreatedDate.add(a.getText())
+
+151
+00:00:18,058 --> 00:00:18,058
+1. AllCreatedDate.add(a.getText())
+
+152
+00:00:18,077 --> 00:00:18,077
+1. AllCreatedDate.add(a.getText())
+
+153
+00:00:18,100 --> 00:00:18,100
+1. AllCreatedDate.add(a.getText())
+
+154
+00:00:18,122 --> 00:00:18,123
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+155
+00:00:18,528 --> 00:00:18,529
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+156
+00:00:19,515 --> 00:00:19,516
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+157
+00:00:19,517 --> 00:00:19,517
+1. AllCreatedDate.add(a.getText())
+
+158
+00:00:19,577 --> 00:00:19,577
+1. AllCreatedDate.add(a.getText())
+
+159
+00:00:19,664 --> 00:00:19,665
+1. AllCreatedDate.add(a.getText())
+
+160
+00:00:19,727 --> 00:00:19,727
+1. AllCreatedDate.add(a.getText())
+
+161
+00:00:19,782 --> 00:00:19,783
+1. AllCreatedDate.add(a.getText())
+
+162
+00:00:19,822 --> 00:00:19,822
+1. AllCreatedDate.add(a.getText())
+
+163
+00:00:19,852 --> 00:00:19,852
+1. AllCreatedDate.add(a.getText())
+
+164
+00:00:19,879 --> 00:00:19,880
+1. AllCreatedDate.add(a.getText())
+
+165
+00:00:19,910 --> 00:00:19,911
+1. AllCreatedDate.add(a.getText())
+
+166
+00:00:19,940 --> 00:00:19,941
+1. AllCreatedDate.add(a.getText())
+
+167
+00:00:19,979 --> 00:00:19,979
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+168
+00:00:20,420 --> 00:00:20,421
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+169
+00:00:21,236 --> 00:00:21,237
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+170
+00:00:21,238 --> 00:00:21,239
+1. AllCreatedDate.add(a.getText())
+
+171
+00:00:21,273 --> 00:00:21,274
+1. AllCreatedDate.add(a.getText())
+
+172
+00:00:21,301 --> 00:00:21,302
+1. AllCreatedDate.add(a.getText())
+
+173
+00:00:21,322 --> 00:00:21,323
+1. AllCreatedDate.add(a.getText())
+
+174
+00:00:21,349 --> 00:00:21,350
+1. AllCreatedDate.add(a.getText())
+
+175
+00:00:21,371 --> 00:00:21,372
+1. AllCreatedDate.add(a.getText())
+
+176
+00:00:21,394 --> 00:00:21,394
+1. AllCreatedDate.add(a.getText())
+
+177
+00:00:21,418 --> 00:00:21,419
+1. AllCreatedDate.add(a.getText())
+
+178
+00:00:21,446 --> 00:00:21,446
+1. AllCreatedDate.add(a.getText())
+
+179
+00:00:21,484 --> 00:00:21,485
+1. AllCreatedDate.add(a.getText())
+
+180
+00:00:21,517 --> 00:00:21,517
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+181
+00:00:21,948 --> 00:00:21,950
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+182
+00:00:22,787 --> 00:00:22,787
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+183
+00:00:22,789 --> 00:00:22,790
+1. AllCreatedDate.add(a.getText())
+
+184
+00:00:22,814 --> 00:00:22,814
+1. AllCreatedDate.add(a.getText())
+
+185
+00:00:22,831 --> 00:00:22,832
+1. AllCreatedDate.add(a.getText())
+
+186
+00:00:22,851 --> 00:00:22,851
+1. AllCreatedDate.add(a.getText())
+
+187
+00:00:22,877 --> 00:00:22,877
+1. AllCreatedDate.add(a.getText())
+
+188
+00:00:22,895 --> 00:00:22,895
+1. AllCreatedDate.add(a.getText())
+
+189
+00:00:22,914 --> 00:00:22,915
+1. AllCreatedDate.add(a.getText())
+
+190
+00:00:22,942 --> 00:00:22,942
+1. AllCreatedDate.add(a.getText())
+
+191
+00:00:22,969 --> 00:00:22,969
+1. AllCreatedDate.add(a.getText())
+
+192
+00:00:22,990 --> 00:00:22,990
+1. AllCreatedDate.add(a.getText())
+
+193
+00:00:23,016 --> 00:00:23,017
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+194
+00:00:23,405 --> 00:00:23,406
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+195
+00:00:24,252 --> 00:00:24,253
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+196
+00:00:24,254 --> 00:00:24,255
+1. AllCreatedDate.add(a.getText())
+
+197
+00:00:24,282 --> 00:00:24,283
+1. AllCreatedDate.add(a.getText())
+
+198
+00:00:24,302 --> 00:00:24,302
+1. AllCreatedDate.add(a.getText())
+
+199
+00:00:24,325 --> 00:00:24,325
+1. AllCreatedDate.add(a.getText())
+
+200
+00:00:24,343 --> 00:00:24,343
+1. AllCreatedDate.add(a.getText())
+
+201
+00:00:24,364 --> 00:00:24,364
+1. AllCreatedDate.add(a.getText())
+
+202
+00:00:24,388 --> 00:00:24,389
+1. AllCreatedDate.add(a.getText())
+
+203
+00:00:24,409 --> 00:00:24,409
+1. AllCreatedDate.add(a.getText())
+
+204
+00:00:24,430 --> 00:00:24,430
+1. AllCreatedDate.add(a.getText())
+
+205
+00:00:24,456 --> 00:00:24,456
+1. AllCreatedDate.add(a.getText())
+
+206
+00:00:24,480 --> 00:00:24,480
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+207
+00:00:24,947 --> 00:00:24,948
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+208
+00:00:26,020 --> 00:00:26,021
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+209
+00:00:26,022 --> 00:00:26,022
+1. AllCreatedDate.add(a.getText())
+
+210
+00:00:26,044 --> 00:00:26,044
+1. AllCreatedDate.add(a.getText())
+
+211
+00:00:26,067 --> 00:00:26,068
+1. AllCreatedDate.add(a.getText())
+
+212
+00:00:26,087 --> 00:00:26,088
+1. AllCreatedDate.add(a.getText())
+
+213
+00:00:26,116 --> 00:00:26,117
+1. AllCreatedDate.add(a.getText())
+
+214
+00:00:26,135 --> 00:00:26,135
+1. AllCreatedDate.add(a.getText())
+
+215
+00:00:26,158 --> 00:00:26,158
+1. AllCreatedDate.add(a.getText())
+
+216
+00:00:26,179 --> 00:00:26,179
+1. AllCreatedDate.add(a.getText())
+
+217
+00:00:26,197 --> 00:00:26,197
+1. AllCreatedDate.add(a.getText())
+
+218
+00:00:26,215 --> 00:00:26,216
+1. AllCreatedDate.add(a.getText())
+
+219
+00:00:26,242 --> 00:00:26,243
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+220
+00:00:26,627 --> 00:00:26,627
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+221
+00:00:27,471 --> 00:00:27,471
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+222
+00:00:27,472 --> 00:00:27,473
+1. AllCreatedDate.add(a.getText())
+
+223
+00:00:27,501 --> 00:00:27,502
+1. AllCreatedDate.add(a.getText())
+
+224
+00:00:27,524 --> 00:00:27,524
+1. AllCreatedDate.add(a.getText())
+
+225
+00:00:27,545 --> 00:00:27,545
+1. AllCreatedDate.add(a.getText())
+
+226
+00:00:27,568 --> 00:00:27,568
+1. AllCreatedDate.add(a.getText())
+
+227
+00:00:27,585 --> 00:00:27,586
+1. AllCreatedDate.add(a.getText())
+
+228
+00:00:27,608 --> 00:00:27,608
+1. AllCreatedDate.add(a.getText())
+
+229
+00:00:27,629 --> 00:00:27,630
+1. AllCreatedDate.add(a.getText())
+
+230
+00:00:27,648 --> 00:00:27,648
+1. AllCreatedDate.add(a.getText())
+
+231
+00:00:27,670 --> 00:00:27,671
+1. AllCreatedDate.add(a.getText())
+
+232
+00:00:27,694 --> 00:00:27,695
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+233
+00:00:28,096 --> 00:00:28,097
+1. createdDate = findWebElements(findTestObject("ROLES/Roles_page/sorting/created"), 2)
+
+234
+00:00:28,822 --> 00:00:28,823
+5. for (org.openqa.selenium.WebElement a : createdDate)
+
+235
+00:00:28,825 --> 00:00:28,825
+1. AllCreatedDate.add(a.getText())
+
+236
+00:00:28,849 --> 00:00:28,850
+9. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+237
+00:00:31,621 --> 00:00:31,621
+17. if (j == 1)
+
+238
+00:00:31,624 --> 00:00:31,624
+1. isSorted = web.CustomKeyword.checkListDescending(AllCreatedDate)
+
+239
+00:00:31,797 --> 00:00:31,798
+1. println(testCaseContext.getTestCaseId())
+
+240
+00:00:31,799 --> 00:00:31,800
+5. println(testCaseContext.getTestCaseStatus())
+
+241
+00:00:31,801 --> 00:00:31,802
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+242
+00:00:31,803 --> 00:00:31,803
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

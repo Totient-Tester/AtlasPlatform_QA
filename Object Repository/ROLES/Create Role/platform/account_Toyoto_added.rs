@@ -6,11 +6,11 @@
    <elementGuidId>d7c38fd2-cd95-4611-a72e-fe7ea24e7cf7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[text()='Toyoto']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@style='display: -webkit-inline-box;']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

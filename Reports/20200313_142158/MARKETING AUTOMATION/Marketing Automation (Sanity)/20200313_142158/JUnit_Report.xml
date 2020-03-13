@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Marketing Automation (Sanity)" time="62.151" tests="2" failures="0" errors="0">
+   <testsuite name="Marketing Automation (Sanity)" tests="2" failures="0" errors="0" time="62.151" timestamp="2020-03-13 14:22:12" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/MARKETING AUTOMATION/Marketing Automation (Sanity)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200313_142158\\MARKETING AUTOMATION\\Marketing Automation (Sanity)\\20200313_142158"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200313_142158\\MARKETING AUTOMATION\\Marketing Automation (Sanity)\\20200313_142158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="d397ecc5e75d800f7bea75f03bcee4fa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Message Management/Marketing Automation/Create and Run Marketing Automation" time="50.061" classname="Test Cases/Atlas Platform/Message Management/Marketing Automation/Create and Run Marketing Automation" status="PASSED">
+         <system-out><![CDATA[2020-03-13 14:22:12 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Message Management/Marketing Automation/Create and Run Marketing Automation: Test Cases/Atlas Platform/Message Management/Marketing Automation/Create and Run Marketing Automation
+
+2020-03-13 14:22:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin' successfully
+
+2020-03-13 14:22:15 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin: Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin
+
+2020-03-13 14:22:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-13 14:22:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-13 14:22:16 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-03-13 14:22:16 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-03-13 14:22:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-13 14:22:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-13 14:22:25 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:22:25 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:22:25 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-03-13 14:22:29 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-03-13 14:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/email address placeholder"), Email): Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-03-13 14:22:30 - [MESSAGE][PASSED] - Text 'Navaraj@totient.co.in' is set on object 'Object Repository/Login_Page/Page_/email address placeholder'
+
+2020-03-13 14:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Page_/Password placeholder"), Password): Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-03-13 14:22:31 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/Login_Page/Page_/Password placeholder'
+
+2020-03-13 14:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Page_/Log In button")): Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-03-13 14:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/Log In button' is clicked on
+
+2020-03-13 14:22:32 - [TEST_STEP][PASSED] - dashboard_act_title = getWindowTitle(): Current window's title is: ''
+
+2020-03-13 14:22:32 - [MESSAGE][PASSED] - Current window's title is: ''
+
+2020-03-13 14:22:32 - [TEST_STEP][PASSED] - verifyEqual(dashboard_act_title, dashboard_exp_title): Actual object '' and expected object '' are equal
+
+2020-03-13 14:22:32 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2020-03-13 14:22:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin' successfully
+
+2020-03-13 14:22:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:22:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:22:32 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Role_Navigation/messaging")): Object: 'Object Repository/ROLES/Role_Navigation/messaging' is clicked on
+
+2020-03-13 14:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Role_Navigation/messaging' is clicked on
+
+2020-03-13 14:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/create marketing button")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create marketing button' is clicked on
+
+2020-03-13 14:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create marketing button' is clicked on
+
+2020-03-13 14:22:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/marketing Automation name"), "Marketing Automation 1"): Keys 'Marketing Automation 1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/marketing Automation name'
+
+2020-03-13 14:22:38 - [MESSAGE][PASSED] - Keys 'Marketing Automation 1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/marketing Automation name'
+
+2020-03-13 14:22:38 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Marketing Automation/Create Marketing Automation/start"), 125, -50): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/start' is clicked on using offset x=125 and y=-50
+
+2020-03-13 14:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/start' is clicked on using offset x=125 and y=-50
+
+2020-03-13 14:22:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "start"): Keys 'start' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:39 - [MESSAGE][PASSED] - Keys 'start' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/create task")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create task' is clicked on
+
+2020-03-13 14:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create task' is clicked on
+
+2020-03-13 14:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/settings")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/send mail(task)")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/send mail(task)' is clicked on
+
+2020-03-13 14:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/send mail(task)' is clicked on
+
+2020-03-13 14:22:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "Welcome1"): Keys 'Welcome1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:42 - [MESSAGE][PASSED] - Keys 'Welcome1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/extensions tab")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/extensions tab' is clicked on
+
+2020-03-13 14:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/extensions tab' is clicked on
+
+2020-03-13 14:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/plus button(extensions)")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/plus button(extensions)' is clicked on
+
+2020-03-13 14:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/plus button(extensions)' is clicked on
+
+2020-03-13 14:22:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/name(extensions)"), "templateid"): Keys 'templateid' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/name(extensions)'
+
+2020-03-13 14:22:44 - [MESSAGE][PASSED] - Keys 'templateid' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/name(extensions)'
+
+2020-03-13 14:22:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/value(extensions)"), "1"): Keys '1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/value(extensions)'
+
+2020-03-13 14:22:45 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/value(extensions)'
+
+2020-03-13 14:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/intermediate")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/intermediate' is clicked on
+
+2020-03-13 14:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/intermediate' is clicked on
+
+2020-03-13 14:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/settings")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/wait(date)")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/wait(date)' is clicked on
+
+2020-03-13 14:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/wait(date)' is clicked on
+
+2020-03-13 14:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/general tab")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/timer")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer' is clicked on
+
+2020-03-13 14:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer' is clicked on
+
+2020-03-13 14:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/timer Date")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer Date' is clicked on
+
+2020-03-13 14:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer Date' is clicked on
+
+2020-03-13 14:22:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/timer duration"), "30"): Keys '30' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer duration'
+
+2020-03-13 14:22:49 - [MESSAGE][PASSED] - Keys '30' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/timer duration'
+
+2020-03-13 14:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/gateway")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/gateway' is clicked on
+
+2020-03-13 14:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/gateway' is clicked on
+
+2020-03-13 14:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/create task")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create task' is clicked on
+
+2020-03-13 14:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/create task' is clicked on
+
+2020-03-13 14:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/settings")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/settings' is clicked on
+
+2020-03-13 14:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/send mail(task)")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/send mail(task)' is clicked on
+
+2020-03-13 14:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/send mail(task)' is clicked on
+
+2020-03-13 14:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/general tab")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "Welcome2"): Keys 'Welcome2' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:53 - [MESSAGE][PASSED] - Keys 'Welcome2' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/extensions tab")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/extensions tab' is clicked on
+
+2020-03-13 14:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/extensions tab' is clicked on
+
+2020-03-13 14:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/plus button(extensions)")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/plus button(extensions)' is clicked on
+
+2020-03-13 14:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/plus button(extensions)' is clicked on
+
+2020-03-13 14:22:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/name(extensions)"), "templateid"): Keys 'templateid' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/name(extensions)'
+
+2020-03-13 14:22:55 - [MESSAGE][PASSED] - Keys 'templateid' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/name(extensions)'
+
+2020-03-13 14:22:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/value(extensions)"), "2"): Keys '2' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/value(extensions)'
+
+2020-03-13 14:22:56 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/value(extensions)'
+
+2020-03-13 14:22:56 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/end")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/end' is clicked on
+
+2020-03-13 14:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/end' is clicked on
+
+2020-03-13 14:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/general tab")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/general tab' is clicked on
+
+2020-03-13 14:22:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "end"): Keys 'end' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:57 - [MESSAGE][PASSED] - Keys 'end' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:22:57 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Marketing Automation/Create Marketing Automation/start"), 470, -50): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/start' is clicked on using offset x=470 and y=-50
+
+2020-03-13 14:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/start' is clicked on using offset x=470 and y=-50
+
+2020-03-13 14:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/end")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/end' is clicked on
+
+2020-03-13 14:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/end' is clicked on
+
+2020-03-13 14:22:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Create Marketing Automation/task name"), "end"): Keys 'end' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:23:00 - [MESSAGE][PASSED] - Keys 'end' sent to object: 'Object Repository/Marketing Automation/Create Marketing Automation/task name'
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Create Marketing Automation/Create button")): Object: 'Object Repository/Marketing Automation/Create Marketing Automation/Create button' is clicked on
+
+2020-03-13 14:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Create Marketing Automation/Create button' is clicked on
+
+2020-03-13 14:23:00 - [TEST_STEP][NOT_RUN] - click(findTestObject("Marketing Automation/Create Marketing Automation/start button")): NOT_RUN: click(findTestObject("Marketing Automation/Create Marketing Automation/start button"))
+
+2020-03-13 14:23:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Marketing Automation/Create Marketing Automation/start button"))
+
+2020-03-13 14:23:00 - [TEST_STEP][NOT_RUN] - click(findTestObject("Marketing Automation/Create Marketing Automation/stop button")): NOT_RUN: click(findTestObject("Marketing Automation/Create Marketing Automation/stop button"))
+
+2020-03-13 14:23:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Marketing Automation/Create Marketing Automation/stop button"))
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-13 14:23:00 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation" time="11.647" classname="Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation" status="PASSED">
+         <system-out><![CDATA[2020-03-13 14:23:02 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation: Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation
+
+2020-03-13 14:23:03 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:23:03 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Configuration Management/Platform Management/ROLES/others/Navigation"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-13 14:23:03 - [TEST_STEP][PASSED] - click(findTestObject("ROLES/Role_Navigation/messaging")): Object: 'Object Repository/ROLES/Role_Navigation/messaging' is clicked on
+
+2020-03-13 14:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ROLES/Role_Navigation/messaging' is clicked on
+
+2020-03-13 14:23:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Marketing Automation/Search/Search input"), "Marketing Automation 1" + ENTER): Keys 'ENTER + Marketing Automation 1' sent to object: 'Object Repository/Marketing Automation/Search/Search input'
+
+2020-03-13 14:23:05 - [MESSAGE][PASSED] - Keys 'ENTER + Marketing Automation 1' sent to object: 'Object Repository/Marketing Automation/Search/Search input'
+
+2020-03-13 14:23:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Marketing Automation/Search/created Marketing Automation name"), "Marketing Automation 1"): Actual text and expected text of test object 'Object Repository/Marketing Automation/Search/created Marketing Automation name' are matched.
+
+2020-03-13 14:23:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Marketing Automation/Search/created Marketing Automation name' are matched.
+
+2020-03-13 14:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Marketing Automation/Search/created Marketing Automation name")): Object: 'Object Repository/Marketing Automation/Search/created Marketing Automation name' is clicked on
+
+2020-03-13 14:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Marketing Automation/Search/created Marketing Automation name' is clicked on
+
+2020-03-13 14:23:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Marketing Automation/Search/Marketing automation name"), "value", "Marketing Automation 1", 0): Object 'Object Repository/Marketing Automation/Search/Marketing automation name' has attribute 'value' with value 'Marketing Automation 1'
+
+2020-03-13 14:23:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-13 14:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/Marketing Automation/Search/Marketing automation name' has attribute 'value' with value 'Marketing Automation 1'
+
+2020-03-13 14:23:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-13 14:23:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-13 14:23:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-13 14:23:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-13 14:23:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-13 14:23:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-13 14:23:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-13 14:23:12 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-13 14:23:12 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-13 14:22:12 - [TEST_SUITE][PASSED] - Marketing Automation (Sanity): Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

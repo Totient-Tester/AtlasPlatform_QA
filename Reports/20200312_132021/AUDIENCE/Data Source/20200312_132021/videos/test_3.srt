@@ -1,0 +1,68 @@
+1
+00:00:00,452 --> 00:00:00,453
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,457 --> 00:00:00,458
+5. click(findTestObject("HeaderMenus/audiencemenu"))
+
+3
+00:00:00,828 --> 00:00:00,830
+9. refresh()
+
+4
+00:00:03,418 --> 00:00:03,422
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:00:04,204 --> 00:00:04,205
+17. beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+6
+00:00:04,694 --> 00:00:04,695
+21. beforetotal = Integer.parseInt(replace(")", "").trim())
+
+7
+00:00:04,698 --> 00:00:04,700
+25. click(findTestObject("Object Repository/AUDIENCE/Data Source/filter"))
+
+8
+00:00:05,165 --> 00:00:05,166
+29. click(findTestObject("Object Repository/AUDIENCE/Data Source/active"))
+
+9
+00:00:05,751 --> 00:00:05,752
+33. click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn"))
+
+10
+00:00:06,287 --> 00:00:06,288
+37. delay(3)
+
+11
+00:00:09,304 --> 00:00:09,305
+41. verifyElementText(findTestObject("Object Repository/AUDIENCE/Data Source/active_text_filtered"), "Active")
+
+12
+00:00:09,748 --> 00:00:09,750
+45. totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count"))
+
+13
+00:00:10,184 --> 00:00:10,185
+49. total = Integer.parseInt(split(" ")[0].trim())
+
+14
+00:00:10,227 --> 00:00:10,227
+1. println(testCaseContext.getTestCaseId())
+
+15
+00:00:10,229 --> 00:00:10,230
+5. println(testCaseContext.getTestCaseStatus())
+
+16
+00:00:10,231 --> 00:00:10,231
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+17
+00:00:10,233 --> 00:00:10,233
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

@@ -1,0 +1,300 @@
+1
+00:00:00,308 --> 00:00:00,309
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,314 --> 00:00:00,314
+5. refresh()
+
+3
+00:00:03,541 --> 00:00:03,543
+9. click(findTestObject("HeaderMenus/audiencemenu"))
+
+4
+00:00:06,318 --> 00:00:06,320
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:00:07,675 --> 00:00:07,676
+17. totalText = getText(findTestObject("AUDIENCE/Data Source/total_count"))
+
+6
+00:00:08,230 --> 00:00:08,231
+21. click(findTestObject("AUDIENCE/Data Source/count_Column_Name"))
+
+7
+00:00:08,684 --> 00:00:08,685
+25. click(findTestObject("AUDIENCE/Data Source/count_Column_Name"))
+
+8
+00:00:11,464 --> 00:00:11,466
+29. total = Integer.parseInt(replace(")", "").trim())
+
+9
+00:00:11,468 --> 00:00:11,469
+33. pageValueCount = 0
+
+10
+00:00:11,470 --> 00:00:11,471
+37. dataSourceTextValues = new java.util.ArrayList()
+
+11
+00:00:11,472 --> 00:00:11,473
+41. totalOfPaginationCount = getText(findTestObject("AUDIENCE/Data Source/no_pagination_With_Count"))
+
+12
+00:00:12,994 --> 00:00:12,994
+45. if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images")))
+
+13
+00:00:12,995 --> 00:00:12,996
+1. elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+14
+00:00:13,381 --> 00:00:13,382
+5. if (total > 10)
+
+15
+00:00:13,384 --> 00:00:13,384
+1. while (total != pageValueCount)
+
+16
+00:00:13,386 --> 00:00:13,386
+1. for (org.openqa.selenium.WebElement ele : elements)
+
+17
+00:00:13,389 --> 00:00:13,390
+1. dataSourceTextValues.add(ele.getText())
+
+18
+00:00:13,449 --> 00:00:13,449
+1. dataSourceTextValues.add(ele.getText())
+
+19
+00:00:13,517 --> 00:00:13,518
+1. dataSourceTextValues.add(ele.getText())
+
+20
+00:00:13,572 --> 00:00:13,572
+1. dataSourceTextValues.add(ele.getText())
+
+21
+00:00:13,608 --> 00:00:13,609
+1. dataSourceTextValues.add(ele.getText())
+
+22
+00:00:13,640 --> 00:00:13,641
+1. dataSourceTextValues.add(ele.getText())
+
+23
+00:00:13,669 --> 00:00:13,670
+1. dataSourceTextValues.add(ele.getText())
+
+24
+00:00:13,706 --> 00:00:13,707
+1. dataSourceTextValues.add(ele.getText())
+
+25
+00:00:13,737 --> 00:00:13,737
+1. dataSourceTextValues.add(ele.getText())
+
+26
+00:00:13,781 --> 00:00:13,782
+1. dataSourceTextValues.add(ele.getText())
+
+27
+00:00:13,810 --> 00:00:13,811
+5. click(findTestObject("AUDIENCE/Data Source/next"))
+
+28
+00:00:14,291 --> 00:00:14,292
+9. pageValueCount += elements.size()
+
+29
+00:00:14,295 --> 00:00:14,296
+13. elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+30
+00:00:16,165 --> 00:00:16,166
+1. for (org.openqa.selenium.WebElement ele : elements)
+
+31
+00:00:16,167 --> 00:00:16,168
+1. dataSourceTextValues.add(ele.getText())
+
+32
+00:00:16,193 --> 00:00:16,194
+1. dataSourceTextValues.add(ele.getText())
+
+33
+00:00:16,221 --> 00:00:16,222
+1. dataSourceTextValues.add(ele.getText())
+
+34
+00:00:16,241 --> 00:00:16,242
+5. click(findTestObject("AUDIENCE/Data Source/next"))
+
+35
+00:00:19,067 --> 00:00:19,068
+9. pageValueCount += elements.size()
+
+36
+00:00:19,071 --> 00:00:19,072
+13. elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+37
+00:00:19,399 --> 00:00:19,401
+49. isAscending = web.CustomKeyword.checkListAscendingOrder(dataSourceTextValues)
+
+38
+00:00:19,403 --> 00:00:19,403
+53. verifyEqual(isAscending, true)
+
+39
+00:00:19,411 --> 00:00:19,411
+57. click(findTestObject("HeaderMenus/adminmenu"))
+
+40
+00:00:19,849 --> 00:00:19,850
+61. click(findTestObject("HeaderMenus/audiencemenu"))
+
+41
+00:00:26,641 --> 00:00:26,642
+65. click(findTestObject("AUDIENCE/Data Source/count_Column_Name"))
+
+42
+00:00:31,432 --> 00:00:31,433
+69. delay(3)
+
+43
+00:00:34,440 --> 00:00:34,441
+73. dataSourceTextValuesWithDesc = new java.util.ArrayList()
+
+44
+00:00:34,444 --> 00:00:34,445
+77. pageValueCount1 = 0
+
+45
+00:00:34,449 --> 00:00:34,451
+81. if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images")))
+
+46
+00:00:34,455 --> 00:00:34,459
+1. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+47
+00:00:34,819 --> 00:00:34,820
+5. if (total > 10)
+
+48
+00:00:34,825 --> 00:00:34,826
+1. while (total != pageValueCount1)
+
+49
+00:00:34,837 --> 00:00:34,838
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+50
+00:00:34,844 --> 00:00:34,845
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+51
+00:00:34,898 --> 00:00:34,899
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+52
+00:00:34,929 --> 00:00:34,930
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+53
+00:00:35,001 --> 00:00:35,002
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+54
+00:00:35,040 --> 00:00:35,041
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+55
+00:00:35,074 --> 00:00:35,074
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+56
+00:00:35,105 --> 00:00:35,106
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+57
+00:00:35,135 --> 00:00:35,136
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+58
+00:00:35,175 --> 00:00:35,176
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+59
+00:00:35,223 --> 00:00:35,223
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+60
+00:00:35,270 --> 00:00:35,271
+5. pageValueCount1 += elements1.size()
+
+61
+00:00:35,275 --> 00:00:35,276
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+62
+00:00:35,850 --> 00:00:35,851
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+63
+00:00:37,132 --> 00:00:37,133
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+64
+00:00:37,135 --> 00:00:37,136
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+65
+00:00:37,169 --> 00:00:37,170
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+66
+00:00:37,198 --> 00:00:37,199
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+67
+00:00:37,217 --> 00:00:37,218
+5. pageValueCount1 += elements1.size()
+
+68
+00:00:37,219 --> 00:00:37,220
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+69
+00:00:39,957 --> 00:00:39,960
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0)
+
+70
+00:00:40,312 --> 00:00:40,315
+85. isDescending = web.CustomKeyword.checkListDescendingOrder(dataSourceTextValues, dataSourceTextValuesWithDesc)
+
+71
+00:00:40,316 --> 00:00:40,317
+89. verifyEqual(isDescending, true)
+
+72
+00:00:40,330 --> 00:00:40,330
+1. println(testCaseContext.getTestCaseId())
+
+73
+00:00:40,331 --> 00:00:40,333
+5. println(testCaseContext.getTestCaseStatus())
+
+74
+00:00:40,334 --> 00:00:40,335
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+75
+00:00:40,336 --> 00:00:40,336
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

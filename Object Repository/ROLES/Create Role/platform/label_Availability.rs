@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Availability']</value>
+         <value>//div[text()='Availability']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

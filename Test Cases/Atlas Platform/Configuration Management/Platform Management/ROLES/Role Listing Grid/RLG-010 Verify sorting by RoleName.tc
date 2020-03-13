@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RLG-010 Verify sorting by RoleName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e1c0725-fbad-44fd-b2ca-994225374cf3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,3572 @@
+1
+00:00:00,735 --> 00:00:00,735
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin"), ["Email":findTestData("AMP_Y").getValue(1, 1), "Password":findTestData("AMP_Y").getValue(2, 1), "dashboard_exp_title":""], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,738 --> 00:00:00,739
+5. driver = getWebDriver()
+
+3
+00:00:00,740 --> 00:00:00,741
+9. click(findTestObject("ROLES/Role_Navigation/a_ADMIN"))
+
+4
+00:00:00,743 --> 00:00:00,743
+13. noOfPages_text = getText(findTestObject("ROLES/Roles_page/Pagination/label_of 10"))
+
+5
+00:00:01,078 --> 00:00:01,079
+17. noOfPages = Integer.parseInt(noOfPages_text.substring(3))
+
+6
+00:00:01,080 --> 00:00:01,081
+21. println(noOfPages)
+
+7
+00:00:01,083 --> 00:00:01,084
+25. for ([j = 1, j < 3, (j++)])
+
+8
+00:00:01,085 --> 00:00:01,085
+1. click(findTestObject("ROLES/Roles_page/sorting/RoleName_header"))
+
+9
+00:00:01,530 --> 00:00:01,531
+5. RoleNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+
+10
+00:00:01,533 --> 00:00:01,533
+9. AllRoleNames = new java.util.ArrayList()
+
+11
+00:00:01,534 --> 00:00:01,535
+13. for ([i = 1, i <= noOfPages, (i++)])
+
+12
+00:00:01,536 --> 00:00:01,536
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+13
+00:00:02,352 --> 00:00:02,353
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+14
+00:00:02,354 --> 00:00:02,354
+1. AllRoleNames.add(getText().toLowerCase())
+
+15
+00:00:02,372 --> 00:00:02,373
+5. println(a.getText())
+
+16
+00:00:02,384 --> 00:00:02,385
+1. AllRoleNames.add(getText().toLowerCase())
+
+17
+00:00:02,407 --> 00:00:02,408
+5. println(a.getText())
+
+18
+00:00:02,423 --> 00:00:02,423
+1. AllRoleNames.add(getText().toLowerCase())
+
+19
+00:00:02,439 --> 00:00:02,440
+5. println(a.getText())
+
+20
+00:00:02,455 --> 00:00:02,455
+1. AllRoleNames.add(getText().toLowerCase())
+
+21
+00:00:02,477 --> 00:00:02,478
+5. println(a.getText())
+
+22
+00:00:02,489 --> 00:00:02,489
+1. AllRoleNames.add(getText().toLowerCase())
+
+23
+00:00:02,504 --> 00:00:02,505
+5. println(a.getText())
+
+24
+00:00:02,516 --> 00:00:02,516
+1. AllRoleNames.add(getText().toLowerCase())
+
+25
+00:00:02,534 --> 00:00:02,534
+5. println(a.getText())
+
+26
+00:00:02,550 --> 00:00:02,551
+1. AllRoleNames.add(getText().toLowerCase())
+
+27
+00:00:02,567 --> 00:00:02,568
+5. println(a.getText())
+
+28
+00:00:02,580 --> 00:00:02,581
+1. AllRoleNames.add(getText().toLowerCase())
+
+29
+00:00:02,599 --> 00:00:02,600
+5. println(a.getText())
+
+30
+00:00:02,612 --> 00:00:02,613
+1. AllRoleNames.add(getText().toLowerCase())
+
+31
+00:00:02,631 --> 00:00:02,631
+5. println(a.getText())
+
+32
+00:00:02,642 --> 00:00:02,643
+1. AllRoleNames.add(getText().toLowerCase())
+
+33
+00:00:02,664 --> 00:00:02,664
+5. println(a.getText())
+
+34
+00:00:02,675 --> 00:00:02,676
+9. delay(2)
+
+35
+00:00:04,679 --> 00:00:04,679
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+36
+00:00:05,196 --> 00:00:05,196
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+37
+00:00:06,794 --> 00:00:06,794
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+38
+00:00:06,795 --> 00:00:06,795
+1. AllRoleNames.add(getText().toLowerCase())
+
+39
+00:00:06,817 --> 00:00:06,817
+5. println(a.getText())
+
+40
+00:00:06,831 --> 00:00:06,831
+1. AllRoleNames.add(getText().toLowerCase())
+
+41
+00:00:06,855 --> 00:00:06,855
+5. println(a.getText())
+
+42
+00:00:06,866 --> 00:00:06,866
+1. AllRoleNames.add(getText().toLowerCase())
+
+43
+00:00:06,893 --> 00:00:06,893
+5. println(a.getText())
+
+44
+00:00:06,906 --> 00:00:06,906
+1. AllRoleNames.add(getText().toLowerCase())
+
+45
+00:00:06,923 --> 00:00:06,924
+5. println(a.getText())
+
+46
+00:00:06,935 --> 00:00:06,936
+1. AllRoleNames.add(getText().toLowerCase())
+
+47
+00:00:06,959 --> 00:00:06,960
+5. println(a.getText())
+
+48
+00:00:06,974 --> 00:00:06,975
+1. AllRoleNames.add(getText().toLowerCase())
+
+49
+00:00:06,992 --> 00:00:06,993
+5. println(a.getText())
+
+50
+00:00:07,003 --> 00:00:07,004
+1. AllRoleNames.add(getText().toLowerCase())
+
+51
+00:00:07,028 --> 00:00:07,029
+5. println(a.getText())
+
+52
+00:00:07,040 --> 00:00:07,041
+1. AllRoleNames.add(getText().toLowerCase())
+
+53
+00:00:07,059 --> 00:00:07,059
+5. println(a.getText())
+
+54
+00:00:07,071 --> 00:00:07,071
+1. AllRoleNames.add(getText().toLowerCase())
+
+55
+00:00:07,092 --> 00:00:07,092
+5. println(a.getText())
+
+56
+00:00:07,104 --> 00:00:07,105
+1. AllRoleNames.add(getText().toLowerCase())
+
+57
+00:00:07,121 --> 00:00:07,122
+5. println(a.getText())
+
+58
+00:00:07,132 --> 00:00:07,133
+9. delay(2)
+
+59
+00:00:09,135 --> 00:00:09,135
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+60
+00:00:09,574 --> 00:00:09,575
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+61
+00:00:10,741 --> 00:00:10,742
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+62
+00:00:10,744 --> 00:00:10,744
+1. AllRoleNames.add(getText().toLowerCase())
+
+63
+00:00:10,769 --> 00:00:10,769
+5. println(a.getText())
+
+64
+00:00:10,783 --> 00:00:10,784
+1. AllRoleNames.add(getText().toLowerCase())
+
+65
+00:00:10,807 --> 00:00:10,807
+5. println(a.getText())
+
+66
+00:00:10,817 --> 00:00:10,818
+1. AllRoleNames.add(getText().toLowerCase())
+
+67
+00:00:10,837 --> 00:00:10,838
+5. println(a.getText())
+
+68
+00:00:10,857 --> 00:00:10,857
+1. AllRoleNames.add(getText().toLowerCase())
+
+69
+00:00:10,884 --> 00:00:10,885
+5. println(a.getText())
+
+70
+00:00:10,900 --> 00:00:10,900
+1. AllRoleNames.add(getText().toLowerCase())
+
+71
+00:00:10,936 --> 00:00:10,937
+5. println(a.getText())
+
+72
+00:00:10,950 --> 00:00:10,951
+1. AllRoleNames.add(getText().toLowerCase())
+
+73
+00:00:10,977 --> 00:00:10,978
+5. println(a.getText())
+
+74
+00:00:10,996 --> 00:00:10,997
+1. AllRoleNames.add(getText().toLowerCase())
+
+75
+00:00:11,026 --> 00:00:11,026
+5. println(a.getText())
+
+76
+00:00:11,041 --> 00:00:11,041
+1. AllRoleNames.add(getText().toLowerCase())
+
+77
+00:00:11,074 --> 00:00:11,075
+5. println(a.getText())
+
+78
+00:00:11,089 --> 00:00:11,089
+1. AllRoleNames.add(getText().toLowerCase())
+
+79
+00:00:11,119 --> 00:00:11,120
+5. println(a.getText())
+
+80
+00:00:11,138 --> 00:00:11,139
+1. AllRoleNames.add(getText().toLowerCase())
+
+81
+00:00:11,163 --> 00:00:11,164
+5. println(a.getText())
+
+82
+00:00:11,181 --> 00:00:11,182
+9. delay(2)
+
+83
+00:00:13,185 --> 00:00:13,187
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+84
+00:00:13,591 --> 00:00:13,591
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+85
+00:00:15,902 --> 00:00:15,902
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+86
+00:00:15,904 --> 00:00:15,904
+1. AllRoleNames.add(getText().toLowerCase())
+
+87
+00:00:15,924 --> 00:00:15,924
+5. println(a.getText())
+
+88
+00:00:15,937 --> 00:00:15,938
+1. AllRoleNames.add(getText().toLowerCase())
+
+89
+00:00:15,956 --> 00:00:15,957
+5. println(a.getText())
+
+90
+00:00:15,967 --> 00:00:15,968
+1. AllRoleNames.add(getText().toLowerCase())
+
+91
+00:00:15,986 --> 00:00:15,987
+5. println(a.getText())
+
+92
+00:00:16,000 --> 00:00:16,001
+1. AllRoleNames.add(getText().toLowerCase())
+
+93
+00:00:16,023 --> 00:00:16,023
+5. println(a.getText())
+
+94
+00:00:16,034 --> 00:00:16,034
+1. AllRoleNames.add(getText().toLowerCase())
+
+95
+00:00:16,052 --> 00:00:16,052
+5. println(a.getText())
+
+96
+00:00:16,066 --> 00:00:16,067
+1. AllRoleNames.add(getText().toLowerCase())
+
+97
+00:00:16,090 --> 00:00:16,090
+5. println(a.getText())
+
+98
+00:00:16,100 --> 00:00:16,101
+1. AllRoleNames.add(getText().toLowerCase())
+
+99
+00:00:16,119 --> 00:00:16,119
+5. println(a.getText())
+
+100
+00:00:16,134 --> 00:00:16,135
+1. AllRoleNames.add(getText().toLowerCase())
+
+101
+00:00:16,159 --> 00:00:16,159
+5. println(a.getText())
+
+102
+00:00:16,170 --> 00:00:16,170
+1. AllRoleNames.add(getText().toLowerCase())
+
+103
+00:00:16,191 --> 00:00:16,192
+5. println(a.getText())
+
+104
+00:00:16,206 --> 00:00:16,206
+1. AllRoleNames.add(getText().toLowerCase())
+
+105
+00:00:16,226 --> 00:00:16,226
+5. println(a.getText())
+
+106
+00:00:16,250 --> 00:00:16,251
+9. delay(2)
+
+107
+00:00:18,254 --> 00:00:18,255
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+108
+00:00:18,665 --> 00:00:18,666
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+109
+00:00:19,580 --> 00:00:19,580
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+110
+00:00:19,582 --> 00:00:19,582
+1. AllRoleNames.add(getText().toLowerCase())
+
+111
+00:00:19,609 --> 00:00:19,609
+5. println(a.getText())
+
+112
+00:00:19,622 --> 00:00:19,622
+1. AllRoleNames.add(getText().toLowerCase())
+
+113
+00:00:19,647 --> 00:00:19,648
+5. println(a.getText())
+
+114
+00:00:19,659 --> 00:00:19,660
+1. AllRoleNames.add(getText().toLowerCase())
+
+115
+00:00:19,681 --> 00:00:19,681
+5. println(a.getText())
+
+116
+00:00:19,702 --> 00:00:19,703
+1. AllRoleNames.add(getText().toLowerCase())
+
+117
+00:00:19,734 --> 00:00:19,735
+5. println(a.getText())
+
+118
+00:00:19,749 --> 00:00:19,749
+1. AllRoleNames.add(getText().toLowerCase())
+
+119
+00:00:19,794 --> 00:00:19,795
+5. println(a.getText())
+
+120
+00:00:19,814 --> 00:00:19,814
+1. AllRoleNames.add(getText().toLowerCase())
+
+121
+00:00:19,850 --> 00:00:19,851
+5. println(a.getText())
+
+122
+00:00:19,875 --> 00:00:19,876
+1. AllRoleNames.add(getText().toLowerCase())
+
+123
+00:00:19,914 --> 00:00:19,914
+5. println(a.getText())
+
+124
+00:00:19,932 --> 00:00:19,933
+1. AllRoleNames.add(getText().toLowerCase())
+
+125
+00:00:19,972 --> 00:00:19,972
+5. println(a.getText())
+
+126
+00:00:19,988 --> 00:00:19,989
+1. AllRoleNames.add(getText().toLowerCase())
+
+127
+00:00:20,019 --> 00:00:20,020
+5. println(a.getText())
+
+128
+00:00:20,051 --> 00:00:20,052
+1. AllRoleNames.add(getText().toLowerCase())
+
+129
+00:00:20,086 --> 00:00:20,086
+5. println(a.getText())
+
+130
+00:00:20,109 --> 00:00:20,109
+9. delay(2)
+
+131
+00:00:22,112 --> 00:00:22,112
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+132
+00:00:22,523 --> 00:00:22,524
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+133
+00:00:23,328 --> 00:00:23,329
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+134
+00:00:23,331 --> 00:00:23,332
+1. AllRoleNames.add(getText().toLowerCase())
+
+135
+00:00:23,366 --> 00:00:23,367
+5. println(a.getText())
+
+136
+00:00:23,377 --> 00:00:23,377
+1. AllRoleNames.add(getText().toLowerCase())
+
+137
+00:00:23,399 --> 00:00:23,400
+5. println(a.getText())
+
+138
+00:00:23,413 --> 00:00:23,413
+1. AllRoleNames.add(getText().toLowerCase())
+
+139
+00:00:23,432 --> 00:00:23,433
+5. println(a.getText())
+
+140
+00:00:23,443 --> 00:00:23,443
+1. AllRoleNames.add(getText().toLowerCase())
+
+141
+00:00:23,468 --> 00:00:23,469
+5. println(a.getText())
+
+142
+00:00:23,482 --> 00:00:23,482
+1. AllRoleNames.add(getText().toLowerCase())
+
+143
+00:00:23,500 --> 00:00:23,501
+5. println(a.getText())
+
+144
+00:00:23,512 --> 00:00:23,512
+1. AllRoleNames.add(getText().toLowerCase())
+
+145
+00:00:23,540 --> 00:00:23,541
+5. println(a.getText())
+
+146
+00:00:23,553 --> 00:00:23,553
+1. AllRoleNames.add(getText().toLowerCase())
+
+147
+00:00:23,577 --> 00:00:23,577
+5. println(a.getText())
+
+148
+00:00:23,588 --> 00:00:23,589
+1. AllRoleNames.add(getText().toLowerCase())
+
+149
+00:00:23,612 --> 00:00:23,612
+5. println(a.getText())
+
+150
+00:00:23,624 --> 00:00:23,625
+1. AllRoleNames.add(getText().toLowerCase())
+
+151
+00:00:23,669 --> 00:00:23,669
+5. println(a.getText())
+
+152
+00:00:23,684 --> 00:00:23,684
+1. AllRoleNames.add(getText().toLowerCase())
+
+153
+00:00:23,704 --> 00:00:23,704
+5. println(a.getText())
+
+154
+00:00:23,714 --> 00:00:23,714
+9. delay(2)
+
+155
+00:00:25,718 --> 00:00:25,718
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+156
+00:00:26,104 --> 00:00:26,105
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+157
+00:00:26,953 --> 00:00:26,954
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+158
+00:00:26,955 --> 00:00:26,955
+1. AllRoleNames.add(getText().toLowerCase())
+
+159
+00:00:26,982 --> 00:00:26,983
+5. println(a.getText())
+
+160
+00:00:26,993 --> 00:00:26,994
+1. AllRoleNames.add(getText().toLowerCase())
+
+161
+00:00:27,010 --> 00:00:27,011
+5. println(a.getText())
+
+162
+00:00:27,023 --> 00:00:27,023
+1. AllRoleNames.add(getText().toLowerCase())
+
+163
+00:00:27,054 --> 00:00:27,054
+5. println(a.getText())
+
+164
+00:00:27,072 --> 00:00:27,072
+1. AllRoleNames.add(getText().toLowerCase())
+
+165
+00:00:27,101 --> 00:00:27,102
+5. println(a.getText())
+
+166
+00:00:27,117 --> 00:00:27,118
+1. AllRoleNames.add(getText().toLowerCase())
+
+167
+00:00:27,145 --> 00:00:27,146
+5. println(a.getText())
+
+168
+00:00:27,171 --> 00:00:27,171
+1. AllRoleNames.add(getText().toLowerCase())
+
+169
+00:00:27,197 --> 00:00:27,198
+5. println(a.getText())
+
+170
+00:00:27,211 --> 00:00:27,212
+1. AllRoleNames.add(getText().toLowerCase())
+
+171
+00:00:27,244 --> 00:00:27,244
+5. println(a.getText())
+
+172
+00:00:27,259 --> 00:00:27,259
+1. AllRoleNames.add(getText().toLowerCase())
+
+173
+00:00:27,291 --> 00:00:27,292
+5. println(a.getText())
+
+174
+00:00:27,307 --> 00:00:27,307
+1. AllRoleNames.add(getText().toLowerCase())
+
+175
+00:00:27,341 --> 00:00:27,342
+5. println(a.getText())
+
+176
+00:00:27,359 --> 00:00:27,359
+1. AllRoleNames.add(getText().toLowerCase())
+
+177
+00:00:27,385 --> 00:00:27,386
+5. println(a.getText())
+
+178
+00:00:27,404 --> 00:00:27,404
+9. delay(2)
+
+179
+00:00:29,408 --> 00:00:29,408
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+180
+00:00:29,777 --> 00:00:29,778
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+181
+00:00:30,600 --> 00:00:30,601
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+182
+00:00:30,603 --> 00:00:30,604
+1. AllRoleNames.add(getText().toLowerCase())
+
+183
+00:00:30,633 --> 00:00:30,633
+5. println(a.getText())
+
+184
+00:00:30,650 --> 00:00:30,651
+1. AllRoleNames.add(getText().toLowerCase())
+
+185
+00:00:30,717 --> 00:00:30,718
+5. println(a.getText())
+
+186
+00:00:30,739 --> 00:00:30,739
+1. AllRoleNames.add(getText().toLowerCase())
+
+187
+00:00:30,782 --> 00:00:30,783
+5. println(a.getText())
+
+188
+00:00:30,800 --> 00:00:30,800
+1. AllRoleNames.add(getText().toLowerCase())
+
+189
+00:00:30,829 --> 00:00:30,829
+5. println(a.getText())
+
+190
+00:00:30,856 --> 00:00:30,857
+1. AllRoleNames.add(getText().toLowerCase())
+
+191
+00:00:30,888 --> 00:00:30,888
+5. println(a.getText())
+
+192
+00:00:30,916 --> 00:00:30,916
+1. AllRoleNames.add(getText().toLowerCase())
+
+193
+00:00:30,953 --> 00:00:30,954
+5. println(a.getText())
+
+194
+00:00:30,984 --> 00:00:30,984
+1. AllRoleNames.add(getText().toLowerCase())
+
+195
+00:00:31,053 --> 00:00:31,054
+5. println(a.getText())
+
+196
+00:00:31,096 --> 00:00:31,097
+1. AllRoleNames.add(getText().toLowerCase())
+
+197
+00:00:31,135 --> 00:00:31,136
+5. println(a.getText())
+
+198
+00:00:31,151 --> 00:00:31,152
+1. AllRoleNames.add(getText().toLowerCase())
+
+199
+00:00:31,200 --> 00:00:31,200
+5. println(a.getText())
+
+200
+00:00:31,216 --> 00:00:31,216
+1. AllRoleNames.add(getText().toLowerCase())
+
+201
+00:00:31,272 --> 00:00:31,273
+5. println(a.getText())
+
+202
+00:00:31,291 --> 00:00:31,291
+9. delay(2)
+
+203
+00:00:33,295 --> 00:00:33,297
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+204
+00:00:33,706 --> 00:00:33,706
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+205
+00:00:35,002 --> 00:00:35,003
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+206
+00:00:35,004 --> 00:00:35,005
+1. AllRoleNames.add(getText().toLowerCase())
+
+207
+00:00:35,036 --> 00:00:35,037
+5. println(a.getText())
+
+208
+00:00:35,051 --> 00:00:35,051
+1. AllRoleNames.add(getText().toLowerCase())
+
+209
+00:00:35,069 --> 00:00:35,069
+5. println(a.getText())
+
+210
+00:00:35,083 --> 00:00:35,084
+1. AllRoleNames.add(getText().toLowerCase())
+
+211
+00:00:35,105 --> 00:00:35,105
+5. println(a.getText())
+
+212
+00:00:35,117 --> 00:00:35,118
+1. AllRoleNames.add(getText().toLowerCase())
+
+213
+00:00:35,136 --> 00:00:35,136
+5. println(a.getText())
+
+214
+00:00:35,152 --> 00:00:35,152
+1. AllRoleNames.add(getText().toLowerCase())
+
+215
+00:00:35,172 --> 00:00:35,172
+5. println(a.getText())
+
+216
+00:00:35,186 --> 00:00:35,187
+1. AllRoleNames.add(getText().toLowerCase())
+
+217
+00:00:35,209 --> 00:00:35,210
+5. println(a.getText())
+
+218
+00:00:35,223 --> 00:00:35,223
+1. AllRoleNames.add(getText().toLowerCase())
+
+219
+00:00:35,249 --> 00:00:35,250
+5. println(a.getText())
+
+220
+00:00:35,264 --> 00:00:35,264
+1. AllRoleNames.add(getText().toLowerCase())
+
+221
+00:00:35,289 --> 00:00:35,290
+5. println(a.getText())
+
+222
+00:00:35,303 --> 00:00:35,304
+1. AllRoleNames.add(getText().toLowerCase())
+
+223
+00:00:35,326 --> 00:00:35,326
+5. println(a.getText())
+
+224
+00:00:35,339 --> 00:00:35,339
+1. AllRoleNames.add(getText().toLowerCase())
+
+225
+00:00:35,364 --> 00:00:35,364
+5. println(a.getText())
+
+226
+00:00:35,376 --> 00:00:35,376
+9. delay(2)
+
+227
+00:00:37,381 --> 00:00:37,382
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+228
+00:00:37,785 --> 00:00:37,785
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+229
+00:00:38,660 --> 00:00:38,660
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+230
+00:00:38,661 --> 00:00:38,662
+1. AllRoleNames.add(getText().toLowerCase())
+
+231
+00:00:38,689 --> 00:00:38,689
+5. println(a.getText())
+
+232
+00:00:38,703 --> 00:00:38,703
+1. AllRoleNames.add(getText().toLowerCase())
+
+233
+00:00:38,726 --> 00:00:38,726
+5. println(a.getText())
+
+234
+00:00:38,737 --> 00:00:38,738
+1. AllRoleNames.add(getText().toLowerCase())
+
+235
+00:00:38,757 --> 00:00:38,758
+5. println(a.getText())
+
+236
+00:00:38,771 --> 00:00:38,772
+1. AllRoleNames.add(getText().toLowerCase())
+
+237
+00:00:38,798 --> 00:00:38,798
+5. println(a.getText())
+
+238
+00:00:38,810 --> 00:00:38,810
+1. AllRoleNames.add(getText().toLowerCase())
+
+239
+00:00:38,827 --> 00:00:38,828
+5. println(a.getText())
+
+240
+00:00:38,843 --> 00:00:38,844
+1. AllRoleNames.add(getText().toLowerCase())
+
+241
+00:00:38,869 --> 00:00:38,869
+5. println(a.getText())
+
+242
+00:00:38,881 --> 00:00:38,881
+1. AllRoleNames.add(getText().toLowerCase())
+
+243
+00:00:38,899 --> 00:00:38,899
+5. println(a.getText())
+
+244
+00:00:38,914 --> 00:00:38,914
+1. AllRoleNames.add(getText().toLowerCase())
+
+245
+00:00:38,934 --> 00:00:38,934
+5. println(a.getText())
+
+246
+00:00:38,947 --> 00:00:38,948
+1. AllRoleNames.add(getText().toLowerCase())
+
+247
+00:00:38,975 --> 00:00:38,975
+5. println(a.getText())
+
+248
+00:00:38,986 --> 00:00:38,987
+1. AllRoleNames.add(getText().toLowerCase())
+
+249
+00:00:39,009 --> 00:00:39,009
+5. println(a.getText())
+
+250
+00:00:39,023 --> 00:00:39,024
+9. delay(2)
+
+251
+00:00:41,029 --> 00:00:41,030
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+252
+00:00:41,439 --> 00:00:41,440
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+253
+00:00:42,288 --> 00:00:42,288
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+254
+00:00:42,290 --> 00:00:42,290
+1. AllRoleNames.add(getText().toLowerCase())
+
+255
+00:00:42,311 --> 00:00:42,311
+5. println(a.getText())
+
+256
+00:00:42,323 --> 00:00:42,324
+1. AllRoleNames.add(getText().toLowerCase())
+
+257
+00:00:42,342 --> 00:00:42,343
+5. println(a.getText())
+
+258
+00:00:42,356 --> 00:00:42,356
+1. AllRoleNames.add(getText().toLowerCase())
+
+259
+00:00:42,374 --> 00:00:42,375
+5. println(a.getText())
+
+260
+00:00:42,388 --> 00:00:42,389
+1. AllRoleNames.add(getText().toLowerCase())
+
+261
+00:00:42,409 --> 00:00:42,409
+5. println(a.getText())
+
+262
+00:00:42,420 --> 00:00:42,420
+1. AllRoleNames.add(getText().toLowerCase())
+
+263
+00:00:42,440 --> 00:00:42,440
+5. println(a.getText())
+
+264
+00:00:42,452 --> 00:00:42,452
+1. AllRoleNames.add(getText().toLowerCase())
+
+265
+00:00:42,473 --> 00:00:42,473
+5. println(a.getText())
+
+266
+00:00:42,484 --> 00:00:42,484
+1. AllRoleNames.add(getText().toLowerCase())
+
+267
+00:00:42,501 --> 00:00:42,502
+5. println(a.getText())
+
+268
+00:00:42,514 --> 00:00:42,515
+1. AllRoleNames.add(getText().toLowerCase())
+
+269
+00:00:42,538 --> 00:00:42,538
+5. println(a.getText())
+
+270
+00:00:42,549 --> 00:00:42,550
+1. AllRoleNames.add(getText().toLowerCase())
+
+271
+00:00:42,566 --> 00:00:42,566
+5. println(a.getText())
+
+272
+00:00:42,581 --> 00:00:42,581
+1. AllRoleNames.add(getText().toLowerCase())
+
+273
+00:00:42,609 --> 00:00:42,609
+5. println(a.getText())
+
+274
+00:00:42,620 --> 00:00:42,620
+9. delay(2)
+
+275
+00:00:44,622 --> 00:00:44,622
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+276
+00:00:45,025 --> 00:00:45,026
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+277
+00:00:46,369 --> 00:00:46,369
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+278
+00:00:46,371 --> 00:00:46,372
+1. AllRoleNames.add(getText().toLowerCase())
+
+279
+00:00:46,405 --> 00:00:46,405
+5. println(a.getText())
+
+280
+00:00:46,418 --> 00:00:46,419
+1. AllRoleNames.add(getText().toLowerCase())
+
+281
+00:00:46,442 --> 00:00:46,442
+5. println(a.getText())
+
+282
+00:00:46,453 --> 00:00:46,453
+1. AllRoleNames.add(getText().toLowerCase())
+
+283
+00:00:46,485 --> 00:00:46,486
+5. println(a.getText())
+
+284
+00:00:46,500 --> 00:00:46,501
+1. AllRoleNames.add(getText().toLowerCase())
+
+285
+00:00:46,519 --> 00:00:46,519
+5. println(a.getText())
+
+286
+00:00:46,530 --> 00:00:46,530
+1. AllRoleNames.add(getText().toLowerCase())
+
+287
+00:00:46,552 --> 00:00:46,553
+5. println(a.getText())
+
+288
+00:00:46,567 --> 00:00:46,568
+1. AllRoleNames.add(getText().toLowerCase())
+
+289
+00:00:46,587 --> 00:00:46,588
+5. println(a.getText())
+
+290
+00:00:46,599 --> 00:00:46,600
+1. AllRoleNames.add(getText().toLowerCase())
+
+291
+00:00:46,621 --> 00:00:46,622
+5. println(a.getText())
+
+292
+00:00:46,636 --> 00:00:46,637
+1. AllRoleNames.add(getText().toLowerCase())
+
+293
+00:00:46,657 --> 00:00:46,657
+5. println(a.getText())
+
+294
+00:00:46,669 --> 00:00:46,670
+1. AllRoleNames.add(getText().toLowerCase())
+
+295
+00:00:46,696 --> 00:00:46,696
+5. println(a.getText())
+
+296
+00:00:46,711 --> 00:00:46,711
+1. AllRoleNames.add(getText().toLowerCase())
+
+297
+00:00:46,728 --> 00:00:46,728
+5. println(a.getText())
+
+298
+00:00:46,743 --> 00:00:46,743
+9. delay(2)
+
+299
+00:00:48,746 --> 00:00:48,746
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+300
+00:00:49,184 --> 00:00:49,185
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+301
+00:00:50,027 --> 00:00:50,027
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+302
+00:00:50,028 --> 00:00:50,029
+1. AllRoleNames.add(getText().toLowerCase())
+
+303
+00:00:50,052 --> 00:00:50,053
+5. println(a.getText())
+
+304
+00:00:50,067 --> 00:00:50,068
+1. AllRoleNames.add(getText().toLowerCase())
+
+305
+00:00:50,085 --> 00:00:50,085
+5. println(a.getText())
+
+306
+00:00:50,096 --> 00:00:50,097
+1. AllRoleNames.add(getText().toLowerCase())
+
+307
+00:00:50,118 --> 00:00:50,118
+5. println(a.getText())
+
+308
+00:00:50,132 --> 00:00:50,132
+1. AllRoleNames.add(getText().toLowerCase())
+
+309
+00:00:50,153 --> 00:00:50,153
+5. println(a.getText())
+
+310
+00:00:50,166 --> 00:00:50,166
+1. AllRoleNames.add(getText().toLowerCase())
+
+311
+00:00:50,185 --> 00:00:50,185
+5. println(a.getText())
+
+312
+00:00:50,199 --> 00:00:50,199
+1. AllRoleNames.add(getText().toLowerCase())
+
+313
+00:00:50,218 --> 00:00:50,219
+5. println(a.getText())
+
+314
+00:00:50,231 --> 00:00:50,231
+1. AllRoleNames.add(getText().toLowerCase())
+
+315
+00:00:50,250 --> 00:00:50,251
+5. println(a.getText())
+
+316
+00:00:50,266 --> 00:00:50,266
+1. AllRoleNames.add(getText().toLowerCase())
+
+317
+00:00:50,285 --> 00:00:50,285
+5. println(a.getText())
+
+318
+00:00:50,295 --> 00:00:50,296
+1. AllRoleNames.add(getText().toLowerCase())
+
+319
+00:00:50,316 --> 00:00:50,316
+5. println(a.getText())
+
+320
+00:00:50,332 --> 00:00:50,333
+1. AllRoleNames.add(getText().toLowerCase())
+
+321
+00:00:50,353 --> 00:00:50,353
+5. println(a.getText())
+
+322
+00:00:50,365 --> 00:00:50,365
+9. delay(2)
+
+323
+00:00:52,369 --> 00:00:52,371
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+324
+00:00:52,864 --> 00:00:52,864
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+325
+00:00:54,213 --> 00:00:54,213
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+326
+00:00:54,214 --> 00:00:54,215
+1. AllRoleNames.add(getText().toLowerCase())
+
+327
+00:00:54,241 --> 00:00:54,242
+5. println(a.getText())
+
+328
+00:00:54,253 --> 00:00:54,254
+1. AllRoleNames.add(getText().toLowerCase())
+
+329
+00:00:54,286 --> 00:00:54,287
+5. println(a.getText())
+
+330
+00:00:54,302 --> 00:00:54,302
+1. AllRoleNames.add(getText().toLowerCase())
+
+331
+00:00:54,328 --> 00:00:54,328
+5. println(a.getText())
+
+332
+00:00:54,344 --> 00:00:54,345
+1. AllRoleNames.add(getText().toLowerCase())
+
+333
+00:00:54,366 --> 00:00:54,367
+5. println(a.getText())
+
+334
+00:00:54,378 --> 00:00:54,378
+1. AllRoleNames.add(getText().toLowerCase())
+
+335
+00:00:54,401 --> 00:00:54,402
+5. println(a.getText())
+
+336
+00:00:54,415 --> 00:00:54,416
+1. AllRoleNames.add(getText().toLowerCase())
+
+337
+00:00:54,435 --> 00:00:54,435
+5. println(a.getText())
+
+338
+00:00:54,447 --> 00:00:54,447
+1. AllRoleNames.add(getText().toLowerCase())
+
+339
+00:00:54,473 --> 00:00:54,474
+5. println(a.getText())
+
+340
+00:00:54,488 --> 00:00:54,489
+1. AllRoleNames.add(getText().toLowerCase())
+
+341
+00:00:54,505 --> 00:00:54,505
+5. println(a.getText())
+
+342
+00:00:54,516 --> 00:00:54,516
+1. AllRoleNames.add(getText().toLowerCase())
+
+343
+00:00:54,542 --> 00:00:54,543
+5. println(a.getText())
+
+344
+00:00:54,557 --> 00:00:54,558
+1. AllRoleNames.add(getText().toLowerCase())
+
+345
+00:00:54,580 --> 00:00:54,581
+5. println(a.getText())
+
+346
+00:00:54,592 --> 00:00:54,593
+9. delay(2)
+
+347
+00:00:56,596 --> 00:00:56,597
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+348
+00:00:56,985 --> 00:00:56,986
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+349
+00:00:57,799 --> 00:00:57,799
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+350
+00:00:57,801 --> 00:00:57,801
+1. AllRoleNames.add(getText().toLowerCase())
+
+351
+00:00:57,824 --> 00:00:57,825
+5. println(a.getText())
+
+352
+00:00:57,837 --> 00:00:57,838
+1. AllRoleNames.add(getText().toLowerCase())
+
+353
+00:00:57,862 --> 00:00:57,863
+5. println(a.getText())
+
+354
+00:00:57,873 --> 00:00:57,874
+1. AllRoleNames.add(getText().toLowerCase())
+
+355
+00:00:57,892 --> 00:00:57,893
+5. println(a.getText())
+
+356
+00:00:57,904 --> 00:00:57,905
+1. AllRoleNames.add(getText().toLowerCase())
+
+357
+00:00:57,932 --> 00:00:57,932
+5. println(a.getText())
+
+358
+00:00:57,942 --> 00:00:57,943
+1. AllRoleNames.add(getText().toLowerCase())
+
+359
+00:00:57,968 --> 00:00:57,969
+5. println(a.getText())
+
+360
+00:00:57,982 --> 00:00:57,982
+1. AllRoleNames.add(getText().toLowerCase())
+
+361
+00:00:58,000 --> 00:00:58,000
+5. println(a.getText())
+
+362
+00:00:58,011 --> 00:00:58,012
+1. AllRoleNames.add(getText().toLowerCase())
+
+363
+00:00:58,032 --> 00:00:58,032
+5. println(a.getText())
+
+364
+00:00:58,044 --> 00:00:58,044
+1. AllRoleNames.add(getText().toLowerCase())
+
+365
+00:00:58,065 --> 00:00:58,065
+5. println(a.getText())
+
+366
+00:00:58,075 --> 00:00:58,075
+1. AllRoleNames.add(getText().toLowerCase())
+
+367
+00:00:58,094 --> 00:00:58,094
+5. println(a.getText())
+
+368
+00:00:58,109 --> 00:00:58,109
+1. AllRoleNames.add(getText().toLowerCase())
+
+369
+00:00:58,133 --> 00:00:58,133
+5. println(a.getText())
+
+370
+00:00:58,143 --> 00:00:58,144
+9. delay(2)
+
+371
+00:01:00,147 --> 00:01:00,148
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+372
+00:01:00,564 --> 00:01:00,564
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+373
+00:01:01,362 --> 00:01:01,363
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+374
+00:01:01,364 --> 00:01:01,364
+1. AllRoleNames.add(getText().toLowerCase())
+
+375
+00:01:01,384 --> 00:01:01,384
+5. println(a.getText())
+
+376
+00:01:01,398 --> 00:01:01,399
+1. AllRoleNames.add(getText().toLowerCase())
+
+377
+00:01:01,423 --> 00:01:01,424
+5. println(a.getText())
+
+378
+00:01:01,436 --> 00:01:01,437
+1. AllRoleNames.add(getText().toLowerCase())
+
+379
+00:01:01,459 --> 00:01:01,460
+5. println(a.getText())
+
+380
+00:01:01,476 --> 00:01:01,476
+1. AllRoleNames.add(getText().toLowerCase())
+
+381
+00:01:01,497 --> 00:01:01,498
+5. println(a.getText())
+
+382
+00:01:01,508 --> 00:01:01,508
+1. AllRoleNames.add(getText().toLowerCase())
+
+383
+00:01:01,531 --> 00:01:01,532
+5. println(a.getText())
+
+384
+00:01:01,545 --> 00:01:01,545
+1. AllRoleNames.add(getText().toLowerCase())
+
+385
+00:01:01,564 --> 00:01:01,565
+5. println(a.getText())
+
+386
+00:01:01,575 --> 00:01:01,575
+1. AllRoleNames.add(getText().toLowerCase())
+
+387
+00:01:01,594 --> 00:01:01,594
+5. println(a.getText())
+
+388
+00:01:01,610 --> 00:01:01,611
+1. AllRoleNames.add(getText().toLowerCase())
+
+389
+00:01:01,630 --> 00:01:01,630
+5. println(a.getText())
+
+390
+00:01:01,640 --> 00:01:01,641
+1. AllRoleNames.add(getText().toLowerCase())
+
+391
+00:01:01,659 --> 00:01:01,659
+5. println(a.getText())
+
+392
+00:01:01,676 --> 00:01:01,677
+1. AllRoleNames.add(getText().toLowerCase())
+
+393
+00:01:01,703 --> 00:01:01,704
+5. println(a.getText())
+
+394
+00:01:01,719 --> 00:01:01,719
+9. delay(2)
+
+395
+00:01:03,722 --> 00:01:03,723
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+396
+00:01:04,365 --> 00:01:04,366
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+397
+00:01:05,786 --> 00:01:05,787
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+398
+00:01:05,788 --> 00:01:05,788
+1. AllRoleNames.add(getText().toLowerCase())
+
+399
+00:01:05,808 --> 00:01:05,808
+5. println(a.getText())
+
+400
+00:01:05,819 --> 00:01:05,819
+1. AllRoleNames.add(getText().toLowerCase())
+
+401
+00:01:05,846 --> 00:01:05,846
+5. println(a.getText())
+
+402
+00:01:05,857 --> 00:01:05,858
+1. AllRoleNames.add(getText().toLowerCase())
+
+403
+00:01:05,878 --> 00:01:05,879
+5. println(a.getText())
+
+404
+00:01:05,894 --> 00:01:05,894
+1. AllRoleNames.add(getText().toLowerCase())
+
+405
+00:01:05,913 --> 00:01:05,913
+5. println(a.getText())
+
+406
+00:01:05,924 --> 00:01:05,924
+1. AllRoleNames.add(getText().toLowerCase())
+
+407
+00:01:05,944 --> 00:01:05,944
+5. println(a.getText())
+
+408
+00:01:05,954 --> 00:01:05,955
+1. AllRoleNames.add(getText().toLowerCase())
+
+409
+00:01:05,981 --> 00:01:05,982
+5. println(a.getText())
+
+410
+00:01:05,993 --> 00:01:05,994
+1. AllRoleNames.add(getText().toLowerCase())
+
+411
+00:01:06,015 --> 00:01:06,015
+5. println(a.getText())
+
+412
+00:01:06,029 --> 00:01:06,029
+1. AllRoleNames.add(getText().toLowerCase())
+
+413
+00:01:06,051 --> 00:01:06,052
+5. println(a.getText())
+
+414
+00:01:06,062 --> 00:01:06,062
+1. AllRoleNames.add(getText().toLowerCase())
+
+415
+00:01:06,083 --> 00:01:06,083
+5. println(a.getText())
+
+416
+00:01:06,095 --> 00:01:06,096
+1. AllRoleNames.add(getText().toLowerCase())
+
+417
+00:01:06,115 --> 00:01:06,116
+5. println(a.getText())
+
+418
+00:01:06,127 --> 00:01:06,128
+9. delay(2)
+
+419
+00:01:08,131 --> 00:01:08,133
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+420
+00:01:08,567 --> 00:01:08,568
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+421
+00:01:09,350 --> 00:01:09,351
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+422
+00:01:09,354 --> 00:01:09,354
+1. AllRoleNames.add(getText().toLowerCase())
+
+423
+00:01:09,396 --> 00:01:09,396
+5. println(a.getText())
+
+424
+00:01:09,426 --> 00:01:09,427
+1. AllRoleNames.add(getText().toLowerCase())
+
+425
+00:01:09,475 --> 00:01:09,475
+5. println(a.getText())
+
+426
+00:01:09,492 --> 00:01:09,492
+1. AllRoleNames.add(getText().toLowerCase())
+
+427
+00:01:09,529 --> 00:01:09,529
+5. println(a.getText())
+
+428
+00:01:09,547 --> 00:01:09,547
+1. AllRoleNames.add(getText().toLowerCase())
+
+429
+00:01:09,583 --> 00:01:09,584
+5. println(a.getText())
+
+430
+00:01:09,607 --> 00:01:09,607
+1. AllRoleNames.add(getText().toLowerCase())
+
+431
+00:01:09,680 --> 00:01:09,680
+5. println(a.getText())
+
+432
+00:01:09,712 --> 00:01:09,713
+1. AllRoleNames.add(getText().toLowerCase())
+
+433
+00:01:09,766 --> 00:01:09,766
+5. println(a.getText())
+
+434
+00:01:09,793 --> 00:01:09,794
+1. AllRoleNames.add(getText().toLowerCase())
+
+435
+00:01:09,834 --> 00:01:09,834
+5. println(a.getText())
+
+436
+00:01:09,852 --> 00:01:09,853
+9. delay(2)
+
+437
+00:01:11,857 --> 00:01:11,858
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+438
+00:01:14,589 --> 00:01:14,590
+17. if (j == 1)
+
+439
+00:01:14,595 --> 00:01:14,596
+1. isSorted = web.CustomKeyword.checkListDescending(AllRoleNames)
+
+440
+00:01:14,600 --> 00:01:14,601
+5. println(AllRoleNames.size())
+
+441
+00:01:14,602 --> 00:01:14,603
+9. println(AllRoleNames)
+
+442
+00:01:14,605 --> 00:01:14,607
+13. verifyEqual(isSorted, true)
+
+443
+00:01:14,610 --> 00:01:14,611
+17. clearText(findTestObject("Object Repository/ROLES/Roles_page/Pagination/input_Page_form-control"))
+
+444
+00:01:15,027 --> 00:01:15,027
+21. setText(findTestObject("Object Repository/ROLES/Roles_page/Pagination/input_Page_form-control"), BACK_SPACE + BACK_SPACE + "1" + ENTER)
+
+445
+00:01:15,624 --> 00:01:15,625
+21. if (j == 2)
+
+446
+00:01:15,630 --> 00:01:15,630
+1. click(findTestObject("ROLES/Roles_page/sorting/RoleName_header"))
+
+447
+00:01:16,994 --> 00:01:16,995
+5. RoleNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+
+448
+00:01:16,997 --> 00:01:16,997
+9. AllRoleNames = new java.util.ArrayList()
+
+449
+00:01:16,998 --> 00:01:16,999
+13. for ([i = 1, i <= noOfPages, (i++)])
+
+450
+00:01:16,999 --> 00:01:17,000
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+451
+00:01:17,833 --> 00:01:17,834
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+452
+00:01:17,835 --> 00:01:17,835
+1. AllRoleNames.add(getText().toLowerCase())
+
+453
+00:01:17,858 --> 00:01:17,859
+5. println(a.getText())
+
+454
+00:01:17,872 --> 00:01:17,872
+1. AllRoleNames.add(getText().toLowerCase())
+
+455
+00:01:17,891 --> 00:01:17,892
+5. println(a.getText())
+
+456
+00:01:17,906 --> 00:01:17,906
+1. AllRoleNames.add(getText().toLowerCase())
+
+457
+00:01:17,928 --> 00:01:17,928
+5. println(a.getText())
+
+458
+00:01:17,940 --> 00:01:17,940
+1. AllRoleNames.add(getText().toLowerCase())
+
+459
+00:01:17,961 --> 00:01:17,961
+5. println(a.getText())
+
+460
+00:01:17,976 --> 00:01:17,977
+1. AllRoleNames.add(getText().toLowerCase())
+
+461
+00:01:17,999 --> 00:01:17,999
+5. println(a.getText())
+
+462
+00:01:18,012 --> 00:01:18,012
+1. AllRoleNames.add(getText().toLowerCase())
+
+463
+00:01:18,037 --> 00:01:18,038
+5. println(a.getText())
+
+464
+00:01:18,051 --> 00:01:18,051
+1. AllRoleNames.add(getText().toLowerCase())
+
+465
+00:01:18,070 --> 00:01:18,071
+5. println(a.getText())
+
+466
+00:01:18,081 --> 00:01:18,082
+1. AllRoleNames.add(getText().toLowerCase())
+
+467
+00:01:18,110 --> 00:01:18,110
+5. println(a.getText())
+
+468
+00:01:18,122 --> 00:01:18,123
+1. AllRoleNames.add(getText().toLowerCase())
+
+469
+00:01:18,141 --> 00:01:18,142
+5. println(a.getText())
+
+470
+00:01:18,153 --> 00:01:18,155
+1. AllRoleNames.add(getText().toLowerCase())
+
+471
+00:01:18,181 --> 00:01:18,182
+5. println(a.getText())
+
+472
+00:01:18,193 --> 00:01:18,193
+9. delay(2)
+
+473
+00:01:20,196 --> 00:01:20,196
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+474
+00:01:20,699 --> 00:01:20,700
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+475
+00:01:21,631 --> 00:01:21,632
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+476
+00:01:21,633 --> 00:01:21,634
+1. AllRoleNames.add(getText().toLowerCase())
+
+477
+00:01:21,660 --> 00:01:21,660
+5. println(a.getText())
+
+478
+00:01:21,675 --> 00:01:21,675
+1. AllRoleNames.add(getText().toLowerCase())
+
+479
+00:01:21,699 --> 00:01:21,700
+5. println(a.getText())
+
+480
+00:01:21,710 --> 00:01:21,711
+1. AllRoleNames.add(getText().toLowerCase())
+
+481
+00:01:21,733 --> 00:01:21,734
+5. println(a.getText())
+
+482
+00:01:21,746 --> 00:01:21,746
+1. AllRoleNames.add(getText().toLowerCase())
+
+483
+00:01:21,767 --> 00:01:21,767
+5. println(a.getText())
+
+484
+00:01:21,781 --> 00:01:21,781
+1. AllRoleNames.add(getText().toLowerCase())
+
+485
+00:01:21,808 --> 00:01:21,808
+5. println(a.getText())
+
+486
+00:01:21,821 --> 00:01:21,821
+1. AllRoleNames.add(getText().toLowerCase())
+
+487
+00:01:21,839 --> 00:01:21,839
+5. println(a.getText())
+
+488
+00:01:21,851 --> 00:01:21,852
+1. AllRoleNames.add(getText().toLowerCase())
+
+489
+00:01:21,873 --> 00:01:21,874
+5. println(a.getText())
+
+490
+00:01:21,886 --> 00:01:21,886
+1. AllRoleNames.add(getText().toLowerCase())
+
+491
+00:01:21,902 --> 00:01:21,903
+5. println(a.getText())
+
+492
+00:01:21,915 --> 00:01:21,915
+1. AllRoleNames.add(getText().toLowerCase())
+
+493
+00:01:21,939 --> 00:01:21,940
+5. println(a.getText())
+
+494
+00:01:21,954 --> 00:01:21,955
+1. AllRoleNames.add(getText().toLowerCase())
+
+495
+00:01:21,972 --> 00:01:21,972
+5. println(a.getText())
+
+496
+00:01:21,983 --> 00:01:21,984
+9. delay(2)
+
+497
+00:01:23,987 --> 00:01:23,988
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+498
+00:01:24,402 --> 00:01:24,403
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+499
+00:01:25,707 --> 00:01:25,707
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+500
+00:01:25,708 --> 00:01:25,708
+1. AllRoleNames.add(getText().toLowerCase())
+
+501
+00:01:25,727 --> 00:01:25,727
+5. println(a.getText())
+
+502
+00:01:25,737 --> 00:01:25,738
+1. AllRoleNames.add(getText().toLowerCase())
+
+503
+00:01:25,756 --> 00:01:25,757
+5. println(a.getText())
+
+504
+00:01:25,771 --> 00:01:25,771
+1. AllRoleNames.add(getText().toLowerCase())
+
+505
+00:01:25,795 --> 00:01:25,796
+5. println(a.getText())
+
+506
+00:01:25,809 --> 00:01:25,809
+1. AllRoleNames.add(getText().toLowerCase())
+
+507
+00:01:25,830 --> 00:01:25,831
+5. println(a.getText())
+
+508
+00:01:25,844 --> 00:01:25,845
+1. AllRoleNames.add(getText().toLowerCase())
+
+509
+00:01:25,863 --> 00:01:25,863
+5. println(a.getText())
+
+510
+00:01:25,875 --> 00:01:25,875
+1. AllRoleNames.add(getText().toLowerCase())
+
+511
+00:01:25,897 --> 00:01:25,897
+5. println(a.getText())
+
+512
+00:01:25,912 --> 00:01:25,912
+1. AllRoleNames.add(getText().toLowerCase())
+
+513
+00:01:25,930 --> 00:01:25,930
+5. println(a.getText())
+
+514
+00:01:25,964 --> 00:01:25,964
+1. AllRoleNames.add(getText().toLowerCase())
+
+515
+00:01:26,009 --> 00:01:26,010
+5. println(a.getText())
+
+516
+00:01:26,020 --> 00:01:26,021
+1. AllRoleNames.add(getText().toLowerCase())
+
+517
+00:01:26,045 --> 00:01:26,046
+5. println(a.getText())
+
+518
+00:01:26,058 --> 00:01:26,059
+1. AllRoleNames.add(getText().toLowerCase())
+
+519
+00:01:26,077 --> 00:01:26,077
+5. println(a.getText())
+
+520
+00:01:26,087 --> 00:01:26,088
+9. delay(2)
+
+521
+00:01:28,090 --> 00:01:28,090
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+522
+00:01:28,506 --> 00:01:28,507
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+523
+00:01:29,289 --> 00:01:29,290
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+524
+00:01:29,291 --> 00:01:29,291
+1. AllRoleNames.add(getText().toLowerCase())
+
+525
+00:01:29,310 --> 00:01:29,310
+5. println(a.getText())
+
+526
+00:01:29,321 --> 00:01:29,321
+1. AllRoleNames.add(getText().toLowerCase())
+
+527
+00:01:29,348 --> 00:01:29,349
+5. println(a.getText())
+
+528
+00:01:29,361 --> 00:01:29,361
+1. AllRoleNames.add(getText().toLowerCase())
+
+529
+00:01:29,379 --> 00:01:29,380
+5. println(a.getText())
+
+530
+00:01:29,391 --> 00:01:29,392
+1. AllRoleNames.add(getText().toLowerCase())
+
+531
+00:01:29,418 --> 00:01:29,418
+5. println(a.getText())
+
+532
+00:01:29,428 --> 00:01:29,429
+1. AllRoleNames.add(getText().toLowerCase())
+
+533
+00:01:29,453 --> 00:01:29,453
+5. println(a.getText())
+
+534
+00:01:29,467 --> 00:01:29,467
+1. AllRoleNames.add(getText().toLowerCase())
+
+535
+00:01:29,495 --> 00:01:29,496
+5. println(a.getText())
+
+536
+00:01:29,508 --> 00:01:29,508
+1. AllRoleNames.add(getText().toLowerCase())
+
+537
+00:01:29,536 --> 00:01:29,536
+5. println(a.getText())
+
+538
+00:01:29,546 --> 00:01:29,547
+1. AllRoleNames.add(getText().toLowerCase())
+
+539
+00:01:29,564 --> 00:01:29,565
+5. println(a.getText())
+
+540
+00:01:29,577 --> 00:01:29,578
+1. AllRoleNames.add(getText().toLowerCase())
+
+541
+00:01:29,604 --> 00:01:29,604
+5. println(a.getText())
+
+542
+00:01:29,614 --> 00:01:29,614
+1. AllRoleNames.add(getText().toLowerCase())
+
+543
+00:01:29,632 --> 00:01:29,633
+5. println(a.getText())
+
+544
+00:01:29,651 --> 00:01:29,652
+9. delay(2)
+
+545
+00:01:31,654 --> 00:01:31,655
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+546
+00:01:32,192 --> 00:01:32,192
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+547
+00:01:33,229 --> 00:01:33,230
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+548
+00:01:33,231 --> 00:01:33,232
+1. AllRoleNames.add(getText().toLowerCase())
+
+549
+00:01:33,257 --> 00:01:33,257
+5. println(a.getText())
+
+550
+00:01:33,268 --> 00:01:33,268
+1. AllRoleNames.add(getText().toLowerCase())
+
+551
+00:01:33,294 --> 00:01:33,294
+5. println(a.getText())
+
+552
+00:01:33,307 --> 00:01:33,307
+1. AllRoleNames.add(getText().toLowerCase())
+
+553
+00:01:33,324 --> 00:01:33,325
+5. println(a.getText())
+
+554
+00:01:33,337 --> 00:01:33,338
+1. AllRoleNames.add(getText().toLowerCase())
+
+555
+00:01:33,364 --> 00:01:33,364
+5. println(a.getText())
+
+556
+00:01:33,374 --> 00:01:33,375
+1. AllRoleNames.add(getText().toLowerCase())
+
+557
+00:01:33,392 --> 00:01:33,393
+5. println(a.getText())
+
+558
+00:01:33,403 --> 00:01:33,404
+1. AllRoleNames.add(getText().toLowerCase())
+
+559
+00:01:33,429 --> 00:01:33,430
+5. println(a.getText())
+
+560
+00:01:33,440 --> 00:01:33,441
+1. AllRoleNames.add(getText().toLowerCase())
+
+561
+00:01:33,458 --> 00:01:33,459
+5. println(a.getText())
+
+562
+00:01:33,469 --> 00:01:33,469
+1. AllRoleNames.add(getText().toLowerCase())
+
+563
+00:01:33,496 --> 00:01:33,496
+5. println(a.getText())
+
+564
+00:01:33,506 --> 00:01:33,507
+1. AllRoleNames.add(getText().toLowerCase())
+
+565
+00:01:33,527 --> 00:01:33,528
+5. println(a.getText())
+
+566
+00:01:33,542 --> 00:01:33,543
+1. AllRoleNames.add(getText().toLowerCase())
+
+567
+00:01:33,566 --> 00:01:33,567
+5. println(a.getText())
+
+568
+00:01:33,577 --> 00:01:33,578
+9. delay(2)
+
+569
+00:01:35,580 --> 00:01:35,580
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+570
+00:01:35,981 --> 00:01:35,982
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+571
+00:01:39,230 --> 00:01:39,231
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+572
+00:01:39,232 --> 00:01:39,233
+1. AllRoleNames.add(getText().toLowerCase())
+
+573
+00:01:39,257 --> 00:01:39,258
+5. println(a.getText())
+
+574
+00:01:39,269 --> 00:01:39,270
+1. AllRoleNames.add(getText().toLowerCase())
+
+575
+00:01:39,287 --> 00:01:39,288
+5. println(a.getText())
+
+576
+00:01:39,309 --> 00:01:39,310
+1. AllRoleNames.add(getText().toLowerCase())
+
+577
+00:01:39,327 --> 00:01:39,328
+5. println(a.getText())
+
+578
+00:01:39,340 --> 00:01:39,341
+1. AllRoleNames.add(getText().toLowerCase())
+
+579
+00:01:39,363 --> 00:01:39,363
+5. println(a.getText())
+
+580
+00:01:39,378 --> 00:01:39,378
+1. AllRoleNames.add(getText().toLowerCase())
+
+581
+00:01:39,395 --> 00:01:39,395
+5. println(a.getText())
+
+582
+00:01:39,407 --> 00:01:39,408
+1. AllRoleNames.add(getText().toLowerCase())
+
+583
+00:01:39,430 --> 00:01:39,430
+5. println(a.getText())
+
+584
+00:01:39,441 --> 00:01:39,441
+1. AllRoleNames.add(getText().toLowerCase())
+
+585
+00:01:39,458 --> 00:01:39,459
+5. println(a.getText())
+
+586
+00:01:39,470 --> 00:01:39,471
+1. AllRoleNames.add(getText().toLowerCase())
+
+587
+00:01:39,491 --> 00:01:39,492
+5. println(a.getText())
+
+588
+00:01:39,505 --> 00:01:39,505
+1. AllRoleNames.add(getText().toLowerCase())
+
+589
+00:01:39,525 --> 00:01:39,526
+5. println(a.getText())
+
+590
+00:01:39,541 --> 00:01:39,541
+1. AllRoleNames.add(getText().toLowerCase())
+
+591
+00:01:39,573 --> 00:01:39,573
+5. println(a.getText())
+
+592
+00:01:39,587 --> 00:01:39,588
+9. delay(2)
+
+593
+00:01:41,592 --> 00:01:41,593
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+594
+00:01:42,018 --> 00:01:42,019
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+595
+00:01:43,539 --> 00:01:43,540
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+596
+00:01:43,541 --> 00:01:43,541
+1. AllRoleNames.add(getText().toLowerCase())
+
+597
+00:01:43,564 --> 00:01:43,565
+5. println(a.getText())
+
+598
+00:01:43,581 --> 00:01:43,583
+1. AllRoleNames.add(getText().toLowerCase())
+
+599
+00:01:43,604 --> 00:01:43,604
+5. println(a.getText())
+
+600
+00:01:43,614 --> 00:01:43,615
+1. AllRoleNames.add(getText().toLowerCase())
+
+601
+00:01:43,633 --> 00:01:43,634
+5. println(a.getText())
+
+602
+00:01:43,648 --> 00:01:43,649
+1. AllRoleNames.add(getText().toLowerCase())
+
+603
+00:01:43,673 --> 00:01:43,673
+5. println(a.getText())
+
+604
+00:01:43,686 --> 00:01:43,686
+1. AllRoleNames.add(getText().toLowerCase())
+
+605
+00:01:43,714 --> 00:01:43,715
+5. println(a.getText())
+
+606
+00:01:43,729 --> 00:01:43,729
+1. AllRoleNames.add(getText().toLowerCase())
+
+607
+00:01:43,746 --> 00:01:43,746
+5. println(a.getText())
+
+608
+00:01:43,759 --> 00:01:43,759
+1. AllRoleNames.add(getText().toLowerCase())
+
+609
+00:01:43,785 --> 00:01:43,786
+5. println(a.getText())
+
+610
+00:01:43,799 --> 00:01:43,799
+1. AllRoleNames.add(getText().toLowerCase())
+
+611
+00:01:43,817 --> 00:01:43,817
+5. println(a.getText())
+
+612
+00:01:43,829 --> 00:01:43,829
+1. AllRoleNames.add(getText().toLowerCase())
+
+613
+00:01:43,853 --> 00:01:43,854
+5. println(a.getText())
+
+614
+00:01:43,869 --> 00:01:43,870
+1. AllRoleNames.add(getText().toLowerCase())
+
+615
+00:01:43,892 --> 00:01:43,893
+5. println(a.getText())
+
+616
+00:01:43,906 --> 00:01:43,907
+9. delay(2)
+
+617
+00:01:45,910 --> 00:01:45,910
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+618
+00:01:46,320 --> 00:01:46,321
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+619
+00:01:47,618 --> 00:01:47,619
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+620
+00:01:47,620 --> 00:01:47,621
+1. AllRoleNames.add(getText().toLowerCase())
+
+621
+00:01:47,641 --> 00:01:47,642
+5. println(a.getText())
+
+622
+00:01:47,655 --> 00:01:47,656
+1. AllRoleNames.add(getText().toLowerCase())
+
+623
+00:01:47,676 --> 00:01:47,677
+5. println(a.getText())
+
+624
+00:01:47,693 --> 00:01:47,693
+1. AllRoleNames.add(getText().toLowerCase())
+
+625
+00:01:47,716 --> 00:01:47,717
+5. println(a.getText())
+
+626
+00:01:47,727 --> 00:01:47,728
+1. AllRoleNames.add(getText().toLowerCase())
+
+627
+00:01:47,753 --> 00:01:47,753
+5. println(a.getText())
+
+628
+00:01:47,766 --> 00:01:47,766
+1. AllRoleNames.add(getText().toLowerCase())
+
+629
+00:01:47,783 --> 00:01:47,783
+5. println(a.getText())
+
+630
+00:01:47,794 --> 00:01:47,794
+1. AllRoleNames.add(getText().toLowerCase())
+
+631
+00:01:47,816 --> 00:01:47,817
+5. println(a.getText())
+
+632
+00:01:47,830 --> 00:01:47,831
+1. AllRoleNames.add(getText().toLowerCase())
+
+633
+00:01:47,850 --> 00:01:47,850
+5. println(a.getText())
+
+634
+00:01:47,860 --> 00:01:47,861
+1. AllRoleNames.add(getText().toLowerCase())
+
+635
+00:01:47,881 --> 00:01:47,882
+5. println(a.getText())
+
+636
+00:01:47,893 --> 00:01:47,893
+1. AllRoleNames.add(getText().toLowerCase())
+
+637
+00:01:47,918 --> 00:01:47,918
+5. println(a.getText())
+
+638
+00:01:47,933 --> 00:01:47,933
+1. AllRoleNames.add(getText().toLowerCase())
+
+639
+00:01:47,954 --> 00:01:47,954
+5. println(a.getText())
+
+640
+00:01:47,965 --> 00:01:47,965
+9. delay(2)
+
+641
+00:01:49,968 --> 00:01:49,968
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+642
+00:01:50,347 --> 00:01:50,347
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+643
+00:01:51,785 --> 00:01:51,785
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+644
+00:01:51,786 --> 00:01:51,786
+1. AllRoleNames.add(getText().toLowerCase())
+
+645
+00:01:51,804 --> 00:01:51,804
+5. println(a.getText())
+
+646
+00:01:51,816 --> 00:01:51,816
+1. AllRoleNames.add(getText().toLowerCase())
+
+647
+00:01:51,856 --> 00:01:51,857
+5. println(a.getText())
+
+648
+00:01:51,871 --> 00:01:51,871
+1. AllRoleNames.add(getText().toLowerCase())
+
+649
+00:01:51,899 --> 00:01:51,900
+5. println(a.getText())
+
+650
+00:01:51,913 --> 00:01:51,914
+1. AllRoleNames.add(getText().toLowerCase())
+
+651
+00:01:51,930 --> 00:01:51,931
+5. println(a.getText())
+
+652
+00:01:51,942 --> 00:01:51,943
+1. AllRoleNames.add(getText().toLowerCase())
+
+653
+00:01:51,962 --> 00:01:51,962
+5. println(a.getText())
+
+654
+00:01:51,976 --> 00:01:51,977
+1. AllRoleNames.add(getText().toLowerCase())
+
+655
+00:01:51,994 --> 00:01:51,994
+5. println(a.getText())
+
+656
+00:01:52,005 --> 00:01:52,005
+1. AllRoleNames.add(getText().toLowerCase())
+
+657
+00:01:52,037 --> 00:01:52,037
+5. println(a.getText())
+
+658
+00:01:52,049 --> 00:01:52,049
+1. AllRoleNames.add(getText().toLowerCase())
+
+659
+00:01:52,067 --> 00:01:52,067
+5. println(a.getText())
+
+660
+00:01:52,078 --> 00:01:52,078
+1. AllRoleNames.add(getText().toLowerCase())
+
+661
+00:01:52,106 --> 00:01:52,106
+5. println(a.getText())
+
+662
+00:01:52,117 --> 00:01:52,118
+1. AllRoleNames.add(getText().toLowerCase())
+
+663
+00:01:52,135 --> 00:01:52,136
+5. println(a.getText())
+
+664
+00:01:52,146 --> 00:01:52,146
+9. delay(2)
+
+665
+00:01:54,149 --> 00:01:54,149
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+666
+00:01:54,541 --> 00:01:54,541
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+667
+00:01:55,885 --> 00:01:55,886
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+668
+00:01:55,887 --> 00:01:55,887
+1. AllRoleNames.add(getText().toLowerCase())
+
+669
+00:01:55,911 --> 00:01:55,912
+5. println(a.getText())
+
+670
+00:01:55,925 --> 00:01:55,926
+1. AllRoleNames.add(getText().toLowerCase())
+
+671
+00:01:55,964 --> 00:01:55,965
+5. println(a.getText())
+
+672
+00:01:55,976 --> 00:01:55,976
+1. AllRoleNames.add(getText().toLowerCase())
+
+673
+00:01:56,004 --> 00:01:56,005
+5. println(a.getText())
+
+674
+00:01:56,016 --> 00:01:56,017
+1. AllRoleNames.add(getText().toLowerCase())
+
+675
+00:01:56,036 --> 00:01:56,036
+5. println(a.getText())
+
+676
+00:01:56,047 --> 00:01:56,047
+1. AllRoleNames.add(getText().toLowerCase())
+
+677
+00:01:56,074 --> 00:01:56,074
+5. println(a.getText())
+
+678
+00:01:56,086 --> 00:01:56,086
+1. AllRoleNames.add(getText().toLowerCase())
+
+679
+00:01:56,107 --> 00:01:56,108
+5. println(a.getText())
+
+680
+00:01:56,123 --> 00:01:56,123
+1. AllRoleNames.add(getText().toLowerCase())
+
+681
+00:01:56,164 --> 00:01:56,165
+5. println(a.getText())
+
+682
+00:01:56,184 --> 00:01:56,184
+1. AllRoleNames.add(getText().toLowerCase())
+
+683
+00:01:56,229 --> 00:01:56,230
+5. println(a.getText())
+
+684
+00:01:56,241 --> 00:01:56,242
+1. AllRoleNames.add(getText().toLowerCase())
+
+685
+00:01:56,267 --> 00:01:56,267
+5. println(a.getText())
+
+686
+00:01:56,280 --> 00:01:56,281
+1. AllRoleNames.add(getText().toLowerCase())
+
+687
+00:01:56,301 --> 00:01:56,301
+5. println(a.getText())
+
+688
+00:01:56,312 --> 00:01:56,313
+9. delay(2)
+
+689
+00:01:58,316 --> 00:01:58,316
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+690
+00:01:58,793 --> 00:01:58,794
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+691
+00:01:59,836 --> 00:01:59,837
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+692
+00:01:59,839 --> 00:01:59,839
+1. AllRoleNames.add(getText().toLowerCase())
+
+693
+00:01:59,864 --> 00:01:59,864
+5. println(a.getText())
+
+694
+00:01:59,881 --> 00:01:59,881
+1. AllRoleNames.add(getText().toLowerCase())
+
+695
+00:01:59,904 --> 00:01:59,905
+5. println(a.getText())
+
+696
+00:01:59,917 --> 00:01:59,918
+1. AllRoleNames.add(getText().toLowerCase())
+
+697
+00:01:59,944 --> 00:01:59,945
+5. println(a.getText())
+
+698
+00:01:59,960 --> 00:01:59,961
+1. AllRoleNames.add(getText().toLowerCase())
+
+699
+00:01:59,977 --> 00:01:59,978
+5. println(a.getText())
+
+700
+00:01:59,988 --> 00:01:59,989
+1. AllRoleNames.add(getText().toLowerCase())
+
+701
+00:02:00,010 --> 00:02:00,011
+5. println(a.getText())
+
+702
+00:02:00,023 --> 00:02:00,023
+1. AllRoleNames.add(getText().toLowerCase())
+
+703
+00:02:00,043 --> 00:02:00,043
+5. println(a.getText())
+
+704
+00:02:00,054 --> 00:02:00,054
+1. AllRoleNames.add(getText().toLowerCase())
+
+705
+00:02:00,076 --> 00:02:00,076
+5. println(a.getText())
+
+706
+00:02:00,091 --> 00:02:00,091
+1. AllRoleNames.add(getText().toLowerCase())
+
+707
+00:02:00,109 --> 00:02:00,109
+5. println(a.getText())
+
+708
+00:02:00,121 --> 00:02:00,121
+1. AllRoleNames.add(getText().toLowerCase())
+
+709
+00:02:00,141 --> 00:02:00,141
+5. println(a.getText())
+
+710
+00:02:00,157 --> 00:02:00,157
+1. AllRoleNames.add(getText().toLowerCase())
+
+711
+00:02:00,176 --> 00:02:00,177
+5. println(a.getText())
+
+712
+00:02:00,188 --> 00:02:00,188
+9. delay(2)
+
+713
+00:02:02,190 --> 00:02:02,191
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+714
+00:02:02,610 --> 00:02:02,611
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+715
+00:02:03,428 --> 00:02:03,430
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+716
+00:02:03,431 --> 00:02:03,431
+1. AllRoleNames.add(getText().toLowerCase())
+
+717
+00:02:03,453 --> 00:02:03,454
+5. println(a.getText())
+
+718
+00:02:03,465 --> 00:02:03,465
+1. AllRoleNames.add(getText().toLowerCase())
+
+719
+00:02:03,482 --> 00:02:03,482
+5. println(a.getText())
+
+720
+00:02:03,494 --> 00:02:03,494
+1. AllRoleNames.add(getText().toLowerCase())
+
+721
+00:02:03,522 --> 00:02:03,522
+5. println(a.getText())
+
+722
+00:02:03,561 --> 00:02:03,561
+1. AllRoleNames.add(getText().toLowerCase())
+
+723
+00:02:03,601 --> 00:02:03,601
+5. println(a.getText())
+
+724
+00:02:03,613 --> 00:02:03,614
+1. AllRoleNames.add(getText().toLowerCase())
+
+725
+00:02:03,632 --> 00:02:03,633
+5. println(a.getText())
+
+726
+00:02:03,647 --> 00:02:03,647
+1. AllRoleNames.add(getText().toLowerCase())
+
+727
+00:02:03,669 --> 00:02:03,669
+5. println(a.getText())
+
+728
+00:02:03,679 --> 00:02:03,680
+1. AllRoleNames.add(getText().toLowerCase())
+
+729
+00:02:03,709 --> 00:02:03,709
+5. println(a.getText())
+
+730
+00:02:03,724 --> 00:02:03,724
+1. AllRoleNames.add(getText().toLowerCase())
+
+731
+00:02:03,743 --> 00:02:03,743
+5. println(a.getText())
+
+732
+00:02:03,755 --> 00:02:03,756
+1. AllRoleNames.add(getText().toLowerCase())
+
+733
+00:02:03,776 --> 00:02:03,776
+5. println(a.getText())
+
+734
+00:02:03,791 --> 00:02:03,791
+1. AllRoleNames.add(getText().toLowerCase())
+
+735
+00:02:03,809 --> 00:02:03,809
+5. println(a.getText())
+
+736
+00:02:03,820 --> 00:02:03,820
+9. delay(2)
+
+737
+00:02:05,822 --> 00:02:05,823
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+738
+00:02:06,201 --> 00:02:06,202
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+739
+00:02:07,032 --> 00:02:07,033
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+740
+00:02:07,034 --> 00:02:07,034
+1. AllRoleNames.add(getText().toLowerCase())
+
+741
+00:02:07,058 --> 00:02:07,058
+5. println(a.getText())
+
+742
+00:02:07,073 --> 00:02:07,073
+1. AllRoleNames.add(getText().toLowerCase())
+
+743
+00:02:07,097 --> 00:02:07,097
+5. println(a.getText())
+
+744
+00:02:07,107 --> 00:02:07,107
+1. AllRoleNames.add(getText().toLowerCase())
+
+745
+00:02:07,125 --> 00:02:07,126
+5. println(a.getText())
+
+746
+00:02:07,142 --> 00:02:07,143
+1. AllRoleNames.add(getText().toLowerCase())
+
+747
+00:02:07,167 --> 00:02:07,167
+5. println(a.getText())
+
+748
+00:02:07,178 --> 00:02:07,178
+1. AllRoleNames.add(getText().toLowerCase())
+
+749
+00:02:07,201 --> 00:02:07,202
+5. println(a.getText())
+
+750
+00:02:07,217 --> 00:02:07,217
+1. AllRoleNames.add(getText().toLowerCase())
+
+751
+00:02:07,239 --> 00:02:07,239
+5. println(a.getText())
+
+752
+00:02:07,252 --> 00:02:07,252
+1. AllRoleNames.add(getText().toLowerCase())
+
+753
+00:02:07,276 --> 00:02:07,276
+5. println(a.getText())
+
+754
+00:02:07,291 --> 00:02:07,291
+1. AllRoleNames.add(getText().toLowerCase())
+
+755
+00:02:07,309 --> 00:02:07,309
+5. println(a.getText())
+
+756
+00:02:07,322 --> 00:02:07,322
+1. AllRoleNames.add(getText().toLowerCase())
+
+757
+00:02:07,342 --> 00:02:07,343
+5. println(a.getText())
+
+758
+00:02:07,358 --> 00:02:07,359
+1. AllRoleNames.add(getText().toLowerCase())
+
+759
+00:02:07,381 --> 00:02:07,381
+5. println(a.getText())
+
+760
+00:02:07,392 --> 00:02:07,393
+9. delay(2)
+
+761
+00:02:09,395 --> 00:02:09,396
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+762
+00:02:09,789 --> 00:02:09,789
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+763
+00:02:10,695 --> 00:02:10,695
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+764
+00:02:10,700 --> 00:02:10,700
+1. AllRoleNames.add(getText().toLowerCase())
+
+765
+00:02:10,739 --> 00:02:10,739
+5. println(a.getText())
+
+766
+00:02:10,755 --> 00:02:10,755
+1. AllRoleNames.add(getText().toLowerCase())
+
+767
+00:02:10,785 --> 00:02:10,785
+5. println(a.getText())
+
+768
+00:02:10,798 --> 00:02:10,798
+1. AllRoleNames.add(getText().toLowerCase())
+
+769
+00:02:10,816 --> 00:02:10,817
+5. println(a.getText())
+
+770
+00:02:10,826 --> 00:02:10,827
+1. AllRoleNames.add(getText().toLowerCase())
+
+771
+00:02:10,850 --> 00:02:10,850
+5. println(a.getText())
+
+772
+00:02:10,864 --> 00:02:10,864
+1. AllRoleNames.add(getText().toLowerCase())
+
+773
+00:02:10,884 --> 00:02:10,885
+5. println(a.getText())
+
+774
+00:02:10,898 --> 00:02:10,898
+1. AllRoleNames.add(getText().toLowerCase())
+
+775
+00:02:10,919 --> 00:02:10,920
+5. println(a.getText())
+
+776
+00:02:10,932 --> 00:02:10,933
+1. AllRoleNames.add(getText().toLowerCase())
+
+777
+00:02:10,953 --> 00:02:10,953
+5. println(a.getText())
+
+778
+00:02:10,966 --> 00:02:10,967
+1. AllRoleNames.add(getText().toLowerCase())
+
+779
+00:02:10,992 --> 00:02:10,992
+5. println(a.getText())
+
+780
+00:02:11,003 --> 00:02:11,004
+1. AllRoleNames.add(getText().toLowerCase())
+
+781
+00:02:11,022 --> 00:02:11,023
+5. println(a.getText())
+
+782
+00:02:11,036 --> 00:02:11,037
+1. AllRoleNames.add(getText().toLowerCase())
+
+783
+00:02:11,064 --> 00:02:11,064
+5. println(a.getText())
+
+784
+00:02:11,075 --> 00:02:11,076
+9. delay(2)
+
+785
+00:02:13,080 --> 00:02:13,081
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+786
+00:02:13,489 --> 00:02:13,489
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+787
+00:02:15,108 --> 00:02:15,108
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+788
+00:02:15,111 --> 00:02:15,112
+1. AllRoleNames.add(getText().toLowerCase())
+
+789
+00:02:15,132 --> 00:02:15,133
+5. println(a.getText())
+
+790
+00:02:15,148 --> 00:02:15,148
+1. AllRoleNames.add(getText().toLowerCase())
+
+791
+00:02:15,172 --> 00:02:15,172
+5. println(a.getText())
+
+792
+00:02:15,186 --> 00:02:15,186
+1. AllRoleNames.add(getText().toLowerCase())
+
+793
+00:02:15,212 --> 00:02:15,212
+5. println(a.getText())
+
+794
+00:02:15,223 --> 00:02:15,223
+1. AllRoleNames.add(getText().toLowerCase())
+
+795
+00:02:15,241 --> 00:02:15,241
+5. println(a.getText())
+
+796
+00:02:15,256 --> 00:02:15,256
+1. AllRoleNames.add(getText().toLowerCase())
+
+797
+00:02:15,282 --> 00:02:15,282
+5. println(a.getText())
+
+798
+00:02:15,292 --> 00:02:15,293
+1. AllRoleNames.add(getText().toLowerCase())
+
+799
+00:02:15,311 --> 00:02:15,311
+5. println(a.getText())
+
+800
+00:02:15,326 --> 00:02:15,327
+1. AllRoleNames.add(getText().toLowerCase())
+
+801
+00:02:15,351 --> 00:02:15,351
+5. println(a.getText())
+
+802
+00:02:15,362 --> 00:02:15,363
+1. AllRoleNames.add(getText().toLowerCase())
+
+803
+00:02:15,386 --> 00:02:15,387
+5. println(a.getText())
+
+804
+00:02:15,400 --> 00:02:15,401
+1. AllRoleNames.add(getText().toLowerCase())
+
+805
+00:02:15,421 --> 00:02:15,421
+5. println(a.getText())
+
+806
+00:02:15,432 --> 00:02:15,432
+1. AllRoleNames.add(getText().toLowerCase())
+
+807
+00:02:15,458 --> 00:02:15,459
+5. println(a.getText())
+
+808
+00:02:15,470 --> 00:02:15,471
+9. delay(2)
+
+809
+00:02:17,473 --> 00:02:17,473
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+810
+00:02:17,869 --> 00:02:17,870
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+811
+00:02:18,713 --> 00:02:18,714
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+812
+00:02:18,720 --> 00:02:18,720
+1. AllRoleNames.add(getText().toLowerCase())
+
+813
+00:02:18,747 --> 00:02:18,747
+5. println(a.getText())
+
+814
+00:02:18,758 --> 00:02:18,758
+1. AllRoleNames.add(getText().toLowerCase())
+
+815
+00:02:18,783 --> 00:02:18,784
+5. println(a.getText())
+
+816
+00:02:18,795 --> 00:02:18,796
+1. AllRoleNames.add(getText().toLowerCase())
+
+817
+00:02:18,816 --> 00:02:18,816
+5. println(a.getText())
+
+818
+00:02:18,831 --> 00:02:18,831
+1. AllRoleNames.add(getText().toLowerCase())
+
+819
+00:02:18,850 --> 00:02:18,850
+5. println(a.getText())
+
+820
+00:02:18,861 --> 00:02:18,861
+1. AllRoleNames.add(getText().toLowerCase())
+
+821
+00:02:18,881 --> 00:02:18,881
+5. println(a.getText())
+
+822
+00:02:18,894 --> 00:02:18,895
+1. AllRoleNames.add(getText().toLowerCase())
+
+823
+00:02:18,917 --> 00:02:18,917
+5. println(a.getText())
+
+824
+00:02:18,929 --> 00:02:18,929
+1. AllRoleNames.add(getText().toLowerCase())
+
+825
+00:02:18,952 --> 00:02:18,953
+5. println(a.getText())
+
+826
+00:02:18,967 --> 00:02:18,967
+1. AllRoleNames.add(getText().toLowerCase())
+
+827
+00:02:18,992 --> 00:02:18,992
+5. println(a.getText())
+
+828
+00:02:19,004 --> 00:02:19,004
+1. AllRoleNames.add(getText().toLowerCase())
+
+829
+00:02:19,029 --> 00:02:19,030
+5. println(a.getText())
+
+830
+00:02:19,045 --> 00:02:19,045
+1. AllRoleNames.add(getText().toLowerCase())
+
+831
+00:02:19,062 --> 00:02:19,062
+5. println(a.getText())
+
+832
+00:02:19,073 --> 00:02:19,074
+9. delay(2)
+
+833
+00:02:21,077 --> 00:02:21,078
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+834
+00:02:21,601 --> 00:02:21,601
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+835
+00:02:22,495 --> 00:02:22,496
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+836
+00:02:22,497 --> 00:02:22,497
+1. AllRoleNames.add(getText().toLowerCase())
+
+837
+00:02:22,516 --> 00:02:22,517
+5. println(a.getText())
+
+838
+00:02:22,532 --> 00:02:22,532
+1. AllRoleNames.add(getText().toLowerCase())
+
+839
+00:02:22,550 --> 00:02:22,551
+5. println(a.getText())
+
+840
+00:02:22,562 --> 00:02:22,562
+1. AllRoleNames.add(getText().toLowerCase())
+
+841
+00:02:22,582 --> 00:02:22,582
+5. println(a.getText())
+
+842
+00:02:22,596 --> 00:02:22,596
+1. AllRoleNames.add(getText().toLowerCase())
+
+843
+00:02:22,616 --> 00:02:22,616
+5. println(a.getText())
+
+844
+00:02:22,627 --> 00:02:22,627
+1. AllRoleNames.add(getText().toLowerCase())
+
+845
+00:02:22,644 --> 00:02:22,645
+5. println(a.getText())
+
+846
+00:02:22,657 --> 00:02:22,658
+1. AllRoleNames.add(getText().toLowerCase())
+
+847
+00:02:22,678 --> 00:02:22,678
+5. println(a.getText())
+
+848
+00:02:22,692 --> 00:02:22,693
+1. AllRoleNames.add(getText().toLowerCase())
+
+849
+00:02:22,717 --> 00:02:22,718
+5. println(a.getText())
+
+850
+00:02:22,733 --> 00:02:22,733
+1. AllRoleNames.add(getText().toLowerCase())
+
+851
+00:02:22,755 --> 00:02:22,755
+5. println(a.getText())
+
+852
+00:02:22,766 --> 00:02:22,767
+1. AllRoleNames.add(getText().toLowerCase())
+
+853
+00:02:22,785 --> 00:02:22,786
+5. println(a.getText())
+
+854
+00:02:22,801 --> 00:02:22,801
+1. AllRoleNames.add(getText().toLowerCase())
+
+855
+00:02:22,825 --> 00:02:22,826
+5. println(a.getText())
+
+856
+00:02:22,838 --> 00:02:22,838
+9. delay(2)
+
+857
+00:02:24,840 --> 00:02:24,841
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+858
+00:02:25,234 --> 00:02:25,234
+1. RoleNames = findWebElements(findTestObject("ROLES/Roles_page/Role Names"), 2)
+
+859
+00:02:25,569 --> 00:02:25,569
+5. for (org.openqa.selenium.WebElement a : RoleNames)
+
+860
+00:02:25,571 --> 00:02:25,571
+1. AllRoleNames.add(getText().toLowerCase())
+
+861
+00:02:25,593 --> 00:02:25,593
+5. println(a.getText())
+
+862
+00:02:25,607 --> 00:02:25,608
+1. AllRoleNames.add(getText().toLowerCase())
+
+863
+00:02:25,623 --> 00:02:25,623
+5. println(a.getText())
+
+864
+00:02:25,636 --> 00:02:25,637
+1. AllRoleNames.add(getText().toLowerCase())
+
+865
+00:02:25,647 --> 00:02:25,647
+5. println(a.getText())
+
+866
+00:02:25,657 --> 00:02:25,658
+1. AllRoleNames.add(getText().toLowerCase())
+
+867
+00:02:25,669 --> 00:02:25,669
+5. println(a.getText())
+
+868
+00:02:25,725 --> 00:02:25,725
+1. AllRoleNames.add(getText().toLowerCase())
+
+869
+00:02:25,754 --> 00:02:25,754
+5. println(a.getText())
+
+870
+00:02:25,768 --> 00:02:25,768
+1. AllRoleNames.add(getText().toLowerCase())
+
+871
+00:02:25,779 --> 00:02:25,779
+5. println(a.getText())
+
+872
+00:02:25,789 --> 00:02:25,789
+1. AllRoleNames.add(getText().toLowerCase())
+
+873
+00:02:25,802 --> 00:02:25,803
+5. println(a.getText())
+
+874
+00:02:25,814 --> 00:02:25,814
+1. AllRoleNames.add(getText().toLowerCase())
+
+875
+00:02:25,829 --> 00:02:25,830
+5. println(a.getText())
+
+876
+00:02:25,842 --> 00:02:25,842
+1. AllRoleNames.add(getText().toLowerCase())
+
+877
+00:02:25,854 --> 00:02:25,854
+5. println(a.getText())
+
+878
+00:02:25,870 --> 00:02:25,870
+1. AllRoleNames.add(getText().toLowerCase())
+
+879
+00:02:25,885 --> 00:02:25,885
+5. println(a.getText())
+
+880
+00:02:25,901 --> 00:02:25,901
+9. delay(2)
+
+881
+00:02:27,904 --> 00:02:27,904
+13. click(findTestObject("ROLES/Roles_page/Pagination/front_navigation"))
+
+882
+00:02:28,348 --> 00:02:28,348
+17. if (j == 1)
+
+883
+00:02:28,350 --> 00:02:28,351
+21. if (j == 2)
+
+884
+00:02:28,353 --> 00:02:28,354
+1. isSorted = web.CustomKeyword.checkListAscendingOrder(AllRoleNames)
+
+885
+00:02:28,356 --> 00:02:28,357
+5. println(AllRoleNames.size())
+
+886
+00:02:28,358 --> 00:02:28,359
+9. println(AllRoleNames)
+
+887
+00:02:28,361 --> 00:02:28,362
+13. verifyEqual(isSorted, true)
+
+888
+00:02:28,367 --> 00:02:28,367
+29. clearText(findTestObject("Object Repository/ROLES/Roles_page/Pagination/input_Page_form-control"))
+
+889
+00:02:29,750 --> 00:02:29,751
+33. setText(findTestObject("Object Repository/ROLES/Roles_page/Pagination/input_Page_form-control"), BACK_SPACE + BACK_SPACE + "1" + ENTER)
+
+890
+00:02:30,229 --> 00:02:30,229
+1. println(testCaseContext.getTestCaseId())
+
+891
+00:02:30,231 --> 00:02:30,231
+5. println(testCaseContext.getTestCaseStatus())
+
+892
+00:02:30,232 --> 00:02:30,233
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+893
+00:02:30,234 --> 00:02:30,234
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

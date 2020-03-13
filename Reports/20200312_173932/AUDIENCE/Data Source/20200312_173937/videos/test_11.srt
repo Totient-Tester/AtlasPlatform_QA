@@ -1,0 +1,1476 @@
+1
+00:00:01,266 --> 00:00:01,267
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:01,270 --> 00:00:01,272
+5. refresh()
+
+3
+00:00:05,946 --> 00:00:05,947
+9. click(findTestObject("HeaderMenus/audiencemenu"))
+
+4
+00:00:08,277 --> 00:00:08,278
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:00:11,322 --> 00:00:11,323
+17. totalText = getText(findTestObject("AUDIENCE/Data Source/total_count"))
+
+6
+00:00:12,374 --> 00:00:12,375
+21. click(findTestObject("AUDIENCE/Data Source/modified_Column_Name"))
+
+7
+00:00:14,170 --> 00:00:14,171
+25. click(findTestObject("AUDIENCE/Data Source/modified_Column_Name"))
+
+8
+00:00:16,629 --> 00:00:16,630
+29. total = Integer.parseInt(replace(")", "").trim())
+
+9
+00:00:16,635 --> 00:00:16,636
+33. pageValueCount = 0
+
+10
+00:00:16,647 --> 00:00:16,648
+37. dataSourceTextValues = new java.util.ArrayList()
+
+11
+00:00:16,653 --> 00:00:16,654
+41. totalOfPaginationCount = getText(findTestObject("AUDIENCE/Data Source/no_pagination_With_Count"))
+
+12
+00:00:17,932 --> 00:00:17,933
+45. if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images")))
+
+13
+00:00:17,935 --> 00:00:17,936
+1. elements = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+14
+00:00:18,666 --> 00:00:18,667
+5. if (total > 10)
+
+15
+00:00:18,681 --> 00:00:18,682
+1. while (total != pageValueCount)
+
+16
+00:00:18,684 --> 00:00:18,685
+1. for (org.openqa.selenium.WebElement ele : elements)
+
+17
+00:00:18,732 --> 00:00:18,733
+1. dataSourceTextValues.add(ele.getText())
+
+18
+00:00:19,020 --> 00:00:19,021
+1. dataSourceTextValues.add(ele.getText())
+
+19
+00:00:19,153 --> 00:00:19,153
+1. dataSourceTextValues.add(ele.getText())
+
+20
+00:00:19,306 --> 00:00:19,306
+1. dataSourceTextValues.add(ele.getText())
+
+21
+00:00:19,392 --> 00:00:19,393
+1. dataSourceTextValues.add(ele.getText())
+
+22
+00:00:19,538 --> 00:00:19,539
+1. dataSourceTextValues.add(ele.getText())
+
+23
+00:00:19,725 --> 00:00:19,726
+1. dataSourceTextValues.add(ele.getText())
+
+24
+00:00:19,800 --> 00:00:19,801
+1. dataSourceTextValues.add(ele.getText())
+
+25
+00:00:19,885 --> 00:00:19,886
+1. dataSourceTextValues.add(ele.getText())
+
+26
+00:00:19,991 --> 00:00:19,992
+1. dataSourceTextValues.add(ele.getText())
+
+27
+00:00:20,106 --> 00:00:20,106
+5. pageValueCount += elements.size()
+
+28
+00:00:20,116 --> 00:00:20,117
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+29
+00:00:21,057 --> 00:00:21,058
+13. elements = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+30
+00:00:23,030 --> 00:00:23,032
+1. for (org.openqa.selenium.WebElement ele : elements)
+
+31
+00:00:23,040 --> 00:00:23,041
+1. dataSourceTextValues.add(ele.getText())
+
+32
+00:00:23,251 --> 00:00:23,252
+1. dataSourceTextValues.add(ele.getText())
+
+33
+00:00:23,491 --> 00:00:23,492
+1. dataSourceTextValues.add(ele.getText())
+
+34
+00:00:23,709 --> 00:00:23,711
+5. pageValueCount += elements.size()
+
+35
+00:00:23,714 --> 00:00:23,714
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+36
+00:00:28,257 --> 00:00:28,259
+13. elements = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+37
+00:00:28,787 --> 00:00:28,788
+49. isAscending = web.CustomKeyword.checkListAscendingOrder(dataSourceTextValues)
+
+38
+00:00:28,792 --> 00:00:28,792
+53. verifyEqual(isAscending, true)
+
+39
+00:00:28,826 --> 00:00:28,828
+57. click(findTestObject("HeaderMenus/adminmenu"))
+
+40
+00:00:29,571 --> 00:00:29,572
+61. click(findTestObject("HeaderMenus/audiencemenu"))
+
+41
+00:00:34,564 --> 00:00:34,565
+65. delay(3)
+
+42
+00:00:37,578 --> 00:00:37,580
+69. click(findTestObject("AUDIENCE/Data Source/modified_Column_Name"))
+
+43
+00:00:38,773 --> 00:00:38,774
+73. dataSourceTextValuesWithDesc = new java.util.ArrayList()
+
+44
+00:00:38,777 --> 00:00:38,778
+77. pageValueCount1 = 0
+
+45
+00:00:38,780 --> 00:00:38,781
+81. if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images")))
+
+46
+00:00:38,783 --> 00:00:38,784
+1. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+47
+00:00:39,901 --> 00:00:39,901
+5. if (total > 10)
+
+48
+00:00:39,904 --> 00:00:39,904
+1. while (total != pageValueCount1)
+
+49
+00:00:39,913 --> 00:00:39,916
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+50
+00:00:39,919 --> 00:00:39,919
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+51
+00:00:40,062 --> 00:00:40,063
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+52
+00:00:40,115 --> 00:00:40,116
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+53
+00:00:40,166 --> 00:00:40,167
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+54
+00:00:40,266 --> 00:00:40,267
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+55
+00:00:40,364 --> 00:00:40,365
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+56
+00:00:40,438 --> 00:00:40,440
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+57
+00:00:40,649 --> 00:00:40,649
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+58
+00:00:40,799 --> 00:00:40,800
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+59
+00:00:40,969 --> 00:00:40,969
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+60
+00:00:41,014 --> 00:00:41,015
+5. pageValueCount1 += elements1.size()
+
+61
+00:00:41,016 --> 00:00:41,017
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+62
+00:00:42,019 --> 00:00:42,020
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+63
+00:01:53,673 --> 00:01:53,673
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+64
+00:01:53,676 --> 00:01:53,676
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+65
+00:01:53,707 --> 00:01:53,707
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+66
+00:01:53,736 --> 00:01:53,737
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+67
+00:01:53,759 --> 00:01:53,759
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+68
+00:01:53,787 --> 00:01:53,788
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+69
+00:01:53,814 --> 00:01:53,814
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+70
+00:01:53,841 --> 00:01:53,842
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+71
+00:01:53,873 --> 00:01:53,873
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+72
+00:01:53,906 --> 00:01:53,906
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+73
+00:01:53,939 --> 00:01:53,939
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+74
+00:01:53,969 --> 00:01:53,969
+5. pageValueCount1 += elements1.size()
+
+75
+00:01:53,971 --> 00:01:53,971
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+76
+00:01:54,552 --> 00:01:54,553
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+77
+00:01:55,338 --> 00:01:55,339
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+78
+00:01:55,340 --> 00:01:55,341
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+79
+00:01:55,375 --> 00:01:55,375
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+80
+00:01:55,420 --> 00:01:55,420
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+81
+00:01:55,464 --> 00:01:55,465
+5. pageValueCount1 += elements1.size()
+
+82
+00:01:55,466 --> 00:01:55,467
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+83
+00:01:58,466 --> 00:01:58,466
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+84
+00:01:58,856 --> 00:01:58,857
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+85
+00:01:58,862 --> 00:01:58,863
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+86
+00:01:58,888 --> 00:01:58,889
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+87
+00:01:58,912 --> 00:01:58,913
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+88
+00:01:58,934 --> 00:01:58,935
+5. pageValueCount1 += elements1.size()
+
+89
+00:01:58,936 --> 00:01:58,937
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+90
+00:02:01,754 --> 00:02:01,755
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+91
+00:02:02,185 --> 00:02:02,185
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+92
+00:02:02,189 --> 00:02:02,190
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+93
+00:02:02,226 --> 00:02:02,226
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+94
+00:02:02,253 --> 00:02:02,254
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+95
+00:02:02,293 --> 00:02:02,294
+5. pageValueCount1 += elements1.size()
+
+96
+00:02:02,301 --> 00:02:02,302
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+97
+00:02:05,565 --> 00:02:05,566
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+98
+00:02:05,936 --> 00:02:05,936
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+99
+00:02:05,938 --> 00:02:05,938
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+100
+00:02:05,973 --> 00:02:05,974
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+101
+00:02:05,993 --> 00:02:05,993
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+102
+00:02:06,009 --> 00:02:06,009
+5. pageValueCount1 += elements1.size()
+
+103
+00:02:06,011 --> 00:02:06,012
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+104
+00:02:09,158 --> 00:02:09,158
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+105
+00:02:09,553 --> 00:02:09,553
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+106
+00:02:09,556 --> 00:02:09,557
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+107
+00:02:09,579 --> 00:02:09,580
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+108
+00:02:09,599 --> 00:02:09,600
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+109
+00:02:09,621 --> 00:02:09,621
+5. pageValueCount1 += elements1.size()
+
+110
+00:02:09,623 --> 00:02:09,630
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+111
+00:02:12,454 --> 00:02:12,455
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+112
+00:02:12,785 --> 00:02:12,785
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+113
+00:02:12,786 --> 00:02:12,787
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+114
+00:02:12,805 --> 00:02:12,805
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+115
+00:02:12,823 --> 00:02:12,824
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+116
+00:02:12,839 --> 00:02:12,839
+5. pageValueCount1 += elements1.size()
+
+117
+00:02:12,840 --> 00:02:12,841
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+118
+00:02:15,756 --> 00:02:15,757
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+119
+00:02:16,083 --> 00:02:16,084
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+120
+00:02:16,086 --> 00:02:16,086
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+121
+00:02:16,112 --> 00:02:16,113
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+122
+00:02:16,136 --> 00:02:16,138
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+123
+00:02:16,180 --> 00:02:16,181
+5. pageValueCount1 += elements1.size()
+
+124
+00:02:16,182 --> 00:02:16,183
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+125
+00:02:19,151 --> 00:02:19,152
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+126
+00:02:19,522 --> 00:02:19,523
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+127
+00:02:19,524 --> 00:02:19,525
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+128
+00:02:19,547 --> 00:02:19,548
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+129
+00:02:19,599 --> 00:02:19,599
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+130
+00:02:19,634 --> 00:02:19,635
+5. pageValueCount1 += elements1.size()
+
+131
+00:02:19,639 --> 00:02:19,640
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+132
+00:02:22,798 --> 00:02:22,798
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+133
+00:02:23,227 --> 00:02:23,228
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+134
+00:02:23,230 --> 00:02:23,230
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+135
+00:02:23,310 --> 00:02:23,312
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+136
+00:02:23,383 --> 00:02:23,384
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+137
+00:02:23,416 --> 00:02:23,416
+5. pageValueCount1 += elements1.size()
+
+138
+00:02:23,422 --> 00:02:23,422
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+139
+00:02:26,410 --> 00:02:26,411
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+140
+00:02:26,781 --> 00:02:26,782
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+141
+00:02:26,790 --> 00:02:26,791
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+142
+00:02:26,824 --> 00:02:26,824
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+143
+00:02:26,850 --> 00:02:26,851
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+144
+00:02:26,873 --> 00:02:26,874
+5. pageValueCount1 += elements1.size()
+
+145
+00:02:26,876 --> 00:02:26,876
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+146
+00:02:29,893 --> 00:02:29,894
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+147
+00:02:30,252 --> 00:02:30,253
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+148
+00:02:30,254 --> 00:02:30,254
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+149
+00:02:30,281 --> 00:02:30,282
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+150
+00:02:30,309 --> 00:02:30,310
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+151
+00:02:30,353 --> 00:02:30,354
+5. pageValueCount1 += elements1.size()
+
+152
+00:02:30,356 --> 00:02:30,358
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+153
+00:02:35,011 --> 00:02:35,012
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+154
+00:02:35,461 --> 00:02:35,461
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+155
+00:02:35,463 --> 00:02:35,463
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+156
+00:02:35,484 --> 00:02:35,485
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+157
+00:02:35,505 --> 00:02:35,506
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+158
+00:02:35,531 --> 00:02:35,532
+5. pageValueCount1 += elements1.size()
+
+159
+00:02:35,535 --> 00:02:35,535
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+160
+00:02:38,398 --> 00:02:38,399
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+161
+00:02:38,750 --> 00:02:38,751
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+162
+00:02:38,752 --> 00:02:38,753
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+163
+00:02:38,772 --> 00:02:38,773
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+164
+00:02:38,796 --> 00:02:38,796
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+165
+00:02:38,827 --> 00:02:38,827
+5. pageValueCount1 += elements1.size()
+
+166
+00:02:38,829 --> 00:02:38,829
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+167
+00:02:41,899 --> 00:02:41,900
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+168
+00:02:42,296 --> 00:02:42,296
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+169
+00:02:42,300 --> 00:02:42,300
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+170
+00:02:42,332 --> 00:02:42,332
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+171
+00:02:42,361 --> 00:02:42,362
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+172
+00:02:42,378 --> 00:02:42,379
+5. pageValueCount1 += elements1.size()
+
+173
+00:02:42,381 --> 00:02:42,381
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+174
+00:02:45,509 --> 00:02:45,510
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+175
+00:02:45,843 --> 00:02:45,844
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+176
+00:02:45,848 --> 00:02:45,848
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+177
+00:02:45,888 --> 00:02:45,889
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+178
+00:02:45,926 --> 00:02:45,926
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+179
+00:02:45,954 --> 00:02:45,955
+5. pageValueCount1 += elements1.size()
+
+180
+00:02:45,958 --> 00:02:45,959
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+181
+00:02:48,982 --> 00:02:48,982
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+182
+00:02:49,356 --> 00:02:49,356
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+183
+00:02:49,358 --> 00:02:49,358
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+184
+00:02:49,375 --> 00:02:49,376
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+185
+00:02:49,397 --> 00:02:49,398
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+186
+00:02:49,414 --> 00:02:49,415
+5. pageValueCount1 += elements1.size()
+
+187
+00:02:49,416 --> 00:02:49,417
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+188
+00:02:52,293 --> 00:02:52,293
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+189
+00:02:52,647 --> 00:02:52,648
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+190
+00:02:52,649 --> 00:02:52,650
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+191
+00:02:52,662 --> 00:02:52,663
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+192
+00:02:52,675 --> 00:02:52,676
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+193
+00:02:52,695 --> 00:02:52,696
+5. pageValueCount1 += elements1.size()
+
+194
+00:02:52,697 --> 00:02:52,698
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+195
+00:02:55,721 --> 00:02:55,722
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+196
+00:02:56,151 --> 00:02:56,152
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+197
+00:02:56,153 --> 00:02:56,153
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+198
+00:02:56,171 --> 00:02:56,171
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+199
+00:02:56,192 --> 00:02:56,193
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+200
+00:02:56,209 --> 00:02:56,210
+5. pageValueCount1 += elements1.size()
+
+201
+00:02:56,211 --> 00:02:56,212
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+202
+00:02:59,240 --> 00:02:59,240
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+203
+00:02:59,528 --> 00:02:59,528
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+204
+00:02:59,530 --> 00:02:59,530
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+205
+00:02:59,546 --> 00:02:59,546
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+206
+00:02:59,577 --> 00:02:59,578
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+207
+00:02:59,599 --> 00:02:59,601
+5. pageValueCount1 += elements1.size()
+
+208
+00:02:59,603 --> 00:02:59,604
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+209
+00:03:02,666 --> 00:03:02,667
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+210
+00:03:03,107 --> 00:03:03,108
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+211
+00:03:03,127 --> 00:03:03,128
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+212
+00:03:03,148 --> 00:03:03,148
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+213
+00:03:03,171 --> 00:03:03,172
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+214
+00:03:03,193 --> 00:03:03,194
+5. pageValueCount1 += elements1.size()
+
+215
+00:03:03,197 --> 00:03:03,197
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+216
+00:03:07,486 --> 00:03:07,487
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+217
+00:03:07,820 --> 00:03:07,820
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+218
+00:03:07,821 --> 00:03:07,822
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+219
+00:03:07,837 --> 00:03:07,838
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+220
+00:03:07,854 --> 00:03:07,854
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+221
+00:03:07,872 --> 00:03:07,872
+5. pageValueCount1 += elements1.size()
+
+222
+00:03:07,874 --> 00:03:07,874
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+223
+00:03:10,773 --> 00:03:10,774
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+224
+00:03:11,236 --> 00:03:11,236
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+225
+00:03:11,240 --> 00:03:11,241
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+226
+00:03:11,313 --> 00:03:11,313
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+227
+00:03:11,338 --> 00:03:11,338
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+228
+00:03:11,406 --> 00:03:11,407
+5. pageValueCount1 += elements1.size()
+
+229
+00:03:11,418 --> 00:03:11,419
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+230
+00:03:14,865 --> 00:03:14,866
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+231
+00:03:15,205 --> 00:03:15,206
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+232
+00:03:15,207 --> 00:03:15,208
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+233
+00:03:15,224 --> 00:03:15,225
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+234
+00:03:15,249 --> 00:03:15,250
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+235
+00:03:15,273 --> 00:03:15,274
+5. pageValueCount1 += elements1.size()
+
+236
+00:03:15,276 --> 00:03:15,277
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+237
+00:03:18,302 --> 00:03:18,302
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+238
+00:03:18,638 --> 00:03:18,639
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+239
+00:03:18,641 --> 00:03:18,642
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+240
+00:03:18,658 --> 00:03:18,658
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+241
+00:03:18,673 --> 00:03:18,673
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+242
+00:03:18,693 --> 00:03:18,694
+5. pageValueCount1 += elements1.size()
+
+243
+00:03:18,696 --> 00:03:18,697
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+244
+00:03:21,577 --> 00:03:21,579
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+245
+00:03:21,923 --> 00:03:21,924
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+246
+00:03:21,926 --> 00:03:21,926
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+247
+00:03:21,941 --> 00:03:21,942
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+248
+00:03:21,959 --> 00:03:21,960
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+249
+00:03:21,983 --> 00:03:21,984
+5. pageValueCount1 += elements1.size()
+
+250
+00:03:21,986 --> 00:03:21,986
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+251
+00:03:24,768 --> 00:03:24,769
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+252
+00:03:25,063 --> 00:03:25,064
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+253
+00:03:25,066 --> 00:03:25,066
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+254
+00:03:25,084 --> 00:03:25,085
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+255
+00:03:25,106 --> 00:03:25,107
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+256
+00:03:25,132 --> 00:03:25,133
+5. pageValueCount1 += elements1.size()
+
+257
+00:03:25,134 --> 00:03:25,135
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+258
+00:03:28,052 --> 00:03:28,053
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+259
+00:03:28,717 --> 00:03:28,718
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+260
+00:03:28,734 --> 00:03:28,734
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+261
+00:03:28,827 --> 00:03:28,828
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+262
+00:03:28,967 --> 00:03:28,968
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+263
+00:03:29,029 --> 00:03:29,030
+5. pageValueCount1 += elements1.size()
+
+264
+00:03:29,035 --> 00:03:29,036
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+265
+00:03:32,003 --> 00:03:32,004
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+266
+00:03:32,380 --> 00:03:32,381
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+267
+00:03:32,383 --> 00:03:32,383
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+268
+00:03:32,406 --> 00:03:32,407
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+269
+00:03:32,430 --> 00:03:32,430
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+270
+00:03:32,451 --> 00:03:32,452
+5. pageValueCount1 += elements1.size()
+
+271
+00:03:32,453 --> 00:03:32,454
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+272
+00:03:35,235 --> 00:03:35,236
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+273
+00:03:35,564 --> 00:03:35,565
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+274
+00:03:35,566 --> 00:03:35,566
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+275
+00:03:35,582 --> 00:03:35,583
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+276
+00:03:35,603 --> 00:03:35,604
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+277
+00:03:35,625 --> 00:03:35,626
+5. pageValueCount1 += elements1.size()
+
+278
+00:03:35,628 --> 00:03:35,629
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+279
+00:03:38,480 --> 00:03:38,481
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+280
+00:03:38,792 --> 00:03:38,794
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+281
+00:03:38,798 --> 00:03:38,800
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+282
+00:03:38,817 --> 00:03:38,818
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+283
+00:03:38,837 --> 00:03:38,837
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+284
+00:03:38,849 --> 00:03:38,849
+5. pageValueCount1 += elements1.size()
+
+285
+00:03:38,851 --> 00:03:38,851
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+286
+00:03:41,629 --> 00:03:41,630
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+287
+00:03:41,963 --> 00:03:41,964
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+288
+00:03:41,966 --> 00:03:41,967
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+289
+00:03:42,014 --> 00:03:42,015
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+290
+00:03:42,046 --> 00:03:42,046
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+291
+00:03:42,066 --> 00:03:42,067
+5. pageValueCount1 += elements1.size()
+
+292
+00:03:42,071 --> 00:03:42,072
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+293
+00:03:45,058 --> 00:03:45,059
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+294
+00:03:45,404 --> 00:03:45,405
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+295
+00:03:45,406 --> 00:03:45,408
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+296
+00:03:45,429 --> 00:03:45,430
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+297
+00:03:45,459 --> 00:03:45,460
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+298
+00:03:45,489 --> 00:03:45,490
+5. pageValueCount1 += elements1.size()
+
+299
+00:03:45,492 --> 00:03:45,493
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+300
+00:03:48,416 --> 00:03:48,416
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+301
+00:03:48,752 --> 00:03:48,753
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+302
+00:03:48,754 --> 00:03:48,754
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+303
+00:03:48,775 --> 00:03:48,776
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+304
+00:03:48,799 --> 00:03:48,799
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+305
+00:03:48,821 --> 00:03:48,822
+5. pageValueCount1 += elements1.size()
+
+306
+00:03:48,823 --> 00:03:48,824
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+307
+00:03:51,591 --> 00:03:51,591
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+308
+00:03:51,914 --> 00:03:51,914
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+309
+00:03:51,915 --> 00:03:51,916
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+310
+00:03:51,930 --> 00:03:51,930
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+311
+00:03:51,944 --> 00:03:51,945
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+312
+00:03:51,961 --> 00:03:51,961
+5. pageValueCount1 += elements1.size()
+
+313
+00:03:51,963 --> 00:03:51,963
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+314
+00:03:54,862 --> 00:03:54,863
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+315
+00:03:56,366 --> 00:03:56,366
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+316
+00:03:56,368 --> 00:03:56,368
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+317
+00:03:56,405 --> 00:03:56,405
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+318
+00:03:56,441 --> 00:03:56,441
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+319
+00:03:56,478 --> 00:03:56,478
+5. pageValueCount1 += elements1.size()
+
+320
+00:03:56,481 --> 00:03:56,482
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+321
+00:03:59,376 --> 00:03:59,377
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+322
+00:03:59,740 --> 00:03:59,741
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+323
+00:03:59,743 --> 00:03:59,744
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+324
+00:03:59,785 --> 00:03:59,785
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+325
+00:03:59,814 --> 00:03:59,815
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+326
+00:03:59,845 --> 00:03:59,846
+5. pageValueCount1 += elements1.size()
+
+327
+00:03:59,847 --> 00:03:59,848
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+328
+00:04:01,712 --> 00:04:01,714
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+329
+00:04:02,484 --> 00:04:02,484
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+330
+00:04:02,486 --> 00:04:02,486
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+331
+00:04:02,525 --> 00:04:02,526
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+332
+00:04:02,562 --> 00:04:02,562
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+333
+00:04:02,601 --> 00:04:02,602
+5. pageValueCount1 += elements1.size()
+
+334
+00:04:02,604 --> 00:04:02,605
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+335
+00:04:05,447 --> 00:04:05,447
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+336
+00:04:05,811 --> 00:04:05,811
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+337
+00:04:05,814 --> 00:04:05,815
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+338
+00:04:05,845 --> 00:04:05,846
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+339
+00:04:05,871 --> 00:04:05,872
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+340
+00:04:05,893 --> 00:04:05,893
+5. pageValueCount1 += elements1.size()
+
+341
+00:04:05,894 --> 00:04:05,895
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+342
+00:04:08,728 --> 00:04:08,728
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+343
+00:04:09,108 --> 00:04:09,109
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+344
+00:04:09,129 --> 00:04:09,130
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+345
+00:04:09,162 --> 00:04:09,163
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+346
+00:04:09,185 --> 00:04:09,186
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+347
+00:04:09,202 --> 00:04:09,203
+5. pageValueCount1 += elements1.size()
+
+348
+00:04:09,204 --> 00:04:09,205
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+349
+00:04:12,024 --> 00:04:12,024
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+350
+00:04:12,352 --> 00:04:12,353
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+351
+00:04:12,354 --> 00:04:12,355
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+352
+00:04:12,369 --> 00:04:12,369
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+353
+00:04:12,383 --> 00:04:12,384
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+354
+00:04:12,401 --> 00:04:12,401
+5. pageValueCount1 += elements1.size()
+
+355
+00:04:12,403 --> 00:04:12,404
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+356
+00:04:15,259 --> 00:04:15,259
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+357
+00:04:15,621 --> 00:04:15,621
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+358
+00:04:15,623 --> 00:04:15,623
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+359
+00:04:15,640 --> 00:04:15,641
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+360
+00:04:15,659 --> 00:04:15,660
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+361
+00:04:15,679 --> 00:04:15,680
+5. pageValueCount1 += elements1.size()
+
+362
+00:04:15,681 --> 00:04:15,682
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+
+363
+00:04:18,589 --> 00:04:18,590
+13. elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/modified_Column_Values"), 0)
+
+364
+00:04:18,987 --> 00:04:18,988
+1. for (org.openqa.selenium.WebElement ele1 : elements1)
+
+365
+00:04:18,992 --> 00:04:18,992
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+366
+00:04:19,035 --> 00:04:19,036
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+367
+00:04:19,067 --> 00:04:19,068
+1. dataSourceTextValuesWithDesc.add(ele1.getText())
+
+368
+00:04:19,090 --> 00:04:19,091
+5. pageValueCount1 += elements1.size()
+
+369
+00:04:19,093 --> 00:04:19,094
+9. click(findTestObject("AUDIENCE/Data Source/next"))
+

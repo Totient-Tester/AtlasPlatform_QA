@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-reportFeatures']/div/div/div[2]/div/div/div/label/span[2]/span</value>
+         <value>//span[text()='Global Recommendations']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
