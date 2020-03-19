@@ -80,6 +80,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/nav/div/ul/li/a/div</value>
+      <value>//a/*[contains(text(),'Data Source')]</value>
    </webElementXpaths>
 </WebElementEntity>

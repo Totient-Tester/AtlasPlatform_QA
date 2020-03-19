@@ -1,0 +1,116 @@
+1
+00:00:00,543 --> 00:00:00,545
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,555 --> 00:00:00,559
+5. click(findTestObject("HeaderMenus/contentmeu"))
+
+3
+00:00:47,906 --> 00:00:47,907
+9. click(findTestObject("Login_Page/Dashboard/Content Sub-Navigation/div_Images"))
+
+4
+00:01:34,737 --> 00:01:34,741
+13. delay(5)
+
+5
+00:01:39,762 --> 00:01:39,763
+17. click(findTestObject("CONTENT/Image_Listing/upload_image_button"))
+
+6
+00:02:27,729 --> 00:02:27,731
+21. verifyElementText(findTestObject("CONTENT/Upload_Images/h1_Upload Images_Header_Text"), "Upload")
+
+7
+00:03:15,230 --> 00:03:15,232
+25. img_name = web.CustomKeyword.getTimeStampWithText("Automation - ")
+
+8
+00:03:15,425 --> 00:03:15,427
+29. print(img_name)
+
+9
+00:03:15,456 --> 00:03:15,462
+33. setText(findTestObject("CONTENT/Upload_Images/input_Image Name"), img_name)
+
+10
+00:04:01,339 --> 00:04:01,340
+37. click(findTestObject("CONTENT/Upload_Images/button_Add Description"))
+
+11
+00:04:49,277 --> 00:04:49,278
+41. setText(findTestObject("CONTENT/Upload_Images/textarea_Description_description"), web.CustomKeyword.getRandomString())
+
+12
+00:05:34,754 --> 00:05:34,777
+45. dr = getWebDriver()
+
+13
+00:05:34,801 --> 00:05:34,805
+49. listofFileUpload = findWebElements(findTestObject("CONTENT/Upload_Images/label_Select Files"), 0)
+
+14
+00:06:21,754 --> 00:06:21,755
+53. for ([i = 0, i < listofFileUpload.size(), (i++)])
+
+15
+00:06:21,849 --> 00:06:21,856
+57. verifyElementText(findTestObject("CONTENT/Upload_Images/label_Replace"), "Replace")
+
+16
+00:07:08,829 --> 00:07:08,843
+61. click(findTestObject("CONTENT/Upload_Images/language_DropDown"))
+
+17
+00:07:55,488 --> 00:07:55,491
+65. dropdownlist = findWebElements(findTestObject("CONTENT/Upload_Images/Select_Language_Options"), 0)
+
+18
+00:08:42,041 --> 00:08:42,041
+69. web.CustomKeyword.selectDropDownValue(dropdownlist, "English")
+
+19
+00:08:42,065 --> 00:08:42,066
+73. radiobuttonsforMarketing = findWebElements(findTestObject("CONTENT/Upload_Images/maketing_categories"), 0)
+
+20
+00:09:27,856 --> 00:09:27,856
+77. web.CustomKeyword.selectDropDownValue(radiobuttonsforMarketing, "Milestone")
+
+21
+00:09:28,023 --> 00:09:28,025
+81. click(findTestObject("CONTENT/Upload_Images/button_Upload"))
+
+22
+00:10:14,649 --> 00:10:14,653
+85. waitForElementPresent(findTestObject("CONTENT/Image_Listing/all_Image_textwithcount"), 10)
+
+23
+00:10:31,332 --> 00:10:31,336
+89. lisOFImagename = findWebElements(findTestObject("CONTENT/Image_Listing/colum1_Image_Name_values"), 0)
+
+24
+00:11:18,130 --> 00:11:18,135
+93. isUpload = web.CustomKeyword.selectDropDownValue(lisOFImagename, img_name)
+
+25
+00:11:18,165 --> 00:11:18,171
+97. verifyEqual(isUpload, true)
+
+26
+00:11:18,261 --> 00:11:18,262
+1. println(testCaseContext.getTestCaseId())
+
+27
+00:11:18,286 --> 00:11:18,287
+5. println(testCaseContext.getTestCaseStatus())
+
+28
+00:11:18,304 --> 00:11:18,305
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+29
+00:11:18,377 --> 00:11:18,377
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

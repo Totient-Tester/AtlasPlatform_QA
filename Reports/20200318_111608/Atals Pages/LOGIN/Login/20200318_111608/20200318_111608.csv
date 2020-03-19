@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 80.0.3987.132,,,2020-03-18 11:16:19,2020-03-18 11:18:13,1m - 53.557s,ERROR
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin,Chrome 80.0.3987.132,,,2020-03-18 11:16:20,2020-03-18 11:16:33,13.325s,ERROR
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-18 11:16:21,2020-03-18 11:16:24,3.492s,PASSED
+"callTestCase(findTestCase(""Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-18 11:16:24,2020-03-18 11:16:24,0.046s,NOT_RUN
+"navigateToUrl(""https://atlas-dev.gsm.auto/"")",Chrome 80.0.3987.132,,,2020-03-18 11:16:24,2020-03-18 11:16:30,5.269s,PASSED
+"setText(findTestObject(""Login_Page/Page_/email address placeholder""), Email)",Chrome 80.0.3987.132,,,2020-03-18 11:16:30,2020-03-18 11:16:30,0.274s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 11:16:30,2020-03-18 11:16:31,1.015s,FAILED
+Video,Chrome 80.0.3987.132,,,2020-03-18 11:16:33,2020-03-18 11:16:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Logout/Logout,Chrome 80.0.3987.132,,,2020-03-18 11:16:33,2020-03-18 11:18:10,1m - 36.684s,FAILED
+"click(findTestObject(""Logout/My Account""))",Chrome 80.0.3987.132,,,2020-03-18 11:16:34,2020-03-18 11:17:19,45.396s,FAILED
+"click(findTestObject(""Logout/li_Log Out""))",Chrome 80.0.3987.132,,,2020-03-18 11:17:19,2020-03-18 11:18:07,47.530s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 11:18:07,2020-03-18 11:18:08,0.888s,FAILED
+Video,Chrome 80.0.3987.132,,,2020-03-18 11:18:10,2020-03-18 11:18:10,0.013s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser,Chrome 80.0.3987.132,,,2020-03-18 11:18:10,2020-03-18 11:18:13,2.710s,PASSED
+closeBrowser(),Chrome 80.0.3987.132,,,2020-03-18 11:18:10,2020-03-18 11:18:11,0.201s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 11:18:11,2020-03-18 11:18:11,0.054s,PASSED

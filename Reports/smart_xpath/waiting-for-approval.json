@@ -1,0 +1,18 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": false,
+      "proposedXPath": "//a",
+      "testObjectId": "Object Repository/HeaderMenus/audiencemenu",
+      "brokenXPath": "(//div[@class\u003d\u0027container\u0027]/ul/li[1]/a)[1]",
+      "pathToScreenshot": "/tmp/project/Reports/smart_xpath/Object Repository/HeaderMenus/audiencemenu_position.png"
+    },
+    {
+      "approved": false,
+      "proposedXPath": "//li[2]/a",
+      "testObjectId": "Object Repository/HeaderMenus/contentmeu",
+      "brokenXPath": "(//div[@class\u003d\u0027container\u0027]/ul/li[2]/a)[1]",
+      "pathToScreenshot": "/tmp/project/Reports/smart_xpath/Object Repository/HeaderMenus/contentmeu_position.png"
+    }
+  ]
+}

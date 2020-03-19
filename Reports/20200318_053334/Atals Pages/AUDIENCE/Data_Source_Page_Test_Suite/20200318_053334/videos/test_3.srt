@@ -1,0 +1,40 @@
+1
+00:00:00,345 --> 00:00:00,349
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,362 --> 00:00:00,367
+5. click(findTestObject("HeaderMenus/audiencemenu"))
+
+3
+00:00:48,174 --> 00:00:48,174
+9. refresh()
+
+4
+00:00:50,877 --> 00:00:50,878
+13. click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source"))
+
+5
+00:01:38,066 --> 00:01:38,070
+17. beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count"))
+
+6
+00:02:26,067 --> 00:02:26,075
+21. beforetotal = Integer.parseInt(replace(")", "").trim())
+
+7
+00:02:26,161 --> 00:02:26,162
+1. println(testCaseContext.getTestCaseId())
+
+8
+00:02:26,175 --> 00:02:26,176
+5. println(testCaseContext.getTestCaseStatus())
+
+9
+00:02:26,188 --> 00:02:26,189
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+10
+00:02:26,200 --> 00:02:26,201
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

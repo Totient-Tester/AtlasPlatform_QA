@@ -73,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/span</value>
+      <value>//div[@class='style__headerText___2xIp0']/span</value>
    </webElementXpaths>
 </WebElementEntity>

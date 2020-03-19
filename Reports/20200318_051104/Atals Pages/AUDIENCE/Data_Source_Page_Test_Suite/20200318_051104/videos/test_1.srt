@@ -1,0 +1,48 @@
+1
+00:00:01,530 --> 00:00:01,573
+1. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:04,407 --> 00:00:04,415
+1. openBrowser("")
+
+3
+00:01:22,545 --> 00:01:22,561
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+4
+00:01:22,662 --> 00:01:22,669
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+5
+00:01:23,012 --> 00:01:23,026
+13. setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email)
+
+6
+00:01:23,962 --> 00:01:23,981
+17. setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password)
+
+7
+00:01:24,279 --> 00:01:24,304
+21. click(findTestObject("LoginPage/loginpageloginbtn"))
+
+8
+00:01:24,594 --> 00:01:24,609
+25. conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection()
+
+9
+00:01:49,200 --> 00:01:49,213
+1. println(testCaseContext.getTestCaseId())
+
+10
+00:01:49,441 --> 00:01:49,445
+5. println(testCaseContext.getTestCaseStatus())
+
+11
+00:01:49,491 --> 00:01:49,504
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+12
+00:01:49,565 --> 00:01:49,575
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

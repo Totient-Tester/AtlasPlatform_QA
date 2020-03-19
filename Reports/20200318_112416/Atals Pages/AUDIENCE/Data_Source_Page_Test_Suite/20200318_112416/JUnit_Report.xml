@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data_Source_Page_Test_Suite" time="203.994" tests="9" failures="0" errors="1">
+   <testsuite name="Data_Source_Page_Test_Suite" tests="9" failures="0" errors="1" time="203.994" timestamp="2020-03-18 11:24:35" hostname="Dell - DESKTOP-8FKLJ50" id="Test Suites/Atals Pages/AUDIENCE/Data_Source_Page_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200318_112416\\Atals Pages\\AUDIENCE\\Data_Source_Page_Test_Suite\\20200318_112416"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200318_112416\\Atals Pages\\AUDIENCE\\Data_Source_Page_Test_Suite\\20200318_112416\\execution0.log"/>
+         <property name="attachments" value="D:\\TestDataForSampleProject\\test1.jpg, C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200318_112416\\Atals Pages\\AUDIENCE\\Data_Source_Page_Test_Suite\\20200318_112416/videos\\test_1.avi"/>
+         <property name="hostName" value="Dell - DESKTOP-8FKLJ50"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="c910973ddf59e4e98d39d665bf1f1243"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" time="58.995" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-18 11:24:36 - [TEST_CASE][ERROR] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more
+
+
+2020-03-18 11:24:37 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more
+)
+
+2020-03-18 11:24:38 - [TEST_CASE][ERROR] - Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin: Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more
+
+
+2020-03-18 11:24:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-18 11:24:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-18 11:24:40 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-web-security, --no-proxy-server]']
+
+2020-03-18 11:24:40 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false}']
+
+2020-03-18 11:24:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-18 11:24:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-18 11:24:55 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:24:55 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:24:55 - [TEST_STEP][PASSED] - navigateToUrl("https://atlas-dev.gsm.auto/"): Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-03-18 11:25:00 - [MESSAGE][PASSED] - Navigate to 'https://atlas-dev.gsm.auto/' successfully
+
+2020-03-18 11:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpageemailtxtbox"), user_Email): Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-03-18 11:25:02 - [MESSAGE][PASSED] - Text 'navaraj@totient.co.in' is set on object 'Object Repository/LoginPage/loginpageemailtxtbox'
+
+2020-03-18 11:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/loginpaepasswordtxtbox"), user_Password): Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-03-18 11:25:03 - [MESSAGE][PASSED] - Text 'Totient@123' is set on object 'Object Repository/LoginPage/loginpaepasswordtxtbox'
+
+2020-03-18 11:25:03 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/loginpageloginbtn")): Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-03-18 11:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginpageloginbtn' is clicked on
+
+2020-03-18 11:25:05 - [TEST_STEP][ERROR] - conn = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(): com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2020-03-18 11:25:30 - [MESSAGE][ERROR] - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2020-03-18 11:25:30 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-18 11:25:30 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-18 11:25:30 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-18 11:25:30 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-18 11:25:31 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more
+)
+
+2020-03-18 11:25:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2020-03-18 11:25:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:25:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:25:31 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:25:31 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): Taking screenshot successfully
+
+2020-03-18 11:25:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\TestDataForSampleProject\\test1.jpg]]
+
+2020-03-18 11:25:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin' .
+
+2020-03-18 11:25:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin' .
+[[ATTACHMENT|C:\\Users\\Dell\\git\\AtlasPlatform_QA\\Reports\\20200318_112416\\Atals Pages\\AUDIENCE\\Data_Source_Page_Test_Suite\\20200318_112416/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[2020-03-18 11:24:36 - [TEST_CASE][ERROR] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count" time="12.965" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:25:35 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_001_Verify_Audience_Total_Count
+
+2020-03-18 11:25:36 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:25:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:25:36 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:25:42 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:25:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - println(totalText): null
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - total = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:25:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - while (total != pageValueCount): null
+
+2020-03-18 11:25:43 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:25:44 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:25:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:25:46 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:25:46 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount" time="17.578" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:25:48 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount: Test Cases/Atlas Platform/Data Management/Data Listing/TC_002_Validate_Active_Filter_WithCount
+
+2020-03-18 11:25:48 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:25:48 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:25:48 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:25:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:25:53 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:25:54 - [TEST_STEP][PASSED] - beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:25:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:25:55 - [TEST_STEP][PASSED] - beforetotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/filter")): Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-03-18 11:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-03-18 11:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/active")): Object: 'Object Repository/AUDIENCE/Data Source/active' is clicked on
+
+2020-03-18 11:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/active' is clicked on
+
+2020-03-18 11:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn")): Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-03-18 11:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-03-18 11:25:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:26:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:26:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AUDIENCE/Data Source/active_text_filtered"), "Active"): Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/active_text_filtered' are matched.
+
+2020-03-18 11:26:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/active_text_filtered' are matched.
+
+2020-03-18 11:26:00 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count")): Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '9 Results Matching'
+
+2020-03-18 11:26:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '9 Results Matching'
+
+2020-03-18 11:26:00 - [TEST_STEP][PASSED] - total = Integer.parseInt(split(" ")[0].trim()): null
+
+2020-03-18 11:26:01 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:01 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-03-18 11:26:01 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-03-18 11:26:01 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '9' and expected object '9' are equal
+
+2020-03-18 11:26:01 - [MESSAGE][PASSED] - Actual object '9' and expected object '9' are equal
+
+2020-03-18 11:26:01 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/active_close_icon")): Object: 'Object Repository/AUDIENCE/Data Source/active_close_icon' is clicked on
+
+2020-03-18 11:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/active_close_icon' is clicked on
+
+2020-03-18 11:26:02 - [TEST_STEP][PASSED] - afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - aftertotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - verifyEqual(aftertotal, beforetotal): Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:03 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:03 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount" time="18.163" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:26:05 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount: Test Cases/Atlas Platform/Data Management/Data Listing/TC_003_Validate_Archive_Filter_WithCount
+
+2020-03-18 11:26:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:06 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:26:11 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:13 - [TEST_STEP][PASSED] - beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:14 - [TEST_STEP][PASSED] - beforetotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/filter")): Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-03-18 11:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/filter' is clicked on
+
+2020-03-18 11:26:14 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/archived")): Object: 'Object Repository/AUDIENCE/Data Source/archived' is clicked on
+
+2020-03-18 11:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/archived' is clicked on
+
+2020-03-18 11:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AUDIENCE/Data Source/apply_btn")): Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-03-18 11:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/apply_btn' is clicked on
+
+2020-03-18 11:26:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:26:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:26:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AUDIENCE/Data Source/archive_text_filtered"), "Archived"): Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' are matched.
+
+2020-03-18 11:26:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AUDIENCE/Data Source/archive_text_filtered' are matched.
+
+2020-03-18 11:26:19 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Object Repository/AUDIENCE/Data Source/matchingRecord_count")): Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '4 Results Matching'
+
+2020-03-18 11:26:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/matchingRecord_count' is: '4 Results Matching'
+
+2020-03-18 11:26:19 - [TEST_STEP][PASSED] - total = Integer.parseInt(split(" ")[0].trim()): null
+
+2020-03-18 11:26:19 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:20 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-03-18 11:26:20 - [TEST_STEP][PASSED] - if (total > 10): null
+
+2020-03-18 11:26:20 - [TEST_STEP][PASSED] - verifyEqual(total, pageValueCount): Actual object '4' and expected object '4' are equal
+
+2020-03-18 11:26:20 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2020-03-18 11:26:20 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/archive_close_icon")): Object: 'Object Repository/AUDIENCE/Data Source/archive_close_icon' is clicked on
+
+2020-03-18 11:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/archive_close_icon' is clicked on
+
+2020-03-18 11:26:20 - [TEST_STEP][PASSED] - afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - aftertotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - verifyEqual(aftertotal, beforetotal): Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:21 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:21 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count" time="16.353" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:26:23 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_004_Validate_Search_Box_Valid_Text_With_Count
+
+2020-03-18 11:26:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:24 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:24 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:26:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:31 - [TEST_STEP][PASSED] - beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:31 - [TEST_STEP][PASSED] - beforetotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Test" + ENTER): Text 'ENTER + Test' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-03-18 11:26:32 - [MESSAGE][PASSED] - Text 'ENTER + Test' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-03-18 11:26:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:26:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:26:35 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 10 Data Source(s)'
+
+2020-03-18 11:26:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 1-10 of 10 Data Source(s)'
+
+2020-03-18 11:26:35 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-03-18 11:26:35 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:26:36 - [TEST_STEP][PASSED] - pageValueCount = elements.size(): null
+
+2020-03-18 11:26:36 - [TEST_STEP][PASSED] - if (resultfound_count > 10): null
+
+2020-03-18 11:26:36 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, pageValueCount): Actual object '10' and expected object '10' are equal
+
+2020-03-18 11:26:36 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal
+
+2020-03-18 11:26:36 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-03-18 11:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-03-18 11:26:36 - [TEST_STEP][PASSED] - afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - aftertotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - verifyEqual(aftertotal, beforetotal): Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:38 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:38 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count" time="13.571" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:26:40 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count: Test Cases/Atlas Platform/Data Management/Data Listing/TC_005_Validate_Search_Box_Invalid_Text_With_Count
+
+2020-03-18 11:26:40 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:40 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:41 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:26:43 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:26:44 - [TEST_STEP][PASSED] - beforefilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:44 - [TEST_STEP][PASSED] - beforetotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AUDIENCE/Data Source/search_box"), "Sameee" + ENTER): Text 'ENTER + Sameee' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-03-18 11:26:45 - [MESSAGE][PASSED] - Text 'ENTER + Sameee' is set on object 'Object Repository/AUDIENCE/Data Source/search_box'
+
+2020-03-18 11:26:45 - [TEST_STEP][PASSED] - text = getText(findTestObject("CONTENT/Image_Listing/showingtextforpagination")): Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Data Source(s)'
+
+2020-03-18 11:26:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONTENT/Image_Listing/showingtextforpagination' is: 'Showing 0 of 0 Data Source(s)'
+
+2020-03-18 11:26:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:26:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:26:50 - [TEST_STEP][PASSED] - resultfound_count = Integer.parseInt(split(" ")[1].trim()): null
+
+2020-03-18 11:26:50 - [TEST_STEP][PASSED] - verifyEqual(resultfound_count, 0): Actual object '0' and expected object '0' are equal
+
+2020-03-18 11:26:50 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2020-03-18 11:26:50 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/search_closeicon")): Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-03-18 11:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/search_closeicon' is clicked on
+
+2020-03-18 11:26:50 - [TEST_STEP][PASSED] - afterfilterapplytot = getText(findTestObject("Object Repository/AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - aftertotal = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - verifyEqual(aftertotal, beforetotal): Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:51 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:26:51 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_007_Verify_DataSource_Column_Sorting_Order" time="32.377" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_007_Verify_DataSource_Column_Sorting_Order" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:26:54 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_007_Verify_DataSource_Column_Sorting_Order: Test Cases/Atlas Platform/Data Management/Data Listing/TC_007_Verify_DataSource_Column_Sorting_Order
+
+2020-03-18 11:26:54 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:26:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:26:57 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:26:57 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:26:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:27:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:27:01 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:27:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:27:01 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/dataSource_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:02 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/dataSource_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:03 - [TEST_STEP][PASSED] - total = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:27:03 - [TEST_STEP][PASSED] - pageValueCount = 0: null
+
+2020-03-18 11:27:03 - [TEST_STEP][PASSED] - dataSourceTextValues = new java.util.ArrayList(): null
+
+2020-03-18 11:27:03 - [TEST_STEP][PASSED] - totalOfPaginationCount = getText(findTestObject("AUDIENCE/Data Source/no_pagination_With_Count")): Text of object 'Object Repository/AUDIENCE/Data Source/no_pagination_With_Count' is: 'Showing 1-10 of 13 Data Source(s)'
+
+2020-03-18 11:27:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/no_pagination_With_Count' is: 'Showing 1-10 of 13 Data Source(s)'
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images"))): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - if (total > 10): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - while (total != pageValueCount): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-03-18 11:27:05 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:06 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - dataSourceTextValues.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-03-18 11:27:07 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:10 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:10 - [TEST_STEP][PASSED] - isAsc = web.CustomKeyword.checkListAscendingOrder(dataSourceTextValues): web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-03-18 11:27:10 - [MESSAGE][PASSED] - web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-03-18 11:27:10 - [TEST_STEP][PASSED] - verifyEqual(isAsc, true): Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:10 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:10 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/adminmenu")): Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-03-18 11:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-03-18 11:27:11 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:12 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/dataSource_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/dataSource_Column_Name' is clicked on
+
+2020-03-18 11:27:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:27:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc = new java.util.ArrayList(): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - pageValueCount1 = 0: null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images"))): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - if (total > 10): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - while (total != pageValueCount1): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele1 : elements1): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - pageValueCount1 += elements1.size(): null
+
+2020-03-18 11:27:19 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:20 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele1 : elements1): null
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(getText().toLowerCase()): null
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - pageValueCount1 += elements1.size(): null
+
+2020-03-18 11:27:21 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:23 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/column1_values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - isdesc = web.CustomKeyword.checkListDescendingOrder(dataSourceTextValues, dataSourceTextValuesWithDesc): web.CustomKeyword.checkListDescendingOrder is PASSED
+
+2020-03-18 11:27:24 - [MESSAGE][PASSED] - web.CustomKeyword.checkListDescendingOrder is PASSED
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - verifyEqual(isdesc, true): Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:24 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:24 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Data Management/Data Listing/TC_008_Verify_Count_Column_Sorting_Order" time="29.676" classname="Test Cases/Atlas Platform/Data Management/Data Listing/TC_008_Verify_Count_Column_Sorting_Order" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:27:26 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Data Management/Data Listing/TC_008_Verify_Count_Column_Sorting_Order: Test Cases/Atlas Platform/Data Management/Data Listing/TC_008_Verify_Count_Column_Sorting_Order
+
+2020-03-18 11:27:26 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:27:26 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin"), ["user_Email":"navaraj@totient.co.in", "user_Password":"Totient@123"], CONTINUE_ON_FAILURE)
+
+2020-03-18 11:27:26 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-18 11:27:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-18 11:27:30 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Dashboard/Data Sub-Navigation/div_Data Source")): Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Dashboard/Data Sub-Navigation/div_Data Source' is clicked on
+
+2020-03-18 11:27:32 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("AUDIENCE/Data Source/total_count")): Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:27:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/total_count' is: '(13)'
+
+2020-03-18 11:27:32 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/count_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:33 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/count_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:34 - [TEST_STEP][PASSED] - total = Integer.parseInt(replace(")", "").trim()): null
+
+2020-03-18 11:27:34 - [TEST_STEP][PASSED] - pageValueCount = 0: null
+
+2020-03-18 11:27:34 - [TEST_STEP][PASSED] - dataSourceTextValues = new java.util.ArrayList(): null
+
+2020-03-18 11:27:34 - [TEST_STEP][PASSED] - totalOfPaginationCount = getText(findTestObject("AUDIENCE/Data Source/no_pagination_With_Count")): Text of object 'Object Repository/AUDIENCE/Data Source/no_pagination_With_Count' is: 'Showing 1-10 of 13 Data Source(s)'
+
+2020-03-18 11:27:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/AUDIENCE/Data Source/no_pagination_With_Count' is: 'Showing 1-10 of 13 Data Source(s)'
+
+2020-03-18 11:27:35 - [TEST_STEP][PASSED] - if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images"))): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:35 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - if (total > 10): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - while (total != pageValueCount): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-03-18 11:27:36 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:37 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele : elements): null
+
+2020-03-18 11:27:37 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:37 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:37 - [TEST_STEP][PASSED] - dataSourceTextValues.add(Integer.parseInt(ele.getText())): null
+
+2020-03-18 11:27:37 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:40 - [TEST_STEP][PASSED] - pageValueCount += elements.size(): null
+
+2020-03-18 11:27:40 - [TEST_STEP][PASSED] - elements = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:41 - [TEST_STEP][PASSED] - isAscending = web.CustomKeyword.checkListAscendingOrder(dataSourceTextValues): web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-03-18 11:27:41 - [MESSAGE][PASSED] - web.CustomKeyword.checkListAscendingOrder is PASSED
+
+2020-03-18 11:27:41 - [TEST_STEP][PASSED] - verifyEqual(isAscending, true): Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:41 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:41 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/adminmenu")): Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-03-18 11:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/adminmenu' is clicked on
+
+2020-03-18 11:27:41 - [TEST_STEP][PASSED] - click(findTestObject("HeaderMenus/audiencemenu")): Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HeaderMenus/audiencemenu' is clicked on
+
+2020-03-18 11:27:43 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/count_Column_Name")): Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/count_Column_Name' is clicked on
+
+2020-03-18 11:27:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-18 11:27:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-18 11:27:48 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc = new java.util.ArrayList(): null
+
+2020-03-18 11:27:48 - [TEST_STEP][PASSED] - pageValueCount1 = 0: null
+
+2020-03-18 11:27:48 - [TEST_STEP][PASSED] - if (!(totalOfPaginationCount.equalsIgnoreCase("Showing 0 of 0 Images"))): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:48 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - if (total > 10): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - while (total != pageValueCount1): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele1 : elements1): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - pageValueCount1 += elements1.size(): null
+
+2020-03-18 11:27:49 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:50 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:50 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement ele1 : elements1): null
+
+2020-03-18 11:27:50 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:50 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:50 - [TEST_STEP][PASSED] - dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText())): null
+
+2020-03-18 11:27:51 - [TEST_STEP][PASSED] - pageValueCount1 += elements1.size(): null
+
+2020-03-18 11:27:51 - [TEST_STEP][PASSED] - click(findTestObject("AUDIENCE/Data Source/next")): Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AUDIENCE/Data Source/next' is clicked on
+
+2020-03-18 11:27:53 - [TEST_STEP][PASSED] - elements1 = findWebElements(findTestObject("AUDIENCE/Data Source/count_Column_Values"), 0): Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '230'
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - isDescending = web.CustomKeyword.checkListDescendingOrder(dataSourceTextValues, dataSourceTextValuesWithDesc): web.CustomKeyword.checkListDescendingOrder is PASSED
+
+2020-03-18 11:27:54 - [MESSAGE][PASSED] - web.CustomKeyword.checkListDescendingOrder is PASSED
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - verifyEqual(isDescending, true): Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:54 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:54 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" time="3.036" classname="Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-18 11:27:56 - [TEST_CASE][PASSED] - Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser
+
+2020-03-18 11:27:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-18 11:27:57 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-18 11:27:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-18 11:27:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-18 11:27:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:57 - [TEST_STEP][PASSED] - println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus()): null
+
+2020-03-18 11:27:57 - [TEST_STEP][PASSED] - if (!(getTestCaseStatus().equalsIgnoreCase("PASSED"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-18 11:24:35 - [TEST_SUITE][ERROR] - Data_Source_Page_Test_Suite: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2020-03-18 11:24:35 - [TEST_SUITE][ERROR] - Data_Source_Page_Test_Suite: Test Cases/Atlas Platform/Platform Navigation/Picker/TC_000_Common_Browser_WithLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Atlas Platform/Platform Navigation/Login/LoginWithRootAdmin' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584510860687.run(TempTestSuite1584510860687.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1577773673898.run(Script1577773673898.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1578476773628.run(Script1578476773628.groovy:18)
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 39 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:141)
+	at com.kms.katalon.core.db.DatabaseConnection.getConnection(DatabaseConnection.java:112)
+	at com.kms.katalon.core.db.DatabaseConnection$getConnection.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(DatabaseKeywords.groovy:27)
+	at com.katalon.plugin.keyword.connection.DatabaseKeywords.invokeMethod(DatabaseKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at LoginWithRootAdmin.run(LoginWithRootAdmin:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_000_Common_Browser_WithLogin.run(TC_000_Common_Browser_WithLogin:18)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

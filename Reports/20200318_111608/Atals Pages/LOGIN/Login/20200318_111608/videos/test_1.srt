@@ -1,0 +1,32 @@
+1
+00:00:00,501 --> 00:00:00,512
+1. openBrowser("")
+
+2
+00:00:03,984 --> 00:00:04,005
+5. callTestCase(findTestCase("Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance"), [:], CONTINUE_ON_FAILURE)
+
+3
+00:00:04,037 --> 00:00:04,049
+9. navigateToUrl("https://atlas-dev.gsm.auto/")
+
+4
+00:00:09,315 --> 00:00:09,317
+13. setText(findTestObject("Login_Page/Page_/email address placeholder"), Email)
+
+5
+00:00:09,637 --> 00:00:09,637
+1. println(testCaseContext.getTestCaseId())
+
+6
+00:00:09,666 --> 00:00:09,667
+5. println(testCaseContext.getTestCaseStatus())
+
+7
+00:00:09,680 --> 00:00:09,681
+9. println("On Failure Method is Calling : " + testCaseContext.getTestCaseStatus())
+
+8
+00:00:09,695 --> 00:00:09,695
+13. if (!(getTestCaseStatus().equalsIgnoreCase("PASSED")))
+

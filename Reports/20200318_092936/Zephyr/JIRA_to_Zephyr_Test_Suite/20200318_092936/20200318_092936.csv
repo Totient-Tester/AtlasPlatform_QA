@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JIRA_to_Zephyr_Test_Suite,Chrome 80.0.3987.132,,,2020-03-18 09:29:51,2020-03-18 09:30:25,34.222s,FAILED
+,,,,,,,
+Test Cases/Atlas Platform/OnBoard/JIRAZephyr/ZEP-1,Chrome 80.0.3987.132,"Summary: Login page test cases with valid credentials
+Description: ",jira-integration,2020-03-18 09:29:52,2020-03-18 09:30:05,13.146s,PASSED
+"runFeatureFile(""Include/features/ZEP-1.feature"")",Chrome 80.0.3987.132,,,2020-03-18 09:29:53,2020-03-18 09:29:53,0.050s,NOT_RUN
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-18 09:29:53,2020-03-18 09:29:59,6.295s,PASSED
+"navigateToUrl(""https://google.com"")",Chrome 80.0.3987.132,,,2020-03-18 09:29:59,2020-03-18 09:30:03,3.600s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 09:30:03,2020-03-18 09:30:03,0.152s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/OnBoard/JIRAZephyr/ZEP-2,Chrome 80.0.3987.132,"Summary: Test2
+Description: ",jira-integration,2020-03-18 09:30:05,2020-03-18 09:30:13,8.199s,PASSED
+"runFeatureFile(""Include/features/ZEP-2.feature"")",Chrome 80.0.3987.132,,,2020-03-18 09:30:06,2020-03-18 09:30:06,0.025s,NOT_RUN
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-18 09:30:06,2020-03-18 09:30:08,2.515s,PASSED
+"navigateToUrl(""https://google.com"")",Chrome 80.0.3987.132,,,2020-03-18 09:30:08,2020-03-18 09:30:11,2.672s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 09:30:11,2020-03-18 09:30:11,0.112s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/OnBoard/JIRAZephyr/ZEP-5,Chrome 80.0.3987.132,"Summary: Test5
+Description: ",jira-integration,2020-03-18 09:30:13,2020-03-18 09:30:25,11.870s,FAILED
+"runFeatureFile(""Include/features/ZEP-5.feature"")",Chrome 80.0.3987.132,,,2020-03-18 09:30:14,2020-03-18 09:30:14,0.022s,NOT_RUN
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-18 09:30:14,2020-03-18 09:30:16,1.604s,PASSED
+"navigateToUrl(""https://google.com"")",Chrome 80.0.3987.132,,,2020-03-18 09:30:16,2020-03-18 09:30:21,5.408s,PASSED
+"verifyEqual(""Jaky"", ""Yatheesh"")",Chrome 80.0.3987.132,,,2020-03-18 09:30:21,2020-03-18 09:30:21,0.202s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 09:30:21,2020-03-18 09:30:23,1.830s,FAILED
+Video,Chrome 80.0.3987.132,,,2020-03-18 09:30:25,2020-03-18 09:30:25,0.013s,PASSED

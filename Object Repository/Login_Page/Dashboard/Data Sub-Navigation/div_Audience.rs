@@ -73,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/nav/div/ul/li[2]/a/div</value>
+      <value>//a/*[contains(text(),'Audience')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 80.0.3987.132,,,2020-03-18 15:17:28,2020-03-18 15:19:14,1m - 46.218s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin,Chrome 80.0.3987.132,,,2020-03-18 15:17:29,2020-03-18 15:19:04,1m - 35.290s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-18 15:17:33,2020-03-18 15:18:31,57.918s,PASSED
+"callTestCase(findTestCase(""Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-18 15:18:31,2020-03-18 15:18:31,0.010s,NOT_RUN
+"navigateToUrl(""https://atlas-dev.gsm.auto/"")",Chrome 80.0.3987.132,,,2020-03-18 15:18:31,2020-03-18 15:18:39,8.234s,PASSED
+"setText(findTestObject(""Login_Page/Page_/email address placeholder""), Email)",Chrome 80.0.3987.132,,,2020-03-18 15:18:39,2020-03-18 15:18:54,15.296s,PASSED
+"setText(findTestObject(""Login_Page/Page_/Password placeholder""), Password)",Chrome 80.0.3987.132,,,2020-03-18 15:18:54,2020-03-18 15:18:56,2.163s,PASSED
+"click(findTestObject(""Login_Page/Page_/Log In button""))",Chrome 80.0.3987.132,,,2020-03-18 15:18:56,2020-03-18 15:19:00,3.647s,PASSED
+dashboard_act_title = getWindowTitle(),Chrome 80.0.3987.132,,,2020-03-18 15:19:00,2020-03-18 15:19:00,0.066s,PASSED
+"verifyEqual(dashboard_act_title, dashboard_exp_title)",Chrome 80.0.3987.132,,,2020-03-18 15:19:00,2020-03-18 15:19:01,0.578s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 15:19:01,2020-03-18 15:19:02,1.186s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Logout/Logout,Chrome 80.0.3987.132,,,2020-03-18 15:19:04,2020-03-18 15:19:10,5.811s,PASSED
+"click(findTestObject(""Logout/My Account""))",Chrome 80.0.3987.132,,,2020-03-18 15:19:05,2020-03-18 15:19:07,1.504s,PASSED
+"click(findTestObject(""Logout/li_Log Out""))",Chrome 80.0.3987.132,,,2020-03-18 15:19:07,2020-03-18 15:19:08,1.243s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 15:19:08,2020-03-18 15:19:08,0.022s,PASSED
+,,,,,,,
+Test Cases/Atlas Platform/Platform Navigation/Picker/TC_099_Close_Common_Browser,Chrome 80.0.3987.132,,,2020-03-18 15:19:10,2020-03-18 15:19:14,3.809s,PASSED
+closeBrowser(),Chrome 80.0.3987.132,,,2020-03-18 15:19:11,2020-03-18 15:19:12,0.984s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 80.0.3987.132,,,2020-03-18 15:19:12,2020-03-18 15:19:12,0.015s,PASSED

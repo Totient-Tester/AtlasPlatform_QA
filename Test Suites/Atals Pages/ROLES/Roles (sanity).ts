@@ -59,6 +59,18 @@
       <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Change Status/Change the status of a Role from active to archived (sanity)</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>934e322e-7f4d-4de2-96a8-33dd2365cd96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-006 Validate Create New Role button - Copy</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a016533-fea9-47d1-80d6-b6ee850b8d0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-006 Validate Create New Role button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c375855b-2b57-49d5-a8ed-83455d10e587</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -79,7 +91,7 @@
    <testCaseLink>
       <guid>58971247-14db-43b6-9676-45cec603eb27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Atlas Platform/Configuration Management/Platform Management/ROLES/Role Listing Grid/RLG-010 Verify sorting by RoleName</testCaseId>
    </testCaseLink>
    <testCaseLink>
