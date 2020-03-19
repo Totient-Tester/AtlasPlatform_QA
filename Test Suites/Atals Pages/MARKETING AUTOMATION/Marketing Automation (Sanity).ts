@@ -14,12 +14,12 @@
       <guid>a9dd33b8-3728-45f0-ac74-a16297881d59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Atlas Platform/Message Management/Marketing Automation/Create and Run Marketing Automation</testCaseId>
+      <testCaseId>Test Cases/Atlas Platform/Message Management/Marketing Automation/Create_and_Run_Marketing_Automation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>af09b413-1dce-4868-abd2-a590e69d435a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Atlas Platform/Message Management/Marketing Automation/Search and View Marketing Automation</testCaseId>
+      <testCaseId>Test Cases/Atlas Platform/Message Management/Marketing Automation/Search_and_View_Marketing_Automation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RLG-003 Verify Filter functions in Role Manager page</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bc85fa88-1c11-4ad4-a75e-fc204dba066a</testCaseGuid>
-</TestCaseEntity>

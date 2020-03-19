@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Edit a Role by changing the role name(sanity)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e885eb06-188d-455d-925d-5da3ed6481f6</testCaseGuid>
-</TestCaseEntity>
