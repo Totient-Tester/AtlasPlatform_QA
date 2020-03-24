@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Suppression List']</value>
+         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-audienceFeatures']/div/div/div[3]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

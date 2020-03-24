@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@class='table-rounded library-table table table-hover']/tbody/tr/td[5]/div</value>
+         <value>//table[@class='table-rounded library-table table table-hover']/tbody/tr/td[5]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>

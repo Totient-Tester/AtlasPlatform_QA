@@ -21,10 +21,9 @@ import org.openqa.selenium.WebDriver as WebDriver
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-not_run: WebUI.callTestCase(findTestCase('Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance'), 
-    [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Atlas Platform/Platform Navigation/Login/Default Logins/TC_100_ForSecurityURLSAcceptance'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 //WebDriver driver = DriverFactory.getWebDriver()
 WebUI.navigateToUrl('https://atlas-dev.gsm.auto/')

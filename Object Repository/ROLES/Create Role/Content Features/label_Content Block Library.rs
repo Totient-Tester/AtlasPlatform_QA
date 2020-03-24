@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Content Block Library']</value>
+         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-contentFeatures']/div/div[2]/div/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

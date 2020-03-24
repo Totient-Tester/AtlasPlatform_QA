@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='KPI Reports']</value>
+         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-reportFeatures']/div/div[3]/div[3]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

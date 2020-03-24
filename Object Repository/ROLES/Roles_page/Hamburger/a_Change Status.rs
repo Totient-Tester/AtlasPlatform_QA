@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Change Status']</value>
+         <value>//div[@id='069bbcc0f9b6488486216f896d9a8af5']/div[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

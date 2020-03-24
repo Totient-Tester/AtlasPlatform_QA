@@ -26,13 +26,11 @@ WebUI.click(findTestObject('Swicther/favorites_tabs_swicther'))
 List<WebElement> listoffavvalues = WebUiCommonHelper.findWebElements(findTestObject('Swicther/favorites_tab_all_fav_icon'), 
     5)
 
-while (listoffavvalues.size() != 0) {
-    for (int j = 0; j < listoffavvalues.size(); j++) {
-        listoffavvalues.get(j).click()
-
-        listoffavvalues = WebUiCommonHelper.findWebElements(findTestObject('Swicther/favorites_tab_all_fav_icon'), 5)
-    }
+if(listoffavvalues.size()!=0){
+	
+	for (int j = 0; j < listoffavvalues.size(); j++) {
+		listoffavvalues.get(j).click()
+	}
 }
 
-WebUI.click(findTestObject('Swicther/closeIcon'))
 

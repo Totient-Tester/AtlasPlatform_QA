@@ -6,11 +6,11 @@
    <elementGuidId>81ad862f-e5fe-44e1-9e49-11202dd981d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[text()='Toyoto']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@role='menuitem'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

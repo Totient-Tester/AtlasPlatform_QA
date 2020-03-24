@@ -16,11 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Atlas Platform/Platform Navigation/Login/Default Logins/Default_Login_as_Root Admin'), 
-    [('Email') : findTestData('AMP_Y').getValue(1, 1), ('Password') : findTestData('AMP_Y').getValue(2, 1), ('dashboard_exp_title') : ''], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('ROLES/Role_Navigation/a_ADMIN'))
+WebUI.callTestCase(findTestCase('Atlas Platform/Configuration Management/Platform Management/ROLES/Roles Navigation'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Role Manager'), 0)
 
@@ -32,7 +29,7 @@ WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Search Box'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Search_placeholder'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Create Role_button'), 0)
+WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Create New Role_button'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ROLES/Roles_page/Role_grid'), 0)
 

@@ -6,7 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>662127e2-0a33-48a7-86bb-c3530a54b426</dataFileGUID>
+<<<<<<< HEAD
    <dataSourceUrl>C:\Users\Admin\git\AtlasPlatform_QA\Data Files\xlsx files\Roles.xlsx</dataSourceUrl>
+=======
+   <dataSourceUrl>C:\Users\Dell\git\GSMProject\Data Files\xlsx files\Roles.xlsx</dataSourceUrl>
+>>>>>>> parent of 1d6b756... second commit
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

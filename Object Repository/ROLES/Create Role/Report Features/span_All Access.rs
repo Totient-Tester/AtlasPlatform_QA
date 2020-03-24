@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='All Access']</value>
+         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-reportFeatures']/div/div/div/div/div/div/label/span[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

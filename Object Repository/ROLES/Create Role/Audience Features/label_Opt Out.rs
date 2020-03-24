@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Opt Out']</value>
+         <value>//div[@id='dca264b3-069e-46c9-a206-977a68800d55-pane-audienceFeatures']/div/div[2]/div[2]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

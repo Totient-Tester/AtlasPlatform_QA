@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Required Field']</value>
+         <value>//span[text()='Required field']</value>
       </entry>
       <entry>
          <key>BASIC</key>

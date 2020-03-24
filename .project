@@ -70,6 +70,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
 		<filter>
 			<id>1583904826335</id>
 			<name></name>
@@ -580,5 +581,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+=======
+>>>>>>> parent of 1d6b756... second commit
 	</filteredResources>
 </projectDescription>

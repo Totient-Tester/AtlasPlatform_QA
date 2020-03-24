@@ -48,7 +48,7 @@ if (!(totalOfPaginationCount.equalsIgnoreCase('Showing 0 of 0 Images'))) {
     if (total > 10) {
         while (total != pageValueCount) {
             for (WebElement ele : elements) {
-                dataSourceTextValues.add(Integer.parseInt(ele.getText()))
+                dataSourceTextValues.add(ele.getText())
             }
             
             WebUI.click(findTestObject('AUDIENCE/Data Source/next'))
@@ -85,7 +85,7 @@ if (!(totalOfPaginationCount.equalsIgnoreCase('Showing 0 of 0 Images'))) {
     if (total > 10) {
         while (total != pageValueCount1) {
             for (WebElement ele1 : elements1) {
-                dataSourceTextValuesWithDesc.add(Integer.parseInt(ele1.getText()))
+                dataSourceTextValuesWithDesc.add(ele1.getText())
             }
             
             pageValueCount1 += elements1.size()
